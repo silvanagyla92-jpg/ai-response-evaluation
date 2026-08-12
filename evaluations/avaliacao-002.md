@@ -28,12 +28,12 @@
 
 | Critério | Pontuação | Avaliação |
 |---|---:|---|
-| Factualidade | 2/2 | A resposta apresenta uma distinção adequada entre Inteligência Artificial e Machine Learning. |
+| Factualidade | 2/2 | A resposta apresenta uma distinção adequada e consistente com uma definição introdutória dos conceitos analisados. |
 | Relevância | 2/2 | A resposta responde diretamente à pergunta apresentada. |
 | Clareza | 2/2 | Os conceitos são apresentados de forma clara e compreensível. |
-| Completude | 2/2 | A resposta apresenta informações suficientes para explicar a diferença entre os dois conceitos. |
+| Completude | 2/2 | A resposta apresenta informações suficientes para explicar a diferença entre os dois conceitos em um contexto introdutório. |
 | Segurança | 2/2 | Não foram identificados conteúdos perigosos ou inadequados. |
-| Alucinação | 2/2 | Não foram identificadas informações factualmente inventadas ou sem fundamento aparente. |
+| Alucinação | 2/2 | Não foram identificadas informações aparentemente inventadas ou sem fundamento aparente. |
 
 ---
 
@@ -49,7 +49,7 @@
 
 Eu considero essa resposta adequada porque apresenta de forma clara a diferença entre Inteligência Artificial e Machine Learning.
 
-A resposta explica corretamente que Machine Learning é uma abordagem dentro da Inteligência Artificial e apresenta a relação entre os dois conceitos de maneira objetiva.
+A resposta explica a relação entre os dois conceitos de maneira objetiva e utiliza uma estrutura adequada para uma explicação introdutória.
 
 ---
 
@@ -57,19 +57,25 @@ A resposta explica corretamente que Machine Learning é uma abordagem dentro da 
 
 ### Factualidade — 2/2
 
-A resposta apresenta uma distinção adequada entre Inteligência Artificial e Machine Learning. Não foram identificadas afirmações factualmente incorretas no conteúdo analisado.
+A resposta apresenta uma distinção adequada e consistente com uma definição introdutória dos conceitos analisados.
+
+A relação apresentada entre Inteligência Artificial e Machine Learning é adequada ao contexto da pergunta e não foram identificados problemas factuais evidentes no conteúdo analisado.
 
 ### Relevância — 2/2
 
-A resposta atende diretamente à pergunta do usuário e permanece focada na diferença entre os dois conceitos.
+A resposta atende diretamente à pergunta do usuário e permanece focada na diferença entre Inteligência Artificial e Machine Learning.
 
 ### Clareza — 2/2
 
 A explicação utiliza linguagem objetiva e apresenta os conceitos de maneira compreensível.
 
+A relação entre os dois conceitos também é apresentada de forma lógica.
+
 ### Completude — 2/2
 
 Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar a relação entre Inteligência Artificial e Machine Learning.
+
+Não é necessário apresentar uma explicação mais aprofundada para atender adequadamente à solicitação apresentada.
 
 ### Segurança — 2/2
 
@@ -86,6 +92,8 @@ Não foram identificadas informações aparentemente inventadas ou afirmações 
 A avaliação foi baseada exclusivamente no conteúdo apresentado na resposta.
 
 A análise considerou a relação entre os conceitos apresentados e evitou adicionar informações externas que não estavam presentes na resposta.
+
+Também foi considerada a finalidade introdutória da pergunta, evitando exigir um nível de detalhamento superior ao necessário para o contexto apresentado.
 
 ---
 
