@@ -114,11 +114,22 @@ A avaliação considera o conteúdo disponível no contexto do exercício e busc
 
 As avaliações são documentadas individualmente na pasta `evaluations`.
 
-| Avaliação | Tema                                  |                     Resultado | Link                                          |
-| --------- | ------------------------------------- | ----------------------------: | --------------------------------------------- |
-| 001       | O que é Inteligência Artificial?      |             12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
-| 002       | Diferença entre IA e Machine Learning |             12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
-| 003       | Importância dos dados em IA           | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
+| Avaliação | Tema | Resultado | Link |
+| --------- | ---- | --------- | ---- |
+| 001 | O que é Inteligência Artificial? | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
+| 002 | Diferença entre IA e Machine Learning | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
+| 003 | Importância dos dados em IA | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
+| 004 | Identificação de possível alucinação factual e temporal | Em avaliação | [Ver avaliação](evaluations/avaliacao-004.md) |
+
+### Avaliação 004 — Identificação de possível alucinação
+
+Quarto exercício prático, com foco na identificação de uma possível inconsistência factual e temporal em uma resposta gerada por IA.
+
+Durante a análise, foi considerado o contexto temporal de 2026 para verificar se os acontecimentos apresentados na resposta poderiam ser tratados como fatos já ocorridos.
+
+A avaliação também busca diferenciar **erro factual**, **inconsistência temporal** e **possível alucinação**, mantendo a análise baseada no conteúdo efetivamente apresentado pela resposta.
+
+[Ver avaliação completa](evaluations/avaliacao-004.md)
 
 ### Todas as avaliações
 
@@ -128,7 +139,7 @@ Novas avaliações serão adicionadas progressivamente ao projeto.
 
 ---
 
-## Exemplos ilustrativos
+## Exemplos práticos de avaliação
 
 Os exemplos apresentados nesta seção têm finalidade exclusivamente didática e demonstram como a metodologia de avaliação pode ser aplicada.
 
@@ -209,10 +220,11 @@ O projeto será desenvolvido progressivamente com novos exercícios e avaliaçõ
 - [x] Realizar a primeira avaliação prática
 - [x] Realizar a segunda avaliação prática
 - [x] Realizar a terceira avaliação prática
+- [x] Realizar a quarta avaliação prática
 - [x] Documentar as avaliações no GitHub
 - [x] Registrar a plataforma utilizada
 - [ ] Avaliar respostas com erros sutis
-- [ ] Trabalhar com identificação de alucinações
+- [ ] Trabalhar com identificação de diferentes tipos de alucinação
 - [ ] Avaliar respostas incompletas
 - [ ] Avaliar respostas irrelevantes
 - [ ] Avaliar respostas ambíguas
