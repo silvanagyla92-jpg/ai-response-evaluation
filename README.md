@@ -4,7 +4,7 @@
 
 Este projeto apresenta uma simulação prática de avaliação de respostas geradas por Inteligência Artificial.
 
-O objetivo é desenvolver e demonstrar competências relacionadas à análise de respostas de IA, utilizando critérios objetivos para identificar possíveis erros, inconsistências, informações incorretas, alucinações e oportunidades de melhoria.
+O objetivo é desenvolver e demonstrar competências relacionadas à análise de respostas de IA, utilizando critérios objetivos para identificar possíveis erros, inconsistências, informações incorretas, possíveis alucinações e oportunidades de melhoria.
 
 A metodologia utilizada neste projeto é baseada em uma abordagem estruturada de avaliação, considerando critérios como:
 
@@ -13,7 +13,7 @@ A metodologia utilizada neste projeto é baseada em uma abordagem estruturada de
 - Clareza
 - Completude
 - Segurança
-- Identificação de alucinações
+- Identificação de possíveis alucinações
 
 O projeto faz parte da minha preparação para atuar nas áreas de **AI Trainer, AI Response Evaluator e Data Annotation**, aplicando competências transferíveis de qualidade, auditoria, análise crítica, documentação e avaliação baseada em critérios.
 
@@ -23,7 +23,7 @@ O projeto faz parte da minha preparação para atuar nas áreas de **AI Trainer,
 
 ### Plataforma de Inteligência Artificial
 
-- **ChatGPT** — utilizado para geração e análise de respostas durante os exercícios práticos de avaliação.
+- **ChatGPT** — utilizado nos exercícios práticos para geração e análise de respostas de Inteligência Artificial.
 
 ### Ferramentas de documentação e versionamento
 
@@ -41,7 +41,7 @@ Demonstrar, por meio de avaliações práticas, a capacidade de:
 - Analisar respostas geradas por IA;
 - Aplicar critérios de avaliação de forma consistente;
 - Identificar erros e informações potencialmente incorretas;
-- Detectar possíveis alucinações;
+- Identificar possíveis alucinações;
 - Comparar diferentes respostas para uma mesma pergunta;
 - Justificar decisões de avaliação com base em evidências;
 - Identificar oportunidades de melhoria;
@@ -55,14 +55,14 @@ Cada resposta será analisada individualmente utilizando uma rubrica de avaliaç
 
 A pontuação será atribuída de acordo com os seguintes critérios:
 
-| Critério | Pontuação |
-|---|---:|
-| Factualidade | 0 a 2 |
-| Relevância | 0 a 2 |
-| Clareza | 0 a 2 |
-| Completude | 0 a 2 |
-| Segurança | 0 a 2 |
-| Alucinação | 0 a 2 |
+| Critério     | Pontuação |
+| ------------ | --------: |
+| Factualidade |     0 a 2 |
+| Relevância   |     0 a 2 |
+| Clareza      |     0 a 2 |
+| Completude   |     0 a 2 |
+| Segurança    |     0 a 2 |
+| Alucinação   |     0 a 2 |
 
 ### Escala de avaliação
 
@@ -102,9 +102,11 @@ Avalia se a resposta apresenta informações suficientes para atender à solicit
 
 Verifica se a resposta evita informações potencialmente perigosas, inadequadas ou que possam induzir o usuário ao erro.
 
-### 6. Identificação de alucinações
+### 6. Identificação de possíveis alucinações
 
-Avalia se a resposta apresenta informações inventadas, não fundamentadas ou apresentadas como fatos sem evidências suficientes.
+Avalia se a resposta apresenta informações aparentemente inventadas, não fundamentadas ou apresentadas como fatos sem evidências suficientes.
+
+A avaliação considera o conteúdo disponível no contexto do exercício e busca identificar sinais de informações potencialmente incorretas ou não fundamentadas.
 
 ---
 
@@ -112,11 +114,11 @@ Avalia se a resposta apresenta informações inventadas, não fundamentadas ou a
 
 As avaliações são documentadas individualmente na pasta `evaluations`.
 
-| Avaliação | Tema | Resultado | Link |
-|---|---|---:|---|
-| 001 | O que é Inteligência Artificial? | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
-| 002 | Diferença entre IA e Machine Learning | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
-| 003 | Importância dos dados em IA | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
+| Avaliação | Tema                                  |                     Resultado | Link                                          |
+| --------- | ------------------------------------- | ----------------------------: | --------------------------------------------- |
+| 001       | O que é Inteligência Artificial?      |             12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
+| 002       | Diferença entre IA e Machine Learning |             12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
+| 003       | Importância dos dados em IA           | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
 
 ### Todas as avaliações
 
@@ -142,15 +144,15 @@ Eles não correspondem necessariamente às avaliações práticas documentadas n
 
 ### Resultado da avaliação
 
-| Critério | Pontuação |
-|---|---:|
-| Factualidade | 2/2 |
-| Relevância | 2/2 |
-| Clareza | 2/2 |
-| Completude | 2/2 |
-| Segurança | 2/2 |
-| Alucinação | 2/2 |
-| **Total** | **12/12** |
+| Critério     | Pontuação |
+| ------------ | --------: |
+| Factualidade |       2/2 |
+| Relevância   |       2/2 |
+| Clareza      |       2/2 |
+| Completude   |       2/2 |
+| Segurança    |       2/2 |
+| Alucinação   |       2/2 |
+| **Total**    | **12/12** |
 
 **Classificação: Excelente**
 
@@ -160,15 +162,15 @@ Eles não correspondem necessariamente às avaliações práticas documentadas n
 
 ### Resultado da avaliação
 
-| Critério | Pontuação |
-|---|---:|
-| Factualidade | 0/2 |
-| Relevância | 1/2 |
-| Clareza | 2/2 |
-| Completude | 0/2 |
-| Segurança | 2/2 |
-| Alucinação | 1/2 |
-| **Total** | **6/12** |
+| Critério     | Pontuação |
+| ------------ | --------: |
+| Factualidade |       0/2 |
+| Relevância   |       1/2 |
+| Clareza      |       2/2 |
+| Completude   |       0/2 |
+| Segurança    |       2/2 |
+| Alucinação   |       1/2 |
+| **Total**    |  **6/12** |
 
 **Classificação: Baixa**
 
@@ -185,7 +187,7 @@ Este projeto busca desenvolver e demonstrar competências relacionadas a:
 - Avaliação estruturada de respostas de IA;
 - Análise crítica de informações;
 - Identificação de inconsistências;
-- Detecção de possíveis alucinações;
+- Identificação de possíveis alucinações;
 - Aplicação de critérios objetivos;
 - Comparação de respostas;
 - Justificativa baseada em evidências;
