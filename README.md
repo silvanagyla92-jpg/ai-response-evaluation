@@ -4,9 +4,9 @@
 
 Este projeto apresenta uma simulação prática de avaliação de respostas geradas por Inteligência Artificial.
 
-O objetivo é analisar diferentes respostas produzidas por sistemas de IA utilizando critérios objetivos de qualidade, identificando possíveis erros, inconsistências, informações incorretas e oportunidades de melhoria.
+O objetivo é desenvolver e demonstrar competências relacionadas à análise de respostas de IA, utilizando critérios objetivos para identificar possíveis erros, inconsistências, informações incorretas, alucinações e oportunidades de melhoria.
 
-A avaliação considera os seguintes critérios:
+A metodologia utilizada neste projeto é baseada em uma abordagem estruturada de avaliação, considerando critérios como:
 
 - Factualidade
 - Relevância
@@ -15,21 +15,37 @@ A avaliação considera os seguintes critérios:
 - Segurança
 - Identificação de alucinações
 
-O projeto foi desenvolvido como parte da minha preparação para atuar nas áreas de **AI Trainer, AI Response Evaluator e Data Annotation**, aplicando conhecimentos de qualidade, auditoria, análise crítica e avaliação estruturada.
+O projeto faz parte da minha preparação para atuar nas áreas de **AI Trainer, AI Response Evaluator e Data Annotation**, aplicando competências transferíveis de qualidade, auditoria, análise crítica, documentação e avaliação baseada em critérios.
+
+---
+
+## Plataformas e ferramentas utilizadas
+
+### Plataforma de Inteligência Artificial
+
+- **ChatGPT** — utilizado para geração e análise de respostas durante os exercícios práticos de avaliação.
+
+### Ferramentas de documentação e versionamento
+
+- **GitHub** — utilizado para organização, documentação e versionamento do projeto.
+- **Markdown** — utilizado para documentação das avaliações e apresentação dos resultados.
+
+> **Observação:** As avaliações realizadas neste projeto possuem caráter educacional e demonstrativo. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 
 ## Objetivo
 
-Demonstrar, por meio de exemplos práticos, a capacidade de:
+Demonstrar, por meio de avaliações práticas, a capacidade de:
 
 - Analisar respostas geradas por IA;
 - Aplicar critérios de avaliação de forma consistente;
 - Identificar erros e informações potencialmente incorretas;
-- Justificar decisões de avaliação;
+- Detectar possíveis alucinações;
 - Comparar diferentes respostas para uma mesma pergunta;
-- Identificar possíveis alucinações;
-- Propor melhorias para respostas de IA.
+- Justificar decisões de avaliação com base em evidências;
+- Identificar oportunidades de melhoria;
+- Documentar resultados de forma estruturada.
 
 ---
 
@@ -40,7 +56,7 @@ Cada resposta será analisada individualmente utilizando uma rubrica de avaliaç
 A pontuação será atribuída de acordo com os seguintes critérios:
 
 | Critério | Pontuação |
-|---|---|
+|---|---:|
 | Factualidade | 0 a 2 |
 | Relevância | 0 a 2 |
 | Clareza | 0 a 2 |
@@ -50,17 +66,17 @@ A pontuação será atribuída de acordo com os seguintes critérios:
 
 ### Escala de avaliação
 
-**0 — Insatisfatório**
+**0 — Inadequado**
 
-Indica um problema significativo no critério avaliado.
+Apresenta um problema significativo no critério avaliado.
 
 **1 — Parcialmente adequado**
 
-A resposta apresenta algumas características positivas, mas possui limitações ou problemas que precisam ser considerados.
+Apresenta características positivas, mas possui limitações ou problemas que precisam ser considerados.
 
 **2 — Adequado**
 
-A resposta atende satisfatoriamente ao critério avaliado.
+Atende satisfatoriamente ao critério avaliado.
 
 ---
 
@@ -68,7 +84,7 @@ A resposta atende satisfatoriamente ao critério avaliado.
 
 ### 1. Factualidade
 
-Verifica se as informações apresentadas na resposta estão corretas e não contêm afirmações falsas ou enganosas.
+Verifica se as informações apresentadas na resposta estão corretas e se existem afirmações falsas, imprecisas ou potencialmente enganosas.
 
 ### 2. Relevância
 
@@ -80,7 +96,7 @@ Verifica se a resposta é compreensível, organizada e adequada ao contexto da p
 
 ### 4. Completude
 
-Avalia se a resposta apresenta informações suficientes para atender à solicitação do usuário.
+Avalia se a resposta apresenta informações suficientes para atender à solicitação específica do usuário.
 
 ### 5. Segurança
 
@@ -92,7 +108,23 @@ Avalia se a resposta apresenta informações inventadas, não fundamentadas ou a
 
 ---
 
-## Exemplo de avaliação
+## Avaliações práticas
+
+As avaliações práticas são documentadas individualmente na pasta `evaluations`.
+
+### Avaliação 001 — O que é Inteligência Artificial?
+
+Primeiro exercício prático de avaliação estruturada de uma resposta gerada por IA.
+
+**Resultado:** 12/12 — Excelente
+
+[Ver avaliação completa](evaluations/avaliacao-001.md)
+
+---
+
+## Exemplos ilustrativos
+
+Os exemplos apresentados nesta seção têm finalidade exclusivamente didática e são utilizados para demonstrar como a metodologia de avaliação pode ser aplicada.
 
 ### Pergunta
 
@@ -102,85 +134,55 @@ Avalia se a resposta apresenta informações inventadas, não fundamentadas ou a
 
 > Machine Learning é uma área da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados e utilizem esses padrões para realizar previsões ou tomar decisões sem que cada regra precise ser programada manualmente.
 
-### Avaliação da Resposta A
+### Resultado da avaliação
 
-| Critério | Pontuação | Justificativa |
-|---|---:|---|
-| Factualidade | 2/2 | A definição apresenta uma descrição adequada do conceito de Machine Learning. |
-| Relevância | 2/2 | A resposta explica diretamente o que é Machine Learning. |
-| Clareza | 2/2 | A explicação é objetiva e compreensível. |
-| Completude | 2/2 | Apresenta os principais elementos necessários para uma definição inicial. |
-| Segurança | 2/2 | Não apresenta conteúdo perigoso ou inadequado. |
-| Alucinação | 2/2 | Não foram identificadas informações aparentemente inventadas. |
-
-**Pontuação total: 12/12**
+| Critério | Pontuação |
+|---|---:|
+| Factualidade | 2/2 |
+| Relevância | 2/2 |
+| Clareza | 2/2 |
+| Completude | 2/2 |
+| Segurança | 2/2 |
+| Alucinação | 2/2 |
+| **Total** | **12/12** |
 
 **Classificação: Excelente**
-
-### Justificativa geral
-
-A Resposta A apresenta uma definição adequada de Machine Learning, responde diretamente à pergunta e não apresenta problemas relevantes de factualidade, clareza ou segurança.
-
----
-
-## Exemplo de resposta com problemas
 
 ### Resposta B
 
 > Machine Learning é uma tecnologia que faz computadores pensarem exatamente como seres humanos. Ele permite que qualquer computador aprenda qualquer coisa sozinho, sem precisar de dados ou programação.
 
-### Avaliação da Resposta B
+### Resultado da avaliação
 
-| Critério | Pontuação | Justificativa |
-|---|---:|---|
-| Factualidade | 0/2 | Apresenta afirmações incorretas sobre o funcionamento do Machine Learning. |
-| Relevância | 1/2 | O tema está relacionado à pergunta, mas a explicação contém erros importantes. |
-| Clareza | 2/2 | A linguagem é simples e fácil de compreender. |
-| Completude | 0/2 | A explicação não apresenta adequadamente os elementos fundamentais do conceito. |
-| Segurança | 2/2 | Não apresenta conteúdo diretamente perigoso. |
-| Alucinação | 1/2 | Apresenta afirmações incorretas e generalizações que podem induzir o usuário ao erro. |
-
-**Pontuação total: 6/12**
+| Critério | Pontuação |
+|---|---:|
+| Factualidade | 0/2 |
+| Relevância | 1/2 |
+| Clareza | 2/2 |
+| Completude | 0/2 |
+| Segurança | 2/2 |
+| Alucinação | 1/2 |
+| **Total** | **6/12** |
 
 **Classificação: Baixa**
 
-### Justificativa geral
+### Observação
 
-A Resposta B utiliza uma explicação simplificada, porém apresenta afirmações incorretas, principalmente ao afirmar que Machine Learning faz computadores pensarem exatamente como seres humanos e que sistemas podem aprender sem dados.
-
----
-
-## Comparação das respostas
-
-| Aspecto | Resposta A | Resposta B |
-|---|---:|---:|
-| Factualidade | 2/2 | 0/2 |
-| Relevância | 2/2 | 1/2 |
-| Clareza | 2/2 | 2/2 |
-| Completude | 2/2 | 0/2 |
-| Segurança | 2/2 | 2/2 |
-| Alucinação | 2/2 | 1/2 |
-| **Total** | **12/12** | **6/12** |
-
-### Resultado
-
-A **Resposta A** foi considerada superior porque apresenta uma explicação mais correta, relevante e completa sobre Machine Learning.
-
-A **Resposta B** apresenta linguagem simples, mas contém informações incorretas que podem levar o usuário a uma compreensão equivocada do conceito.
+Este exemplo demonstra como uma resposta pode apresentar linguagem clara e permanecer relacionada ao tema, mas ainda assim conter afirmações incorretas.
 
 ---
 
-## Competências demonstradas
+## Competências praticadas
 
-Este projeto busca demonstrar competências relacionadas a:
+Este projeto busca desenvolver e demonstrar competências relacionadas a:
 
-- Avaliação de respostas geradas por IA;
+- Avaliação estruturada de respostas de IA;
 - Análise crítica de informações;
 - Identificação de inconsistências;
 - Detecção de possíveis alucinações;
 - Aplicação de critérios objetivos;
 - Comparação de respostas;
-- Justificativa de decisões;
+- Justificativa baseada em evidências;
 - Melhoria da qualidade das respostas;
 - Documentação estruturada;
 - Qualidade e auditoria.
@@ -189,19 +191,21 @@ Este projeto busca demonstrar competências relacionadas a:
 
 ## Próximas etapas
 
-O projeto será desenvolvido progressivamente com novos exemplos e avaliações.
+O projeto será desenvolvido progressivamente com novos exercícios e avaliações práticas.
 
 ### Planejamento
 
 - [x] Criar o projeto de avaliação de respostas de IA
 - [x] Definir critérios de avaliação
-- [x] Criar a primeira avaliação
-- [x] Comparar respostas
-- [ ] Criar novos casos de avaliação
-- [ ] Criar um conjunto de dados para avaliação
-- [ ] Adicionar casos de identificação de alucinações
-- [ ] Avaliar diferentes níveis de qualidade das respostas
+- [x] Realizar a primeira avaliação prática
+- [x] Documentar a primeira avaliação no GitHub
+- [x] Registrar a plataforma utilizada
+- [ ] Realizar novos casos de avaliação
+- [ ] Avaliar respostas com erros sutis
+- [ ] Trabalhar com identificação de alucinações
+- [ ] Comparar respostas concorrentes
 - [ ] Criar exemplos de melhoria de respostas
+- [ ] Criar um conjunto de dados para avaliação
 - [ ] Adicionar avaliações utilizando Python
 - [ ] Organizar os resultados das avaliações
 - [ ] Documentar aprendizados e limitações
@@ -214,12 +218,20 @@ Este portfólio faz parte do meu processo de transição de carreira para a áre
 
 **AI Trainer | AI Response Evaluator | Data Annotator**
 
-O projeto utiliza conhecimentos transferíveis da minha experiência anterior em **qualidade, auditoria, análise crítica, documentação e avaliação baseada em critérios**.
+O projeto busca demonstrar a aplicação prática de competências relacionadas a **qualidade, auditoria, análise crítica, avaliação baseada em critérios e documentação estruturada**.
+
+---
+
+## Status do projeto
+
+**Em desenvolvimento**
+
+Novos casos de avaliação, metodologias e ferramentas serão adicionados progressivamente conforme o desenvolvimento do projeto.
 
 ---
 
 ## Observação
 
-Este projeto possui caráter educacional e demonstrativo.
+Este projeto possui caráter **educacional e demonstrativo**.
 
-As avaliações apresentadas têm como objetivo demonstrar um processo estruturado de análise de respostas de Inteligência Artificial.
+As avaliações apresentadas têm como objetivo demonstrar um processo estruturado de análise de respostas de Inteligência Artificial e não representam avaliações oficiais realizadas para empresas ou plataformas de IA.
