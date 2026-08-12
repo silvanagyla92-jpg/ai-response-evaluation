@@ -138,3 +138,16 @@ Este projeto possui caráter **educacional e demonstrativo**.
 As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação e melhoria de respostas de Inteligência Artificial.
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
+
+---
+
+## 12. Contato
+
+**Nágyla Silva**
+
+- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+
+---
+
+*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e Data Annotation.*
