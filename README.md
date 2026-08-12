@@ -235,3 +235,16 @@ Novos casos de avaliação, metodologias e ferramentas serão adicionados progre
 Este projeto possui caráter **educacional e demonstrativo**.
 
 As avaliações apresentadas têm como objetivo demonstrar um processo estruturado de análise de respostas de Inteligência Artificial e não representam avaliações oficiais realizadas para empresas ou plataformas de IA.
+
+---
+
+## Contato
+
+**Nágyla Silva**
+
+- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+
+---
+
+*Portfólio desenvolvido para demonstrar aprendizado prático e competências relacionadas à avaliação e qualidade de respostas de Inteligência Artificial.*
