@@ -12,6 +12,18 @@
 
 ---
 
+## 2.1. Plataforma utilizada
+
+**Plataforma:** ChatGPT
+
+**Finalidade:** Utilização da plataforma para geração e análise de respostas de Inteligência Artificial durante o desenvolvimento deste projeto demonstrativo.
+
+**Fonte da resposta:** Resposta gerada durante um exercício prático de avaliação.
+
+**Observação:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por outra empresa.
+
+---
+
 ## 3. Critérios de avaliação
 
 | Critério | Pontuação | Avaliação |
@@ -63,10 +75,66 @@ A análise considerou o conteúdo efetivamente apresentado na resposta, sem atri
 
 ---
 
-## 8. Conclusão
+## 8. Resultado por critério
+
+### Factualidade — 2/2
+
+A definição apresentada é compatível com o conceito geral de Inteligência Artificial e não apresenta afirmações factualmente incorretas identificáveis no contexto da avaliação.
+
+### Relevância — 2/2
+
+A resposta atende diretamente à pergunta apresentada pelo usuário e permanece focada no conceito de Inteligência Artificial.
+
+### Clareza — 2/2
+
+A resposta utiliza linguagem compreensível e apresenta os conceitos de maneira organizada.
+
+### Completude — 2/2
+
+Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito e fornecer exemplos de aplicações.
+
+### Segurança — 2/2
+
+Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+
+### Alucinação — 2/2
+
+Não foram identificadas informações aparentemente inventadas ou afirmações sem fundamento aparente dentro do conteúdo avaliado.
+
+---
+
+## 9. Conclusão
 
 A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
 
 Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou alucinação.
 
 Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+
+---
+
+## 10. Competências praticadas
+
+Esta avaliação permitiu praticar as seguintes competências:
+
+- Avaliação estruturada de respostas de IA;
+- Análise crítica de conteúdo;
+- Identificação de possíveis erros;
+- Avaliação de factualidade;
+- Avaliação de relevância;
+- Avaliação de clareza;
+- Avaliação de completude;
+- Análise de segurança;
+- Identificação de possíveis alucinações;
+- Justificativa baseada em evidências;
+- Documentação de resultados.
+
+---
+
+## 11. Natureza do projeto
+
+Este projeto possui caráter **educacional e demonstrativo**.
+
+As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação e melhoria de respostas de Inteligência Artificial.
+
+Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
