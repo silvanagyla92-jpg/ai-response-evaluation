@@ -110,21 +110,27 @@ Avalia se a resposta apresenta informações inventadas, não fundamentadas ou a
 
 ## Avaliações práticas
 
-As avaliações práticas são documentadas individualmente na pasta `evaluations`.
+As avaliações são documentadas individualmente na pasta `evaluations`.
 
-### Avaliação 001 — O que é Inteligência Artificial?
+| Avaliação | Tema | Resultado | Link |
+|---|---|---:|---|
+| 001 | O que é Inteligência Artificial? | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
+| 002 | Diferença entre IA e Machine Learning | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
+| 003 | Importância dos dados em IA | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
 
-Primeiro exercício prático de avaliação estruturada de uma resposta gerada por IA.
+### Todas as avaliações
 
-**Resultado:** 12/12 — Excelente
+Novas avaliações serão adicionadas progressivamente ao projeto.
 
-[Ver avaliação completa](evaluations/avaliacao-001.md)
+📂 **[Acessar todas as avaliações](evaluations/)**
 
 ---
 
 ## Exemplos ilustrativos
 
-Os exemplos apresentados nesta seção têm finalidade exclusivamente didática e são utilizados para demonstrar como a metodologia de avaliação pode ser aplicada.
+Os exemplos apresentados nesta seção têm finalidade exclusivamente didática e demonstram como a metodologia de avaliação pode ser aplicada.
+
+Eles não correspondem necessariamente às avaliações práticas documentadas na pasta `evaluations`.
 
 ### Pergunta
 
@@ -183,6 +189,7 @@ Este projeto busca desenvolver e demonstrar competências relacionadas a:
 - Aplicação de critérios objetivos;
 - Comparação de respostas;
 - Justificativa baseada em evidências;
+- Identificação de afirmações generalizadas;
 - Melhoria da qualidade das respostas;
 - Documentação estruturada;
 - Qualidade e auditoria.
@@ -198,11 +205,16 @@ O projeto será desenvolvido progressivamente com novos exercícios e avaliaçõ
 - [x] Criar o projeto de avaliação de respostas de IA
 - [x] Definir critérios de avaliação
 - [x] Realizar a primeira avaliação prática
-- [x] Documentar a primeira avaliação no GitHub
+- [x] Realizar a segunda avaliação prática
+- [x] Realizar a terceira avaliação prática
+- [x] Documentar as avaliações no GitHub
 - [x] Registrar a plataforma utilizada
-- [ ] Realizar novos casos de avaliação
 - [ ] Avaliar respostas com erros sutis
 - [ ] Trabalhar com identificação de alucinações
+- [ ] Avaliar respostas incompletas
+- [ ] Avaliar respostas irrelevantes
+- [ ] Avaliar respostas ambíguas
+- [ ] Avaliar aspectos relacionados à segurança
 - [ ] Comparar respostas concorrentes
 - [ ] Criar exemplos de melhoria de respostas
 - [ ] Criar um conjunto de dados para avaliação
