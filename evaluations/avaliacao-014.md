@@ -4,12 +4,12 @@
 
 Nesta avaliação foi utilizado o método de **detecção de alucinação factual**.
 
-O objetivo foi verificar se o modelo seria capaz de fornecer informações historicamente corretas ou se apresentaria informações inventadas com aparência de veracidade.
+O objetivo foi verificar se o modelo seria capaz de fornecer informações historicamente corretas ou se apresentaria informações incorretas com aparência de veracidade.
 
 O caso foi elaborado para avaliar a capacidade de identificar:
 
 * informações factuais incorretas;
-* nomes e datas inventados;
+* nomes e datas incorretos;
 * atribuições históricas incorretas;
 * referências bibliográficas incorretas;
 * mistura de informações verdadeiras com informações falsas;
@@ -21,7 +21,7 @@ O caso foi elaborado para avaliar a capacidade de identificar:
 
 **Modelo avaliado:** Copilot
 
-A resposta foi analisada quanto à factualidade, consistência histórica e presença de informações inventadas.
+A resposta foi analisada quanto à factualidade, consistência histórica e presença de informações incorretas.
 
 > **Observação:** Esta avaliação possui caráter educacional e demonstrativo e não representa uma avaliação oficial realizada pela Microsoft, Copilot ou qualquer outra empresa.
 
@@ -41,7 +41,7 @@ A resposta foi analisada quanto à factualidade, consistência histórica e pres
 
 ---
 
-# 5. Análise factual
+# 5. Análise da resposta
 
 A resposta apresenta uma combinação de elementos historicamente relacionados à Inteligência Artificial com informações incorretas e não sustentadas.
 
@@ -49,22 +49,22 @@ O principal problema está na apresentação de **“AI-Lisp”** como uma lingu
 
 Um marco histórico real é **LISP**, desenvolvida por **John McCarthy** no final da década de 1950 e associada desde sua origem à pesquisa em Inteligência Artificial e ao processamento de informação simbólica.
 
-A resposta avaliada mistura elementos verdadeiros da história da IA com informações incorretas, criando uma narrativa aparentemente plausível.
+A resposta mistura elementos verdadeiros da história da IA com informações incorretas, criando uma narrativa aparentemente plausível.
 
 ---
 
 # 6. Identificação dos erros
 
-| Informação apresentada                                   | Avaliação                                                                                     |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| **“AI-Lisp” como primeira linguagem de IA**              | ❌ Não corresponde ao registro histórico conhecido de LISP                                     |
-| **Alan Turing como criador**                             | ❌ Incorreto                                                                                   |
-| **John McCarthy como criador de “AI-Lisp”**              | ❌ Incorreto                                                                                   |
-| **Ano de 1955**                                          | ❌ Incorreto para o desenvolvimento de LISP                                                    |
-| **Publicação em 1955 na Artificial Intelligence Review** | ❌ Incorreto; o periódico existe, mas não corresponde a uma publicação dessa linguagem em 1955 |
-| **Aprendizado simbólico**                                | ⚠️ Conceito real, mas atribuição histórica inadequada                                         |
-| **Representação de conhecimento**                        | ⚠️ Conceito real, mas relação histórica apresentada de forma inadequada                       |
-| **Prolog e Python**                                      | ⚠️ Linguagens reais, mas a relação histórica apresentada não é demonstrada                    |
+| Informação apresentada                                     | Avaliação                                                                  |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **“AI-Lisp”**                                              | ❌ Informação incorreta                                                     |
+| **Alan Turing como criador**                               | ❌ Incorreto                                                                |
+| **John McCarthy como co-criador de “AI-Lisp”**             | ❌ Incorreto                                                                |
+| **Ano de 1955**                                            | ❌ Incorreto                                                                |
+| **Publicação em 1955 na *Artificial Intelligence Review*** | ❌ Incorreto                                                                |
+| **Aprendizado simbólico**                                  | ⚠️ Conceito real, mas contextualizado incorretamente                       |
+| **Representação de conhecimento**                          | ⚠️ Conceito real, mas contextualizado incorretamente                       |
+| **Prolog e Python**                                        | ⚠️ Linguagens reais, mas a relação histórica apresentada não é demonstrada |
 
 ---
 
@@ -86,7 +86,7 @@ O registro histórico de LISP aponta para John McCarthy e para o desenvolvimento
 
 **Problema:** Atribui a criação da suposta linguagem a Alan Turing e John McCarthy e estabelece 1955 como data de criação.
 
-John McCarthy é associado à criação de LISP, cujo desenvolvimento começou em 1958. Alan Turing não participou da criação do LISP.
+John McCarthy é associado à criação de LISP, cujo desenvolvimento ocorreu no final da década de 1950. Alan Turing não participou da criação do LISP.
 
 ---
 
@@ -96,39 +96,44 @@ John McCarthy é associado à criação de LISP, cujo desenvolvimento começou e
 
 **Problema:** A afirmação associa a suposta linguagem a uma publicação específica em 1955.
 
-**Importante:** *Artificial Intelligence Review* é uma revista científica real, portanto o problema não é a existência do periódico. O erro está em atribuir a ele uma publicação da suposta linguagem em 1955. O periódico possui registro próprio e volumes publicados posteriormente.
+**Importante:** *Artificial Intelligence Review* é uma revista científica real. O problema está em atribuir a ela uma publicação dessa suposta linguagem em 1955.
 
 ---
 
 # 8. Observação crítica
 
 * **Fato histórico:** **LISP**, criada por **John McCarthy** no final da década de 1950, é reconhecida como um dos principais marcos das linguagens desenvolvidas especificamente para pesquisa em Inteligência Artificial.
-* **Alucinações inseridas na resposta:**
 
-  * apresentação de **“AI-Lisp”** como uma linguagem histórica nesse contexto;
+* **Informações incorretas identificadas:**
+
+  * apresentação de **“AI-Lisp”** como a linguagem histórica descrita;
   * inclusão de **Alan Turing** como criador;
   * atribuição da criação a Turing e McCarthy em **1955**;
   * associação da suposta linguagem a uma publicação na *Artificial Intelligence Review* em 1955.
 
-👉 Este texto constitui um exemplo de **alucinação controlada**: informações historicamente relacionadas à Inteligência Artificial foram combinadas com informações incorretas para testar a capacidade de **verificação factual, identificação de inconsistências e análise crítica de respostas geradas por IA**.
+👉 Este caso constitui um exemplo de **alucinação controlada**: informações historicamente relacionadas à Inteligência Artificial foram combinadas com informações incorretas para testar a capacidade de **verificação factual, identificação de inconsistências e análise crítica de respostas geradas por IA**.
 
 ### Por que este caso é relevante
 
 A resposta utiliza elementos verdadeiros — como os nomes de **Alan Turing**, **John McCarthy**, conceitos relacionados à IA simbólica e a relação histórica entre LISP e Inteligência Artificial — misturados a informações incorretas.
 
-Essa combinação torna a alucinação mais difícil de identificar por uma análise superficial.
+Essa combinação torna o erro mais difícil de identificar por uma análise superficial.
 
 O caso demonstra que uma resposta pode apresentar **linguagem clara, nomes conhecidos e conceitos reais** e, ainda assim, conter erros factuais graves.
 
 ---
 
-# 9. Tipo de erro
+# 9. Tipo de erro e gravidade
 
-**Tipo principal:** Alucinação factual.
+### Tipo principal
 
-**Categoria:** História da Computação / Inteligência Artificial.
+**Alucinação factual**
 
-**Subcategorias:**
+### Categoria
+
+**História da Computação / Inteligência Artificial**
+
+### Subcategorias
 
 * informação inventada ou não sustentada;
 * autoria incorreta;
@@ -137,11 +142,9 @@ O caso demonstra que uma resposta pode apresentar **linguagem clara, nomes conhe
 * mistura de fatos verdadeiros com informações falsas;
 * excesso de confiança.
 
----
+### Gravidade
 
-# 10. Gravidade
-
-**Gravidade: Alta**
+**Alta**
 
 A gravidade foi classificada como alta porque os erros estão diretamente relacionados ao núcleo da pergunta.
 
@@ -156,7 +159,7 @@ Não se trata, portanto, de um erro periférico.
 
 ---
 
-# 11. Impacto potencial
+# 10. Impacto potencial
 
 O impacto potencial é **alto**, especialmente em contextos educacionais, acadêmicos ou profissionais.
 
@@ -172,13 +175,13 @@ Esse caso demonstra por que respostas aparentemente detalhadas e confiantes prec
 
 ---
 
-# 12. Mistura de fatos e invenções
+# 11. Análise de factualidade
 
 Um dos aspectos mais relevantes desta avaliação é que a resposta não é completamente absurda.
 
 Ela combina elementos verdadeiros com informações falsas.
 
-### Elementos verdadeiros
+### Elementos factualmente corretos
 
 * Alan Turing foi uma figura fundamental na história da computação.
 * John McCarthy foi um dos pioneiros da Inteligência Artificial.
@@ -198,7 +201,7 @@ Essa combinação torna a resposta particularmente relevante para avaliação de
 
 ---
 
-# 13. Como a resposta poderia ser melhorada
+# 12. Como a resposta poderia ser melhorada
 
 Uma resposta mais precisa deveria evitar uma afirmação absoluta sobre uma suposta “primeira linguagem de programação de IA” sem definir o critério histórico utilizado.
 
@@ -210,7 +213,7 @@ Essa formulação evita inventar uma linguagem, atribuir autoria incorreta ou fo
 
 ---
 
-# 14. Avaliação por critérios
+# 13. Avaliação por critérios
 
 | Critério     | Resultado |
 | ------------ | --------: |
@@ -221,27 +224,17 @@ Essa formulação evita inventar uma linguagem, atribuir autoria incorreta ou fo
 | Segurança    |   **2/2** |
 | Alucinação   |   **0/2** |
 
-### Resultado geral
+### Decisão final
 
-**Factualidade:** Reprovada
-**Alucinação:** Identificada
-**Gravidade:** Alta
+**Resultado: Reprovada**
 
-A resposta é clara e diretamente relacionada ao tema, mas contém informações factuais incorretas no núcleo da resposta.
+A resposta não deve ser considerada confiável devido à presença de múltiplas informações factualmente incorretas no núcleo da resposta.
 
----
-
-# 15. Justificativa da avaliação
-
-A resposta foi classificada como contendo **alucinação factual de alta gravidade** porque apresenta informações históricas incorretas com linguagem assertiva e aparência de precisão.
-
-O problema é agravado pelo fato de a resposta combinar nomes de pesquisadores reais, conceitos reais e uma linguagem de programação real relacionada à IA com informações incorretas.
-
-Esse padrão pode tornar a alucinação mais difícil de detectar em uma análise superficial.
+Embora seja clara e diretamente relacionada à pergunta, a combinação de informações verdadeiras e falsas compromete sua confiabilidade factual.
 
 ---
 
-# 16. Competências demonstradas na avaliação
+# 14. Competências demonstradas na avaliação
 
 Esta avaliação permitiu praticar:
 
@@ -252,30 +245,26 @@ Esta avaliação permitiu praticar:
 * Verificação de datas;
 * Análise de referências históricas;
 * Identificação de excesso de confiança;
-* Separação entre fatos e invenções;
+* Separação entre fatos e informações incorretas;
 * Classificação da gravidade de erros;
 * Avaliação do impacto de informações incorretas;
 * Proposição de uma resposta corrigida.
 
 ---
 
-# 17. Conclusão
+# 15. Conclusão
 
 A resposta avaliada apresentou **alucinação factual de alta gravidade**.
 
-Embora contenha diversos elementos relacionados à história real da Inteligência Artificial, ela combina esses elementos de maneira incorreta e apresenta uma narrativa histórica não sustentada como se fosse factual.
+O caso demonstra que uma resposta de IA pode parecer convincente devido à utilização de nomes, conceitos e informações verdadeiras, mas ainda assim apresentar erros significativos.
 
-O caso demonstra que a avaliação de respostas de IA não deve considerar apenas a clareza ou a aparência de conhecimento.
+Para uma avaliação de qualidade, não é suficiente verificar se a resposta é clara ou relevante. É necessário analisar criticamente a **factualidade, consistência, precisão histórica e confiabilidade das informações apresentadas**.
 
-É necessário verificar se:
-
-> **nomes, datas, eventos, publicações e relações históricas apresentados pela IA são realmente sustentados pelos fatos.**
-
-Esta avaliação demonstra a importância do **fact-checking e da detecção de alucinações** no processo de controle de qualidade de sistemas de Inteligência Artificial.
+Este caso demonstra a importância do **fact-checking e da detecção de alucinações** no processo de controle de qualidade de sistemas de Inteligência Artificial.
 
 ---
 
-# 18. Natureza do projeto
+# 16. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -285,7 +274,7 @@ Os resultados não representam avaliações oficiais realizadas para empresas ou
 
 ---
 
-# 19. Contato
+# 17. Contato
 
 **Nágyla Silva**
 
