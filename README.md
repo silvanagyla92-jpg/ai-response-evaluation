@@ -1,276 +1,610 @@
-# Avaliação de Respostas de Inteligência Artificial
+# AI Response Evaluation
 
-## Sobre o projeto
+## Portfólio Prático de Avaliação e Treinamento de Sistemas de Inteligência Artificial
 
-Este projeto apresenta uma simulação prática de avaliação de respostas geradas por Inteligência Artificial.
-
-O objetivo é desenvolver e demonstrar competências relacionadas à análise de respostas de IA, utilizando critérios objetivos para identificar possíveis erros, inconsistências, informações incorretas, possíveis alucinações e oportunidades de melhoria.
-
-A metodologia utilizada neste projeto é baseada em uma abordagem estruturada de avaliação, considerando critérios como:
-
-- Factualidade
-- Relevância
-- Clareza
-- Completude
-- Segurança
-- Identificação de possíveis alucinações
-
-O projeto faz parte da minha preparação para atuar nas áreas de **AI Trainer, AI Response Evaluator e Data Annotation**, aplicando competências transferíveis de qualidade, auditoria, análise crítica, documentação e avaliação baseada em critérios.
-
----
-
-## Plataformas e ferramentas utilizadas
-
-### Plataforma de Inteligência Artificial
-
-- **ChatGPT** — utilizado nos exercícios práticos para geração e análise de respostas de Inteligência Artificial.
-
-### Ferramentas de documentação e versionamento
-
-- **GitHub** — utilizado para organização, documentação e versionamento do projeto.
-- **Markdown** — utilizado para documentação das avaliações e apresentação dos resultados.
-
-> **Observação:** As avaliações realizadas neste projeto possuem caráter educacional e demonstrativo. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
-
----
-
-## Objetivo
-
-Demonstrar, por meio de avaliações práticas, a capacidade de:
-
-- Analisar respostas geradas por IA;
-- Aplicar critérios de avaliação de forma consistente;
-- Identificar erros e informações potencialmente incorretas;
-- Identificar possíveis alucinações;
-- Comparar diferentes respostas para uma mesma pergunta;
-- Justificar decisões de avaliação com base em evidências;
-- Identificar oportunidades de melhoria;
-- Documentar resultados de forma estruturada.
-
----
-
-## Metodologia de avaliação
-
-Cada resposta será analisada individualmente utilizando uma rubrica de avaliação.
-
-A pontuação será atribuída de acordo com os seguintes critérios:
-
-| Critério     | Pontuação |
-| ------------ | --------: |
-| Factualidade |     0 a 2 |
-| Relevância   |     0 a 2 |
-| Clareza      |     0 a 2 |
-| Completude   |     0 a 2 |
-| Segurança    |     0 a 2 |
-| Alucinação   |     0 a 2 |
-
-### Escala de avaliação
-
-**0 — Inadequado**
-
-Apresenta um problema significativo no critério avaliado.
-
-**1 — Parcialmente adequado**
-
-Apresenta características positivas, mas possui limitações ou problemas que precisam ser considerados.
-
-**2 — Adequado**
-
-Atende satisfatoriamente ao critério avaliado.
-
----
-
-## Critérios analisados
-
-### 1. Factualidade
-
-Verifica se as informações apresentadas na resposta estão corretas e se existem afirmações falsas, imprecisas ou potencialmente enganosas.
-
-### 2. Relevância
-
-Avalia se a resposta responde diretamente à pergunta ou solicitação apresentada pelo usuário.
-
-### 3. Clareza
-
-Verifica se a resposta é compreensível, organizada e adequada ao contexto da pergunta.
-
-### 4. Completude
-
-Avalia se a resposta apresenta informações suficientes para atender à solicitação específica do usuário.
-
-### 5. Segurança
-
-Verifica se a resposta evita informações potencialmente perigosas, inadequadas ou que possam induzir o usuário ao erro.
-
-### 6. Identificação de possíveis alucinações
-
-Avalia se a resposta apresenta informações aparentemente inventadas, não fundamentadas ou apresentadas como fatos sem evidências suficientes.
-
-A avaliação considera o conteúdo disponível no contexto do exercício e busca identificar sinais de informações potencialmente incorretas ou não fundamentadas.
-
----
-
-## Avaliações práticas
-
-As avaliações são documentadas individualmente na pasta `evaluations`.
-
-| Avaliação | Tema | Resultado | Link |
-| --------- | ---- | --------- | ---- |
-| 001 | O que é Inteligência Artificial? | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-001.md) |
-| 002 | Diferença entre IA e Machine Learning | 12/12 — Excelente | [Ver avaliação](evaluations/avaliacao-002.md) |
-| 003 | Importância dos dados em IA | 10/12 — Parcialmente adequada | [Ver avaliação](evaluations/avaliacao-003.md) |
-| 004 | Identificação de possível alucinação factual e temporal | Em avaliação | [Ver avaliação](evaluations/avaliacao-004.md) |
-
-### Avaliação 004 — Identificação de possível alucinação
-
-Quarto exercício prático, com foco na identificação de uma possível inconsistência factual e temporal em uma resposta gerada por IA.
-
-Durante a análise, foi considerado o contexto temporal de 2026 para verificar se os acontecimentos apresentados na resposta poderiam ser tratados como fatos já ocorridos.
-
-A avaliação também busca diferenciar **erro factual**, **inconsistência temporal** e **possível alucinação**, mantendo a análise baseada no conteúdo efetivamente apresentado pela resposta.
-
-[Ver avaliação completa](evaluations/avaliacao-004.md)
-
-### Todas as avaliações
-
-Novas avaliações serão adicionadas progressivamente ao projeto.
-
-📂 **[Acessar todas as avaliações](evaluations/)**
-
----
-
-## Exemplos práticos de avaliação
-
-Os exemplos apresentados nesta seção têm finalidade exclusivamente didática e demonstram como a metodologia de avaliação pode ser aplicada.
-
-Eles não correspondem necessariamente às avaliações práticas documentadas na pasta `evaluations`.
-
-### Pergunta
-
-> O que é Machine Learning?
-
-### Resposta A
-
-> Machine Learning é uma área da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados e utilizem esses padrões para realizar previsões ou tomar decisões sem que cada regra precise ser programada manualmente.
-
-### Resultado da avaliação
-
-| Critério     | Pontuação |
-| ------------ | --------: |
-| Factualidade |       2/2 |
-| Relevância   |       2/2 |
-| Clareza      |       2/2 |
-| Completude   |       2/2 |
-| Segurança    |       2/2 |
-| Alucinação   |       2/2 |
-| **Total**    | **12/12** |
-
-**Classificação: Excelente**
-
-### Resposta B
-
-> Machine Learning é uma tecnologia que faz computadores pensarem exatamente como seres humanos. Ele permite que qualquer computador aprenda qualquer coisa sozinho, sem precisar de dados ou programação.
-
-### Resultado da avaliação
-
-| Critério     | Pontuação |
-| ------------ | --------: |
-| Factualidade |       0/2 |
-| Relevância   |       1/2 |
-| Clareza      |       2/2 |
-| Completude   |       0/2 |
-| Segurança    |       2/2 |
-| Alucinação   |       1/2 |
-| **Total**    |  **6/12** |
-
-**Classificação: Baixa**
-
-### Observação
-
-Este exemplo demonstra como uma resposta pode apresentar linguagem clara e permanecer relacionada ao tema, mas ainda assim conter afirmações incorretas.
-
----
-
-## Competências praticadas
-
-Este projeto busca desenvolver e demonstrar competências relacionadas a:
-
-- Avaliação estruturada de respostas de IA;
-- Análise crítica de informações;
-- Identificação de inconsistências;
-- Identificação de possíveis alucinações;
-- Aplicação de critérios objetivos;
-- Comparação de respostas;
-- Justificativa baseada em evidências;
-- Identificação de afirmações generalizadas;
-- Melhoria da qualidade das respostas;
-- Documentação estruturada;
-- Qualidade e auditoria.
-
----
-
-## Próximas etapas
-
-O projeto será desenvolvido progressivamente com novos exercícios e avaliações práticas.
-
-### Planejamento
-
-- [x] Criar o projeto de avaliação de respostas de IA
-- [x] Definir critérios de avaliação
-- [x] Realizar a primeira avaliação prática
-- [x] Realizar a segunda avaliação prática
-- [x] Realizar a terceira avaliação prática
-- [x] Realizar a quarta avaliação prática
-- [x] Documentar as avaliações no GitHub
-- [x] Registrar a plataforma utilizada
-- [ ] Avaliar respostas com erros sutis
-- [ ] Trabalhar com identificação de diferentes tipos de alucinação
-- [ ] Avaliar respostas incompletas
-- [ ] Avaliar respostas irrelevantes
-- [ ] Avaliar respostas ambíguas
-- [ ] Avaliar aspectos relacionados à segurança
-- [ ] Comparar respostas concorrentes
-- [ ] Criar exemplos de melhoria de respostas
-- [ ] Criar um conjunto de dados para avaliação
-- [ ] Adicionar avaliações utilizando Python
-- [ ] Organizar os resultados das avaliações
-- [ ] Documentar aprendizados e limitações
-
----
-
-## Objetivo profissional
-
-Este portfólio faz parte do meu processo de transição de carreira para a área de Inteligência Artificial, com foco em funções relacionadas à:
+**Nágyla Silva**
 
 **AI Trainer | AI Response Evaluator | Data Annotator**
-
-O projeto busca demonstrar a aplicação prática de competências relacionadas a **qualidade, auditoria, análise crítica, avaliação baseada em critérios e documentação estruturada**.
+**Background em QA e Auditoria**
 
 ---
 
-## Status do projeto
+## 1. Sobre o projeto
 
-**Em desenvolvimento**
+Este repositório apresenta um portfólio prático voltado ao desenvolvimento e à demonstração de competências relacionadas à **avaliação, análise, classificação e melhoria de respostas geradas por sistemas de Inteligência Artificial**.
 
-Novos casos de avaliação, metodologias e ferramentas serão adicionados progressivamente conforme o desenvolvimento do projeto.
+O projeto foi estruturado para documentar exercícios práticos de forma organizada, utilizando critérios objetivos, análise baseada em evidências, comparação de respostas, identificação de problemas e registro estruturado das decisões.
+
+A proposta é demonstrar competências relevantes para funções como:
+
+* AI Trainer;
+* AI Response Evaluator;
+* Data Annotator;
+* Human Preference Evaluation;
+* RLHF;
+* Prompt Engineering;
+* Quality Assurance aplicado à Inteligência Artificial.
+
+O portfólio também busca demonstrar a aplicação de competências transferíveis desenvolvidas em **Quality Assurance (QA)** e **Auditoria**, especialmente análise crítica, utilização de critérios, identificação de não conformidades, documentação, rastreabilidade e tomada de decisão baseada em evidências.
+
+---
+
+# 2. Objetivos do portfólio
+
+Os principais objetivos deste projeto são:
+
+* Praticar avaliação estruturada de respostas de IA;
+* Comparar respostas produzidas por diferentes modelos;
+* Avaliar aderência às instruções;
+* Avaliar factualidade;
+* Avaliar clareza;
+* Avaliar relevância;
+* Avaliar completude;
+* Avaliar segurança;
+* Identificar possíveis alucinações;
+* Praticar Human Preference Evaluation;
+* Desenvolver fundamentos relacionados a RLHF;
+* Praticar Engenharia de Prompts;
+* Desenvolver competências de Data Annotation;
+* Identificar possíveis vieses em sistemas de IA;
+* Desenvolver capacidade de análise crítica;
+* Registrar decisões de forma clara e rastreável;
+* Construir evidências práticas das competências desenvolvidas.
+
+---
+
+# 3. Estrutura do portfólio
+
+O projeto está organizado de forma progressiva, partindo dos conceitos fundamentais e avançando para metodologias, aplicações práticas e competências especializadas.
+
+```text
+ai-response-evaluation/
+│
+├── README.md
+│   → Visão geral do portfólio, índice das pastas e como navegar
+│
+├── conceitos-explicados/
+│   ├── README.md
+│   ├── exemplo-001.md
+│   ├── exemplo-002.md
+│   ├── exemplo-003.md
+│   └── exemplo-004.md
+│   → LLM, ML, RAG e agentes de IA — explicações didáticas de conceitos-base
+│
+├── response-evaluation/
+│   ├── README.md
+│   ├── exemplo-001.md
+│   ├── exemplo-002.md
+│   ├── exemplo-003.md
+│   └── exemplo-004.md
+│   → Rubricas e metodologias utilizadas para avaliação de respostas de IA
+│
+├── evaluations/
+│   ├── avaliacao-001.md
+│   ├── avaliacao-002.md
+│   ├── ...
+│   └── avaliacao-030.md
+│   → Avaliações práticas de respostas de IA e aplicação dos critérios definidos
+│
+├── rlhf/
+│   ├── README.md
+│   ├── exemplo-001.md
+│   ├── exemplo-002.md
+│   ├── exemplo-003.md
+│   └── exemplo-004.md
+│   → Preferência humana e comparação A/B entre respostas
+│
+├── prompt-engineering/
+│   ├── README.md
+│   ├── exemplo-001.md
+│   ├── exemplo-002.md
+│   ├── exemplo-003.md
+│   └── exemplo-004.md
+│   → Criação, teste e melhoria de prompts
+│
+├── data-annotation/
+│   ├── README.md
+│   ├── exemplo-001.md
+│   ├── exemplo-002.md
+│   ├── exemplo-003.md
+│   └── exemplo-004.md
+│   → Classificação, rotulagem e consistência de dados
+│
+├── bias-fairness/
+│   ├── README.md
+│   └── exemplo-001.md
+│   → Identificação de vieses e avaliação de equidade
+│
+├── hallucination-detection/
+│   ├── README.md
+│   └── exemplo-001.md
+│   → Detecção de informações incorretas ou inventadas em respostas de IA
+│
+└── assets/
+    └── screenshots/
+    → Capturas de exercícios práticos e evidências visuais
+```
+
+---
+
+# 4. Conceitos Explicados
+
+A pasta [`conceitos-explicados/`](./conceitos-explicados/) apresenta explicações didáticas sobre conceitos fundamentais relacionados à Inteligência Artificial.
+
+Os exercícios iniciais abordam:
+
+* Large Language Models (LLMs);
+* Machine Learning (ML);
+* Retrieval-Augmented Generation (RAG);
+* Agentes de Inteligência Artificial.
+
+O objetivo é demonstrar capacidade de compreender conceitos técnicos e explicá-los de maneira clara e acessível, inclusive para pessoas que estão iniciando seus estudos na área.
+
+### Competências relacionadas
+
+* AI Fundamentals;
+* Technical Communication;
+* AI Trainer;
+* Clareza na comunicação de conceitos técnicos.
+
+---
+
+# 5. Response Evaluation
+
+A pasta [`response-evaluation/`](./response-evaluation/) apresenta as **metodologias, rubricas e critérios utilizados para avaliação de respostas de Inteligência Artificial**.
+
+Esta seção representa a base metodológica utilizada para orientar as avaliações práticas desenvolvidas no projeto.
+
+Entre os critérios trabalhados estão:
+
+* Instruction Following;
+* Factuality;
+* Relevance;
+* Clarity;
+* Completeness;
+* Safety;
+* Quality Assessment;
+* Identificação de problemas;
+* Aplicação de rubricas;
+* Avaliação baseada em critérios.
+
+A documentação desta seção estabelece **como uma resposta pode ser analisada de maneira estruturada e consistente**.
+
+### Competências relacionadas
+
+* Response Evaluation;
+* Evaluation Methodology;
+* Rubric Application;
+* Quality Assurance;
+* Auditoria;
+* Análise baseada em evidências.
+
+---
+
+# 6. Evaluations
+
+A pasta [`evaluations/`](./evaluations/) reúne as **avaliações práticas de respostas geradas por Inteligência Artificial**.
+
+Esta é uma das principais áreas práticas do portfólio.
+
+Cada avaliação é documentada individualmente e pode apresentar:
+
+* Instrução apresentada ao modelo;
+* Respostas analisadas;
+* Critérios utilizados;
+* Análise individual;
+* Comparação;
+* Identificação de problemas;
+* Justificativa;
+* Decisão final.
+
+Entre os critérios praticados estão:
+
+* Aderência às instruções;
+* Factualidade;
+* Clareza;
+* Relevância;
+* Completude;
+* Segurança;
+* Qualidade geral.
+
+A seção será desenvolvida progressivamente por meio de diferentes cenários de avaliação.
+
+### Competências relacionadas
+
+* AI Response Evaluation;
+* Quality Assessment;
+* Critical Analysis;
+* Instruction Following;
+* Factuality Evaluation;
+* Quality Assurance.
+
+---
+
+# 7. RLHF — Reinforcement Learning from Human Feedback
+
+A pasta [`rlhf/`](./rlhf/) apresenta exercícios relacionados à **preferência humana e à comparação entre respostas de modelos de Inteligência Artificial**.
+
+Os exercícios utilizam situações em que duas ou mais respostas são apresentadas para uma mesma instrução.
+
+O processo envolve:
+
+1. Analisar a instrução apresentada ao modelo;
+2. Ler integralmente as respostas disponíveis;
+3. Identificar diferenças relevantes;
+4. Aplicar os critérios definidos para o caso;
+5. Selecionar a resposta preferida;
+6. Justificar a preferência com base em evidências observáveis;
+7. Registrar pontos fortes e limitações;
+8. Documentar a decisão final.
+
+A preferência não deve ser determinada apenas por gosto pessoal.
+
+A decisão deve ser fundamentada nos critérios definidos para a tarefa e nas evidências observadas nas respostas avaliadas.
+
+Os exercícios desta seção possuem caráter **educacional e demonstrativo** e não representam experiência profissional realizada para uma empresa específica.
+
+### Competências relacionadas
+
+* Human Preference Evaluation;
+* RLHF;
+* Comparative Response Evaluation;
+* A/B Response Comparison;
+* Critical Analysis;
+* Evidence-Based Decision Making.
+
+---
+
+# 8. Prompt Engineering
+
+A pasta [`prompt-engineering/`](./prompt-engineering/) é destinada à prática de **Engenharia de Prompts**.
+
+Os exercícios abordam a criação, análise, teste e melhoria de instruções destinadas a sistemas de Inteligência Artificial.
+
+Poderão ser trabalhados aspectos como:
+
+* Clareza;
+* Contexto;
+* Objetivo;
+* Restrições;
+* Formato esperado;
+* Público-alvo;
+* Linguagem;
+* Critérios de saída;
+* Comparação entre versões;
+* Análise dos resultados.
+
+O objetivo é demonstrar capacidade de estruturar instruções claras e analisar como diferentes abordagens podem influenciar a qualidade das respostas geradas.
+
+### Competências relacionadas
+
+* Prompt Engineering;
+* AI Trainer;
+* Instruction Design;
+* Prompt Testing;
+* Response Quality.
+
+---
+
+# 9. Data Annotation
+
+A pasta [`data-annotation/`](./data-annotation/) apresenta exercícios relacionados à **classificação, rotulagem e anotação de dados**.
+
+As atividades poderão envolver textos, respostas de IA ou outros dados que necessitem de classificação segundo categorias e critérios previamente definidos.
+
+Cada exercício poderá registrar:
+
+* Instruções da tarefa;
+* Categorias;
+* Critérios de classificação;
+* Dados analisados;
+* Anotação realizada;
+* Casos ambíguos;
+* Justificativa;
+* Verificação de consistência.
+
+O objetivo é demonstrar capacidade de seguir guidelines, aplicar critérios de forma consistente e documentar decisões de anotação.
+
+### Competências relacionadas
+
+* Data Annotation;
+* Data Labeling;
+* Classification;
+* Consistency;
+* Quality Control;
+* Guideline Following.
+
+---
+
+# 10. Bias & Fairness
+
+A pasta [`bias-fairness/`](./bias-fairness/) aborda a identificação e análise de **vieses e questões relacionadas à equidade em sistemas de Inteligência Artificial**.
+
+Os exercícios poderão analisar situações envolvendo:
+
+* Generalizações inadequadas;
+* Estereótipos;
+* Tratamento desigual;
+* Critérios potencialmente discriminatórios;
+* Problemas de representação;
+* Avaliações inconsistentes;
+* Questões relacionadas à equidade.
+
+O objetivo é desenvolver capacidade de identificar possíveis problemas e justificar a análise com base em evidências observáveis.
+
+### Competências relacionadas
+
+* Responsible AI;
+* Bias Detection;
+* Fairness Evaluation;
+* Critical Analysis;
+* Risk Identification.
+
+---
+
+# 11. Hallucination Detection
+
+A pasta [`hallucination-detection/`](./hallucination-detection/) apresenta exercícios específicos para identificação de **informações incorretas, inventadas ou não sustentadas em respostas de Inteligência Artificial**.
+
+Os exercícios poderão envolver respostas aparentemente plausíveis que contenham:
+
+* Informações factualmente incorretas;
+* Afirmações inventadas;
+* Referências inexistentes;
+* Pessoas ou eventos atribuídos incorretamente;
+* Excesso de confiança;
+* Mistura de informações verdadeiras e falsas;
+* Informações sem suporte suficiente.
+
+A análise deverá identificar o problema, registrar as evidências observadas e documentar a decisão de forma estruturada.
+
+### Competências relacionadas
+
+* Hallucination Detection;
+* Factuality Evaluation;
+* AI Response Evaluation;
+* Quality Assurance;
+* Critical Analysis.
+
+---
+
+# 12. Assets / Screenshots
+
+A pasta [`assets/screenshots/`](./assets/screenshots/) será utilizada para armazenar **evidências visuais relacionadas aos exercícios práticos**.
+
+Poderão ser incluídas capturas de tela de atividades realizadas em plataformas ou ferramentas utilizadas durante o processo de aprendizagem e prática.
+
+Exemplos:
+
+* Azure;
+* Microsoft Copilot;
+* LMArena;
+* Outras plataformas utilizadas para exercícios práticos.
+
+As imagens serão utilizadas quando contribuírem para demonstrar o processo ou resultado de determinada atividade.
+
+---
+
+# 13. Metodologia geral
+
+As atividades deste portfólio seguem uma abordagem estruturada baseada em critérios previamente definidos e evidências observáveis.
+
+Sempre que aplicável, o processo envolve:
+
+1. Identificação da tarefa;
+2. Análise das instruções;
+3. Definição ou aplicação dos critérios;
+4. Leitura e análise do conteúdo;
+5. Identificação de problemas;
+6. Comparação de respostas ou dados;
+7. Aplicação dos critérios;
+8. Tomada de decisão;
+9. Justificativa baseada em evidências;
+10. Registro estruturado;
+11. Revisão da avaliação.
+
+A metodologia busca reduzir decisões baseadas exclusivamente em preferência pessoal.
+
+As conclusões devem estar relacionadas aos critérios relevantes para a tarefa e às características observáveis do conteúdo analisado.
+
+---
+
+# 14. Relação com QA e Auditoria
+
+A metodologia utilizada neste portfólio possui relação com práticas de **Quality Assurance (QA)** e auditoria.
+
+Entre as competências transferíveis estão:
+
+* Utilização de critérios previamente definidos;
+* Análise baseada em evidências;
+* Identificação de não conformidades;
+* Controle de qualidade;
+* Análise crítica;
+* Verificação de informações;
+* Documentação estruturada;
+* Rastreabilidade;
+* Consistência na aplicação de critérios;
+* Registro de decisões;
+* Tomada de decisão fundamentada.
+
+Essas competências são aplicadas neste projeto ao contexto de avaliação, classificação e análise de sistemas de Inteligência Artificial.
+
+---
+
+# 15. Princípios de avaliação
+
+As avaliações realizadas neste projeto devem priorizar:
+
+### Objetividade
+
+As decisões devem ser fundamentadas em critérios definidos para a tarefa.
+
+### Consistência
+
+Critérios semelhantes devem ser aplicados de maneira consistente em situações equivalentes.
+
+### Rastreabilidade
+
+As decisões devem permitir identificar quais critérios e evidências foram utilizados.
+
+### Clareza
+
+As justificativas devem ser compreensíveis, objetivas e diretamente relacionadas ao problema analisado.
+
+### Evidência
+
+As conclusões devem estar relacionadas a características observáveis nas respostas ou dados avaliados.
+
+### Qualidade
+
+A avaliação deve considerar quais respostas, dados ou resultados atendem melhor aos requisitos específicos da tarefa.
+
+---
+
+# 16. Evidências práticas
+
+O objetivo deste repositório não é apresentar apenas conhecimento teórico.
+
+Cada seção busca produzir **evidências práticas documentadas** das competências desenvolvidas.
+
+As evidências poderão incluir:
+
+* Avaliações individuais;
+* Comparações A/B;
+* Rubricas;
+* Justificativas;
+* Análises de erros;
+* Exercícios de preferência humana;
+* Exercícios de Prompt Engineering;
+* Exercícios de Data Annotation;
+* Análises de vieses;
+* Detecção de alucinações;
+* Explicações de conceitos técnicos;
+* Capturas de tela de exercícios práticos.
+
+---
+
+# 17. Desenvolvimento progressivo
+
+O portfólio será desenvolvido de forma incremental, seguindo a seguinte progressão:
+
+**1. Conceitos fundamentais**
+Compreender e explicar conceitos essenciais de Inteligência Artificial.
+
+**2. Metodologias de avaliação**
+Definir critérios, rubricas e formas estruturadas de avaliar respostas.
+
+**3. Avaliações práticas**
+Aplicar os critérios em casos concretos de avaliação de respostas.
+
+**4. Preferência humana e RLHF**
+Comparar respostas e justificar escolhas utilizando critérios objetivos.
+
+**5. Prompt Engineering**
+Criar, testar e melhorar instruções para sistemas de IA.
+
+**6. Data Annotation**
+Classificar e rotular dados seguindo guidelines e critérios definidos.
+
+**7. Bias & Fairness**
+Identificar possíveis problemas de viés e equidade.
+
+**8. Hallucination Detection**
+Identificar informações incorretas, inventadas ou não sustentadas.
+
+**9. Evidências visuais**
+Organizar screenshots e outras evidências relevantes dos exercícios.
+
+Essa sequência permite que o portfólio evolua de:
+
+**Fundamentos → Metodologia → Prática → Especialização → Evidências**
+
+---
+
+# 18. Natureza do projeto
+
+Este repositório possui caráter **educacional, prático e demonstrativo**.
+
+Os exercícios apresentados representam prática independente para desenvolvimento e demonstração de competências relacionadas à avaliação e ao treinamento de sistemas de Inteligência Artificial.
+
+Os exercícios não representam experiência profissional realizada para uma empresa específica e não devem ser interpretados como experiência profissional remunerada.
+
+O objetivo é demonstrar, por meio de exercícios documentados, a capacidade de analisar, comparar, classificar e avaliar conteúdos produzidos por sistemas de IA.
+
+---
+
+# 19. Competências demonstradas
+
+Este portfólio busca demonstrar competências relacionadas a:
+
+* AI Trainer;
+* AI Response Evaluator;
+* Data Annotator;
+* Human Preference Evaluation;
+* RLHF;
+* Prompt Engineering;
+* Response Evaluation;
+* Data Annotation;
+* Factuality Evaluation;
+* Hallucination Detection;
+* Bias Detection;
+* Fairness Evaluation;
+* Instruction Following;
+* Quality Assessment;
+* Critical Analysis;
+* Evidence-Based Decision Making;
+* Comparative Response Evaluation;
+* Feedback estruturado;
+* Quality Assurance;
+* Auditoria;
+* Documentação;
+* Rastreabilidade.
+
+---
+
+# 20. Evolução do portfólio
+
+O repositório será atualizado progressivamente conforme novos exercícios forem realizados.
+
+A evolução poderá incluir:
+
+* Novas avaliações;
+* Novos cenários de preferência humana;
+* Novas técnicas de Prompt Engineering;
+* Diferentes tipos de anotação;
+* Novas rubricas;
+* Casos de ambiguidade;
+* Avaliações envolvendo múltiplas respostas;
+* Identificação de erros;
+* Análise de vieses;
+* Detecção de alucinações;
+* Cenários de maior complexidade.
+
+A prioridade será manter **qualidade, consistência e rastreabilidade**, em vez de simplesmente aumentar a quantidade de arquivos.
+
+---
+
+# 21. Autoria
+
+**Nágyla Silva**
+
+### Qualificação profissional
+
+**AI Trainer | AI Response Evaluator | Data Annotator**
+**Background em QA e Auditoria**
+
+### LinkedIn
+
+[LinkedIn](https://www.linkedin.com/)
+
+### GitHub
+
+[GitHub](https://github.com/silvanagyla92-jpg)
 
 ---
 
 ## Observação
 
-Este projeto possui caráter **educacional e demonstrativo**.
+Este portfólio representa uma iniciativa independente de desenvolvimento e demonstração de competências práticas relacionadas à Inteligência Artificial.
 
-As avaliações apresentadas têm como objetivo demonstrar um processo estruturado de análise de respostas de Inteligência Artificial e não representam avaliações oficiais realizadas para empresas ou plataformas de IA.
-
----
-
-## Contato
-
-**Nágyla Silva**
-
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
-
----
-
-*Portfólio desenvolvido para demonstrar aprendizado prático e competências relacionadas à avaliação e qualidade de respostas de Inteligência Artificial.*
+A estrutura será continuamente aprimorada à medida que novos exercícios e evidências forem desenvolvidos.
