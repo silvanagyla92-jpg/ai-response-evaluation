@@ -20,7 +20,7 @@ A atividade demonstra a aplicação de uma metodologia estruturada para avaliaç
 
 ---
 
-## 3. Pergunta do usuário
+## 3. Pergunta
 
 > O que é Inteligência Artificial?
 
@@ -32,7 +32,7 @@ A atividade demonstra a aplicação de uma metodologia estruturada para avaliaç
 
 ---
 
-## 5. Critérios de avaliação
+## 5. Critérios
 
 A avaliação utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
@@ -58,7 +58,9 @@ Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações qu
 
 ### 5.6. Alucinação — 0 a 2
 
-Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+Avalia a presença de informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+
+**2 pontos indicam ausência de evidências de alucinação no conteúdo avaliado.**
 
 **Pontuação máxima: 12 pontos.**
 
@@ -68,9 +70,9 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
+- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
 A pontuação máxima possível é de **12 pontos**.
 
@@ -78,28 +80,28 @@ A pontuação máxima possível é de **12 pontos**.
 
 ## 7. Escala de classificação
 
-A classificação geral utilizada no projeto é:
+A classificação geral utilizada no projeto é determinada pela pontuação total obtida nos seis critérios de avaliação.
 
-* **0 a 4 pontos — Inadequada**
-* **5 a 8 pontos — Parcialmente adequada**
-* **9 a 10 pontos — Adequada**
-* **11 a 12 pontos — Excelente**
-
-A classificação considera a pontuação total obtida nos seis critérios avaliados.
+| **Pontuação total** | **Classificação** |
+| ------------------: | ----------------- |
+| **0–3 pontos** | **Inadequada** |
+| **4–6 pontos** | **Parcialmente adequada** |
+| **7–9 pontos** | **Adequada** |
+| **10–12 pontos** | **Excelente** |
 
 ---
 
 ## 8. Resultado
 
-| **Critério**        | **Pontuação** |
+| **Critério** | **Pontuação** |
 | ------------------- | ------------: |
-| Factualidade        |       **2/2** |
-| Relevância          |       **2/2** |
-| Clareza             |       **2/2** |
-| Completude          |       **2/2** |
-| Segurança           |       **2/2** |
-| Alucinação          |       **2/2** |
-| **Pontuação total** |     **12/12** |
+| Factualidade | **2/2** |
+| Relevância | **2/2** |
+| Clareza | **2/2** |
+| Completude | **2/2** |
+| Segurança | **2/2** |
+| Alucinação | **2/2** |
+| **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
@@ -113,19 +115,16 @@ A resposta também apresenta, de forma introdutória, uma relação entre Inteli
 
 Para uma pergunta introdutória e objetiva, as informações apresentadas são suficientes para atender ao que foi solicitado, sem exigir aprofundamento técnico adicional.
 
-Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
-
 ---
 
 ## 10. Pontos fortes
 
-* Apresenta uma definição objetiva de Inteligência Artificial.
-* Utiliza linguagem clara e compreensível.
-* Apresenta exemplos de tarefas relacionadas à Inteligência Artificial.
-* Responde diretamente à pergunta apresentada.
-* Estabelece uma relação introdutória entre Inteligência Artificial e aprendizado de máquina.
-* Mantém foco no conceito solicitado.
-* Não apresenta evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
+- Apresenta uma definição objetiva de Inteligência Artificial.
+- Utiliza linguagem clara e compreensível.
+- Apresenta exemplos de tarefas relacionadas à Inteligência Artificial.
+- Responde diretamente à pergunta apresentada.
+- Estabelece uma relação introdutória entre Inteligência Artificial e aprendizado de máquina.
+- Mantém foco no conceito solicitado.
 
 ---
 
@@ -203,7 +202,7 @@ A pontuação final foi obtida pela soma dos resultados individuais:
 
 A classificação final foi determinada pela escala de classificação adotada no projeto:
 
-**11 a 12 pontos — Excelente.**
+**10–12 pontos — Excelente.**
 
 O processo buscou manter a aplicação dos critérios de forma independente, permitindo diferenciar factualidade, relevância, clareza, completude, segurança e alucinação.
 
@@ -213,19 +212,19 @@ O processo buscou manter a aplicação dos critérios de forma independente, per
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-* Avaliação estruturada de respostas de IA;
-* Análise crítica de conteúdo;
-* Identificação de possíveis erros;
-* Avaliação de factualidade;
-* Avaliação de relevância;
-* Avaliação de clareza;
-* Avaliação de completude;
-* Análise de segurança;
-* Identificação de possíveis alucinações;
-* Aplicação de rubrica de avaliação;
-* Justificativa baseada em evidências;
-* Documentação estruturada de resultados;
-* Quality Assessment.
+- Avaliação estruturada de respostas de IA;
+- Análise crítica de conteúdo;
+- Identificação de possíveis erros;
+- Avaliação de factualidade;
+- Avaliação de relevância;
+- Avaliação de clareza;
+- Avaliação de completude;
+- Análise de segurança;
+- Identificação de possíveis alucinações;
+- Aplicação de rubrica de avaliação;
+- Justificativa baseada em evidências;
+- Documentação estruturada de resultados;
+- Quality Assessment.
 
 ---
 
@@ -235,20 +234,20 @@ A atividade demonstra competências relacionadas às funções de **AI Response 
 
 ### AI Response Evaluator
 
-* Aplicação de critérios objetivos para avaliação de respostas de IA;
-* Análise de factualidade, relevância, clareza e completude;
-* Identificação de possíveis evidências de alucinação;
-* Classificação estruturada da qualidade da resposta;
-* Justificativa das decisões com base no conteúdo avaliado;
-* Aplicação consistente de uma rubrica de avaliação.
+- Aplicação de critérios objetivos para avaliação de respostas de IA;
+- Análise de factualidade, relevância, clareza e completude;
+- Identificação de possíveis evidências de alucinação;
+- Classificação estruturada da qualidade da resposta;
+- Justificativa das decisões com base no conteúdo avaliado;
+- Aplicação consistente de uma rubrica de avaliação.
 
 ### AI Trainer
 
-* Análise crítica da qualidade de respostas geradas por IA;
-* Identificação de pontos fortes e limitações;
-* Avaliação da adequação da resposta ao objetivo apresentado;
-* Identificação de características que contribuem para respostas claras, relevantes e completas;
-* Avaliação da qualidade do conteúdo gerado por IA.
+- Análise crítica da qualidade de respostas geradas por IA;
+- Identificação de pontos fortes e limitações;
+- Avaliação da adequação da resposta ao objetivo apresentado;
+- Identificação de características que contribuem para respostas claras, relevantes e completas;
+- Avaliação da qualidade do conteúdo gerado por IA.
 
 ### Data Annotator
 
@@ -262,13 +261,13 @@ A atividade apresenta relação com práticas de **Quality Assurance (QA)** e au
 
 Como competências transferíveis para **QA e Auditoria**, a atividade demonstra:
 
-* Aplicação consistente de critérios previamente definidos;
-* Análise baseada em evidências;
-* Padronização do processo de avaliação;
-* Registro estruturado das decisões;
-* Rastreabilidade dos resultados e justificativas;
-* Identificação e documentação de possíveis problemas;
-* Consistência na aplicação de critérios de qualidade.
+- Aplicação consistente de critérios previamente definidos;
+- Análise baseada em evidências;
+- Padronização do processo de avaliação;
+- Registro estruturado das decisões;
+- Rastreabilidade dos resultados e justificativas;
+- Identificação e documentação de possíveis problemas;
+- Consistência na aplicação de critérios de qualidade.
 
 A utilização de uma rubrica padronizada também contribui para a repetibilidade do processo de avaliação, permitindo aplicar a mesma metodologia a diferentes respostas.
 
@@ -300,8 +299,8 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 **Nágyla Silva**
 
-* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
