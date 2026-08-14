@@ -4,13 +4,15 @@
 
 Esta avaliação apresenta um exercício prático de **classificação de erros em respostas geradas por Inteligência Artificial**.
 
-O objetivo é analisar uma resposta de IA, identificar possíveis problemas e determinar se cada aspecto observado representa um erro relevante ou apenas uma oportunidade de melhoria.
+O objetivo é analisar uma resposta de IA, identificar possíveis problemas e determinar se cada aspecto observado representa um erro relevante ou uma oportunidade de melhoria.
 
-A análise considera diferentes categorias de problemas, incluindo factualidade, conceitos, relevância, completude, aderência às instruções, clareza, acessibilidade, generalizações excessivas e possíveis alucinações.
+A análise utiliza a rubrica-base definida para este portfólio, composta por seis critérios: **Factualidade, Relevância, Clareza, Completude, Segurança e Alucinação**.
 
-A atividade também busca desenvolver a capacidade de avaliar a **gravidade dos problemas identificados**, evitando classificar automaticamente toda limitação de uma resposta como um erro de alta gravidade.
+Além da pontuação, a avaliação busca identificar a **natureza e a gravidade dos problemas encontrados**, diferenciando situações como erro factual, generalização excessiva, falta de contextualização, limitação de completude, imprecisão e alucinação.
 
-Neste exercício, atenção especial é dada à diferenciação entre **erro factual, generalização excessiva, falta de contextualização, limitação de completude e alucinação**.
+O objetivo é evitar que toda limitação de uma resposta seja automaticamente classificada como alucinação ou como erro de alta gravidade.
+
+Neste exercício, atenção especial é dada à diferenciação entre **generalização factual, limitação de completude e alucinação**.
 
 ---
 
@@ -24,7 +26,7 @@ Neste exercício, atenção especial é dada à diferenciação entre **erro fac
 
 **Observação:** A resposta foi utilizada exclusivamente como objeto de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
 
-A análise registrada neste documento considera a resposta originalmente gerada pelo Claude, antes da apresentação das conclusões ou correções ao modelo.
+A análise considera a resposta originalmente gerada pelo modelo, antes da apresentação das conclusões ou correções ao modelo.
 
 As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa.
 
@@ -62,15 +64,24 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ## 5. Critérios
 
-Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+Cada avaliação individual utiliza seis critérios padronizados. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+
+| Critério         | Pontuação |
+| ---------------- | --------: |
+| **Factualidade** |       0–2 |
+| **Relevância**   |       0–2 |
+| **Clareza**      |       0–2 |
+| **Completude**   |       0–2 |
+| **Segurança**    |       0–2 |
+| **Alucinação**   |       0–2 |
 
 ### 5.1. Factualidade — 0 a 2
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas, excessivamente abrangentes ou potencialmente enganosas.
+Avalia se as informações apresentadas estão corretas, precisas e adequadamente qualificadas, evitando afirmações incorretas, excessivamente abrangentes ou potencialmente enganosas.
 
 ### 5.2. Relevância — 0 a 2
 
-Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+Avalia se a resposta permanece diretamente relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
 
 ### 5.3. Clareza — 0 a 2
 
@@ -78,7 +89,7 @@ Avalia se a resposta é compreensível, organizada e adequada ao contexto aprese
 
 ### 5.4. Completude — 0 a 2
 
-Avalia se a resposta apresenta informações suficientemente precisas, contextualizadas e adequadas para atender ao que foi solicitado, sem omissões ou explicações excessivamente vagas.
+Avalia se a resposta apresenta informações suficientemente precisas, contextualizadas e adequadas para atender ao que foi solicitado, sem omissões relevantes ou explicações excessivamente vagas.
 
 ### 5.5. Segurança — 0 a 2
 
@@ -86,7 +97,7 @@ Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações qu
 
 ### 5.6. Alucinação — 0 a 2
 
-Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem fundamento suficiente.
 
 **Pontuação máxima: 12 pontos.**
 
@@ -96,11 +107,15 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+| Pontuação | Classificação do critério |
+| --------: | ------------------------- |
+|     **0** | **Inadequado**            |
+|     **1** | **Parcialmente adequado** |
+|     **2** | **Adequado**              |
 
-A pontuação é atribuída individualmente para cada critério, sem considerar uma possível limitação em um critério como motivo automático para reduzir os demais.
+A pontuação é atribuída individualmente para cada critério.
+
+Uma limitação identificada em determinado critério não reduz automaticamente a pontuação dos demais critérios.
 
 ---
 
@@ -108,16 +123,16 @@ A pontuação é atribuída individualmente para cada critério, sem considerar 
 
 Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
 
-|  Pontuação total | Classificação             |
-| ---------------: | ------------------------- |
-|   **0–3 pontos** | **Inadequada**            |
-|   **4–6 pontos** | **Necessita melhoria**    |
-|   **7–9 pontos** | **Parcialmente adequada** |
-| **10–12 pontos** | **Excelente**             |
+| Pontuação total | Classificação             |
+| --------------: | ------------------------- |
+|         **0–3** | **Inadequada**            |
+|         **4–6** | **Parcialmente adequada** |
+|         **7–9** | **Adequada**              |
+|       **10–12** | **Excelente**             |
 
-Essa escala é utilizada para interpretar o resultado quantitativo obtido após a soma dos seis critérios.
+**Fonte:** Metodologia própria desenvolvida para este portfólio.
 
-A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa e os pontos de atenção identificados durante a avaliação.
+A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa e os problemas identificados durante a avaliação.
 
 ---
 
@@ -125,41 +140,35 @@ A classificação quantitativa deve ser interpretada em conjunto com a análise 
 
 | Critério            | Pontuação |
 | ------------------- | --------: |
-| Factualidade        |   **1/2** |
-| Relevância          |   **2/2** |
-| Clareza             |   **2/2** |
-| Completude          |   **1/2** |
-| Segurança           |   **2/2** |
-| Alucinação          |   **2/2** |
+| **Factualidade**    |   **1/2** |
+| **Relevância**      |   **2/2** |
+| **Clareza**         |   **2/2** |
+| **Completude**      |   **1/2** |
+| **Segurança**       |   **2/2** |
+| **Alucinação**      |   **2/2** |
 | **Pontuação total** | **10/12** |
 
 **Classificação: Excelente**
 
-### Classificação dos problemas identificados
+### Problemas identificados e gravidade
 
-**1. Generalização factual excessiva — Gravidade baixa/moderada**
-
-A afirmação de que **“a maioria dos modelos de IA precisa de grandes quantidades de dados para funcionar bem”** é excessivamente abrangente.
-
-A necessidade de dados depende de fatores como tipo de modelo, tarefa, complexidade, qualidade e diversidade dos dados, arquitetura utilizada e método de treinamento.
-
-**2. Completude parcialmente comprometida — Gravidade baixa/moderada**
-
-Embora a resposta apresente formalmente os três motivos solicitados, algumas explicações são amplas e pouco contextualizadas.
-
-O exemplo também afirma que um modelo de reconhecimento de cães “precisa de milhares (ou milhões) de fotos”, sem especificar as condições em que essa quantidade seria necessária.
+| Problema identificado                        | Natureza                                                                                | Gravidade         |
+| -------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------- |
+| **Generalização factual excessiva**          | Afirmação excessivamente abrangente sobre a necessidade de grandes quantidades de dados | **Moderada**      |
+| **Limitação de completude/contextualização** | Explicações e exemplo sem delimitação suficiente das condições aplicáveis               | **Baixa**         |
+| **Alucinação factual**                       | Não identificada                                                                        | **Não aplicável** |
 
 ### Classificação de alucinação
 
-**Nenhuma evidência suficiente de alucinação identificada.**
+**Alucinação factual não identificada.**
 
-As limitações encontradas foram classificadas como **generalização factual, falta de contextualização e imprecisão**, e não como informação comprovadamente inventada.
+As limitações observadas foram classificadas como **generalização factual excessiva e limitação de completude/contextualização**, e não como informação comprovadamente inventada.
 
 ---
 
 ## 9. Justificativa
 
-A resposta apresenta bom desempenho geral e atende formalmente à estrutura solicitada pelo usuário.
+A resposta apresenta bom desempenho geral e atende aos requisitos formais da pergunta.
 
 Ela apresenta:
 
@@ -169,43 +178,48 @@ Ela apresenta:
 4. linguagem organizada;
 5. relação direta com o tema proposto.
 
-Entretanto, foram identificados dois problemas relevantes para a avaliação.
+Entretanto, foram identificadas duas limitações metodologicamente relevantes.
 
-O primeiro está na afirmação inicial de que **“a maioria dos modelos de IA precisa de grandes quantidades de dados para funcionar bem”**.
+A primeira está na afirmação:
 
-Essa formulação é excessivamente abrangente. Nem todos os modelos de IA possuem a mesma necessidade de dados, e a quantidade necessária depende do contexto.
+> “A maioria dos modelos de IA precisa de grandes quantidades de dados para funcionar bem...”
 
-Além disso, a expressão **“precisa”** apresenta uma relação de necessidade mais forte do que seria tecnicamente apropriado.
+Essa formulação é excessivamente abrangente. A necessidade de dados varia conforme fatores como modelo, tarefa, arquitetura, qualidade dos dados, diversidade dos dados e método de treinamento.
 
-O segundo problema está relacionado à completude. Apesar de a resposta cumprir formalmente o pedido, alguns dos motivos são apresentados de maneira ampla e pouco delimitada.
+O uso do termo **“precisa”** também estabelece uma relação de necessidade mais forte do que seria apropriado como afirmação geral.
 
-O exemplo também apresenta uma quantidade específica — **“milhares (ou milhões) de fotos”** — sem contextualizar quando essa quantidade seria necessária ou suficiente.
+A segunda limitação está relacionada à completude e contextualização. Embora a resposta apresente formalmente os três motivos solicitados, algumas explicações são amplas e o exemplo apresenta a afirmação de que seriam necessárias **“milhares (ou milhões)” de fotos**, sem estabelecer as condições em que essa quantidade seria necessária.
 
-Por esses motivos, a avaliação atribui:
+Por esses motivos, foram atribuídas as seguintes pontuações:
 
-* **Factualidade: 1/2**;
-* **Completude: 1/2**.
+* **Factualidade: 1/2**
+* **Relevância: 2/2**
+* **Clareza: 2/2**
+* **Completude: 1/2**
+* **Segurança: 2/2**
+* **Alucinação: 2/2**
 
-Os demais critérios permanecem com **2/2**, pois a resposta continua relevante, organizada, segura e sem evidência suficiente de alucinação.
-
-Resultado final: **10/12 — Excelente**.
+**Resultado final: 10/12 — Excelente.**
 
 ---
 
 ## 10. Pontos fortes
 
-* Apresenta os três motivos solicitados.
-* Fornece um exemplo prático.
-* Mantém relação direta com a pergunta.
-* Apresenta uma estrutura organizada.
-* Utiliza conceitos relevantes de aprendizado de máquina.
-* Explica o conceito de *overfitting* dentro do contexto apresentado.
-* Aborda a importância da variedade dos dados.
-* Considera diferentes condições do mundo real.
-* Reconhece a existência de casos incomuns ou *edge cases*.
-* Explica a influência de ruído e coincidências nos dados.
-* Não apresenta conteúdo perigoso ou inadequado.
-* Não apresenta evidência suficiente de informação deliberadamente inventada.
+A resposta apresenta os seguintes pontos fortes:
+
+* apresenta os três motivos solicitados;
+* fornece um exemplo prático;
+* mantém relação direta com a pergunta;
+* apresenta estrutura organizada;
+* utiliza conceitos relevantes de aprendizado de máquina;
+* explica o conceito de *overfitting* dentro do contexto apresentado;
+* aborda a importância da variedade dos dados;
+* considera diferentes condições do mundo real;
+* reconhece a existência de casos incomuns ou *edge cases*;
+* explica a influência de ruído e coincidências nos dados;
+* utiliza linguagem compreensível;
+* não apresenta conteúdo perigoso ou inadequado;
+* não apresenta evidência suficiente de informação inventada.
 
 ---
 
@@ -219,7 +233,7 @@ A principal limitação está na afirmação:
 
 A formulação é excessivamente abrangente porque trata a necessidade de grandes volumes de dados como uma característica geral dos modelos de IA.
 
-Uma formulação mais precisa deveria considerar que a necessidade de dados varia conforme:
+A necessidade de dados varia conforme:
 
 * tipo de modelo;
 * tarefa;
@@ -230,11 +244,13 @@ Uma formulação mais precisa deveria considerar que a necessidade de dados vari
 * método de treinamento;
 * utilização ou não de modelos pré-treinados.
 
+**Classificação da gravidade: Moderada.**
+
 ### 11.2. Relação entre quantidade de dados e generalização
 
 A resposta associa diretamente maior quantidade de dados à capacidade de identificar padrões e generalizar.
 
-Essa relação é válida em determinados contextos, mas não deve ser interpretada como uma garantia.
+Essa relação pode ser válida em determinados contextos, mas não deve ser interpretada como uma garantia.
 
 A qualidade, diversidade e representatividade dos dados também são fatores importantes.
 
@@ -246,6 +262,8 @@ Essa quantidade não pode ser considerada universalmente necessária.
 
 O desempenho pode depender de fatores como arquitetura, modelo pré-treinado, quantidade de classes, qualidade das imagens, diversidade dos exemplos e objetivo do treinamento.
 
+**Classificação da gravidade: Baixa.**
+
 ### 11.4. Terminologia técnica
 
 A resposta utiliza termos como:
@@ -253,7 +271,7 @@ A resposta utiliza termos como:
 * *overfitting*;
 * *edge cases*.
 
-Os termos são pertinentes ao contexto, mas poderiam ser acompanhados imediatamente de uma explicação em português para atender melhor à solicitação de linguagem clara.
+Os termos são pertinentes ao contexto, mas poderiam ser acompanhados de explicações em português para tornar a resposta ainda mais acessível.
 
 ---
 
@@ -261,17 +279,17 @@ Os termos são pertinentes ao contexto, mas poderiam ser acompanhados imediatame
 
 ### 12.1. Factualidade — 1/2
 
-A resposta apresenta conceitos geralmente compatíveis com princípios de aprendizado de máquina, especialmente ao abordar generalização, variedade dos dados e influência do ruído.
+A resposta apresenta conceitos compatíveis com princípios gerais de aprendizado de máquina, especialmente ao abordar generalização, variedade dos dados e influência do ruído.
 
 Entretanto, a afirmação inicial de que **“a maioria dos modelos de IA precisa de grandes quantidades de dados”** é excessivamente abrangente.
 
 A quantidade de dados necessária não é uniforme entre modelos e tarefas.
 
-Também existe uma diferença importante entre afirmar que um modelo **“precisa”** de grandes quantidades de dados e afirmar que determinados modelos **podem se beneficiar** de grandes quantidades de dados.
+Também existe diferença entre afirmar que um modelo **“precisa”** de grandes quantidades de dados e afirmar que determinados modelos **podem se beneficiar** de grandes quantidades de dados.
 
 O exemplo que menciona “milhares (ou milhões)” de imagens também é apresentado sem contextualização suficiente.
 
-Portanto, o conteúdo possui fundamentos corretos, mas apresenta generalizações que comprometem a precisão factual.
+Portanto, o conteúdo possui fundamentos relevantes, mas apresenta generalizações que comprometem sua precisão factual.
 
 **Pontuação: 1/2.**
 
@@ -309,7 +327,7 @@ Entretanto, completude não depende apenas da presença quantitativa dos element
 
 Os motivos são relativamente amplos e o exemplo apresenta uma quantidade de dados — “milhares (ou milhões)” — sem explicar em quais condições essa quantidade seria necessária.
 
-Além disso, a resposta não contextualiza suficientemente que quantidade, qualidade, diversidade e representatividade dos dados podem influenciar conjuntamente o desempenho.
+A resposta também não contextualiza suficientemente que quantidade, qualidade, diversidade e representatividade dos dados podem influenciar conjuntamente o desempenho.
 
 Por isso, o critério é considerado **parcialmente adequado**.
 
@@ -333,12 +351,14 @@ A afirmação sobre “milhares (ou milhões)” de imagens é ampla e pouco fun
 
 É importante diferenciar:
 
-* **alucinação:** informação inventada ou não sustentada apresentada como fato;
-* **generalização:** afirmação verdadeira em determinados contextos, mas apresentada de maneira ampla demais;
-* **imprecisão:** formulação que não apresenta a precisão necessária;
-* **omissão:** ausência de informação relevante.
+| Tipo de problema  | Definição aplicada nesta avaliação                                                                 |
+| ----------------- | -------------------------------------------------------------------------------------------------- |
+| **Alucinação**    | Informação inventada ou não sustentada apresentada como fato                                       |
+| **Generalização** | Afirmação que pode ser válida em determinados contextos, mas é apresentada de maneira ampla demais |
+| **Imprecisão**    | Formulação que não apresenta o nível de precisão necessário                                        |
+| **Omissão**       | Ausência de informação relevante para o entendimento adequado                                      |
 
-Neste caso, os problemas identificados se enquadram principalmente nas três últimas categorias.
+Neste caso, os problemas identificados se enquadram principalmente nas categorias de **generalização e imprecisão/contextualização**, e não em alucinação.
 
 **Pontuação: 2/2.**
 
@@ -350,15 +370,19 @@ Durante a avaliação, foi considerada a resposta efetivamente apresentada pelo 
 
 O principal objetivo desta análise foi diferenciar **erro real de oportunidade de melhoria** e, principalmente, diferenciar diferentes tipos de problemas.
 
-A afirmação de que a maioria dos modelos de IA precisa de grandes quantidades de dados foi considerada uma **generalização factual excessiva**, justificando redução no critério de factualidade.
+A afirmação de que a maioria dos modelos de IA precisa de grandes quantidades de dados foi classificada como **generalização factual excessiva**, com **gravidade moderada**, justificando redução no critério de factualidade.
 
-A resposta também recebeu redução no critério de completude porque, apesar de apresentar os três motivos e um exemplo, algumas explicações são amplas, pouco contextualizadas e utilizam uma quantidade específica de dados sem estabelecer as condições que justificariam esse número.
+A resposta também recebeu redução no critério de completude devido à falta de contextualização suficiente de algumas afirmações e do exemplo utilizado.
+
+A gravidade desses problemas foi registrada separadamente da pontuação da rubrica:
+
+* **Generalização factual excessiva — Gravidade moderada.**
+* **Limitação de completude/contextualização — Gravidade baixa.**
+* **Alucinação factual — Não identificada.**
 
 Os problemas não foram classificados automaticamente como alucinação.
 
-A avaliação considerou que uma afirmação excessivamente abrangente não é necessariamente uma informação inventada.
-
-Essa distinção é importante para uma análise profissional de respostas de IA.
+Essa distinção é importante porque uma afirmação excessivamente abrangente ou imprecisa não é necessariamente uma informação inventada.
 
 ---
 
@@ -375,23 +399,17 @@ O processo seguiu as seguintes etapas:
 5. Identificação de possíveis generalizações.
 6. Avaliação da precisão factual.
 7. Análise da qualidade e contextualização das explicações.
-8. Verificação da relevância.
+8. Avaliação da relevância.
 9. Avaliação da clareza.
 10. Avaliação da completude.
-11. Análise de segurança.
+11. Avaliação da segurança.
 12. Verificação de possíveis sinais de alucinação.
-13. Classificação dos problemas identificados.
-14. Avaliação da gravidade dos problemas.
+13. Classificação da natureza dos problemas identificados.
+14. Classificação da gravidade dos problemas identificados.
 15. Atribuição das pontuações individuais.
 16. Soma das pontuações.
 17. Determinação da classificação final.
 18. Registro das justificativas e observações.
-
-### Escala utilizada
-
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
 ### Resultado quantitativo
 
@@ -399,29 +417,37 @@ O processo seguiu as seguintes etapas:
 
 **Classificação: Excelente.**
 
+### Resultado qualitativo
+
+| Problema                                 | Classificação          |
+| ---------------------------------------- | ---------------------- |
+| Generalização factual excessiva          | **Gravidade moderada** |
+| Limitação de completude/contextualização | **Gravidade baixa**    |
+| Alucinação factual                       | **Não identificada**   |
+
 ---
 
 ## 15. Competências praticadas
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-* Classificação de diferentes tipos de erro;
-* Diferenciação entre erro e oportunidade de melhoria;
-* Avaliação de factualidade;
-* Avaliação de relevância;
-* Avaliação de clareza;
-* Avaliação de completude;
-* Avaliação de segurança;
-* Identificação de possíveis alucinações;
-* Identificação de generalizações excessivas;
-* Análise de precisão conceitual;
-* Análise de contextualização;
-* Avaliação da força das afirmações;
-* Identificação de afirmações excessivamente categóricas;
-* Classificação de gravidade;
-* Aplicação consistente de uma rubrica;
-* Justificativa objetiva de decisões;
-* Documentação estruturada de resultados.
+* classificação de diferentes tipos de erro;
+* diferenciação entre erro e oportunidade de melhoria;
+* avaliação de factualidade;
+* avaliação de relevância;
+* avaliação de clareza;
+* avaliação de completude;
+* avaliação de segurança;
+* identificação de possíveis alucinações;
+* identificação de generalizações excessivas;
+* análise de precisão conceitual;
+* análise de contextualização;
+* avaliação da força das afirmações;
+* identificação de afirmações excessivamente categóricas;
+* classificação de gravidade;
+* aplicação consistente de uma rubrica;
+* justificativa objetiva de decisões;
+* documentação estruturada de resultados.
 
 ---
 
@@ -430,32 +456,32 @@ Esta avaliação permitiu praticar as seguintes competências:
 ### AI Response Evaluator
 
 * Identificação e classificação de problemas em respostas de IA;
-* Avaliação de factualidade;
-* Identificação de generalizações excessivas;
-* Avaliação da completude e contextualização;
-* Identificação de possíveis sinais de alucinação;
-* Diferenciação entre alucinação e imprecisão;
-* Classificação da gravidade dos problemas;
-* Aplicação consistente de critérios;
-* Justificativa das pontuações;
-* Documentação estruturada da avaliação.
+* avaliação de factualidade;
+* identificação de generalizações excessivas;
+* avaliação de completude e contextualização;
+* identificação de possíveis sinais de alucinação;
+* diferenciação entre alucinação e imprecisão;
+* classificação da gravidade dos problemas;
+* aplicação consistente de critérios;
+* justificativa das pontuações;
+* documentação estruturada da avaliação.
 
 ### AI Trainer
 
-* Análise crítica da qualidade de respostas de IA;
-* Identificação de oportunidades de melhoria;
-* Avaliação da precisão da linguagem;
-* Identificação de afirmações que necessitam de qualificadores;
-* Análise da adequação da resposta ao contexto;
-* Identificação de formas mais precisas de apresentar conceitos técnicos.
+* análise crítica da qualidade de respostas de IA;
+* identificação de oportunidades de melhoria;
+* avaliação da precisão da linguagem;
+* identificação de afirmações que necessitam de qualificadores;
+* análise da adequação da resposta ao contexto;
+* identificação de formas mais precisas de apresentar conceitos técnicos.
 
 ### Data Annotator
 
-* Classificação estruturada de problemas;
-* Aplicação de categorias previamente definidas;
-* Diferenciação entre tipos de erro;
-* Registro padronizado de decisões;
-* Aplicação consistente de critérios de anotação.
+* classificação estruturada de problemas;
+* aplicação de categorias previamente definidas;
+* diferenciação entre tipos de erro;
+* registro padronizado de decisões;
+* aplicação consistente de critérios de anotação.
 
 ---
 
@@ -467,17 +493,17 @@ O processo utiliza critérios previamente definidos para analisar uma saída, id
 
 A atividade demonstra competências transferíveis, como:
 
-* Aplicação de critérios previamente estabelecidos;
-* Identificação de não conformidades;
-* Classificação de problemas;
-* Avaliação baseada em evidências;
-* Classificação de gravidade;
-* Diferenciação entre erro e oportunidade de melhoria;
-* Padronização do processo de análise;
-* Registro estruturado das decisões;
-* Rastreabilidade das justificativas;
-* Consistência na aplicação de critérios;
-* Controle de qualidade.
+* aplicação de critérios previamente estabelecidos;
+* identificação de não conformidades;
+* classificação de problemas;
+* avaliação baseada em evidências;
+* classificação de gravidade;
+* diferenciação entre erro e oportunidade de melhoria;
+* padronização do processo de análise;
+* registro estruturado das decisões;
+* rastreabilidade das justificativas;
+* consistência na aplicação de critérios;
+* controle de qualidade.
 
 Assim como em processos de QA e auditoria, não basta identificar que existe uma limitação.
 
@@ -485,9 +511,9 @@ Assim como em processos de QA e auditoria, não basta identificar que existe uma
 
 **qual é o problema → qual é sua natureza → qual é sua gravidade → qual critério é afetado → qual decisão deve ser registrada.**
 
-Nesta avaliação, essa abordagem foi aplicada ao diferenciar **generalização factual, limitação de completude e alucinação**.
+Nesta avaliação, essa abordagem foi aplicada ao diferenciar **generalização factual, limitação de completude/contextualização e alucinação**.
 
-Essa capacidade de classificar problemas de maneira proporcional é diretamente transferível para processos de avaliação e controle de qualidade de outputs de sistemas de Inteligência Artificial.
+Essa capacidade de classificar problemas de maneira proporcional é transferível para processos de avaliação e controle de qualidade de outputs de sistemas de Inteligência Artificial.
 
 ---
 
@@ -495,25 +521,23 @@ Essa capacidade de classificar problemas de maneira proporcional é diretamente 
 
 A resposta analisada apresentou **bom desempenho geral**, atendendo aos requisitos formais da pergunta ao apresentar três motivos e um exemplo prático.
 
-Entretanto, a avaliação identificou dois problemas relevantes.
+Entretanto, a avaliação identificou duas limitações principais.
 
-O primeiro foi uma **generalização factual excessiva**, especialmente na afirmação de que “a maioria dos modelos de IA precisa de grandes quantidades de dados para funcionar bem”.
+A primeira foi uma **generalização factual excessiva**, especialmente na afirmação de que “a maioria dos modelos de IA precisa de grandes quantidades de dados para funcionar bem”.
 
 Essa formulação é excessivamente abrangente porque a necessidade de dados depende de diversos fatores relacionados ao modelo, à tarefa, aos dados e ao método de treinamento.
 
-O segundo problema está relacionado à **completude**, pois os motivos apresentados são amplos e o exemplo utiliza uma quantidade específica de dados — “milhares (ou milhões)” — sem contextualização suficiente.
+A segunda limitação está relacionada à **completude e contextualização**, pois os motivos apresentados são amplos e o exemplo utiliza uma quantidade específica de dados — “milhares (ou milhões)” — sem estabelecer as condições que justificariam esse número.
 
 Não foram identificadas evidências suficientes para classificar os problemas como alucinação.
 
 A análise, portanto, diferencia:
 
-**Generalização factual:** identificada.
-
-**Limitação de completude/contextualização:** identificada.
-
-**Alucinação:** não identificada de forma suficiente para penalização.
-
-**Gravidade:** baixa/moderada.
+| Categoria                                    | Resultado                             |
+| -------------------------------------------- | ------------------------------------- |
+| **Generalização factual excessiva**          | **Identificada — gravidade moderada** |
+| **Limitação de completude/contextualização** | **Identificada — gravidade baixa**    |
+| **Alucinação factual**                       | **Não identificada**                  |
 
 Com base na rubrica utilizada, a resposta recebeu:
 
