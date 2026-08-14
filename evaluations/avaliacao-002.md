@@ -1,4 +1,4 @@
-# Avaliação 002 — Diferença entre Inteligência Artificial e Machine Learning
+# Avaliação 002 — IA × Machine Learning
 
 ## 1. Introdução
 
