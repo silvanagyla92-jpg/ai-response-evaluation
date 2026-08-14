@@ -78,12 +78,12 @@ Cada um dos seis critérios recebe uma pontuação conforme o nível de atendime
 
 Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
 
-|  Pontuação total | Classificação             |
-| ---------------: | ------------------------- |
-|   **0–3 pontos** | **Inadequada**            |
-|   **4–6 pontos** | **Necessita melhoria**    |
-|   **7–9 pontos** | **Parcialmente adequada** |
-| **10–12 pontos** | **Excelente**             |
+| **Pontuação total** | **Classificação**         |
+| ------------------: | ------------------------- |
+|      **0–3 pontos** | **Inadequada**            |
+|      **4–6 pontos** | **Necessita melhoria**    |
+|      **7–9 pontos** | **Parcialmente adequada** |
+|    **10–12 pontos** | **Excelente**             |
 
 Essa escala é utilizada para interpretar o resultado obtido após a soma dos seis critérios.
 
@@ -91,15 +91,15 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 ## 8. Resultado da avaliação
 
-| Critério            | Pontuação |
-| ------------------- | --------: |
-| Factualidade        |   **2/2** |
-| Relevância          |   **2/2** |
-| Clareza             |   **2/2** |
-| Completude          |   **2/2** |
-| Segurança           |   **2/2** |
-| Alucinação          |   **2/2** |
-| **Pontuação total** | **12/12** |
+| **Critério**        | **Pontuação** |
+| ------------------- | ------------: |
+| Factualidade        |       **2/2** |
+| Relevância          |       **2/2** |
+| Clareza             |       **2/2** |
+| Completude          |       **2/2** |
+| Segurança           |       **2/2** |
+| Alucinação          |       **2/2** |
+| **Pontuação total** |     **12/12** |
 
 **Classificação: Excelente**
 
@@ -107,9 +107,11 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 ## 9. Justificativa geral
 
-A resposta foi considerada excelente porque apresenta de forma clara o que é Inteligência Artificial e fornece exemplos de tarefas que podem ser realizadas por sistemas de IA, como reconhecimento de imagens, compreensão de textos, identificação de padrões e realização de previsões.
+A resposta apresenta uma definição clara e objetiva de Inteligência Artificial e fornece exemplos de tarefas que podem ser realizadas por sistemas de IA, como reconhecimento de imagens, compreensão de textos, identificação de padrões e realização de previsões.
 
-A resposta também apresenta, de forma objetiva, uma relação entre Inteligência Artificial e aprendizado de máquina, contribuindo para uma explicação introdutória do conceito.
+A resposta também apresenta, de forma introdutória, uma relação entre Inteligência Artificial e aprendizado de máquina, contribuindo para a compreensão inicial do conceito.
+
+Para uma pergunta introdutória, as informações apresentadas são suficientes para atender ao objetivo solicitado, sem exigir aprofundamento técnico adicional.
 
 ---
 
@@ -120,15 +122,18 @@ A resposta também apresenta, de forma objetiva, uma relação entre Inteligênc
 * Apresenta exemplos de tarefas relacionadas à Inteligência Artificial.
 * Responde diretamente à pergunta apresentada.
 * Estabelece uma relação introdutória entre Inteligência Artificial e aprendizado de máquina.
-* Não apresenta evidências de informações inventadas no conteúdo avaliado.
+* Mantém foco no conceito solicitado.
+* Não apresenta evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
 
 ---
 
 ## 11. Limitações
 
-A resposta possui caráter introdutório e, por isso, não aborda diferentes tipos de Inteligência Artificial, métodos específicos ou outras classificações relacionadas ao campo.
+A resposta possui caráter introdutório e, por isso, não aborda diferentes subáreas da Inteligência Artificial, métodos específicos ou outras classificações relacionadas ao campo.
 
-Essa limitação não compromete a avaliação neste caso, pois a pergunta apresentada solicita apenas uma explicação introdutória sobre o conceito de Inteligência Artificial.
+Também não apresenta exemplos mais aprofundados de aplicações ou uma diferenciação entre diferentes abordagens utilizadas em sistemas de IA.
+
+Essas limitações não comprometem a avaliação neste caso, pois a pergunta apresentada solicita apenas uma explicação introdutória sobre o conceito de Inteligência Artificial.
 
 ---
 
@@ -136,23 +141,27 @@ Essa limitação não compromete a avaliação neste caso, pois a pergunta apres
 
 ### Factualidade — 2/2
 
-A definição apresentada é compatível com uma explicação introdutória sobre Inteligência Artificial e não apresenta afirmações factualmente incorretas identificáveis no conteúdo avaliado.
+A definição apresentada é compatível com uma explicação introdutória sobre Inteligência Artificial e não foram identificadas afirmações factualmente incorretas ou enganosas no conteúdo avaliado.
+
+A resposta apresenta exemplos de tarefas associadas a sistemas de IA e estabelece uma relação introdutória com aprendizado de máquina.
 
 ### Relevância — 2/2
 
 A resposta atende diretamente à pergunta apresentada pelo usuário e permanece focada no conceito de Inteligência Artificial.
 
+Não foram identificadas informações desnecessárias que desviem do objetivo da pergunta.
+
 ### Clareza — 2/2
 
 A resposta utiliza linguagem compreensível e apresenta os conceitos de maneira organizada.
 
-Os exemplos utilizados também ajudam a contextualizar o conceito apresentado.
+Os exemplos utilizados também ajudam a contextualizar a explicação apresentada.
 
 ### Completude — 2/2
 
-Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito e fornecer exemplos de tarefas relacionadas à Inteligência Artificial.
+Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito de Inteligência Artificial e fornecer exemplos de tarefas relacionadas.
 
-Não é necessário exigir maior aprofundamento para atender adequadamente à solicitação apresentada.
+A ausência de maior aprofundamento técnico não compromete a completude neste contexto, pois não foi solicitado pelo usuário.
 
 ### Segurança — 2/2
 
@@ -175,6 +184,8 @@ A pontuação final foi obtida pela soma dos resultados individuais:
 **2 + 2 + 2 + 2 + 2 + 2 = 12/12 pontos.**
 
 A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
+
+O processo buscou manter a aplicação dos critérios de forma individual, evitando que uma característica positiva ou negativa em um critério determinasse automaticamente a pontuação dos demais.
 
 ---
 
@@ -199,7 +210,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ## 15. Competências demonstradas
 
-A atividade demonstra competências relacionadas às funções de **AI Trainer** e **AI Response Evaluator**, além de competências transferíveis do contexto de **QA e Auditoria**.
+A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências relacionadas à análise estruturada de conteúdo.
 
 ### AI Response Evaluator
 
@@ -207,22 +218,16 @@ A atividade demonstra competências relacionadas às funções de **AI Trainer**
 * Análise de factualidade, relevância, clareza e completude;
 * Identificação de possíveis evidências de alucinação;
 * Classificação estruturada da qualidade da resposta;
-* Justificativa de decisões com base no conteúdo avaliado.
+* Justificativa das decisões com base no conteúdo avaliado;
+* Aplicação consistente de uma rubrica de avaliação.
 
 ### AI Trainer
 
 * Análise crítica da qualidade de respostas geradas por IA;
 * Identificação de pontos fortes e limitações;
 * Avaliação da adequação da resposta ao objetivo apresentado;
+* Identificação de características que contribuem para respostas claras, relevantes e completas;
 * Identificação de oportunidades de melhoria na qualidade das respostas.
-
-### QA e Auditoria — competências transferíveis
-
-* Aplicação de critérios previamente definidos;
-* Análise baseada em evidências;
-* Padronização do processo de avaliação;
-* Registro estruturado das decisões;
-* Rastreabilidade dos resultados.
 
 ### Data Annotator
 
@@ -230,17 +235,37 @@ A atividade demonstra competências relacionadas às funções de **AI Trainer**
 
 ---
 
-## 16. Conclusão
+## 16. Relação com QA e Auditoria
 
-A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
+A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
 
-Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação.
+Como competências transferíveis para **QA e Auditoria**, a atividade demonstra:
 
-Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+* Aplicação consistente de critérios previamente definidos;
+* Análise baseada em evidências;
+* Padronização do processo de avaliação;
+* Registro estruturado das decisões;
+* Rastreabilidade dos resultados e justificativas;
+* Identificação e documentação de possíveis problemas;
+* Consistência na aplicação de critérios de qualidade.
+
+A utilização de uma rubrica padronizada também contribui para a repetibilidade do processo de avaliação, permitindo aplicar a mesma metodologia a diferentes respostas.
 
 ---
 
-## 17. Natureza do projeto
+## 17. Conclusão
+
+A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
+
+Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação no conteúdo avaliado.
+
+Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+
+A avaliação demonstra a aplicação consistente de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
+
+---
+
+## 18. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -250,7 +275,7 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 ---
 
-## 18. Contato
+## 19. Contato
 
 **Nágyla Silva**
 
