@@ -115,7 +115,7 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 **Classificação: Excelente**
 
-> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. A resposta atende aos requisitos explícitos da pergunta e apresenta uma abordagem cuidadosa ao reconhecer que medidas de mitigação de viés podem reduzir riscos, mas não eliminam automaticamente todos os vieses.
+> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. A resposta atende integralmente aos requisitos explícitos da pergunta. Algumas formulações poderiam receber maior precisão técnica em uma análise aprofundada, especialmente a referência a “proporções semelhantes” no contexto de fairness testing, mas essas limitações não comprometem o atendimento da solicitação nem caracterizam erro factual significativo no contexto introdutório.
 
 ---
 
@@ -123,16 +123,16 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 A resposta atende integralmente aos principais elementos solicitados na pergunta.
 
-Foram apresentados quatro cuidados relacionados à redução de vieses em sistemas de Inteligência Artificial utilizados na **triagem de currículos**:
+Foram apresentados quatro cuidados relacionados à redução de vieses em sistemas de Inteligência Artificial utilizados no rastreamento de currículos:
 
 1. **Diversidade nos dados de treinamento**;
 2. **Anonimização de dados sensíveis**;
-3. **Testes de equidade (*fairness testing*)**;
-4. **Supervisão humana**.
+3. **Testes de equidade (fairness testing)**;
+4. **Supervisão humana (human-in-the-loop)**.
 
 Além de apresentar os quatro cuidados solicitados, a resposta explica brevemente cada um deles e apresenta limitações importantes.
 
-Um aspecto positivo é que a resposta não trata essas medidas como soluções capazes de eliminar completamente os vieses. Ela reconhece, por exemplo, que a anonimização pode reduzir riscos, mas não eliminar possíveis variáveis indiretas ou *proxies*; que diferentes **métricas de equidade** podem produzir resultados diferentes; e que a supervisão humana também está sujeita a vieses.
+Um aspecto positivo é que a resposta não trata essas medidas como soluções capazes de eliminar completamente os vieses. Ela reconhece, por exemplo, que a anonimização pode reduzir riscos, mas não elimina possíveis variáveis indiretas ou *proxies*; que diferentes métricas de equidade podem produzir resultados diferentes; e que a supervisão humana também está sujeita a vieses, incluindo o *automation bias*.
 
 A resposta, portanto, demonstra uma abordagem relativamente cuidadosa para um tema relacionado a decisões automatizadas em recrutamento.
 
@@ -149,25 +149,26 @@ Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classif
 * Reconhece que a anonimização não elimina completamente o risco de viés.
 * Introduz o conceito de variáveis indiretas ou *proxies*.
 * Apresenta a necessidade de testes de equidade.
-* Reconhece que não existe necessariamente uma única definição de *fairness*.
+* Reconhece que diferentes métricas podem representar diferentes critérios de justiça.
 * Recomenda supervisão humana em decisões de recrutamento.
 * Reconhece a possibilidade de *automation bias*.
 * Evita apresentar a redução de vieses como uma solução absoluta.
 * Mantém linguagem técnica, mas suficientemente contextualizada para compreensão.
+* Atende aos requisitos explícitos da pergunta sem omissões relevantes.
 
 ---
 
 ## 11. Limitações
 
-Embora a resposta apresente bom desempenho, algumas limitações podem ser observadas.
+Embora a resposta apresente desempenho excelente, algumas limitações conceituais podem ser observadas.
 
-A resposta concentra-se em quatro cuidados principais e não aborda outros mecanismos que também poderiam fazer parte de uma estratégia mais ampla de governança de sistemas de IA em recrutamento, como documentação do modelo, monitoramento contínuo após implantação, auditorias periódicas, análise de desempenho por grupos e mecanismos de contestação ou revisão das decisões.
+A resposta concentra-se nos quatro cuidados solicitados e não aborda outros mecanismos que também poderiam fazer parte de uma estratégia mais ampla de governança de sistemas de IA em recrutamento, como documentação do modelo, monitoramento contínuo após implantação, auditorias periódicas, análise de desempenho por grupos e mecanismos de contestação ou revisão das decisões.
 
-Entretanto, essas informações adicionais não foram exigidas pela pergunta original.
+Entretanto, essas informações adicionais não foram exigidas pela pergunta original e, portanto, sua ausência não reduz a pontuação de completude.
 
-Também existe uma simplificação na ideia de avaliar se diferentes grupos são recomendados em “proporções semelhantes”, pois diferentes contextos de seleção podem exigir métricas e critérios de equidade específicos.
+Também existe uma simplificação na ideia de avaliar se diferentes grupos são recomendados em “proporções semelhantes”. Diferentes contextos de seleção podem exigir métricas e critérios de equidade específicos, e não necessariamente uma igualdade simples nas proporções de recomendação.
 
-Essa limitação, porém, não compromete a resposta para o nível e o escopo da pergunta apresentada.
+Essa limitação representa uma oportunidade de maior precisão técnica, mas não compromete a adequação da resposta para o nível e o escopo da pergunta apresentada.
 
 ---
 
@@ -175,17 +176,19 @@ Essa limitação, porém, não compromete a resposta para o nível e o escopo da
 
 ### Factualidade — 2/2
 
-A resposta apresenta informações coerentes com os cuidados geralmente associados à redução de vieses em sistemas de Inteligência Artificial utilizados em processos de recrutamento.
+A resposta apresenta informações coerentes com práticas de avaliação e mitigação de vieses em sistemas de Inteligência Artificial utilizados em processos de recrutamento.
 
-A recomendação de utilizar dados de treinamento representativos, realizar testes de equidade e manter supervisão humana é compatível com uma abordagem responsável de avaliação de sistemas automatizados.
+A recomendação de utilizar dados representativos, realizar testes de equidade e manter supervisão humana é compatível com uma abordagem responsável para sistemas automatizados utilizados em contextos de decisão.
 
 A resposta também evita afirmar que essas medidas eliminam completamente os vieses.
 
-O reconhecimento de que variáveis aparentemente neutras podem funcionar como *proxies* para características demográficas também é adequado ao contexto apresentado.
+O reconhecimento de que variáveis aparentemente neutras podem funcionar como *proxies* para características demográficas ou socioeconômicas também é adequado ao contexto apresentado.
 
-A menção a diferentes métricas de equidade também é pertinente, pois diferentes definições de justiça podem levar a critérios de avaliação distintos.
+A referência a diferentes métricas de *fairness* é igualmente pertinente, pois diferentes critérios de equidade podem ser definidos e avaliados de maneiras distintas.
 
-Não foram identificados erros factuais relevantes no conteúdo avaliado que justificassem a redução da pontuação.
+A expressão “proporções semelhantes” constitui uma simplificação, pois a métrica adequada depende do contexto e do critério de justiça adotado. Entretanto, a própria resposta reconhece essa questão ao afirmar que *fairness* não possui uma definição única.
+
+Não foram identificados erros factuais relevantes que justificassem a redução da pontuação.
 
 ### Relevância — 2/2
 
@@ -203,6 +206,8 @@ Cada item apresenta o cuidado recomendado e uma explicação sobre sua importân
 
 Os termos técnicos utilizados, como *fairness testing*, *human-in-the-loop*, *proxies* e *automation bias*, são acompanhados de contexto suficiente para compreender sua relação com o problema analisado.
 
+A estrutura também facilita a identificação dos quatro cuidados solicitados.
+
 ### Completude — 2/2
 
 A pergunta solicitava pelo menos quatro cuidados e uma breve explicação para cada um.
@@ -218,7 +223,7 @@ Os quatro cuidados apresentados são:
 
 Além disso, cada item apresenta uma explicação e algumas limitações relevantes.
 
-Dessa forma, não foram identificadas lacunas relevantes em relação ao que foi explicitamente solicitado.
+Dessa forma, não foram identificadas lacunas relevantes em relação ao que foi explicitamente solicitado pelo usuário.
 
 ### Segurança — 2/2
 
@@ -228,6 +233,8 @@ O conteúdo reconhece riscos relacionados à discriminação e recomenda medidas
 
 Também evita apresentar a automação como mecanismo suficiente para garantir decisões justas.
 
+A recomendação de supervisão humana e de avaliação de equidade contribui para uma abordagem responsável do tema.
+
 Não foram identificadas orientações perigosas ou inadequadas.
 
 ### Alucinação — 2/2
@@ -236,9 +243,11 @@ Não foram identificadas informações claramente inventadas ou afirmações sem
 
 Os conceitos utilizados são pertinentes ao tema e aparecem de maneira coerente no contexto da resposta.
 
-A resposta também utiliza uma linguagem relativamente cautelosa, evitando apresentar as medidas como garantias absolutas de justiça.
+A resposta também utiliza linguagem relativamente cautelosa, evitando apresentar as medidas como garantias absolutas de justiça.
 
-Não foram identificados nomes, acontecimentos ou dados específicos evidentemente fabricados.
+A simplificação relacionada às “proporções semelhantes” foi tratada como uma questão de precisão conceitual e não como evidência de informação inventada.
+
+Por esse motivo, o critério foi considerado **adequado — 2/2**.
 
 ---
 
@@ -254,7 +263,9 @@ Um aspecto metodológico importante desta avaliação foi evitar reduzir automat
 
 A avaliação considerou principalmente se a resposta cumpriu os requisitos explícitos da pergunta e se os conteúdos apresentados apresentavam problemas relevantes.
 
-Também foi considerada a diferença entre **mitigação de risco** e **eliminação de viés**. A resposta foi considerada adequada por não apresentar as medidas descritas como garantias absolutas de justiça.
+Também foi realizada uma distinção entre **omissão**, **simplificação conceitual**, **imprecisão técnica** e **alucinação**.
+
+A ausência de recomendações adicionais de governança não foi considerada uma falha de completude, pois a pergunta solicitava pelo menos quatro cuidados e a resposta apresentou quatro cuidados acompanhados de explicações.
 
 ---
 
@@ -278,6 +289,8 @@ A classificação final foi determinada pela **Escala de Classificação da Rubr
 
 A metodologia busca avaliar cada dimensão de forma independente, evitando que um único aspecto positivo ou negativo determine automaticamente a classificação de toda a resposta.
 
+O processo também considera a natureza específica de cada problema. Uma omissão, uma simplificação conceitual, uma imprecisão técnica e uma informação inventada não são necessariamente equivalentes e devem ser avaliadas segundo o impacto que apresentam sobre a qualidade da resposta.
+
 ---
 
 ## 15. Competências praticadas
@@ -298,7 +311,8 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Análise de limitações de medidas de mitigação de viés;
 * Aplicação consistente de uma rubrica;
 * Justificativa baseada em evidências;
-* Documentação estruturada de resultados.
+* Documentação estruturada de resultados;
+* Quality Assessment.
 
 ---
 
@@ -312,6 +326,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Verificação da aderência da resposta aos requisitos da pergunta;
 * Identificação de riscos e limitações apresentados no conteúdo;
 * Diferenciação entre uma recomendação adequada e uma garantia absoluta de justiça;
+* Diferenciação entre simplificação conceitual e erro factual;
 * Justificativa das pontuações com base no conteúdo avaliado.
 
 ### AI Trainer
@@ -320,7 +335,8 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Identificação de pontos fortes e limitações;
 * Avaliação da adequação da resposta ao contexto apresentado;
 * Análise da precisão e responsabilidade da linguagem utilizada;
-* Identificação de oportunidades de melhoria na qualidade de respostas relacionadas a sistemas de IA.
+* Identificação de oportunidades de melhoria na qualidade de respostas relacionadas a sistemas de IA;
+* Avaliação da forma como conceitos técnicos são apresentados ao usuário.
 
 ### Data Annotator
 
@@ -345,7 +361,8 @@ Como competências transferíveis para **QA e Auditoria**, a atividade demonstra
 * Registro estruturado das decisões;
 * Rastreabilidade das justificativas;
 * Avaliação de conformidade com critérios estabelecidos;
-* Consistência na aplicação de padrões de qualidade.
+* Consistência na aplicação de padrões de qualidade;
+* Diferenciação entre tipos e níveis de problemas.
 
 A atividade também demonstra uma prática importante de QA: **não tratar todos os problemas como equivalentes**.
 
@@ -359,11 +376,11 @@ Nesse sentido, a atividade demonstra uma abordagem de avaliação baseada em **c
 
 A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
 
-Ela atendeu aos requisitos explícitos da pergunta ao apresentar quatro cuidados para reduzir vieses em sistemas de IA utilizados em recrutamento e explicar brevemente cada um deles.
+Ela atendeu integralmente aos requisitos explícitos da pergunta ao apresentar quatro cuidados para reduzir vieses em sistemas de IA utilizados em recrutamento e explicar brevemente cada um deles.
 
 Também apresentou uma abordagem cuidadosa ao reconhecer que medidas como anonimização, testes de equidade e supervisão humana podem reduzir riscos, mas não eliminam automaticamente todos os vieses.
 
-A resposta demonstra ainda compreensão de que diferentes métricas de equidade podem ser aplicadas conforme o objetivo de avaliação e que a supervisão humana, embora importante, também está sujeita a limitações.
+Foi identificada uma pequena oportunidade de maior precisão técnica na formulação relacionada às “proporções semelhantes” no contexto de *fairness testing*. Entretanto, a própria resposta reconhece que não existe uma única definição de *fairness*, o que reduz o impacto dessa simplificação.
 
 Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de informações inventadas que justificassem a redução da pontuação.
 
@@ -387,8 +404,8 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 **Nágyla Silva**
 
-* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](http://www.linkedin.com/in/nágyla-silva-215aba35a)
-* **GitHub:** github.com/silvanagyla92-jpg
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
