@@ -80,12 +80,12 @@ Cada um dos seis critérios recebe uma pontuação conforme o nível de atendime
 
 Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
 
-| **Pontuação total** | **Classificação** |
-| -------------------: | ----------------- |
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Necessita melhoria** |
-| **7–9 pontos** | **Parcialmente adequada** |
-| **10–12 pontos** | **Excelente** |
+| **Pontuação total** | **Classificação**         |
+| ------------------: | ------------------------- |
+|      **0–3 pontos** | **Inadequada**            |
+|      **4–6 pontos** | **Necessita melhoria**    |
+|      **7–9 pontos** | **Parcialmente adequada** |
+|    **10–12 pontos** | **Excelente**             |
 
 Essa escala é utilizada para interpretar o resultado obtido após a soma dos seis critérios.
 
@@ -93,15 +93,15 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 ## 8. Resultado da avaliação
 
-| **Critério** | **Pontuação** |
-| --- | ---: |
-| Factualidade | **1/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **1/2** |
-| **Pontuação total** | **10/12** |
+| **Critério**        | **Pontuação** |
+| ------------------- | ------------: |
+| Factualidade        |       **1/2** |
+| Relevância          |       **2/2** |
+| Clareza             |       **2/2** |
+| Completude          |       **2/2** |
+| Segurança           |       **2/2** |
+| Alucinação          |       **2/2** |
+| **Pontuação total** |     **11/12** |
 
 **Classificação: Excelente**
 
@@ -132,6 +132,7 @@ A quantidade de dados pode contribuir para o desempenho de um modelo, mas não g
 - Apresenta uma explicação adequada para um contexto introdutório.
 - Não apresenta conteúdos perigosos ou inadequados.
 - Permite identificar claramente o ponto específico que necessita de melhoria.
+- Não apresenta evidências de informações inventadas no conteúdo avaliado.
 
 ---
 
@@ -191,15 +192,13 @@ A ausência de maior aprofundamento não compromete a completude neste contexto,
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
 
-### Alucinação — 1/2
+### Alucinação — 2/2
 
-Não foram identificadas evidências de uma informação completamente inventada.
+Não foram identificadas evidências de informações inventadas ou afirmações apresentadas como acontecimentos, pessoas, dados ou fatos inexistentes.
 
-Entretanto, a resposta apresenta uma afirmação excessivamente generalizada ao relacionar diretamente uma maior quantidade de dados com maior precisão do modelo.
+O problema identificado na resposta consiste em uma **generalização factual inadequada**, e não em uma informação inventada.
 
-Essa formulação pode induzir o leitor a interpretar que adicionar dados sempre melhora o desempenho de um modelo.
-
-Por esse motivo, o critério foi considerado **parcialmente adequado**.
+Por esse motivo, a limitação foi registrada no critério de **Factualidade**, sem aplicar penalização adicional ao critério de **Alucinação**.
 
 ---
 
@@ -209,9 +208,9 @@ O principal problema identificado está relacionado à generalização sobre a q
 
 A resposta não foi considerada totalmente inadequada porque a maior parte das informações apresentadas está relacionada ao conceito solicitado e é adequada para uma explicação introdutória.
 
-A penalização foi aplicada aos critérios diretamente afetados pelo problema identificado.
+A penalização foi aplicada ao critério de **Factualidade**, diretamente afetado pela generalização identificada.
 
-A análise buscou diferenciar a existência de uma generalização factual de uma informação completamente inventada, evitando classificar automaticamente toda a resposta como incorreta.
+O critério de **Alucinação** foi mantido em **2/2**, pois não foram identificadas evidências de informações inventadas. Essa distinção é importante para evitar tratar uma generalização factual como se fosse necessariamente uma alucinação.
 
 ---
 
@@ -223,11 +222,11 @@ Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclu
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
-**1 + 2 + 2 + 2 + 2 + 1 = 10/12 pontos.**
+**1 + 2 + 2 + 2 + 2 + 2 = 11/12 pontos.**
 
 A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
 
-A classificação quantitativa foi mantida separada da análise qualitativa, permitindo registrar tanto o resultado da rubrica quanto a limitação identificada durante a avaliação.
+A classificação quantitativa foi mantida separada da análise qualitativa, permitindo registrar tanto o resultado da rubrica quanto a limitação factual identificada durante a avaliação.
 
 ---
 
@@ -244,6 +243,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 - Análise de segurança;
 - Identificação de possíveis alucinações;
 - Análise crítica de respostas de IA;
+- Diferenciação entre erro factual e informação inventada;
 - Aplicação de critérios de avaliação de forma individual;
 - Justificativa baseada em evidências;
 - Documentação estruturada de resultados;
@@ -258,7 +258,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 - Aplicação de uma rubrica estruturada para avaliação de respostas de IA;
 - Identificação de uma generalização que afeta a factualidade da resposta;
 - Análise individual de diferentes dimensões de qualidade;
-- Diferenciação entre um erro ou generalização factual e uma informação completamente inventada;
+- Diferenciação entre uma generalização factual e uma informação completamente inventada;
 - Justificativa das pontuações com base no conteúdo avaliado;
 - Aplicação consistente de critérios previamente definidos.
 
@@ -303,7 +303,7 @@ A maior parte do conteúdo apresenta uma explicação apropriada sobre a import�
 
 Entretanto, a afirmação de que uma maior quantidade de dados necessariamente resulta em maior precisão representa uma generalização que reduz a qualidade factual da resposta.
 
-Com base na rubrica utilizada, a resposta recebeu **10/12 pontos** e foi classificada quantitativamente como **Excelente**.
+Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada quantitativamente como **Excelente**.
 
 A avaliação também demonstra a aplicação de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
