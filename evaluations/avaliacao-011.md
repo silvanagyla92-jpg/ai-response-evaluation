@@ -1,5 +1,4 @@
-# Avaliação 011 — Classificação de Erros
-
+# Avaliação 011 — Grandes Volumes de Dados
 ## 1. Introdução
 
 Esta avaliação apresenta um exercício prático de **classificação de erros em respostas geradas por Inteligência Artificial**.
