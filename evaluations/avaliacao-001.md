@@ -197,15 +197,50 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ---
 
-## 15. Relação com QA e Auditoria
+## 15. Competências demonstradas
 
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
+A atividade demonstra competências relacionadas às funções de **AI Trainer** e **AI Response Evaluator**, além de competências transferíveis do contexto de **QA e Auditoria**.
 
-A utilização de uma rubrica padronizada permite aumentar a consistência entre diferentes avaliações e facilita a rastreabilidade das decisões realizadas.
+### AI Response Evaluator
+
+* Aplicação de critérios objetivos para avaliação de respostas de IA;
+* Análise de factualidade, relevância, clareza e completude;
+* Identificação de possíveis evidências de alucinação;
+* Classificação estruturada da qualidade da resposta;
+* Justificativa de decisões com base no conteúdo avaliado.
+
+### AI Trainer
+
+* Análise crítica da qualidade de respostas geradas por IA;
+* Identificação de pontos fortes e limitações;
+* Avaliação da adequação da resposta ao objetivo apresentado;
+* Identificação de oportunidades de melhoria na qualidade das respostas.
+
+### QA e Auditoria — competências transferíveis
+
+* Aplicação de critérios previamente definidos;
+* Análise baseada em evidências;
+* Padronização do processo de avaliação;
+* Registro estruturado das decisões;
+* Rastreabilidade dos resultados.
+
+### Data Annotator
+
+**Não diretamente demonstrada nesta avaliação**, pois o exercício não envolve rotulagem ou anotação estruturada de dados.
 
 ---
 
-## 16. Natureza do projeto
+## 16. Conclusão
+
+A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
+
+Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação.
+
+Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+
+---
+
+## 17. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -215,7 +250,7 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 ---
 
-## 17. Contato
+## 18. Contato
 
 **Nágyla Silva**
 
