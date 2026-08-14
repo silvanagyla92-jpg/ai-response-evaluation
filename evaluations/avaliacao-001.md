@@ -1,4 +1,4 @@
-# Avaliação 001 — O que é Inteligência Artificial?
+# Avaliação 001 — Clareza e Qualidade da Resposta
 
 ## 1. Introdução
 
