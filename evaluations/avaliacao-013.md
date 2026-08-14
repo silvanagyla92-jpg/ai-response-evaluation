@@ -2,15 +2,24 @@
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de **comparação e ranking de respostas geradas por diferentes modelos de Inteligência Artificial**.
+Esta avaliação apresenta um exercício prático de **comparação e análise de respostas geradas por diferentes modelos de Inteligência Artificial**.
 
-O objetivo é comparar duas respostas produzidas para a mesma pergunta e analisar qual apresenta melhor desempenho considerando critérios objetivos de qualidade.
+O objetivo é comparar duas respostas produzidas para a mesma pergunta e analisar o desempenho de cada uma utilizando critérios objetivos e padronizados de qualidade.
 
-Nesta avaliação, as respostas são analisadas individualmente segundo a rubrica-base do portfólio, composta por seis critérios: factualidade, relevância, clareza, completude, segurança e alucinação.
+Nesta avaliação, as respostas são analisadas individualmente segundo a rubrica-base do portfólio, composta por seis critérios:
 
-Após a análise individual, os resultados são comparados para identificar diferenças qualitativas entre as respostas e determinar qual apresenta melhor adequação ao contexto específico da solicitação.
+1. Factualidade;
+2. Relevância;
+3. Clareza;
+4. Completude;
+5. Segurança;
+6. Alucinação.
 
-O exercício também busca demonstrar que uma resposta mais extensa ou tecnicamente detalhada não é necessariamente superior, especialmente quando o usuário estabelece requisitos relacionados à objetividade e ao nível de conhecimento do público.
+Após a análise individual, os resultados são comparados para identificar diferenças entre as respostas e determinar qual apresenta melhor adequação qualitativa ao contexto específico da solicitação.
+
+O exercício também demonstra que uma resposta mais extensa ou tecnicamente detalhada não é necessariamente superior quando a solicitação estabelece requisitos relacionados à objetividade e ao nível de conhecimento do público.
+
+A comparação quantitativa permanece exclusivamente vinculada aos seis critérios oficiais da metodologia. A análise qualitativa é utilizada como complemento para interpretar diferenças entre respostas que eventualmente apresentem a mesma pontuação.
 
 ---
 
@@ -18,7 +27,7 @@ O exercício também busca demonstrar que uma resposta mais extensa ou tecnicame
 
 **Plataformas:** Claude e ChatGPT
 
-**Finalidade:** Utilização de diferentes modelos de Inteligência Artificial para gerar respostas independentes à mesma pergunta, permitindo posterior comparação e ranking.
+**Finalidade:** Utilização de diferentes modelos de Inteligência Artificial para gerar respostas independentes à mesma pergunta, permitindo posterior comparação.
 
 **Resposta A:** Claude
 
@@ -26,7 +35,7 @@ O exercício também busca demonstrar que uma resposta mais extensa ou tecnicame
 
 **Fonte das respostas:** Outputs gerados pelos respectivos modelos para a pergunta apresentada nesta avaliação.
 
-**Observação:** As respostas foram comparadas diretamente pela autora. Nenhum dos modelos foi solicitado a avaliar ou classificar a resposta do outro.
+**Observação:** As respostas foram comparadas diretamente pela avaliadora. Nenhum dos modelos foi solicitado a avaliar ou classificar a resposta do outro.
 
 A avaliação possui finalidade educacional e demonstrativa e não representa avaliação oficial realizada pela Anthropic, OpenAI ou qualquer outra empresa.
 
@@ -36,7 +45,7 @@ A avaliação possui finalidade educacional e demonstrativa e não representa av
 
 > Explique o que é um agente de IA e qual é a diferença entre um agente de IA e um chatbot tradicional. Responda de forma objetiva, considerando que o leitor é iniciante em Inteligência Artificial.
 
-A solicitação contém dois requisitos principais:
+A solicitação apresenta dois requisitos principais:
 
 1. Explicar o conceito de agente de IA e diferenciá-lo de um chatbot tradicional.
 2. Utilizar uma abordagem objetiva e adequada a um leitor iniciante em Inteligência Artificial.
@@ -51,12 +60,12 @@ A solicitação contém dois requisitos principais:
 >
 > ### Diferença entre agente de IA e chatbot tradicional
 >
-> | Aspecto | Chatbot tradicional | Agente de IA |
-> | --- | --- | --- |
-> | **Função principal** | Responder perguntas em uma conversa | Executar tarefas de várias etapas até alcançar um objetivo |
-> | **Autonomia** | Reage a cada mensagem isoladamente | Planeja uma sequência de ações por conta própria |
-> | **Uso de ferramentas** | Geralmente não usa ferramentas externas | Pode buscar informações, usar aplicativos, executar código, etc. |
-> | **Exemplo prático** | Responder "qual a capital da França?" | Pesquisar preços de passagens, comparar opções e montar um roteiro de viagem completo |
+> | Aspecto                | Chatbot tradicional                     | Agente de IA                                                                          |
+> | ---------------------- | --------------------------------------- | ------------------------------------------------------------------------------------- |
+> | **Função principal**   | Responder perguntas em uma conversa     | Executar tarefas de várias etapas até alcançar um objetivo                            |
+> | **Autonomia**          | Reage a cada mensagem isoladamente      | Planeja uma sequência de ações por conta própria                                      |
+> | **Uso de ferramentas** | Geralmente não usa ferramentas externas | Pode buscar informações, usar aplicativos, executar código, etc.                      |
+> | **Exemplo prático**    | Responder "qual a capital da França?"   | Pesquisar preços de passagens, comparar opções e montar um roteiro de viagem completo |
 >
 > Em resumo: o chatbot é bom em **conversar**; o agente de IA é projetado para **agir** — ele usa a capacidade de linguagem do LLM como parte de um processo maior de tomada de decisão e execução de tarefas.
 
@@ -85,30 +94,32 @@ A solicitação contém dois requisitos principais:
 
 Cada resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia do portfólio.
 
-| Critério | Pontuação | Definição |
-|---|---:|---|
-| **Factualidade** | 0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas. |
-| **Relevância** | 0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto. |
-| **Clareza** | 0–2 | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado. |
-| **Completude** | 0–2 | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes. |
-| **Segurança** | 0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário. |
-| **Alucinação** | 0–2 | Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente. |
+| Critério         | Pontuação | Definição                                                                                                                   |
+| ---------------- | --------: | --------------------------------------------------------------------------------------------------------------------------- |
+| **Factualidade** |       0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.              |
+| **Relevância**   |       0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.               |
+| **Clareza**      |       0–2 | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.                                        |
+| **Completude**   |       0–2 | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.      |
+| **Segurança**    |       0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco.                    |
+| **Alucinação**   |       0–2 | Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente. |
 
 **Pontuação máxima por resposta: 12 pontos.**
 
-A comparação quantitativa utiliza exclusivamente essa rubrica-base. Aspectos como objetividade, adequação ao público e qualidade do exemplo são considerados na análise qualitativa e na interpretação do ranking, mas não constituem critérios adicionais da pontuação oficial.
+A comparação quantitativa utiliza exclusivamente essa rubrica-base.
+
+Aspectos como objetividade, adequação ao público, nível de detalhamento e qualidade do exemplo podem ser considerados na análise qualitativa contextual, mas **não constituem critérios adicionais da pontuação oficial**.
 
 ---
 
 ## 6. Escala de pontuação
 
-Cada critério recebe uma pontuação de 0 a 2:
+Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado.
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
-A pontuação é atribuída individualmente a cada critério.
+A pontuação é atribuída individualmente para cada critério, sem transferir automaticamente uma limitação de um critério para os demais.
 
 **Pontuação máxima: 12 pontos por resposta.**
 
@@ -116,16 +127,18 @@ A pontuação é atribuída individualmente a cada critério.
 
 ## 7. Escala de classificação
 
-A classificação definitiva utilizada no portfólio é:
+Após a soma dos seis critérios, aplica-se a classificação definitiva do portfólio.
 
-| Pontuação total | Classificação |
-|---:|---|
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Parcialmente adequada** |
-| **7–9 pontos** | **Adequada** |
-| **10–12 pontos** | **Excelente** |
+|  Pontuação total | Classificação             |
+| ---------------: | ------------------------- |
+|   **0–3 pontos** | **Inadequada**            |
+|   **4–6 pontos** | **Parcialmente adequada** |
+|   **7–9 pontos** | **Adequada**              |
+| **10–12 pontos** | **Excelente**             |
 
 **Fonte:** Metodologia própria desenvolvida para este portfólio.
+
+A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa registrada nesta avaliação.
 
 ---
 
@@ -133,48 +146,65 @@ A classificação definitiva utilizada no portfólio é:
 
 ### 8.1. Resultado da Resposta A — Claude
 
-| Critério | Pontuação |
-|---|---:|
-| **Factualidade** | **2/2** |
-| **Relevância** | **2/2** |
-| **Clareza** | **2/2** |
-| **Completude** | **2/2** |
-| **Segurança** | **2/2** |
-| **Alucinação** | **2/2** |
+| Critério            | Pontuação |
+| ------------------- | --------: |
+| **Factualidade**    |   **2/2** |
+| **Relevância**      |   **2/2** |
+| **Clareza**         |   **2/2** |
+| **Completude**      |   **2/2** |
+| **Segurança**       |   **2/2** |
+| **Alucinação**      |   **2/2** |
 | **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
 ### 8.2. Resultado da Resposta B — ChatGPT
 
-| Critério | Pontuação |
-|---|---:|
-| **Factualidade** | **2/2** |
-| **Relevância** | **2/2** |
-| **Clareza** | **2/2** |
-| **Completude** | **2/2** |
-| **Segurança** | **2/2** |
-| **Alucinação** | **2/2** |
+| Critério            | Pontuação |
+| ------------------- | --------: |
+| **Factualidade**    |   **2/2** |
+| **Relevância**      |   **2/2** |
+| **Clareza**         |   **2/2** |
+| **Completude**      |   **2/2** |
+| **Segurança**       |   **2/2** |
+| **Alucinação**      |   **2/2** |
 | **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
 ### 8.3. Comparação quantitativa
 
-| Critério | Resposta A — Claude | Resposta B — ChatGPT |
-|---|---:|---:|
-| **Factualidade** | **2/2** | **2/2** |
-| **Relevância** | **2/2** | **2/2** |
-| **Clareza** | **2/2** | **2/2** |
-| **Completude** | **2/2** | **2/2** |
-| **Segurança** | **2/2** | **2/2** |
-| **Alucinação** | **2/2** | **2/2** |
-| **Total** | **12/12** | **12/12** |
-| **Classificação** | **Excelente** | **Excelente** |
+| Critério          | Resposta A — Claude | Resposta B — ChatGPT |
+| ----------------- | ------------------: | -------------------: |
+| **Factualidade**  |             **2/2** |              **2/2** |
+| **Relevância**    |             **2/2** |              **2/2** |
+| **Clareza**       |             **2/2** |              **2/2** |
+| **Completude**    |             **2/2** |              **2/2** |
+| **Segurança**     |             **2/2** |              **2/2** |
+| **Alucinação**    |             **2/2** |              **2/2** |
+| **Total**         |           **12/12** |            **12/12** |
+| **Classificação** |       **Excelente** |        **Excelente** |
 
 **Resultado quantitativo: empate — 12/12.**
 
-O empate é metodologicamente esperado porque ambas as respostas atendem satisfatoriamente aos seis critérios da rubrica-base.
+O empate ocorre porque ambas as respostas atendem satisfatoriamente aos seis critérios da rubrica-base.
+
+### 8.4. Comparação qualitativa contextual
+
+A análise qualitativa considera o contexto específico da pergunta, especialmente a solicitação de uma resposta objetiva e direcionada a um leitor iniciante.
+
+| Aspecto qualitativo        | Resposta A — Claude | Resposta B — ChatGPT |
+| -------------------------- | ------------------- | -------------------- |
+| **Objetividade**           | Boa                 | Muito boa            |
+| **Adequação ao iniciante** | Boa                 | Muito boa            |
+| **Profundidade técnica**   | Maior               | Moderada             |
+| **Exemplo prático**        | Adequado            | Adequado             |
+| **Estrutura**              | Mais detalhada      | Mais simples         |
+| **Adequação ao contexto**  | Boa                 | Muito boa            |
+
+**Resultado qualitativo contextual: Resposta B — ChatGPT apresenta maior adequação ao contexto específico da solicitação.**
+
+Essa conclusão não altera a pontuação oficial de nenhuma das respostas.
 
 ---
 
@@ -184,33 +214,31 @@ As duas respostas apresentam desempenho elevado segundo a rubrica padronizada.
 
 ### Resposta A — Claude
 
-A Resposta A apresenta uma definição adequada de agente de IA e explica conceitos importantes como planejamento, autonomia, utilização de ferramentas e execução de tarefas em múltiplas etapas.
+A Resposta A apresenta uma definição adequada de agente de IA e aborda elementos relevantes como planejamento, autonomia, utilização de ferramentas e execução de tarefas.
 
-A tabela comparativa também organiza as diferenças entre chatbot tradicional e agente de IA de maneira estruturada.
+A tabela comparativa também organiza as diferenças entre chatbot e agente de maneira estruturada.
 
-A principal limitação está relacionada ao requisito de **objetividade para um leitor iniciante**. A resposta apresenta maior quantidade de informações e maior detalhamento técnico do que o estritamente necessário para a pergunta.
+Existe uma simplificação na caracterização de chatbots tradicionais como sistemas que reagem a cada mensagem isoladamente. Entretanto, dentro do contexto introdutório apresentado, essa simplificação não é suficientemente grave para reduzir a pontuação de factualidade.
 
-Também existe uma simplificação na afirmação de que um chatbot tradicional "reage a cada mensagem isoladamente", pois sistemas modernos podem possuir memória, ferramentas e fluxos mais complexos.
-
-Essa simplificação não foi considerada suficientemente grave para reduzir os critérios da rubrica-base.
+A principal oportunidade de melhoria está na adequação ao pedido de objetividade para um público iniciante. A resposta apresenta mais detalhes técnicos e estruturais do que o estritamente necessário.
 
 ### Resposta B — ChatGPT
 
 A Resposta B apresenta uma definição mais simples e diretamente direcionada a um leitor iniciante.
 
-A distinção entre chatbot e agente é apresentada de maneira objetiva, destacando que o agente pode planejar, utilizar ferramentas, consultar informações e executar tarefas.
+A distinção entre chatbot e agente é apresentada de maneira objetiva, destacando planejamento, utilização de ferramentas, consulta de informações, tomada de decisões e execução de tarefas.
 
 O exemplo relacionado ao acompanhamento de um pedido torna a diferença entre responder e executar ações mais concreta.
 
-A resposta também apresenta um resumo final que facilita a retenção do conceito.
-
-Sua principal limitação é que poderia apresentar um pouco mais de contexto sobre planejamento, ferramentas e execução de múltiplas etapas, mas essa ausência não representa uma lacuna relevante para a pergunta apresentada.
+A resposta poderia apresentar maior aprofundamento sobre processos de planejamento e execução em múltiplas etapas, mas essa ausência não representa uma omissão relevante diante do pedido de objetividade.
 
 ### Comparação
 
-Embora ambas tenham obtido **12/12**, a Resposta B apresenta **melhor adequação qualitativa ao contexto específico da solicitação**, principalmente porque o usuário pediu uma explicação objetiva destinada a um leitor iniciante.
+As duas respostas receberam **12/12 — Excelente**.
 
-Portanto, é possível estabelecer uma preferência qualitativa pela Resposta B sem alterar artificialmente a pontuação da rubrica-base.
+Entretanto, quando considerado exclusivamente o contexto da solicitação, a Resposta B apresenta maior adequação qualitativa por utilizar linguagem mais simples e manter maior objetividade para o público iniciante.
+
+A preferência qualitativa, portanto, é registrada separadamente da pontuação oficial.
 
 ---
 
@@ -218,25 +246,26 @@ Portanto, é possível estabelecer uma preferência qualitativa pela Resposta B 
 
 ### Resposta A — Claude
 
-- Explica claramente o conceito de agente de IA.
-- Apresenta os conceitos de planejamento e autonomia.
-- Aborda utilização de ferramentas externas.
-- Explica execução de tarefas em múltiplas etapas.
-- Utiliza uma tabela comparativa organizada.
-- Diferencia chatbot e agente de maneira estruturada.
-- Apresenta um exemplo prático.
-- Mantém coerência conceitual.
+* Explica claramente o conceito de agente de IA.
+* Apresenta os conceitos de planejamento e autonomia.
+* Aborda utilização de ferramentas externas.
+* Explica execução de tarefas em múltiplas etapas.
+* Utiliza uma tabela comparativa organizada.
+* Diferencia chatbot e agente de maneira estruturada.
+* Apresenta exemplo prático.
+* Mantém coerência conceitual.
+* Oferece maior profundidade técnica.
 
 ### Resposta B — ChatGPT
 
-- Utiliza linguagem acessível.
-- Apresenta definição simples de agente de IA.
-- Diferencia diretamente chatbot e agente.
-- Aborda planejamento, ferramentas, consulta de informações e execução de tarefas.
-- Utiliza exemplo prático contextualizado.
-- Apresenta resumo final de fácil compreensão.
-- Atende melhor ao requisito de objetividade.
-- É adequada ao público iniciante indicado na pergunta.
+* Utiliza linguagem acessível.
+* Apresenta definição simples de agente de IA.
+* Diferencia diretamente chatbot e agente.
+* Aborda planejamento, ferramentas, consulta de informações e execução de tarefas.
+* Utiliza exemplo prático contextualizado.
+* Apresenta resumo final de fácil compreensão.
+* Atende melhor ao requisito de objetividade.
+* É adequada ao público iniciante indicado na pergunta.
 
 ---
 
@@ -244,31 +273,35 @@ Portanto, é possível estabelecer uma preferência qualitativa pela Resposta B 
 
 ### 11.1. Resposta A — Claude
 
-A principal limitação está relacionada à **objetividade**.
+A principal limitação está relacionada à **objetividade e adequação ao público**.
 
-Embora a informação apresentada seja relevante, a resposta contém maior detalhamento e uma tabela relativamente extensa para uma pergunta que solicitava uma explicação objetiva para iniciantes.
+Embora as informações apresentadas sejam relevantes, a resposta possui maior detalhamento e utiliza uma tabela comparativa relativamente extensa para uma pergunta destinada a iniciantes.
 
-Além disso, a afirmação de que o chatbot tradicional "reage a cada mensagem isoladamente" é uma simplificação didática.
+Também existe uma simplificação na afirmação de que o chatbot tradicional "reage a cada mensagem isoladamente".
 
-Uma formulação mais precisa poderia reconhecer que chatbots tradicionais podem apresentar diferentes níveis de memória, contexto e integração com ferramentas.
+Essa simplificação não constitui erro factual suficientemente relevante para redução da pontuação, mas poderia ser formulada de maneira mais precisa.
+
+**Gravidade: baixa — oportunidade de melhoria.**
 
 ### 11.2. Resposta B — ChatGPT
 
 A principal oportunidade de melhoria está relacionada ao nível de detalhamento.
 
-A resposta poderia explicar um pouco melhor que agentes podem utilizar ciclos de planejamento, ferramentas e execução de múltiplas etapas.
+A resposta poderia explicar com um pouco mais de profundidade como planejamento, uso de ferramentas e execução de múltiplas etapas podem ocorrer em um agente.
 
-Entretanto, aumentar significativamente o detalhamento poderia contrariar o requisito de objetividade.
+Entretanto, aumentar significativamente o detalhamento poderia reduzir a objetividade solicitada.
 
-Portanto, trata-se de uma oportunidade de melhoria de baixa gravidade e não de um erro relevante.
+**Gravidade: baixa — oportunidade de melhoria.**
 
-### 11.3. Limitação metodológica do ranking
+### 11.3. Comparação metodológica
 
-A aplicação exclusiva da rubrica-base produz empate entre as duas respostas.
+A aplicação exclusiva da rubrica-base produz empate quantitativo entre as respostas.
 
-Isso ocorre porque **objetividade, adequação ao público e qualidade do exemplo não são critérios independentes da metodologia definitiva**.
+Esse resultado não representa falha da metodologia.
 
-Esses aspectos podem ser utilizados na análise qualitativa, mas não devem ser adicionados à pontuação oficial sem alterar a metodologia de todo o portfólio.
+Quando duas respostas atendem satisfatoriamente aos seis critérios, ambas podem receber a mesma pontuação.
+
+A análise qualitativa contextual pode registrar diferenças de adequação sem alterar artificialmente a pontuação oficial.
 
 ---
 
@@ -276,124 +309,155 @@ Esses aspectos podem ser utilizados na análise qualitativa, mas não devem ser 
 
 ### 12.1. Factualidade
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
-A resposta apresenta uma explicação conceitualmente adequada sobre agentes de IA, incluindo planejamento, utilização de ferramentas e execução de ações para atingir objetivos.
+A resposta apresenta uma explicação conceitualmente adequada sobre agentes de IA, incluindo planejamento, utilização de ferramentas e execução de ações orientadas a objetivos.
 
-A simplificação sobre chatbots tradicionais representa uma oportunidade de maior precisão, mas não configura erro factual relevante dentro do contexto apresentado.
+A caracterização de chatbots tradicionais como sistemas que "reagem a cada mensagem isoladamente" constitui uma simplificação, pois diferentes sistemas conversacionais podem apresentar níveis distintos de contexto, memória, integração e automação.
 
-**Resposta B — 2/2**
+Entretanto, essa simplificação não compromete de forma significativa a resposta dentro do nível introdutório solicitado.
 
-A resposta apresenta uma explicação adequada em nível introdutório e diferencia corretamente a função conversacional de um chatbot da capacidade de um agente de executar ações orientadas a objetivos.
+**Pontuação: 2/2 — Adequado.**
+
+#### Resposta B — 2/2
+
+A resposta apresenta uma explicação adequada em nível introdutório e diferencia o funcionamento conversacional de um chatbot da capacidade de um agente executar ações orientadas a objetivos.
+
+Não foram identificadas afirmações factualmente inadequadas em grau suficiente para reduzir a pontuação.
+
+**Pontuação: 2/2 — Adequado.**
 
 ---
 
 ### 12.2. Relevância
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
 O conteúdo permanece relacionado ao conceito de agente de IA e à comparação solicitada.
 
 O detalhamento adicional não é suficientemente desviante para caracterizar irrelevância.
 
-**Resposta B — 2/2**
+**Pontuação: 2/2 — Adequado.**
+
+#### Resposta B — 2/2
 
 A resposta permanece diretamente relacionada à pergunta e aborda os dois conceitos solicitados.
+
+**Pontuação: 2/2 — Adequado.**
 
 ---
 
 ### 12.3. Clareza
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
 A resposta apresenta organização clara, definição inicial, tabela comparativa e síntese final.
 
-Apesar de possuir maior densidade de informações, continua compreensível.
+Apesar da maior densidade de informações, continua compreensível.
 
-**Resposta B — 2/2**
+**Pontuação: 2/2 — Adequado.**
+
+#### Resposta B — 2/2
 
 A resposta utiliza linguagem simples e estrutura direta.
 
 O resumo final reforça a diferença essencial entre os conceitos.
 
+**Pontuação: 2/2 — Adequado.**
+
 ---
 
 ### 12.4. Completude
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
 A resposta explica o que é um agente de IA e diferencia o conceito de um chatbot tradicional.
 
 Também aborda planejamento, autonomia, ferramentas e execução de tarefas.
 
-**Resposta B — 2/2**
+**Pontuação: 2/2 — Adequado.**
 
-A resposta atende aos requisitos essenciais da pergunta e apresenta uma explicação suficiente para um leitor iniciante.
+#### Resposta B — 2/2
 
-A ausência de maior aprofundamento técnico não constitui omissão relevante diante do pedido de objetividade.
+A resposta atende aos requisitos essenciais da pergunta e apresenta explicação suficiente para um leitor iniciante.
+
+A ausência de maior aprofundamento técnico não constitui omissão relevante diante da solicitação de objetividade.
+
+**Pontuação: 2/2 — Adequado.**
 
 ---
 
 ### 12.5. Segurança
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco.
 
-**Resposta B — 2/2**
+**Pontuação: 2/2 — Adequado.**
+
+#### Resposta B — 2/2
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco.
+
+**Pontuação: 2/2 — Adequado.**
 
 ---
 
 ### 12.6. Alucinação
 
-**Resposta A — 2/2**
+#### Resposta A — 2/2
 
-Não foram identificadas informações claramente inventadas ou afirmações sem fundamento aparente.
+Não foram identificadas informações claramente inventadas ou afirmações sem fundamento suficiente para caracterizar alucinação.
 
-A simplificação sobre chatbots tradicionais é uma questão de precisão conceitual, não evidência suficiente de alucinação.
+A simplificação sobre chatbots tradicionais é tratada como uma oportunidade de melhoria de precisão conceitual, e não como informação inventada.
 
-**Resposta B — 2/2**
+**Pontuação: 2/2 — Adequado.**
 
-Não foram identificadas informações claramente inventadas ou afirmações sem fundamento aparente.
+#### Resposta B — 2/2
 
-O exemplo apresentado funciona como ilustração conceitual e não depende de uma afirmação factual externa específica.
+Não foram identificadas informações claramente inventadas ou afirmações sem fundamento suficiente para caracterizar alucinação.
+
+O exemplo apresentado funciona como ilustração conceitual e não apresenta evidência de fabricação de fatos.
+
+**Pontuação: 2/2 — Adequado.**
 
 ---
 
 ### 12.7. Comparação qualitativa
 
-Embora ambas tenham recebido a mesma pontuação quantitativa, existem diferenças relevantes na adequação ao contexto.
+A análise qualitativa identifica diferenças que não justificam alteração da pontuação oficial.
 
-| Aspecto qualitativo | Resposta A — Claude | Resposta B — ChatGPT |
-|---|---|---|
-| **Objetividade** | Boa, porém mais detalhada | Muito boa |
-| **Adequação ao iniciante** | Boa | Muito boa |
-| **Profundidade técnica** | Maior | Moderada |
-| **Exemplo prático** | Adequado | Adequado e mais cotidiano |
-| **Estrutura** | Mais detalhada | Mais simples |
-| **Aderência ao contexto** | Boa | Muito boa |
+A **Resposta A** apresenta maior profundidade técnica, melhor detalhamento estrutural e uma comparação mais abrangente.
 
-A comparação qualitativa favorece a **Resposta B**, pois o pedido enfatizava objetividade e público iniciante.
+A **Resposta B** apresenta maior simplicidade, linguagem mais acessível e maior objetividade.
+
+Considerando que a pergunta foi direcionada a um leitor iniciante e solicitou uma resposta objetiva, a Resposta B apresenta maior adequação qualitativa ao contexto.
+
+Essa conclusão não representa uma diferença de pontuação entre os modelos.
 
 ---
 
 ## 13. Observação da avaliadora
 
-Esta avaliação demonstra a importância de separar **pontuação baseada na rubrica** de **preferência qualitativa entre respostas**.
+Esta avaliação demonstra a importância de separar **resultado quantitativo** de **análise qualitativa contextual**.
 
-As duas respostas apresentaram desempenho suficiente para receber **2/2 em todos os seis critérios**, resultando em **12/12**.
+As duas respostas receberam **2/2 nos seis critérios**, totalizando **12/12 — Excelente**.
 
 Portanto, não seria metodologicamente adequado reduzir artificialmente a pontuação da Resposta A apenas porque a Resposta B é mais objetiva.
 
-A diferença entre elas está principalmente na adequação ao contexto da solicitação.
+A diferença identificada está principalmente na forma de apresentação e na adequação ao contexto específico da solicitação.
 
 A Resposta A apresenta maior detalhamento técnico, enquanto a Resposta B apresenta maior simplicidade e objetividade.
 
-Dessa forma, a **Resposta B pode ser considerada a resposta preferida qualitativamente**, mas o resultado quantitativo permanece empatado.
+A análise qualitativa permite registrar essa diferença sem alterar os critérios oficiais da metodologia.
 
-Essa distinção fortalece a consistência da metodologia utilizada no portfólio, pois evita modificar a pontuação de um critério apenas para produzir um vencedor.
+Assim, o resultado quantitativo permanece:
+
+**Resposta A — Claude: 12/12 — Excelente.**
+
+**Resposta B — ChatGPT: 12/12 — Excelente.**
+
+Na análise qualitativa contextual, a Resposta B apresenta maior adequação ao público iniciante e ao requisito de objetividade.
 
 ---
 
@@ -411,14 +475,24 @@ A avaliação foi realizada seguindo as seguintes etapas:
 8. Avaliação da completude de cada resposta.
 9. Avaliação da segurança de cada resposta.
 10. Verificação de possíveis sinais de alucinação.
-11. Atribuição das pontuações individuais.
-12. Soma das pontuações.
-13. Comparação dos resultados quantitativos.
-14. Comparação qualitativa considerando o contexto da solicitação.
-15. Identificação da resposta qualitativamente preferida.
-16. Registro das limitações e oportunidades de melhoria.
+11. Identificação de limitações e oportunidades de melhoria.
+12. Classificação da gravidade dos pontos de atenção.
+13. Atribuição das pontuações individuais.
+14. Soma das pontuações.
+15. Aplicação da classificação definitiva.
+16. Comparação dos resultados quantitativos.
+17. Comparação qualitativa considerando o contexto da solicitação.
+18. Registro da preferência qualitativa contextual.
+19. Verificação da consistência metodológica.
+20. Registro da conclusão final.
 
-A metodologia mantém os seis critérios oficiais do portfólio e utiliza a comparação qualitativa apenas como complemento da avaliação quantitativa.
+A pontuação final foi obtida pela soma dos seis critérios.
+
+**Resposta A: 2 + 2 + 2 + 2 + 2 + 2 = 12/12.**
+
+**Resposta B: 2 + 2 + 2 + 2 + 2 + 2 = 12/12.**
+
+Ambas foram classificadas como **Excelente**.
 
 ---
 
@@ -426,21 +500,23 @@ A metodologia mantém os seis critérios oficiais do portfólio e utiliza a comp
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-- Comparação de outputs de diferentes modelos de IA;
-- Avaliação estruturada de respostas;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Avaliação de segurança;
-- Identificação de possíveis alucinações;
-- Comparação qualitativa de respostas;
-- Identificação de diferenças de nível de detalhamento;
-- Análise de adequação ao contexto;
-- Identificação de oportunidades de melhoria;
-- Aplicação consistente de rubrica;
-- Justificativa objetiva de decisões;
-- Documentação estruturada de resultados.
+* Comparação de outputs de diferentes modelos de IA;
+* Avaliação estruturada de respostas;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Avaliação de segurança;
+* Identificação de possíveis alucinações;
+* Identificação de simplificações conceituais;
+* Comparação qualitativa de respostas;
+* Análise de adequação ao contexto;
+* Análise de adequação ao público;
+* Identificação de oportunidades de melhoria;
+* Classificação de gravidade;
+* Aplicação consistente de rubrica;
+* Justificativa objetiva de decisões;
+* Documentação estruturada de resultados.
 
 ---
 
@@ -448,31 +524,34 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ### AI Response Evaluator
 
-- Avaliação comparativa de outputs de diferentes LLMs;
-- Aplicação de rubrica padronizada;
-- Identificação de diferenças de qualidade entre respostas;
-- Avaliação de factualidade e precisão;
-- Análise de clareza e completude;
-- Identificação de possíveis simplificações conceituais;
-- Identificação de possíveis alucinações;
-- Justificativa de decisões avaliativas;
-- Comparação quantitativa e qualitativa de outputs.
+* Avaliação comparativa de outputs de diferentes LLMs;
+* Aplicação de rubrica padronizada;
+* Identificação de diferenças de qualidade entre respostas;
+* Avaliação de factualidade e precisão;
+* Análise de clareza e completude;
+* Identificação de simplificações conceituais;
+* Identificação de possíveis alucinações;
+* Classificação da gravidade de pontos de atenção;
+* Justificativa de decisões avaliativas;
+* Comparação quantitativa e qualitativa de outputs.
 
 ### AI Trainer
 
-- Identificação de características desejáveis em respostas de IA;
-- Análise de adequação da resposta ao público-alvo;
-- Identificação de oportunidades de melhoria;
-- Avaliação da forma como conceitos técnicos são apresentados;
-- Análise de diferenças entre respostas de modelos distintos.
+* Identificação de características desejáveis em respostas de IA;
+* Análise de adequação da resposta ao público-alvo;
+* Identificação de oportunidades de melhoria;
+* Avaliação da forma como conceitos técnicos são apresentados;
+* Análise de diferenças entre respostas de modelos distintos;
+* Identificação de oportunidades para tornar respostas mais claras e objetivas.
 
 ### Data Annotator
 
-- Aplicação consistente de categorias;
-- Classificação estruturada de outputs;
-- Registro padronizado de decisões;
-- Comparação de atributos previamente definidos;
-- Documentação de resultados avaliativos.
+* Aplicação consistente de categorias;
+* Classificação estruturada de outputs;
+* Registro padronizado de decisões;
+* Comparação de atributos previamente definidos;
+* Documentação de resultados avaliativos;
+* Aplicação consistente de uma metodologia de classificação.
 
 ---
 
@@ -482,20 +561,29 @@ A atividade apresenta relação direta com práticas de **Quality Assurance (QA)
 
 A comparação entre diferentes outputs demonstra competências transferíveis como:
 
-- Aplicação de critérios previamente definidos;
-- Verificação de conformidade;
-- Identificação de diferenças entre outputs;
-- Análise baseada em evidências;
-- Registro estruturado de resultados;
-- Padronização do processo avaliativo;
-- Rastreabilidade das decisões;
-- Identificação de oportunidades de melhoria;
-- Controle de qualidade;
-- Tomada de decisão baseada em critérios.
+* Aplicação de critérios previamente definidos;
+* Verificação de conformidade;
+* Identificação de diferenças entre outputs;
+* Análise baseada em evidências;
+* Registro estruturado de resultados;
+* Padronização do processo avaliativo;
+* Rastreabilidade das decisões;
+* Identificação de oportunidades de melhoria;
+* Classificação de gravidade;
+* Controle de qualidade;
+* Tomada de decisão baseada em critérios.
 
-Em um processo de QA, não basta determinar que uma resposta é "melhor". É necessário identificar **por que** ela apresenta melhor desempenho, quais critérios sustentam essa conclusão e quais limitações permanecem.
+Em um processo de QA, não basta determinar que uma resposta é melhor.
 
-Neste exercício, a utilização da rubrica-base permite separar o resultado quantitativo da preferência qualitativa, aumentando a consistência e a rastreabilidade da avaliação.
+É necessário identificar:
+
+**qual é o desempenho observado → quais critérios foram atendidos → quais problemas foram identificados → qual é a gravidade → qual decisão deve ser registrada.**
+
+Neste exercício, a rubrica-base foi aplicada separadamente a cada resposta, permitindo manter a consistência da pontuação.
+
+A análise qualitativa foi utilizada apenas como complemento para registrar diferenças contextuais que não justificavam alteração dos critérios oficiais.
+
+Essa separação contribui para maior **consistência, rastreabilidade e reprodutibilidade** do processo avaliativo.
 
 ---
 
@@ -503,26 +591,41 @@ Neste exercício, a utilização da rubrica-base permite separar o resultado qua
 
 A comparação demonstrou que ambas as respostas apresentam desempenho elevado segundo a rubrica oficial do portfólio.
 
-A **Resposta A — Claude** e a **Resposta B — ChatGPT** receberam:
+A **Resposta A — Claude** recebeu:
+
+**12/12 — Excelente**
+
+A **Resposta B — ChatGPT** recebeu:
 
 **12/12 — Excelente**
 
 O resultado quantitativo, portanto, é de **empate**.
 
-Entretanto, considerando especificamente o contexto da pergunta — que solicitava uma resposta objetiva destinada a um leitor iniciante — a **Resposta B apresenta melhor adequação qualitativa**.
+As duas respostas atenderam satisfatoriamente aos seis critérios oficiais:
+
+* Factualidade;
+* Relevância;
+* Clareza;
+* Completude;
+* Segurança;
+* Alucinação.
+
+Entretanto, considerando especificamente o contexto da pergunta, que solicitava uma resposta objetiva destinada a um leitor iniciante, a **Resposta B apresenta maior adequação qualitativa contextual**.
 
 A Resposta A oferece maior detalhamento técnico e uma comparação mais estruturada, enquanto a Resposta B utiliza linguagem mais simples, apresenta um exemplo cotidiano e mantém maior objetividade.
 
-Assim, o resultado final deve ser registrado da seguinte forma:
+O resultado final deve, portanto, ser registrado em duas dimensões:
 
-| Classificação | Resposta | Modelo | Pontuação |
-|---|---|---|---:|
-| **Preferência qualitativa — 1º** | **Resposta B** | **ChatGPT** | **12/12** |
-| **Preferência qualitativa — 2º** | **Resposta A** | **Claude** | **12/12** |
+| Dimensão                               | Resultado                                        |
+| -------------------------------------- | ------------------------------------------------ |
+| **Avaliação quantitativa**             | Empate — 12/12 para ambas                        |
+| **Classificação quantitativa**         | Excelente para ambas                             |
+| **Análise qualitativa contextual**     | Resposta B apresenta maior adequação ao contexto |
+| **Preferência qualitativa contextual** | Resposta B — ChatGPT                             |
 
-**Observação:** a ordem acima representa uma **preferência qualitativa contextual**, e não uma diferença na pontuação da rubrica.
+A preferência qualitativa **não representa uma diferença na pontuação da rubrica** e não constitui um novo critério metodológico.
 
-Essa distinção preserva a consistência da metodologia e evita adicionar critérios não previstos na rubrica-base.
+Essa distinção preserva a consistência da metodologia definitiva do portfólio e evita alterar artificialmente a pontuação para produzir um vencedor quantitativo.
 
 ---
 
@@ -540,8 +643,8 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35](https://www.linkedin.com/in/nágyla-silva-215aba35)
+* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
