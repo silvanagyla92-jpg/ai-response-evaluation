@@ -12,15 +12,15 @@ A atividade demonstra a aplicação de uma metodologia estruturada de avaliaçã
 
 **Plataforma:** ChatGPT
 
-**Finalidade:** Utilização da plataforma para geração e análise de respostas durante o exercício prático de avaliação.
+**Finalidade:** Utilização da plataforma para geração da resposta analisada durante o exercício prático de avaliação.
 
 **Fonte da resposta:** Resposta gerada durante um exercício prático de avaliação.
 
-**Observação:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por outra empresa.
+**Observação:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 
-## 3. Pergunta do usuário
+## 3. Pergunta
 
 > Qual é a diferença entre Inteligência Artificial e Machine Learning?
 
@@ -34,7 +34,7 @@ A atividade demonstra a aplicação de uma metodologia estruturada de avaliaçã
 
 ## 5. Critérios de avaliação
 
-Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+A avaliação utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
 ### 5.1. Factualidade — 0 a 2
 
@@ -64,48 +64,50 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 ---
 
-## 6. Escala de pontuação dos critérios
+## 6. Escala de pontuação
 
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+
+A pontuação máxima possível é de **12 pontos**.
 
 ---
 
-## 7. Escala de Classificação da Rubrica de Avaliação
+## 7. Escala de classificação
 
-Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
+A classificação geral utilizada no projeto é:
 
-| **Pontuação total** | **Classificação** |
-| -------------------: | ----------------- |
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Necessita melhoria** |
-| **7–9 pontos** | **Parcialmente adequada** |
-| **10–12 pontos** | **Excelente** |
+| **Pontuação total** | **Classificação**         |
+| ------------------: | ------------------------- |
+|      **0–4 pontos** | **Inadequada**            |
+|      **5–8 pontos** | **Parcialmente adequada** |
+|     **9–10 pontos** | **Adequada**              |
+|    **11–12 pontos** | **Excelente**             |
 
-Essa escala é utilizada para interpretar o resultado obtido após a soma dos seis critérios.
+A classificação considera a pontuação total obtida nos seis critérios avaliados.
 
 ---
 
-## 8. Resultado da avaliação
+## 8. Resultado
 
-| **Critério** | **Pontuação** |
-| --- | ---: |
-| Factualidade | **2/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **2/2** |
-| **Pontuação total** | **12/12** |
+| **Critério**        | **Pontuação** |
+| ------------------- | ------------: |
+| Factualidade        |       **2/2** |
+| Relevância          |       **2/2** |
+| Clareza             |       **2/2** |
+| Completude          |       **2/2** |
+| Segurança           |       **2/2** |
+| Alucinação          |       **2/2** |
+| **Pontuação total** |     **12/12** |
 
 **Classificação: Excelente**
 
 ---
 
-## 9. Justificativa geral
+## 9. Justificativa
 
 A resposta apresenta uma distinção clara entre Inteligência Artificial e Machine Learning.
 
@@ -113,17 +115,19 @@ A explicação caracteriza Machine Learning como uma abordagem dentro da Intelig
 
 Para uma pergunta introdutória, as informações apresentadas são suficientes para que o leitor compreenda a diferença básica entre os conceitos, sem exigir aprofundamento além do solicitado.
 
+Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+
 ---
 
 ## 10. Pontos fortes
 
-- Diferencia diretamente Inteligência Artificial e Machine Learning.
-- Apresenta uma explicação objetiva e organizada.
-- Explica a relação entre os dois conceitos.
-- Utiliza linguagem adequada para uma explicação introdutória.
-- Responde diretamente à pergunta apresentada.
-- Evita informações desnecessárias para o objetivo da tarefa.
-- Não apresenta evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
+* Diferencia diretamente Inteligência Artificial e Machine Learning.
+* Apresenta uma explicação objetiva e organizada.
+* Explica a relação entre os dois conceitos.
+* Utiliza linguagem adequada para uma explicação introdutória.
+* Responde diretamente à pergunta apresentada.
+* Evita informações desnecessárias para o objetivo da tarefa.
+* Não apresenta evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
 
 ---
 
@@ -137,13 +141,15 @@ Essas limitações não comprometem a avaliação neste caso, pois a pergunta ap
 
 ---
 
-## 12. Análise detalhada por critério
+## 12. Análise detalhada
 
 ### Factualidade — 2/2
 
 A resposta apresenta uma distinção adequada e consistente com uma explicação introdutória dos conceitos analisados.
 
 A relação apresentada entre Inteligência Artificial e Machine Learning é adequada ao contexto da pergunta e não foram identificados problemas factuais evidentes no conteúdo avaliado.
+
+A formulação utilizada é uma simplificação introdutória, mas não compromete a precisão necessária para o nível da pergunta.
 
 ### Relevância — 2/2
 
@@ -155,72 +161,95 @@ Não foram identificadas informações desnecessárias que desviem do objetivo d
 
 A explicação utiliza linguagem objetiva e apresenta os conceitos de maneira compreensível.
 
-A relação entre os dois conceitos também é apresentada de forma lógica.
+A relação entre os dois conceitos também é apresentada de forma lógica, permitindo que um leitor iniciante compreenda a distinção básica.
 
 ### Completude — 2/2
 
 Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar a relação entre Inteligência Artificial e Machine Learning.
 
-A ausência de exemplos práticos ou de um aprofundamento técnico não compromete a completude neste contexto, pois não foram solicitados pelo usuário.
+A ausência de exemplos práticos ou de um aprofundamento técnico não compromete a completude neste contexto, pois esses elementos não foram solicitados pelo usuário.
 
 ### Segurança — 2/2
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
 
+A resposta apresenta conteúdo educacional e geral sobre Inteligência Artificial.
+
 ### Alucinação — 2/2
 
 Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
 
+Os conceitos apresentados são compatíveis com uma explicação introdutória sobre Inteligência Artificial e Machine Learning.
+
 ---
 
-## 13. Processo de avaliação
+## 13. Observação da avaliadora
 
-A resposta foi analisada individualmente em cada um dos seis critérios.
+A avaliação foi realizada considerando exclusivamente o conteúdo apresentado na resposta e sua aderência à pergunta original.
 
-Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclusivamente as características observadas no conteúdo avaliado.
+A análise considerou o nível de profundidade solicitado. Como a pergunta possui caráter introdutório e objetivo, a ausência de exemplos práticos ou de aprofundamento técnico não foi considerada uma falha de completude.
+
+A relação entre Inteligência Artificial e Machine Learning foi apresentada de forma simplificada para fins didáticos. Essa simplificação não foi considerada um erro relevante, pois atende adequadamente ao objetivo da pergunta.
+
+Cada critério foi analisado individualmente, evitando que uma característica positiva ou negativa em determinado aspecto determinasse automaticamente a pontuação dos demais.
+
+Esse procedimento busca manter a avaliação baseada em critérios objetivos, evidências observáveis e aplicação consistente da rubrica.
+
+---
+
+## 14. Processo
+
+A resposta foi analisada individualmente em cada um dos seis critérios definidos na metodologia do projeto.
+
+Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas no conteúdo avaliado.
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
 **2 + 2 + 2 + 2 + 2 + 2 = 12/12 pontos.**
 
-A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
+A classificação final foi determinada pela escala de classificação adotada no projeto:
+
+**11 a 12 pontos — Excelente.**
+
+O processo buscou manter a aplicação dos critérios de forma independente, permitindo diferenciar factualidade, relevância, clareza, completude, segurança e alucinação.
 
 ---
 
-## 14. Competências praticadas
+## 15. Competências praticadas
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-- Avaliação estruturada de respostas de IA;
-- Análise crítica de conteúdo;
-- Diferenciação entre conceitos relacionados à Inteligência Artificial;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de possíveis alucinações;
-- Justificativa baseada em evidências;
-- Documentação estruturada de resultados;
-- Quality Assessment.
+* Avaliação estruturada de respostas de IA;
+* Análise crítica de conteúdo;
+* Diferenciação entre conceitos relacionados à Inteligência Artificial;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Análise de segurança;
+* Identificação de possíveis alucinações;
+* Aplicação de rubrica de avaliação;
+* Justificativa baseada em evidências;
+* Documentação estruturada de resultados;
+* Quality Assessment.
 
 ---
 
-## 15. Competências demonstradas
+## 16. Competências demonstradas
 
 ### AI Response Evaluator
 
-- Aplicação de critérios estruturados para avaliação de respostas de IA;
-- Análise individual de diferentes dimensões de qualidade;
-- Identificação de possíveis problemas factuais e de relevância;
-- Justificativa das pontuações com base no conteúdo avaliado;
-- Aplicação consistente de uma rubrica de avaliação.
+* Aplicação de critérios estruturados para avaliação de respostas de IA;
+* Análise individual de diferentes dimensões de qualidade;
+* Identificação de possíveis problemas factuais e de relevância;
+* Justificativa das pontuações com base no conteúdo avaliado;
+* Aplicação consistente de uma rubrica de avaliação.
 
 ### AI Trainer
 
-- Análise da qualidade e adequação de respostas geradas por IA;
-- Avaliação da capacidade da resposta de atender ao objetivo apresentado pelo usuário;
-- Identificação de características que contribuem para respostas mais claras, relevantes e completas.
+* Análise da qualidade e adequação de respostas geradas por IA;
+* Avaliação da capacidade da resposta de atender ao objetivo apresentado pelo usuário;
+* Identificação de características que contribuem para respostas mais claras, relevantes e completas.
 
 ### Data Annotator
 
@@ -228,23 +257,25 @@ Esta avaliação apresenta competências relacionadas à análise e classificaç
 
 ---
 
-## 16. Relação com QA e Auditoria
+## 17. Relação com QA e Auditoria
 
 A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
 
 A utilização de uma rubrica padronizada demonstra competências transferíveis para processos de controle de qualidade, especialmente:
 
-- Aplicação consistente de critérios previamente definidos;
-- Análise baseada em evidências;
-- Padronização do processo de avaliação;
-- Registro estruturado das decisões;
-- Rastreabilidade das justificativas;
-- Identificação e documentação de possíveis problemas;
-- Consistência na aplicação de critérios de qualidade.
+* Aplicação consistente de critérios previamente definidos;
+* Análise baseada em evidências;
+* Padronização do processo de avaliação;
+* Registro estruturado das decisões;
+* Rastreabilidade das justificativas;
+* Identificação e documentação de possíveis problemas;
+* Consistência na aplicação de critérios de qualidade.
+
+A utilização de uma metodologia padronizada também contribui para a repetibilidade do processo de avaliação, permitindo aplicar os mesmos critérios a diferentes respostas.
 
 ---
 
-## 17. Conclusão
+## 18. Conclusão
 
 A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
 
@@ -252,27 +283,27 @@ Não foram identificados problemas relevantes de factualidade, relevância, clar
 
 Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
 
-A avaliação também demonstra a aplicação consistente de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
+A avaliação demonstra a aplicação consistente de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
 ---
 
-## 18. Natureza do projeto
+## 19. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
-As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação e melhoria de respostas de Inteligência Artificial.
+As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
 
 ---
 
-## 19. Contato
+## 20. Contato
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
-*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e Data Annotation.*
+*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e competências relacionadas à avaliação e qualidade de respostas de IA.*
