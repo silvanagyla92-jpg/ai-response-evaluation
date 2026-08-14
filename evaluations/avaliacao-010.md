@@ -1,4 +1,4 @@
-# Avaliação 010 — Detecção de premissa problemática e possível alucinação
+# Avaliação 010 — Avaliação Multicritério
 
 ## 1. Introdução
 
