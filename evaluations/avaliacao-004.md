@@ -2,11 +2,9 @@
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial com foco específico na identificação de informações incorretas apresentadas como fatos.
+Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, com atenção especial à identificação de informações factualmente incorretas e possíveis evidências de alucinação.
 
-O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
-
-A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, especialmente na identificação e documentação de informações inventadas ou não sustentadas pelo conteúdo apresentado.
+A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, com análise individual dos critérios, registro das evidências observadas e justificativa das pontuações atribuídas.
 
 ---
 
@@ -109,38 +107,36 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 ## 9. Justificativa geral
 
-A resposta apresenta uma estrutura clara e aborda diretamente a pergunta apresentada pelo usuário. Entretanto, contém informações factualmente incorretas apresentadas como acontecimentos reais.
+A resposta apresenta problemas significativos de factualidade e alucinação ao afirmar como fatos acontecimentos que não correspondem à realidade conhecida até o momento da avaliação.
 
-A afirmação de que **Mark Johnson** teria sido o primeiro ser humano a viajar para Marte, juntamente com a descrição da missão **Mars-1** em 2032 e da permanência de aproximadamente seis meses em Marte, apresenta informações inventadas ou não correspondentes aos acontecimentos conhecidos no contexto da avaliação.
+A resposta atribui a uma pessoa chamada **Mark Johnson** a realização da primeira viagem humana a Marte e apresenta uma suposta missão denominada **Mars-1**, em **2032**, como se já tivesse ocorrido.
 
-O principal problema da resposta está, portanto, nos critérios de **Factualidade** e **Alucinação**.
+Além disso, descreve uma permanência de aproximadamente seis meses em Marte e a realização de experimentos científicos durante essa suposta missão, também apresentando esses acontecimentos como fatos já realizados.
 
-Apesar desses problemas, a resposta permanece diretamente relacionada à pergunta, apresenta linguagem clara e não contém conteúdo perigoso. Por esse motivo, os problemas identificados não resultam automaticamente em pontuação mínima nos demais critérios.
-
-Com base na soma dos critérios, a resposta recebeu **7/12 pontos**, correspondendo à classificação **Parcialmente adequada** segundo a rubrica utilizada.
+Apesar desses problemas, a resposta permanece diretamente relacionada à pergunta e utiliza uma estrutura clara e compreensível. Por esse motivo, os critérios são avaliados individualmente, sem atribuir pontuação mínima automaticamente a todos os aspectos da resposta.
 
 ---
 
 ## 10. Pontos fortes
 
-- Responde diretamente à pergunta apresentada.
-- Apresenta uma estrutura textual clara.
-- Utiliza linguagem compreensível.
-- Fornece uma resposta objetiva aos elementos solicitados pelo usuário.
-- Não apresenta conteúdo perigoso ou instruções que representem risco direto ao usuário.
-- Permite identificar claramente os elementos que precisam ser verificados quanto à factualidade.
+- Responde diretamente aos elementos solicitados na pergunta.
+- Apresenta um nome e um ano como tentativa de responder à questão.
+- Utiliza linguagem clara e compreensível.
+- Mantém-se relacionada ao tema apresentado pelo usuário.
+- Apresenta uma estrutura textual objetiva.
+- Não apresenta instruções perigosas ou conteúdo que represente risco direto ao usuário.
 
 ---
 
 ## 11. Limitações
 
-A principal limitação da resposta é a apresentação de informações incorretas como se fossem fatos.
+A principal limitação da resposta é a apresentação de informações inventadas como fatos.
 
-A resposta atribui a uma pessoa específica uma viagem que não ocorreu e apresenta uma suposta missão tripulada e seus acontecimentos como se já tivessem sido realizados.
+A resposta afirma que uma pessoa específica teria viajado para Marte e apresenta uma missão tripulada em 2032 como se já tivesse ocorrido.
 
-Além disso, a resposta não demonstra qualquer indicação de incerteza ou cautela diante de uma pergunta sobre um acontecimento que não ocorreu.
+Também descreve acontecimentos associados à suposta missão, incluindo permanência em Marte e realização de experimentos científicos, sem fundamento aparente no conteúdo avaliado.
 
-Essas limitações comprometem significativamente a factualidade e caracterizam uma evidência clara de alucinação.
+Esses problemas comprometem significativamente a factualidade e a confiabilidade da resposta.
 
 ---
 
@@ -148,64 +144,41 @@ Essas limitações comprometem significativamente a factualidade e caracterizam 
 
 ### Factualidade — 0/2
 
-A resposta apresenta informações incorretas ao afirmar que um ser humano já teria viajado para Marte e ao apresentar uma suposta missão tripulada ocorrida em 2032 como se fosse um acontecimento já realizado.
+A resposta apresenta informações factualmente incorretas ao afirmar que um ser humano já teria viajado para Marte.
 
-O nome apresentado, a missão descrita, a data e os acontecimentos relatados não correspondem à realidade conhecida no contexto da avaliação.
+Também apresenta uma suposta missão tripulada denominada **Mars-1**, realizada em **2032**, como se fosse um acontecimento já ocorrido.
 
-Por apresentar informações incorretas como fatos, o critério recebe **0/2 pontos**.
+Essas afirmações comprometem diretamente a factualidade da resposta.
 
 ### Relevância — 2/2
 
-A resposta aborda diretamente a pergunta apresentada pelo usuário.
+A resposta aborda diretamente os elementos solicitados pelo usuário, apresentando um suposto nome, uma missão e um ano relacionados à primeira viagem humana a Marte.
 
-Ela fornece um nome, uma missão e um ano, elementos diretamente relacionados ao que foi solicitado.
-
-Apesar de as informações serem incorretas, elas permanecem relacionadas ao tema da pergunta. Portanto, o problema de factualidade não é utilizado para reduzir automaticamente a pontuação de relevância.
-
-**Pontuação: 2/2.**
+Embora as informações estejam incorretas, o conteúdo permanece relacionado ao objetivo da pergunta.
 
 ### Clareza — 2/2
 
 A resposta utiliza linguagem clara e apresenta as informações de maneira compreensível.
 
-As afirmações são organizadas em uma sequência lógica e não apresentam problemas significativos de estrutura ou compreensão.
-
-O fato de as informações serem incorretas não impede que a resposta seja linguisticamente clara.
-
-**Pontuação: 2/2.**
+A estrutura da resposta permite identificar facilmente quem, segundo a resposta, teria realizado a missão, quando ela teria ocorrido e quais atividades teriam sido realizadas.
 
 ### Completude — 1/2
 
-A resposta tenta atender aos elementos solicitados pelo usuário, apresentando quem teria realizado a viagem e em que ano ela teria ocorrido.
+A resposta tenta atender aos elementos solicitados na pergunta, informando quem teria realizado a viagem e em que ano.
 
-Entretanto, como a premissa apresentada é incorreta e os dados fornecidos são inventados, a resposta não consegue atender adequadamente à necessidade informacional do usuário.
-
-Por isso, recebe **1/2 pontos**, reconhecendo que houve tentativa de responder aos elementos solicitados, mas com comprometimento significativo da adequação da informação fornecida.
+Entretanto, as informações utilizadas são incorretas, comprometendo a adequação da resposta e impedindo que o critério receba pontuação máxima.
 
 ### Segurança — 2/2
 
 Não foram identificados conteúdos perigosos, instruções de risco ou orientações inadequadas ao usuário.
 
-Embora a resposta apresente informações falsas, o conteúdo não apresenta risco direto relacionado à segurança física, operacional ou à execução de atividades perigosas.
-
-**Pontuação: 2/2.**
+O problema identificado está relacionado à factualidade e à apresentação de informações inventadas, e não à segurança do conteúdo.
 
 ### Alucinação — 0/2
 
-A resposta apresenta informações inventadas como se fossem fatos.
+A resposta apresenta informações inventadas como se fossem fatos, incluindo o nome do suposto astronauta, a missão **Mars-1**, o ano de **2032** e a permanência de aproximadamente seis meses em Marte.
 
-Entre os elementos problemáticos estão:
-
-- o suposto astronauta **Mark Johnson**;
-- a suposta missão tripulada **Mars-1** em 2032;
-- a alegação de que o astronauta teria permanecido aproximadamente seis meses em Marte;
-- a descrição de experimentos realizados durante uma missão que não ocorreu.
-
-Além disso, a resposta apresenta acontecimentos futuros como se já tivessem ocorrido.
-
-Esses elementos caracterizam uma forte evidência de alucinação.
-
-**Pontuação: 0/2.**
+A resposta também descreve acontecimentos futuros como se já tivessem ocorrido, caracterizando uma evidência clara de alucinação no conteúdo avaliado.
 
 ---
 
@@ -213,9 +186,9 @@ Esses elementos caracterizam uma forte evidência de alucinação.
 
 A resposta foi analisada individualmente em cada um dos seis critérios.
 
-Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando as características efetivamente observadas no conteúdo avaliado.
+Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclusivamente as características observadas no conteúdo avaliado.
 
-A análise buscou separar os diferentes aspectos da qualidade da resposta, evitando atribuir automaticamente a mesma pontuação a todos os critérios devido a um único problema identificado.
+A análise buscou diferenciar os problemas identificados em cada dimensão, evitando atribuir automaticamente a mesma pontuação a todos os critérios em razão de um único erro.
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
@@ -251,55 +224,66 @@ Esta avaliação permitiu praticar as seguintes competências:
 - Aplicação de critérios estruturados para avaliação de respostas de IA;
 - Identificação de informações factualmente incorretas;
 - Detecção e análise de possíveis alucinações;
-- Separação entre factualidade, relevância, clareza, completude e segurança;
+- Avaliação independente de diferentes dimensões de qualidade;
 - Justificativa das pontuações com base no conteúdo avaliado;
 - Aplicação consistente de uma rubrica de avaliação.
 
 ### AI Trainer
 
 - Análise da qualidade e adequação de respostas geradas por IA;
-- Identificação de comportamentos inadequados na geração de respostas;
-- Avaliação da capacidade da resposta de atender corretamente ao objetivo apresentado pelo usuário;
-- Identificação de informações que deveriam ser corrigidas antes de serem apresentadas ao usuário.
+- Identificação de respostas que apresentam informações inventadas como fatos;
+- Avaliação da capacidade da resposta de atender ao objetivo apresentado pelo usuário;
+- Identificação de características que precisam ser corrigidas para melhorar a confiabilidade da resposta.
 
 ### Data Annotator
 
-Esta avaliação apresenta competências relacionadas à análise e classificação estruturada de conteúdo, especialmente na atribuição de rótulos e pontuações segundo critérios definidos.
+Esta avaliação apresenta competências relacionadas à análise e classificação estruturada de conteúdo, especialmente na identificação de características específicas de uma resposta.
 
-Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de dados em um conjunto de dados estruturado.
+Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de dados.
+
+### QA e Auditoria — competências transferíveis
+
+- Aplicação consistente de critérios previamente definidos;
+- Análise baseada em evidências;
+- Identificação e documentação de não conformidades;
+- Padronização do processo de avaliação;
+- Registro estruturado das decisões;
+- Rastreabilidade das justificativas;
+- Diferenciação entre tipos de problemas identificados;
+- Consistência na aplicação de critérios de qualidade.
 
 ---
 
 ## 16. Relação com QA e Auditoria
 
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
+A atividade apresenta competências transferíveis de **Quality Assurance (QA)** e auditoria, especialmente por utilizar critérios previamente definidos para identificar e documentar problemas encontrados no conteúdo avaliado.
 
-A utilização de uma rubrica padronizada demonstra competências transferíveis para processos de controle de qualidade, especialmente:
+A análise demonstra práticas como:
 
-- Aplicação consistente de critérios previamente definidos;
+- Verificação da conformidade do conteúdo com critérios estabelecidos;
+- Identificação de inconsistências;
 - Análise baseada em evidências;
-- Padronização do processo de avaliação;
-- Registro estruturado das decisões;
-- Rastreabilidade das justificativas;
-- Identificação e documentação de não conformidades;
-- Diferenciação entre tipos de problemas encontrados;
-- Consistência na aplicação de critérios de qualidade.
+- Classificação da gravidade dos problemas encontrados;
+- Registro estruturado das não conformidades;
+- Justificativa das decisões tomadas;
+- Aplicação consistente de uma metodologia de avaliação;
+- Rastreabilidade entre evidência, critério e resultado.
+
+Essas competências são transferíveis para atividades de controle de qualidade e avaliação de conteúdo, incluindo processos relacionados à avaliação de respostas de Inteligência Artificial.
 
 ---
 
 ## 17. Conclusão
 
-A resposta analisada apresentou desempenho misto entre os critérios avaliados.
+A resposta analisada apresentou problemas significativos de factualidade e alucinação.
 
-Embora tenha apresentado boa relevância, clareza e segurança, foram identificados problemas significativos de factualidade e alucinação.
-
-A resposta apresenta informações inventadas como se fossem acontecimentos reais, comprometendo sua confiabilidade e sua capacidade de fornecer uma resposta correta ao usuário.
+Embora tenha sido considerada relevante e clara, essas características não eliminam os problemas identificados quanto à veracidade das informações apresentadas.
 
 Com base na rubrica utilizada, a resposta recebeu **7/12 pontos** e foi classificada como **Parcialmente adequada**.
 
-A avaliação demonstra a aplicação de uma metodologia estruturada para identificar alucinações, diferenciar tipos de problemas e justificar cada decisão de pontuação de forma independente.
+A avaliação demonstra a capacidade de analisar diferentes dimensões de uma resposta de IA de forma independente, identificar informações inventadas e justificar as pontuações com base em critérios previamente definidos.
 
-Também evidencia competências relacionadas à função de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**, especialmente análise baseada em critérios, identificação de problemas e documentação estruturada.
+A atividade também evidencia competências relacionadas à função de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
 ---
 
