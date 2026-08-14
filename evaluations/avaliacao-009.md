@@ -1,4 +1,4 @@
-# Avaliação 009 — Comparação entre respostas sobre LLMs
+# Avaliação 009 — Comparação de Respostas sobre LLMs
 
 ## 1. Introdução
 
