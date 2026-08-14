@@ -1,4 +1,4 @@
-# Avaliação 004 — Detecção de Alucinação
+# Avaliação 004 — Primeiro Ser Humano em Marte
 
 ## 1. Introdução
 
