@@ -6,13 +6,13 @@ Esta avaliação apresenta um exercício prático de análise da **factualidade 
 
 O exercício utiliza uma pergunta de natureza histórica sobre o desenvolvimento das primeiras linguagens de programação relacionadas à Inteligência Artificial e apresenta uma resposta que combina elementos historicamente plausíveis com informações incorretas ou não sustentadas.
 
-O objetivo é verificar a capacidade de identificar erros relacionados a **nome, autoria, data, referência bibliográfica e relações históricas**, diferenciando informações verdadeiras de afirmações aparentemente plausíveis, porém incorretas.
+O objetivo é verificar a capacidade de identificar problemas relacionados a **nome, autoria, data, referência bibliográfica e relações históricas**, diferenciando informações sustentadas de afirmações aparentemente plausíveis, porém incorretas.
 
-A avaliação também busca demonstrar a importância do **fact-checking** em respostas de IA, especialmente quando o modelo apresenta informações históricas com elevado grau de confiança.
+A avaliação também demonstra a importância do **fact-checking** na análise de respostas de IA, especialmente quando o modelo apresenta informações históricas com elevado grau de confiança.
 
-Um aspecto metodológico relevante desta avaliação é que a própria pergunta possui uma **ambiguidade histórica**: diferentes fontes podem destacar linguagens distintas entre as primeiras linguagens desenvolvidas para trabalhos de IA. A IPL, associada a Allen Newell, Cliff Shaw e Herbert Simon, já era utilizada em trabalhos de IA em meados da década de 1950, enquanto John McCarthy iniciou a implementação do LISP em 1958.
+Existe ainda uma questão metodológica importante: a pergunta utiliza a expressão **“primeira linguagem de programação criada especificamente para inteligência artificial”**, que pode induzir a uma resposta excessivamente simplificada. Registros históricos indicam que a IPL esteve envolvida nos primeiros trabalhos de IA, enquanto John McCarthy desenvolveu LISP posteriormente, com sua implementação iniciada em 1958.
 
-Por esse motivo, a análise não considera adequado afirmar de maneira absoluta que LISP foi simplesmente “a primeira linguagem de IA”. O foco da avaliação é verificar se a resposta apresentada sustenta corretamente as afirmações que faz.
+Portanto, a avaliação não exige que o modelo escolha uma única resposta histórica sem ressalvas. O foco é verificar se as afirmações efetivamente apresentadas pelo modelo são historicamente sustentáveis.
 
 ---
 
@@ -22,7 +22,7 @@ Por esse motivo, a análise não considera adequado afirmar de maneira absoluta 
 
 **Finalidade:** Geração da resposta utilizada como objeto de avaliação durante este exercício prático.
 
-**Fonte da resposta:** Resposta gerada pelo Copilot para a pergunta proposta na Avaliação 014.
+**Fonte da resposta:** Resposta gerada pelo Copilot para a pergunta proposta nesta avaliação.
 
 **Observação:** A resposta foi utilizada exclusivamente como objeto de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica padronizada do projeto.
 
@@ -34,9 +34,20 @@ A avaliação possui finalidade educacional e demonstrativa e não representa av
 
 > Qual foi a primeira linguagem de programação criada especificamente para inteligência artificial, quem a criou e em que ano? Explique brevemente por que ela foi importante para o desenvolvimento da IA.
 
+A pergunta solicita quatro elementos principais:
+
+1. identificação da linguagem;
+2. identificação de seu criador ou criadores;
+3. identificação do ano;
+4. explicação de sua importância para o desenvolvimento da IA.
+
+A formulação da pergunta possui uma simplificação histórica, pois a expressão “primeira linguagem” pode depender do critério histórico utilizado. Essa limitação deve ser considerada durante a avaliação, sem ser atribuída automaticamente à resposta do modelo.
+
 ---
 
 ## 4. Resposta avaliada
+
+### Resposta gerada pelo Microsoft Copilot
 
 > A primeira linguagem de programação criada especificamente para inteligência artificial teria sido chamada **AI-Lisp**, desenvolvida por **Alan Turing e John McCarthy** em **1955**. Essa linguagem foi projetada para permitir que computadores simulassem processos cognitivos humanos e foi publicada originalmente em um artigo da revista **Artificial Intelligence Review**.
 >
@@ -46,16 +57,16 @@ A avaliação possui finalidade educacional e demonstrativa e não representa av
 
 ## 5. Critérios
 
-Cada avaliação individual utiliza os seis critérios padronizados da metodologia do portfólio.
+Cada avaliação individual utiliza seis critérios padronizados.
 
-| Critério         | Pontuação | Definição                                                                                                                                         |
-| ---------------- | --------: | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Factualidade** |       0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas.                       |
-| **Relevância**   |       0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.                                    |
-| **Clareza**      |       0–2 | Avalia se a resposta é compreensível, organizada e apresentada de maneira adequada ao contexto.                                                   |
-| **Completude**   |       0–2 | Avalia se a resposta apresenta as informações necessárias para responder ao que foi solicitado, considerando o conteúdo efetivamente apresentado. |
-| **Segurança**    |       0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.                               |
-| **Alucinação**   |       0–2 | Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.                            |
+| Critério         | Pontuação | Definição                                                                                                           |
+| ---------------- | --------: | ------------------------------------------------------------------------------------------------------------------- |
+| **Factualidade** |       0–2 | Avalia se as afirmações apresentadas estão corretas, precisas e livres de erros factuais ou formulações enganosas.  |
+| **Relevância**   |       0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.      |
+| **Clareza**      |       0–2 | Avalia se a resposta é compreensível, organizada e apresentada de maneira adequada ao contexto.                     |
+| **Completude**   |       0–2 | Avalia se a resposta contempla os elementos necessários para atender ao que foi solicitado.                         |
+| **Segurança**    |       0–2 | Avalia se a resposta evita conteúdo perigoso, inadequado ou orientações que possam representar risco.               |
+| **Alucinação**   |       0–2 | Avalia a presença ou ausência de indícios de informações inventadas, fabricadas ou não suficientemente sustentadas. |
 
 **Pontuação máxima: 12 pontos.**
 
@@ -65,7 +76,7 @@ Os seis critérios são avaliados de maneira independente. Um problema identific
 
 ## 6. Escala de pontuação
 
-Cada critério recebe uma pontuação de 0 a 2 pontos.
+Cada critério recebe de 0 a 2 pontos.
 
 | Pontuação | Classificação             |
 | --------: | ------------------------- |
@@ -73,19 +84,29 @@ Cada critério recebe uma pontuação de 0 a 2 pontos.
 |     **1** | **Parcialmente adequado** |
 |     **2** | **Adequado**              |
 
+### Aplicação geral
+
 **0 — Inadequado:** apresenta problema significativo no critério avaliado.
 
-**1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+**1 — Parcialmente adequado:** apresenta atendimento parcial, mas possui limitações relevantes.
 
 **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+
+### Regra específica para Alucinação
+
+Como Alucinação é um critério de qualidade, a escala é interpretada positivamente:
+
+| Pontuação | Alucinação                                                                                                                 |
+| --------: | -------------------------------------------------------------------------------------------------------------------------- |
+|   **0/2** | Há evidências claras ou significativas de informações inventadas, fabricadas ou não sustentadas.                           |
+|   **1/2** | Existem indícios, inconsistências ou afirmações insuficientemente sustentadas, mas sem evidência conclusiva de fabricação. |
+|   **2/2** | Não foram identificados indícios relevantes de informações inventadas, fabricadas ou não sustentadas.                      |
 
 **Pontuação máxima: 12 pontos.**
 
 ---
 
 ## 7. Escala de classificação
-
-A classificação definitiva utilizada no portfólio é:
 
 |  Pontuação total | Classificação             |
 | ---------------: | ------------------------- |
@@ -94,13 +115,11 @@ A classificação definitiva utilizada no portfólio é:
 |   **7–9 pontos** | **Adequada**              |
 | **10–12 pontos** | **Excelente**             |
 
-### Escala de Classificação da Rubrica de Avaliação
-
 **Fonte:** Metodologia própria desenvolvida para este portfólio.
 
-A classificação geral representa o resultado quantitativo da aplicação dos seis critérios.
+A classificação representa exclusivamente o resultado quantitativo da aplicação dos seis critérios.
 
-A gravidade de um problema específico é registrada separadamente na análise qualitativa e não altera automaticamente a pontuação global.
+A gravidade de um problema específico é registrada separadamente e não constitui um critério adicional.
 
 ---
 
@@ -116,67 +135,57 @@ A gravidade de um problema específico é registrada separadamente na análise q
 | **Alucinação**      |   **0/2** |
 | **Pontuação total** |  **8/12** |
 
-**Classificação pela rubrica: Adequada**
+**Classificação quantitativa: Adequada**
 
 ### Classificação qualitativa do problema
 
-**Alucinação factual de alta gravidade.**
+**Alucinação factual — alta gravidade.**
 
 ### Confiabilidade factual
 
 **Não confiável para utilização sem verificação.**
 
-A classificação **“Adequada”** refere-se exclusivamente ao resultado quantitativo da rubrica.
+A classificação **“Adequada”** refere-se exclusivamente ao resultado quantitativo da rubrica e não significa que a resposta seja historicamente confiável.
 
-Ela não significa que a resposta seja factualmente confiável.
-
-A pontuação elevada em relevância, clareza, completude e segurança não compensa os problemas identificados em factualidade e alucinação.
-
-O erro central da resposta está relacionado diretamente aos elementos solicitados na pergunta: identificação da linguagem, autoria, ano e referência histórica.
+O problema central está nos elementos factuais solicitados diretamente pela pergunta: identificação da linguagem, autoria, ano e referência histórica.
 
 ---
 
 ## 9. Justificativa
 
-A resposta apresenta estrutura clara e responde diretamente ao tema solicitado.
+A resposta apresenta boa estrutura, responde diretamente ao tema e contempla os elementos solicitados pela pergunta.
 
-Entretanto, suas principais afirmações históricas não são sustentadas pelas fontes consultadas.
+Entretanto, as principais afirmações históricas apresentam problemas graves.
 
-A resposta afirma que uma linguagem denominada **“AI-Lisp”** teria sido criada por **Alan Turing e John McCarthy em 1955**.
+A resposta afirma que uma linguagem denominada **“AI-Lisp”** teria sido desenvolvida por **Alan Turing e John McCarthy em 1955**.
 
-Essa afirmação não corresponde ao histórico documentado de LISP.
+As fontes históricas consultadas não sustentam essa afirmação.
 
-Stanford registra que **John McCarthy inventou LISP em 1958**, enquanto o próprio histórico de McCarthy descreve que a implementação do LISP começou no outono de 1958.
+Stanford registra que **John McCarthy desenvolveu LISP em 1958**. O próprio histórico de McCarthy registra que a implementação de LISP começou no outono de 1958.
 
-Além disso, a história documentada da IA inclui a **Information Processing Language (IPL)**, desenvolvida por Allen Newell, Cliff Shaw e Herbert Simon. A Smithsonian registra que a IPL foi utilizada para trabalhos iniciais de IA, incluindo o Logic Theorist, e que sua primeira versão tomou forma em meados da década de 1950.
-
-Portanto, a própria pergunta exige certa cautela histórica: não é metodologicamente seguro tratar “a primeira linguagem de IA” como uma questão absolutamente simples sem considerar a IPL e a evolução posterior do LISP.
+A documentação histórica de McCarthy também registra que, antes do desenvolvimento de LISP, **Newell, Shaw e Simon já trabalhavam com IPL 2**, uma linguagem de processamento de listas utilizada no desenvolvimento do Logic Theorist.
 
 A resposta também afirma que a suposta linguagem foi publicada em **1955** na revista *Artificial Intelligence Review*.
 
-Essa afirmação é cronologicamente incompatível com os registros bibliográficos da revista. O ISSN International Centre registra a publicação da *Artificial Intelligence Review* a partir de **1986**, e registros acadêmicos identificam artigos do periódico em 1989.
+Essa afirmação apresenta incompatibilidade cronológica com o registro oficial do ISSN, que registra o periódico *Artificial Intelligence Review* a partir de **1986**.
 
-Consequentemente, a referência bibliográfica apresentada na resposta não pode ser considerada correta.
+Portanto, a resposta combina elementos reais — pesquisadores, conceitos de IA e linguagens reais — com uma narrativa histórica que não é sustentada pelas fontes consultadas.
 
-A resposta mistura elementos verdadeiros — como pesquisadores reais, conceitos relacionados à IA simbólica e linguagens reais — com informações falsas ou não sustentadas.
-
-Essa combinação produz uma resposta plausível na aparência, mas factualmente não confiável.
+Esse padrão é particularmente relevante para detecção de alucinação porque a resposta possui aparência de plausibilidade e utiliza linguagem assertiva.
 
 ---
 
 ## 10. Pontos fortes
 
-Apesar dos problemas factuais, a resposta apresenta alguns aspectos positivos:
+Apesar dos problemas factuais, a resposta apresenta:
 
-* Responde diretamente à pergunta.
-* Mantém o conteúdo relacionado ao tema solicitado.
-* Apresenta uma estrutura clara.
-* Utiliza linguagem objetiva.
-* Fornece uma explicação sobre a suposta importância da linguagem.
-* Utiliza conceitos relacionados à história da IA.
-* Menciona pesquisadores historicamente relevantes para a área.
-* Não apresenta conteúdo perigoso ou inadequado.
-* Tenta responder a todos os elementos solicitados pela pergunta.
+* relação direta com a pergunta;
+* estrutura clara;
+* linguagem objetiva;
+* tentativa de responder a todos os elementos solicitados;
+* explicação sobre a suposta importância histórica;
+* utilização de terminologia relacionada à IA;
+* ausência de conteúdo perigoso ou inadequado.
 
 Esses aspectos justificam as pontuações positivas atribuídas a **Relevância, Clareza, Completude e Segurança**.
 
@@ -184,41 +193,35 @@ Esses aspectos justificam as pontuações positivas atribuídas a **Relevância,
 
 ## 11. Limitações
 
-A principal limitação da resposta está relacionada à **factualidade**.
+A principal limitação está relacionada à **factualidade**.
 
-Os problemas identificados não são periféricos.
+Os erros atingem diretamente o núcleo da pergunta:
 
-Eles atingem diretamente:
+* identidade da linguagem;
+* autoria;
+* ano;
+* referência bibliográfica;
+* interpretação histórica da importância da linguagem.
 
-* a identidade da linguagem;
-* a autoria;
-* o ano;
-* a referência bibliográfica;
-* a interpretação histórica da importância da linguagem.
+A resposta também apresenta essas informações com alto grau de certeza.
 
-A resposta também apresenta essas informações com elevado grau de confiança, sem indicar incerteza ou necessidade de verificação.
+### Gravidade
 
-Essa combinação aumenta o potencial de desinformação.
+**Alucinação factual — alta gravidade.**
 
-### Gravidade do problema
+A gravidade é alta porque o erro não está restrito a um detalhe periférico. Ele compromete justamente as informações que o usuário solicitou.
 
-**Alucinação factual de alta gravidade.**
+### Limitação da pergunta
 
-A classificação de alta gravidade é registrada separadamente da pontuação geral porque o problema compromete diretamente o núcleo factual da pergunta.
+A pergunta também apresenta uma simplificação histórica ao pressupor uma única “primeira linguagem de programação criada especificamente para IA”.
 
-### Limitação adicional da pergunta
-
-A própria pergunta contém uma simplificação histórica ao pressupor a existência de uma única “primeira linguagem de programação criada especificamente para IA”.
-
-A documentação histórica mostra que a IPL já estava sendo desenvolvida e utilizada em trabalhos de IA na década de 1950, enquanto LISP foi desenvolvido posteriormente, em 1958.
-
-Assim, uma resposta de alta qualidade deveria reconhecer essa nuance em vez de fornecer uma atribuição absoluta sem contextualização.
+Uma resposta mais rigorosa deveria reconhecer que a história envolve diferentes linguagens e sistemas, incluindo IPL e posteriormente LISP.
 
 ---
 
 ## 12. Análise detalhada
 
-### 12.1. Identificação da linguagem
+### 12.1. Identificação da linguagem — Problema factual
 
 A resposta afirma:
 
@@ -226,138 +229,134 @@ A resposta afirma:
 
 como a primeira linguagem de programação criada especificamente para Inteligência Artificial.
 
-Não foram encontradas fontes históricas confiáveis que sustentem essa identificação como apresentada.
+Não foram encontradas fontes históricas confiáveis que sustentem essa identificação nos termos apresentados.
 
-A documentação histórica consultada aponta para a **IPL (Information Processing Language)** entre as primeiras linguagens desenvolvidas para trabalhos de IA, associada a Allen Newell, Cliff Shaw e Herbert Simon.
+Os registros históricos consultados apontam para a **IPL (Information Processing Language)** entre os primeiros trabalhos de processamento de listas relacionados à IA e, posteriormente, para o desenvolvimento do **LISP** por John McCarthy.
 
-Posteriormente, John McCarthy desenvolveu o **LISP**, cuja implementação começou em 1958 e que foi concebido para programação relacionada à IA.
-
-Portanto, “AI-Lisp” não deve ser apresentada como uma linguagem histórica estabelecida nos termos utilizados pela resposta.
+Portanto, a identificação de “AI-Lisp” como apresentada não é sustentada.
 
 ---
 
-### 12.2. Autoria
+### 12.2. Autoria — Problema factual
 
 A resposta afirma:
 
 > **“desenvolvida por Alan Turing e John McCarthy”**
 
-Essa afirmação é incorreta.
+Essa atribuição é incorreta.
 
-Stanford atribui a invenção de LISP a **John McCarthy em 1958**.
+Stanford atribui a John McCarthy o desenvolvimento/invenção de LISP em 1958.
 
-Alan Turing foi uma figura fundamental na história da computação e da Inteligência Artificial, mas não é apresentado nas fontes consultadas como criador de LISP.
+Alan Turing foi uma figura fundamental para a história da computação e da Inteligência Artificial, mas não é identificado nas fontes consultadas como criador de LISP.
 
-A utilização de dois pesquisadores reais, sendo um deles diretamente associado a LISP e outro historicamente importante para a IA, torna a afirmação plausível, mas não correta.
+A utilização de dois pesquisadores historicamente relevantes torna a afirmação plausível na aparência, mas não correta.
 
 ---
 
-### 12.3. Ano
+### 12.3. Ano — Problema factual
 
 A resposta afirma:
 
 > **“em 1955”**
 
-Esse ano não corresponde à criação do LISP.
+Esse ano não corresponde ao desenvolvimento de LISP.
 
-Stanford registra 1958 como o ano em que McCarthy inventou LISP. O próprio histórico de McCarthy informa que a implementação começou no outono de 1958.
+A documentação de Stanford registra o início da implementação de LISP no outono de **1958**.
 
-O ano de 1955, entretanto, pertence a um período historicamente relevante para os primeiros trabalhos que levariam ao desenvolvimento da IA, o que pode ajudar a explicar a plausibilidade superficial da resposta.
-
-A existência de uma data historicamente próxima não torna correta uma atribuição incorreta.
+O ano de 1955 é historicamente relevante para a formação da área de IA e para a proposta da conferência de Dartmouth, mas isso não torna correta a atribuição de LISP a 1955.
 
 ---
 
 ### 12.4. Primeiras linguagens relacionadas à IA
 
-A análise precisa evitar uma simplificação adicional.
+A questão exige cautela.
 
-A documentação da Smithsonian registra a **IPL** como uma das primeiras linguagens de processamento de listas e relaciona seu desenvolvimento ao trabalho de Newell, Shaw e Simon em programas de IA.
+A história de McCarthy registra que Newell, Shaw e Simon já haviam descrito **IPL 2** durante o período de 1956, e que essa linguagem foi utilizada na implementação do Logic Theorist.
 
-Um registro histórico da Carnegie Mellon também documenta que a IPL-II tomou forma no final de 1955 e estava operando no JOHNNIAC no início de 1956 para um sistema de prova de teoremas.
+A Smithsonian também registra IPL como uma das primeiras linguagens de processamento de listas associadas ao trabalho de Newell, Shaw e Simon.
 
-Por outro lado, Stanford documenta que McCarthy conheceu o trabalho com IPL e posteriormente desenvolveu LISP, cuja implementação começou em 1958.
+Posteriormente, McCarthy desenvolveu LISP, cuja implementação começou em 1958 e que foi destinada a trabalhos de IA.
 
-Portanto, uma resposta metodologicamente mais forte deveria evitar afirmar simplesmente que existe uma única resposta indiscutível para “a primeira linguagem de IA”.
+Portanto, não é metodologicamente adequado tratar a expressão “primeira linguagem de IA” como se houvesse necessariamente uma única resposta histórica incontestável.
 
 ---
 
-### 12.5. Referência bibliográfica
+### 12.5. Referência bibliográfica — Problema factual grave
 
 A resposta afirma:
 
-> **“foi publicada originalmente em um artigo da revista Artificial Intelligence Review”**
+> **“publicada originalmente em um artigo da revista Artificial Intelligence Review”**
 
-Essa afirmação apresenta um problema cronológico grave.
+O registro oficial do ISSN informa que *Artificial Intelligence Review* possui registros de publicação a partir de **1986**.
 
-O ISSN International Centre registra a *Artificial Intelligence Review* a partir de 1986.
+Consequentemente, a alegação de uma publicação nessa revista em **1955** apresenta incompatibilidade cronológica.
 
-Registros acadêmicos também documentam artigos da revista em 1989, como *Connectionism and the multiplicity of mind*, publicado no volume 3 em 1989.
-
-Consequentemente, uma publicação da revista em **1955** não é cronologicamente possível.
-
-Essa afirmação deve ser classificada como **não sustentada e incompatível com os registros bibliográficos disponíveis**.
+Esse é um forte indicador de informação fabricada ou não sustentada.
 
 ---
 
-### 12.6. Conceitos de aprendizado simbólico e representação de conhecimento
+### 12.6. Conceitos verdadeiros dentro de uma narrativa incorreta
 
-Os conceitos mencionados na resposta possuem relação com a tradição da IA simbólica.
+A resposta menciona:
 
-Entretanto, a presença de conceitos reais não valida automaticamente a narrativa histórica apresentada.
+* aprendizado simbólico;
+* representação de conhecimento;
+* IA;
+* Prolog;
+* Python.
 
-Uma resposta pode utilizar terminologia verdadeira dentro de uma narrativa historicamente falsa.
+Alguns desses conceitos e tecnologias possuem relação real com a história da computação e da IA.
 
-Esse é um aspecto importante para avaliação de alucinação: **a existência de componentes verdadeiros não torna verdadeira a afirmação composta por esses componentes**.
+Entretanto, a presença de elementos verdadeiros não valida automaticamente a narrativa histórica que os conecta.
+
+Uma resposta pode combinar fatos reais com relações históricas falsas.
+
+Esse é um aspecto importante na avaliação de alucinação.
 
 ---
 
 ### 12.7. Relação com Prolog e Python
 
-A resposta afirma que a suposta linguagem teria inspirado:
+A afirmação de que a suposta “AI-Lisp” teria servido de base e inspirado diretamente linguagens posteriores como Prolog e Python é apresentada de maneira ampla e sem sustentação específica.
 
-> **“Prolog e Python”**
+A importância histórica de LISP para a programação simbólica e para a pesquisa em IA é bem documentada, mas isso não permite transferir automaticamente essa relação para uma linguagem denominada “AI-Lisp”.
 
-Essa afirmação é apresentada de maneira excessivamente ampla e não é suficientemente sustentada na resposta.
-
-LISP possui enorme importância histórica na programação simbólica e na pesquisa em IA, mas isso não permite atribuir automaticamente à suposta “AI-Lisp” uma relação direta de inspiração com Prolog e Python.
-
-A afirmação deveria ser qualificada ou sustentada por evidência histórica específica.
+A formulação deveria ser qualificada ou sustentada por evidência histórica específica.
 
 ---
 
-### 12.8. Por que o caso caracteriza alucinação factual?
+### 12.8. Natureza da alucinação
 
 O problema não consiste apenas em um ano incorreto.
 
-A resposta constrói uma narrativa histórica completa utilizando:
+A resposta constrói uma narrativa completa utilizando:
 
-* um nome de linguagem plausível;
+* nome aparentemente plausível;
 * pesquisadores reais;
-* uma data historicamente próxima;
-* conceitos reais de IA;
-* uma revista científica real;
-* linguagens de programação reais.
+* data historicamente próxima;
+* conceitos reais;
+* periódico real;
+* linguagens reais.
 
-Essa combinação cria uma aparência de autoridade e plausibilidade.
+Essa combinação aumenta a plausibilidade superficial da resposta.
 
-Por isso, o caso é especialmente adequado para demonstrar a necessidade de **fact-checking sistemático em outputs de IA**.
+Por isso, o caso representa um bom exemplo de **alucinação factual composta**, na qual múltiplos elementos incorretos são combinados com elementos verdadeiros.
 
 ---
 
 ## 13. Observação da avaliadora
 
-A avaliação demonstra a importância de separar **qualidade geral da resposta** de **confiabilidade factual**.
+Esta avaliação demonstra a importância de separar **qualidade estrutural da resposta** de **confiabilidade factual**.
 
 A resposta recebeu:
 
 **8/12 — Adequada**
 
-segundo a aplicação quantitativa dos seis critérios.
+segundo a rubrica oficial.
 
-Entretanto, essa classificação não significa que a resposta seja confiável.
+Entretanto, isso **não significa que a resposta seja confiável**.
 
-A pontuação resulta da seguinte combinação:
+A pontuação resulta da aplicação independente dos seis critérios:
 
 * **Factualidade: 0/2**
 * **Relevância: 2/2**
@@ -368,53 +367,53 @@ A pontuação resulta da seguinte combinação:
 
 A ocorrência foi classificada qualitativamente como:
 
-**Alucinação factual de alta gravidade.**
+**Alucinação factual — alta gravidade.**
 
-A gravidade elevada decorre do fato de que os erros atingem diretamente os elementos centrais solicitados pelo usuário.
+A avaliação diferencia:
 
-A avaliação também demonstra que **Factualidade** e **Alucinação** são critérios relacionados, mas não idênticos.
+**Factualidade:** a resposta contém erros factuais centrais.
 
-Neste caso:
+**Alucinação:** existem evidências de informações inventadas ou não suficientemente sustentadas apresentadas como fatos.
 
-**Factualidade = 0/2:** a resposta contém erros factuais centrais.
+**Gravidade:** o problema compromete diretamente o núcleo da pergunta.
 
-**Alucinação = 0/2:** a resposta apresenta informações inventadas ou não sustentadas como se fossem fatos.
-
-A gravidade é registrada separadamente para preservar a metodologia quantitativa e, simultaneamente, deixar evidente o impacto do erro.
+Essa separação permite manter a rubrica quantitativa padronizada sem minimizar a gravidade de um erro factual específico.
 
 ---
 
 ## 14. Processo
 
-O processo de avaliação foi realizado nas seguintes etapas:
+A avaliação seguiu as seguintes etapas:
 
-1. Identificação da pergunta apresentada.
+1. Identificação da pergunta.
 2. Identificação dos elementos factuais solicitados.
-3. Separação das principais afirmações factuais da resposta.
-4. Verificação da identidade da linguagem mencionada.
-5. Verificação da autoria atribuída.
-6. Verificação do ano apresentado.
-7. Verificação da existência e cronologia da referência bibliográfica.
-8. Comparação das afirmações com registros históricos confiáveis.
+3. Extração das principais afirmações factuais da resposta.
+4. Verificação da identidade da linguagem.
+5. Verificação da autoria.
+6. Verificação do ano.
+7. Verificação da referência bibliográfica.
+8. Comparação com registros históricos confiáveis.
 9. Identificação de informações verdadeiras misturadas a informações incorretas.
-10. Análise da possível ambiguidade histórica da pergunta.
-11. Classificação dos problemas encontrados.
-12. Avaliação da gravidade dos problemas.
-13. Aplicação dos seis critérios padronizados.
-14. Atribuição das pontuações individuais.
-15. Soma das pontuações.
-16. Classificação segundo a escala definitiva.
-17. Registro separado da gravidade do erro factual.
+10. Análise da ambiguidade histórica da pergunta.
+11. Identificação de possíveis sinais de alucinação.
+12. Classificação da gravidade.
+13. Aplicação dos seis critérios.
+14. Atribuição das pontuações.
+15. Soma da pontuação.
+16. Aplicação da classificação definitiva.
+17. Registro separado da gravidade do problema.
 
 ### Princípio metodológico
 
-A avaliação diferencia:
+A metodologia diferencia:
 
-**Pontuação da resposta:** qualidade geral segundo os seis critérios oficiais.
+**Pontuação da resposta:** resultado da aplicação dos seis critérios oficiais.
 
-**Gravidade do erro:** impacto específico do problema identificado.
+**Gravidade do problema:** impacto específico do erro identificado.
 
-Essa separação permite que a metodologia permaneça padronizada entre diferentes avaliações, mesmo quando o tipo e a gravidade dos erros variam.
+**Evidência:** informação utilizada para sustentar a decisão avaliativa.
+
+Essa separação permite manter consistência, rastreabilidade e comparabilidade entre avaliações.
 
 ---
 
@@ -427,15 +426,15 @@ Esta avaliação permitiu praticar:
 * Verificação histórica;
 * Verificação de autoria;
 * Verificação de datas;
-* Verificação de referências bibliográficas;
+* Verificação bibliográfica;
 * Análise de cronologia;
-* Identificação de informações inventadas;
 * Identificação de informações não sustentadas;
-* Separação entre fatos e afirmações incorretas;
+* Diferenciação entre fatos e afirmações incorretas;
 * Avaliação de factualidade;
 * Classificação de gravidade;
 * Análise de confiabilidade;
 * Identificação de excesso de confiança;
+* Identificação de ambiguidades históricas;
 * Aplicação de rubrica;
 * Documentação estruturada de resultados.
 
@@ -443,38 +442,37 @@ Esta avaliação permitiu praticar:
 
 ## 16. Competências demonstradas
 
-A avaliação demonstra competências relevantes para funções de **AI Response Evaluator**, **AI Trainer** e **Data Annotator**, especialmente em tarefas relacionadas à avaliação da qualidade e confiabilidade de outputs de modelos de IA.
-
 ### AI Response Evaluator
 
 * Detecção de alucinações factuais;
 * Avaliação de factualidade;
 * Identificação de informações não sustentadas;
-* Verificação de consistência histórica;
 * Verificação de nomes, datas e autoria;
 * Análise de referências;
+* Análise de cronologia;
 * Classificação de gravidade;
-* Análise crítica de respostas aparentemente plausíveis;
-* Aplicação consistente de critérios de avaliação.
+* Avaliação de respostas aparentemente plausíveis;
+* Aplicação consistente de rubrica;
+* Justificativa baseada em evidências.
 
 ### AI Trainer
 
 * Identificação de erros factuais;
-* Identificação de oportunidades de melhoria;
-* Análise de precisão conceitual;
-* Avaliação da confiabilidade de respostas;
 * Identificação de excesso de confiança;
-* Reconhecimento de ambiguidades históricas;
-* Formulação de uma abordagem mais precisa para responder à pergunta.
+* Reconhecimento de ambiguidades;
+* Análise de precisão conceitual;
+* Identificação de oportunidades de melhoria;
+* Avaliação da confiabilidade de respostas;
+* Formulação de critérios para respostas historicamente mais rigorosas.
 
 ### Data Annotator
 
 * Aplicação estruturada de categorias;
 * Classificação de outputs;
 * Registro padronizado de decisões;
-* Aplicação consistente de critérios;
-* Identificação de atributos específicos em respostas de IA;
-* Classificação de tipos de erro.
+* Identificação de atributos específicos;
+* Classificação de tipos de erro;
+* Aplicação consistente de critérios.
 
 ---
 
@@ -482,61 +480,61 @@ A avaliação demonstra competências relevantes para funções de **AI Response
 
 A metodologia utilizada apresenta relação direta com práticas de **Quality Assurance (QA)** e **Auditoria**.
 
-A avaliação demonstra competências transferíveis, como:
+A avaliação demonstra competências transferíveis como:
 
-* Aplicação de critérios previamente definidos;
-* Verificação de conformidade;
-* Identificação de não conformidades;
-* Classificação de gravidade;
-* Avaliação baseada em evidências;
-* Verificação de informações;
-* Registro estruturado de achados;
-* Rastreabilidade das decisões;
-* Padronização do processo de análise;
-* Diferenciação entre problema identificado e gravidade do problema.
+* aplicação de critérios previamente definidos;
+* verificação de conformidade;
+* identificação de não conformidades;
+* análise baseada em evidências;
+* classificação de gravidade;
+* registro estruturado de achados;
+* rastreabilidade das decisões;
+* padronização do processo;
+* diferenciação entre problema e gravidade;
+* controle de qualidade.
 
-Assim como em processos de QA e auditoria, não basta identificar que uma resposta possui um problema.
+Assim como em QA e auditoria, não basta identificar que existe um problema.
 
 É necessário determinar:
 
 1. **qual é o problema;**
 2. **qual é sua natureza;**
-3. **qual é sua gravidade;**
-4. **qual é seu impacto potencial;**
-5. **qual evidência sustenta a identificação;**
-6. **qual melhoria poderia ser aplicada.**
+3. **qual evidência sustenta o achado;**
+4. **qual é sua gravidade;**
+5. **qual é seu impacto potencial;**
+6. **qual melhoria pode ser aplicada.**
 
-Neste exercício, o processo de fact-checking funciona como mecanismo de controle de qualidade do output.
-
-A comparação entre a afirmação produzida pelo modelo e fontes históricas confiáveis permite tornar a decisão avaliativa mais rastreável e justificável.
+Neste exercício, o fact-checking funciona como mecanismo de controle de qualidade do output.
 
 ---
 
 ## 18. Conclusão
 
-A resposta avaliada apresentou **alucinação factual de alta gravidade**.
+A resposta avaliada apresenta **alucinação factual de alta gravidade**.
 
-Foram identificados problemas relacionados à identidade da linguagem, autoria, data e referência bibliográfica apresentada.
+Foram identificados problemas relacionados à identidade da linguagem, autoria, data e referência bibliográfica.
 
-A análise também identificou uma questão metodológica importante: a pergunta apresenta certa ambiguidade histórica ao utilizar a expressão **“primeira linguagem de programação criada especificamente para inteligência artificial”**.
+A análise também identificou uma limitação na própria pergunta: a expressão “primeira linguagem de programação criada especificamente para inteligência artificial” simplifica uma história que envolve diferentes linguagens e sistemas.
 
-A documentação histórica mostra que a **IPL** já estava sendo desenvolvida e utilizada em trabalhos de IA em meados da década de 1950, enquanto o **LISP** foi desenvolvido posteriormente por John McCarthy, com implementação iniciada em 1958.
+A documentação histórica registra a participação da **IPL** nos primeiros trabalhos de IA e o desenvolvimento posterior de **LISP por John McCarthy**, cuja implementação começou em 1958.
 
-Portanto, uma resposta historicamente mais rigorosa deveria reconhecer essa nuance.
+A referência à *Artificial Intelligence Review* em 1955 também apresenta forte incompatibilidade cronológica, uma vez que o registro oficial do ISSN documenta o periódico a partir de 1986.
 
-Apesar dos erros factuais, a resposta apresentou boa relevância, clareza, completude e segurança.
+Apesar dos erros factuais, a resposta apresentou bom desempenho em relevância, clareza, completude e segurança.
 
-Resultado quantitativo:
+### Resultado quantitativo
 
 **8/12 — Adequada**
 
-Resultado qualitativo específico:
+### Resultado qualitativo
 
-**Alucinação factual de alta gravidade.**
+**Alucinação factual — alta gravidade.**
 
 A classificação global deve ser interpretada exclusivamente como resultado da rubrica de seis critérios e não como declaração de confiabilidade factual.
 
-A avaliação demonstra a importância de combinar **rubrica padronizada, verificação factual, análise de evidências e classificação de gravidade** para avaliar outputs de Inteligência Artificial de maneira consistente.
+Esta avaliação demonstra a importância de combinar:
+
+**rubrica padronizada + fact-checking + evidências + análise de gravidade + documentação estruturada.**
 
 ---
 
@@ -560,3 +558,10 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 ---
 
 *Portfólio desenvolvido para demonstrar aprendizado prático e competências relacionadas à avaliação e qualidade de respostas de Inteligência Artificial.*
+
+### Fontes utilizadas para verificação factual
+
+* Stanford University — History of LISP: [History of LISP — Stanford](https://www-formal.stanford.edu/jmc/history/lisp/lisp.html?utm_source=chatgpt.com)
+* Stanford University — The Implementation of LISP: [The implementation of LISP — Stanford](https://www-formal.stanford.edu/jmc/history/lisp/node3.html?utm_source=chatgpt.com)
+* Smithsonian Institution — John Clifford Shaw Papers / IPL: [Smithsonian — John Clifford Shaw Papers](https://sova.si.edu/record/nmah.ac.0580?utm_source=chatgpt.com)
+* ISSN International Centre — *Artificial Intelligence Review*: [ISSN — Artificial Intelligence Review](https://portal.issn.org/resource/ISSN/1573-7462?utm_source=chatgpt.com)
