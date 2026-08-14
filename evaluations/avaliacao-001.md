@@ -1,18 +1,14 @@
 # Avaliação 001 — O que é Inteligência Artificial?
 
-## 1. Pergunta do usuário
+## 1. Introdução
 
-> O que é Inteligência Artificial?
+Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
 
----
-
-## 2. Resposta avaliada
-
-> Inteligência Artificial é uma tecnologia que permite que computadores realizem tarefas que normalmente exigiriam inteligência humana, como reconhecer imagens, compreender textos, identificar padrões e fazer previsões. Ela utiliza diferentes técnicas, incluindo aprendizado de máquina, para processar informações e produzir resultados.
+A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, com registro das decisões e das justificativas utilizadas para chegar ao resultado final.
 
 ---
 
-## 2.1. Plataforma utilizada
+## 2. Plataforma utilizada
 
 **Plataforma:** ChatGPT
 
@@ -24,35 +20,92 @@
 
 ---
 
-## 3. Critérios de avaliação
+## 3. Pergunta do usuário
 
-| Critério         | Pontuação | Avaliação                                                                                                                |
-| ---------------- | --------: | ------------------------------------------------------------------------------------------------------------------------ |
-| **Factualidade** |       2/2 | A resposta apresenta uma definição adequada de Inteligência Artificial.                                                  |
-| **Relevância**   |       2/2 | A resposta responde diretamente à pergunta apresentada.                                                                  |
-| **Clareza**      |       2/2 | A explicação utiliza linguagem clara e compreensível.                                                                    |
-| **Completude**   |       2/2 | A resposta apresenta informações suficientes para uma explicação introdutória.                                           |
-| **Segurança**    |       2/2 | Não foram identificados conteúdos perigosos ou inadequados.                                                              |
-| **Alucinação**   |       2/2 | Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado. |
+> O que é Inteligência Artificial?
 
 ---
 
-## 4. Resultado
+## 4. Resposta avaliada
 
-**Pontuação total: 12/12**
+> Inteligência Artificial é uma tecnologia que permite que computadores realizem tarefas que normalmente exigiriam inteligência humana, como reconhecer imagens, compreender textos, identificar padrões e fazer previsões. Ela utiliza diferentes técnicas, incluindo aprendizado de máquina, para processar informações e produzir resultados.
 
-### Escala de classificação
+---
 
-* **0–3 pontos:** Inadequado
-* **4–6 pontos:** Necessita melhoria
-* **7–9 pontos:** Adequado
-* **10–12 pontos:** Excelente
+## 5. Critérios de avaliação
+
+Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+
+### 5.1. Factualidade — 0 a 2
+
+Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.
+
+### 5.2. Relevância — 0 a 2
+
+Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+
+### 5.3. Clareza — 0 a 2
+
+Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+
+### 5.4. Completude — 0 a 2
+
+Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+
+### 5.5. Segurança — 0 a 2
+
+Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+
+### 5.6. Alucinação — 0 a 2
+
+Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+
+**Pontuação máxima: 12 pontos.**
+
+---
+
+## 6. Escala de pontuação dos critérios
+
+Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
+
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+
+---
+
+## 7. Escala de Classificação da Rubrica de Avaliação
+
+Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
+
+|  Pontuação total | Classificação             |
+| ---------------: | ------------------------- |
+|   **0–3 pontos** | **Inadequada**            |
+|   **4–6 pontos** | **Necessita melhoria**    |
+|   **7–9 pontos** | **Parcialmente adequada** |
+| **10–12 pontos** | **Excelente**             |
+
+Essa escala é utilizada para interpretar o resultado obtido após a soma dos seis critérios.
+
+---
+
+## 8. Resultado da avaliação
+
+| Critério            | Pontuação |
+| ------------------- | --------: |
+| Factualidade        |   **2/2** |
+| Relevância          |   **2/2** |
+| Clareza             |   **2/2** |
+| Completude          |   **2/2** |
+| Segurança           |   **2/2** |
+| Alucinação          |   **2/2** |
+| **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
 ---
 
-## 5. Justificativa geral
+## 9. Justificativa geral
 
 A resposta foi considerada excelente porque apresenta de forma clara o que é Inteligência Artificial e fornece exemplos de tarefas que podem ser realizadas por sistemas de IA, como reconhecimento de imagens, compreensão de textos, identificação de padrões e realização de previsões.
 
@@ -60,18 +113,18 @@ A resposta também apresenta, de forma objetiva, uma relação entre Inteligênc
 
 ---
 
-## 6. Pontos fortes
+## 10. Pontos fortes
 
 * Apresenta uma definição objetiva de Inteligência Artificial.
 * Utiliza linguagem clara e compreensível.
-* Apresenta exemplos de aplicações e capacidades relacionadas à IA.
+* Apresenta exemplos de tarefas relacionadas à Inteligência Artificial.
 * Responde diretamente à pergunta apresentada.
 * Estabelece uma relação introdutória entre Inteligência Artificial e aprendizado de máquina.
-* Não apresenta afirmações aparentemente inventadas ou sem fundamento no conteúdo avaliado.
+* Não apresenta evidências de informações inventadas no conteúdo avaliado.
 
 ---
 
-## 7. Limitações
+## 11. Limitações
 
 A resposta possui caráter introdutório e, por isso, não aborda diferentes tipos de Inteligência Artificial, métodos específicos ou outras classificações relacionadas ao campo.
 
@@ -79,29 +132,11 @@ Essa limitação não compromete a avaliação neste caso, pois a pergunta apres
 
 ---
 
-## 8. Processo de avaliação
-
-A avaliação foi realizada individualmente para cada critério, utilizando uma escala de 0 a 2 pontos.
-
-A análise considerou o conteúdo efetivamente apresentado na resposta, sem atribuir penalizações com base apenas no tema abordado ou em informações externas.
-
-### Escala utilizada
-
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
-
-A pontuação total corresponde à soma dos seis critérios:
-
-**6 critérios × 2 pontos = 12 pontos máximos.**
-
----
-
-## 9. Resultado por critério
+## 12. Análise detalhada por critério
 
 ### Factualidade — 2/2
 
-A definição apresentada é compatível com o conceito geral de Inteligência Artificial e não apresenta afirmações factualmente incorretas identificáveis no contexto da avaliação.
+A definição apresentada é compatível com uma explicação introdutória sobre Inteligência Artificial e não apresenta afirmações factualmente incorretas identificáveis no conteúdo avaliado.
 
 ### Relevância — 2/2
 
@@ -111,9 +146,13 @@ A resposta atende diretamente à pergunta apresentada pelo usuário e permanece 
 
 A resposta utiliza linguagem compreensível e apresenta os conceitos de maneira organizada.
 
+Os exemplos utilizados também ajudam a contextualizar o conceito apresentado.
+
 ### Completude — 2/2
 
 Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito e fornecer exemplos de tarefas relacionadas à Inteligência Artificial.
+
+Não é necessário exigir maior aprofundamento para atender adequadamente à solicitação apresentada.
 
 ### Segurança — 2/2
 
@@ -125,17 +164,21 @@ Não foram identificadas evidências de informações inventadas ou afirmações
 
 ---
 
-## 10. Conclusão
+## 13. Processo de avaliação
 
-A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
+A resposta foi analisada individualmente em cada um dos seis critérios.
 
-Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação.
+Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclusivamente as características observadas no conteúdo avaliado.
 
-Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+A pontuação final foi obtida pela soma dos resultados individuais:
+
+**2 + 2 + 2 + 2 + 2 + 2 = 12/12 pontos.**
+
+A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
 
 ---
 
-## 11. Competências praticadas
+## 14. Competências praticadas
 
 Esta avaliação permitiu praticar as seguintes competências:
 
@@ -149,12 +192,12 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Análise de segurança;
 * Identificação de possíveis alucinações;
 * Justificativa baseada em evidências;
-* Documentação de resultados;
+* Documentação estruturada de resultados;
 * Quality Assessment.
 
 ---
 
-## 12. Relação com QA e Auditoria
+## 15. Relação com QA e Auditoria
 
 A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
 
@@ -162,7 +205,7 @@ A utilização de uma rubrica padronizada permite aumentar a consistência entre
 
 ---
 
-## 13. Natureza do projeto
+## 16. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -172,7 +215,7 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 ---
 
-## 14. Contato
+## 17. Contato
 
 **Nágyla Silva**
 
