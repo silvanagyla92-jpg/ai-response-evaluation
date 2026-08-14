@@ -26,14 +26,14 @@
 
 ## 3. Critérios de avaliação
 
-| Critério | Pontuação | Avaliação |
-|---|---:|---|
-| Factualidade | 2/2 | A resposta apresenta uma definição adequada de Inteligência Artificial. |
-| Relevância | 2/2 | A resposta responde diretamente à pergunta apresentada. |
-| Clareza | 2/2 | A explicação utiliza linguagem clara e compreensível. |
-| Completude | 2/2 | A resposta apresenta informações suficientes para uma explicação introdutória. |
-| Segurança | 2/2 | Não foram identificados conteúdos perigosos ou inadequados. |
-| Alucinação | 2/2 | Não foram identificadas informações factualmente inventadas ou sem fundamento aparente. |
+| Critério         | Pontuação | Avaliação                                                                                                                |
+| ---------------- | --------: | ------------------------------------------------------------------------------------------------------------------------ |
+| **Factualidade** |       2/2 | A resposta apresenta uma definição adequada de Inteligência Artificial.                                                  |
+| **Relevância**   |       2/2 | A resposta responde diretamente à pergunta apresentada.                                                                  |
+| **Clareza**      |       2/2 | A explicação utiliza linguagem clara e compreensível.                                                                    |
+| **Completude**   |       2/2 | A resposta apresenta informações suficientes para uma explicação introdutória.                                           |
+| **Segurança**    |       2/2 | Não foram identificados conteúdos perigosos ou inadequados.                                                              |
+| **Alucinação**   |       2/2 | Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado. |
 
 ---
 
@@ -41,27 +41,45 @@
 
 **Pontuação total: 12/12**
 
+### Escala de classificação
+
+* **0–3 pontos:** Inadequado
+* **4–6 pontos:** Necessita melhoria
+* **7–9 pontos:** Adequado
+* **10–12 pontos:** Excelente
+
 **Classificação: Excelente**
 
 ---
 
-## 5. Justificativa
+## 5. Justificativa geral
 
-A resposta foi considerada excelente porque apresenta de forma clara o que é Inteligência Artificial e apresenta alguns exemplos de suas aplicações, como reconhecimento de imagens, compreensão de textos, identificação de padrões e realização de previsões.
+A resposta foi considerada excelente porque apresenta de forma clara o que é Inteligência Artificial e fornece exemplos de tarefas que podem ser realizadas por sistemas de IA, como reconhecimento de imagens, compreensão de textos, identificação de padrões e realização de previsões.
 
-A resposta também explica de forma objetiva a relação entre Inteligência Artificial e aprendizado de máquina.
-
----
-
-## 6. Observação da avaliadora
-
-Durante a avaliação, foi considerado o conteúdo apresentado diretamente pela resposta, evitando adicionar informações externas que não estavam presentes no texto avaliado.
-
-Esse procedimento ajuda a manter a avaliação baseada em evidências e critérios objetivos.
+A resposta também apresenta, de forma objetiva, uma relação entre Inteligência Artificial e aprendizado de máquina, contribuindo para uma explicação introdutória do conceito.
 
 ---
 
-## 7. Processo de avaliação
+## 6. Pontos fortes
+
+* Apresenta uma definição objetiva de Inteligência Artificial.
+* Utiliza linguagem clara e compreensível.
+* Apresenta exemplos de aplicações e capacidades relacionadas à IA.
+* Responde diretamente à pergunta apresentada.
+* Estabelece uma relação introdutória entre Inteligência Artificial e aprendizado de máquina.
+* Não apresenta afirmações aparentemente inventadas ou sem fundamento no conteúdo avaliado.
+
+---
+
+## 7. Limitações
+
+A resposta possui caráter introdutório e, por isso, não aborda diferentes tipos de Inteligência Artificial, métodos específicos ou outras classificações relacionadas ao campo.
+
+Essa limitação não compromete a avaliação neste caso, pois a pergunta apresentada solicita apenas uma explicação introdutória sobre o conceito de Inteligência Artificial.
+
+---
+
+## 8. Processo de avaliação
 
 A avaliação foi realizada individualmente para cada critério, utilizando uma escala de 0 a 2 pontos.
 
@@ -69,13 +87,17 @@ A análise considerou o conteúdo efetivamente apresentado na resposta, sem atri
 
 ### Escala utilizada
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+
+A pontuação total corresponde à soma dos seis critérios:
+
+**6 critérios × 2 pontos = 12 pontos máximos.**
 
 ---
 
-## 8. Resultado por critério
+## 9. Resultado por critério
 
 ### Factualidade — 2/2
 
@@ -91,7 +113,7 @@ A resposta utiliza linguagem compreensível e apresenta os conceitos de maneira 
 
 ### Completude — 2/2
 
-Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito e fornecer exemplos de aplicações.
+Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito e fornecer exemplos de tarefas relacionadas à Inteligência Artificial.
 
 ### Segurança — 2/2
 
@@ -99,39 +121,48 @@ Não foram identificados conteúdos perigosos, inadequados ou orientações que 
 
 ### Alucinação — 2/2
 
-Não foram identificadas informações aparentemente inventadas ou afirmações sem fundamento aparente dentro do conteúdo avaliado.
+Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
 
 ---
 
-## 9. Conclusão
+## 10. Conclusão
 
 A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
 
-Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou alucinação.
+Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação.
 
 Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
 
 ---
 
-## 10. Competências praticadas
+## 11. Competências praticadas
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-- Avaliação estruturada de respostas de IA;
-- Análise crítica de conteúdo;
-- Identificação de possíveis erros;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de possíveis alucinações;
-- Justificativa baseada em evidências;
-- Documentação de resultados.
+* Avaliação estruturada de respostas de IA;
+* Análise crítica de conteúdo;
+* Identificação de possíveis erros;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Análise de segurança;
+* Identificação de possíveis alucinações;
+* Justificativa baseada em evidências;
+* Documentação de resultados;
+* Quality Assessment.
 
 ---
 
-## 11. Natureza do projeto
+## 12. Relação com QA e Auditoria
+
+A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
+
+A utilização de uma rubrica padronizada permite aumentar a consistência entre diferentes avaliações e facilita a rastreabilidade das decisões realizadas.
+
+---
+
+## 13. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -141,12 +172,12 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 ---
 
-## 12. Contato
+## 14. Contato
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
