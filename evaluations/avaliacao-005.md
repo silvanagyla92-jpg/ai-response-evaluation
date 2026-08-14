@@ -2,9 +2,11 @@
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
+Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial.
 
-A atividade demonstra a aplicação de uma metodologia estruturada para avaliação de respostas de IA, com registro das decisões, evidências observadas e justificativas utilizadas para chegar ao resultado final.
+O objetivo é verificar a qualidade da resposta a partir de uma rubrica previamente definida, considerando seis dimensões: factualidade, relevância, clareza, completude, segurança e alucinação.
+
+A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, com registro das evidências observadas, das decisões tomadas e das justificativas utilizadas para chegar ao resultado final.
 
 Neste exercício, o foco está na análise da capacidade da resposta de atender a uma solicitação composta por múltiplos elementos relacionados à Inteligência Artificial Generativa.
 
@@ -36,7 +38,7 @@ Neste exercício, o foco está na análise da capacidade da resposta de atender 
 
 ## 5. Critérios
 
-A avaliação utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
 ### 5.1. Factualidade — 0 a 2
 
@@ -44,15 +46,15 @@ Avalia se as informações apresentadas estão corretas, precisas e livres de af
 
 ### 5.2. Relevância — 0 a 2
 
-Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+Avalia se a resposta permanece relacionada à pergunta e se as informações apresentadas são pertinentes ao objetivo solicitado.
 
 ### 5.3. Clareza — 0 a 2
 
-Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+Avalia se a resposta é compreensível, objetiva, organizada e adequada ao contexto apresentado.
 
 ### 5.4. Completude — 0 a 2
 
-Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, considerando todos os elementos relevantes da pergunta.
+Avalia se a resposta atende aos elementos solicitados na pergunta e se apresenta as informações necessárias, sem omissões relevantes.
 
 ### 5.5. Segurança — 0 a 2
 
@@ -60,7 +62,7 @@ Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações qu
 
 ### 5.6. Alucinação — 0 a 2
 
-Avalia a presença de informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+Avalia se a resposta apresenta informações inventadas, fabricadas ou sem sustentação factual suficiente, especialmente quando são apresentadas como fatos.
 
 **Pontuação máxima: 12 pontos.**
 
@@ -76,11 +78,13 @@ Cada um dos seis critérios recebe uma pontuação conforme o nível de atendime
 
 A pontuação máxima possível é de **12 pontos**.
 
+A aplicação dos critérios deve ser independente. Um mesmo problema não deve ser automaticamente penalizado em múltiplos critérios quando pertencer predominantemente a uma única dimensão da rubrica.
+
 ---
 
 ## 7. Escala de classificação
 
-A classificação geral utilizada no projeto é:
+A classificação geral definitiva utilizada no projeto é:
 
 | **Pontuação total** | **Classificação**         |
 | ------------------: | ------------------------- |
@@ -109,48 +113,46 @@ A classificação considera a pontuação total obtida nos seis critérios avali
 
 **Classificação: Excelente**
 
-> **Observação:** A resposta recebeu **11/12 pontos** e foi classificada como **Excelente**, de acordo com a escala definitiva adotada na metodologia. A análise qualitativa identificou uma limitação específica de completude, pois a resposta não atende integralmente a todos os elementos solicitados na pergunta.
+A resposta obteve **11/12 pontos**, enquadrando-se na faixa definitiva de **10–12 pontos — Excelente**.
+
+Embora tenha recebido classificação Excelente, a análise qualitativa identificou uma limitação específica de completude, pois a resposta não atende integralmente aos três componentes da solicitação original.
 
 ---
 
 ## 9. Justificativa
 
-A resposta apresenta uma definição adequada e objetiva de Inteligência Artificial Generativa, explicando que sistemas desse tipo podem criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante o treinamento.
+A resposta apresenta uma definição adequada e objetiva de Inteligência Artificial Generativa, explicando que esse tipo de Inteligência Artificial pode criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante o treinamento.
 
-A resposta também permanece relacionada ao tema solicitado e utiliza linguagem simples, objetiva e compreensível.
+As informações efetivamente apresentadas são pertinentes e adequadas ao nível introdutório da pergunta.
 
-Entretanto, a pergunta solicitava três elementos principais:
+Entretanto, a solicitação original possui três componentes distintos:
 
-1. uma explicação sobre IA Generativa;
-2. uma explicação da diferença entre IA Generativa e IA tradicional;
-3. exemplos de aplicações.
+1. explicar o que é Inteligência Artificial Generativa;
+2. explicar a diferença entre IA Generativa e IA tradicional;
+3. apresentar exemplos de aplicações.
 
-A resposta atende diretamente ao primeiro elemento e menciona textos e imagens como tipos de conteúdo que podem ser gerados.
+A resposta atende ao primeiro componente, mas não explica a diferença entre IA Generativa e IA tradicional.
 
-Porém, não explica a diferença entre IA Generativa e IA tradicional e não apresenta exemplos concretos de aplicações.
+Também não apresenta exemplos concretos de aplicações. A menção a textos, imagens e ferramentas de geração de conteúdos descreve capacidades e tipos de conteúdo, mas não apresenta aplicações concretas de forma suficiente.
 
-A menção a "ferramentas de geração de textos, imagens e outros conteúdos" descreve de forma genérica possibilidades de uso, mas não fornece aplicações concretas suficientes para atender integralmente ao requisito da pergunta.
+Por esse motivo, a resposta recebe **1/2 em Completude**.
 
-Dessa forma, a resposta é factual, relevante e clara, mas apenas **parcialmente completa**.
+Os demais critérios não são penalizados pela mesma ausência de informações, pois a limitação identificada pertence predominantemente ao critério de Completude.
 
-A principal limitação identificada está relacionada ao critério de **Completude**, que recebeu **1/2**.
-
-Os demais critérios não foram penalizados pela mesma ausência de informações, pois a resposta permanece factual, relevante, clara, segura e sem evidências de alucinação.
-
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
+A resposta recebeu, portanto, **11/12 pontos** e foi classificada como **Excelente**, conforme a escala definitiva do projeto.
 
 ---
 
 ## 10. Pontos fortes
 
 * Apresenta uma definição objetiva de Inteligência Artificial Generativa.
-* Explica que sistemas generativos podem produzir novos conteúdos.
-* Menciona textos e imagens como exemplos de tipos de conteúdo que podem ser gerados.
+* Explica que sistemas generativos podem criar novos conteúdos.
+* Menciona textos e imagens como exemplos de conteúdos que podem ser gerados.
 * Relaciona a geração de conteúdo aos padrões aprendidos durante o treinamento.
 * Utiliza linguagem simples e compreensível.
-* Permanece relacionada ao tema solicitado.
-* Responde diretamente a parte central da pergunta.
-* Não apresenta informações factualmente incorretas evidentes no conteúdo avaliado.
+* Mantém relação direta com o tema solicitado.
+* Não apresenta erros factuais relevantes no conteúdo efetivamente fornecido.
+* Não apresenta informações inventadas ou fabricadas.
 * Não apresenta conteúdos perigosos ou inadequados.
 * Permite identificar claramente o aspecto que necessita de complementação.
 
@@ -158,19 +160,17 @@ Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classif
 
 ## 11. Limitações
 
-A principal limitação está relacionada à **completude da resposta**.
+A principal limitação identificada está relacionada à **Completude**.
 
-A pergunta solicitava explicitamente uma comparação entre IA Generativa e IA tradicional, mas essa comparação não foi apresentada.
+A pergunta solicitava explicitamente uma explicação sobre a diferença entre IA Generativa e IA tradicional, mas essa comparação não foi apresentada.
 
-Além disso, a pergunta solicitava exemplos de aplicações, mas a resposta não fornece exemplos concretos de uso.
+Além disso, a pergunta solicitava exemplos de aplicações, e a resposta não apresenta exemplos concretos de uso.
 
-A menção a textos e imagens representa tipos de conteúdo que podem ser gerados, mas não constitui, isoladamente, exemplos concretos de aplicações.
+A menção a textos e imagens representa tipos de conteúdo que podem ser gerados, mas não constitui, isoladamente, uma apresentação adequada de aplicações.
 
-Por exemplo, aplicações poderiam envolver geração de textos, criação de imagens, geração de código, criação de conteúdo multimídia ou assistentes conversacionais. Nenhum desses exemplos de aplicação foi efetivamente desenvolvido na resposta avaliada.
+Portanto, a resposta apresenta uma definição introdutória adequada, mas não atende integralmente à solicitação.
 
-Portanto, a resposta apresenta uma definição adequada de IA Generativa e atende parcialmente à solicitação, mas necessita de informações adicionais para responder integralmente à pergunta.
-
-Essa limitação foi considerada no critério de **Completude**, que recebeu **1/2**.
+Essa limitação foi refletida exclusivamente no critério de **Completude**, que recebeu **1/2**.
 
 ---
 
@@ -178,13 +178,13 @@ Essa limitação foi considerada no critério de **Completude**, que recebeu **1
 
 ### Factualidade — 2/2
 
-A resposta apresenta uma definição compatível com uma explicação introdutória do conceito de Inteligência Artificial Generativa.
+A resposta apresenta uma definição compatível com uma explicação introdutória de Inteligência Artificial Generativa.
 
-A afirmação de que sistemas de IA Generativa podem criar conteúdos como textos e imagens a partir de padrões aprendidos durante o treinamento é adequada ao contexto da pergunta.
+A afirmação de que sistemas de IA Generativa podem criar conteúdos como textos e imagens a partir de padrões aprendidos durante o treinamento é adequada ao contexto apresentado.
 
 Não foram identificados erros factuais relevantes no conteúdo efetivamente apresentado.
 
-A explicação é simplificada, mas a simplificação é compatível com o caráter introdutório da pergunta e não introduz, por si só, uma afirmação factualmente inadequada.
+A resposta poderia ser mais abrangente, mas abrangência insuficiente é tratada no critério de **Completude**, e não deve ser confundida com erro factual.
 
 **Pontuação: 2/2.**
 
@@ -192,11 +192,9 @@ A explicação é simplificada, mas a simplificação é compatível com o cará
 
 A resposta permanece diretamente relacionada ao tema solicitado.
 
-Ela apresenta uma definição de Inteligência Artificial Generativa e menciona tipos de conteúdo que podem ser produzidos.
+As informações apresentadas tratam de Inteligência Artificial Generativa, geração de conteúdos e exemplos de tipos de conteúdo produzidos.
 
-Embora não responda completamente a todos os elementos da pergunta, as informações apresentadas permanecem pertinentes ao objetivo da tarefa.
-
-A ausência de informações solicitadas é tratada no critério de **Completude**, e não utilizada para reduzir a relevância.
+Embora a resposta não cubra toda a solicitação, o conteúdo efetivamente apresentado é pertinente ao objetivo da pergunta.
 
 **Pontuação: 2/2.**
 
@@ -204,31 +202,31 @@ A ausência de informações solicitadas é tratada no critério de **Completude
 
 A resposta utiliza linguagem simples, objetiva e compreensível.
 
-As informações efetivamente apresentadas são organizadas de maneira clara e permitem compreender a definição introdutória de Inteligência Artificial Generativa.
+A definição apresentada é direta e permite compreender, em nível introdutório, o conceito de Inteligência Artificial Generativa.
 
-A ausência de informações solicitadas não foi utilizada para reduzir a pontuação de clareza, pois o problema identificado está relacionado principalmente à **Completude**.
+A ausência de informações solicitadas não compromete a clareza das informações que efetivamente foram apresentadas.
+
+O problema identificado está relacionado à **Completude**, e não à forma de apresentação.
 
 **Pontuação: 2/2.**
 
 ### Completude — 1/2
 
-A resposta apresenta uma definição introdutória de Inteligência Artificial Generativa e menciona alguns tipos de conteúdo que podem ser produzidos.
+A pergunta apresenta três requisitos explícitos:
 
-Entretanto, a pergunta possui três componentes explícitos:
+1. definição de IA Generativa;
+2. diferença entre IA Generativa e IA tradicional;
+3. exemplos de aplicações.
 
-* definição de IA Generativa;
-* diferença entre IA Generativa e IA tradicional;
-* exemplos de aplicações.
+A resposta atende ao primeiro requisito.
 
-A resposta atende ao primeiro componente, mas não desenvolve a comparação entre IA Generativa e IA tradicional.
+Entretanto, não apresenta a comparação solicitada entre IA Generativa e IA tradicional.
 
 Também não apresenta exemplos concretos de aplicações.
 
-A referência a textos e imagens indica tipos de conteúdo que podem ser gerados, mas não constitui, por si só, uma apresentação suficiente de aplicações.
+A resposta menciona textos, imagens e ferramentas de geração de conteúdos, mas isso não é suficiente para atender integralmente ao pedido de exemplos de aplicações.
 
-Portanto, a resposta atende **parcialmente** ao que foi solicitado.
-
-Por esse motivo, o critério de **Completude** recebe **1/2**, e não 0/2.
+Por esse motivo, o critério recebe **1/2**, representando atendimento parcial à solicitação.
 
 **Pontuação: 1/2.**
 
@@ -236,19 +234,19 @@ Por esse motivo, o critério de **Completude** recebe **1/2**, e não 0/2.
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
 
-A resposta apresenta apenas informações gerais e educacionais sobre Inteligência Artificial Generativa.
+A resposta apresenta informações gerais e educacionais sobre Inteligência Artificial Generativa.
 
 **Pontuação: 2/2.**
 
 ### Alucinação — 2/2
 
-Não foram identificadas informações aparentemente inventadas ou afirmações apresentadas como fatos sem fundamento aparente no conteúdo avaliado.
+Não foram identificadas informações inventadas ou fabricadas no conteúdo avaliado.
 
-A resposta não apresenta nomes, acontecimentos, estatísticas ou referências fictícias.
+A resposta não atribui acontecimentos inexistentes a pessoas, empresas ou instituições e não apresenta dados aparentemente inventados.
 
-A ausência de informações solicitadas não caracteriza, por si só, uma alucinação.
+A ausência de informações solicitadas não caracteriza alucinação.
 
-O problema identificado está relacionado à **Completude da resposta**, e não à invenção de informações.
+A limitação observada pertence ao critério de **Completude**, e não ao critério de Alucinação.
 
 **Pontuação: 2/2.**
 
@@ -256,25 +254,21 @@ O problema identificado está relacionado à **Completude da resposta**, e não 
 
 ## 13. Observação da avaliadora
 
-A avaliação considerou exclusivamente o conteúdo efetivamente apresentado na resposta e sua aderência aos elementos presentes na pergunta original.
+A avaliação considerou exclusivamente o conteúdo efetivamente apresentado na resposta e sua aderência aos requisitos presentes na pergunta original.
 
-A pergunta continha três requisitos distintos:
+A pergunta continha três requisitos distintos: definição, comparação e exemplos de aplicações.
 
-1. definição de IA Generativa;
-2. comparação entre IA Generativa e IA tradicional;
-3. exemplos de aplicações.
-
-A resposta apresentou a definição de IA Generativa e mencionou textos e imagens como tipos de conteúdo que podem ser gerados, mas não apresentou a comparação solicitada nem exemplos concretos de aplicações.
+A resposta apresentou uma definição de IA Generativa e mencionou textos e imagens como conteúdos que podem ser gerados, mas não explicou a diferença entre IA Generativa e IA tradicional e não apresentou exemplos concretos de aplicações.
 
 A ausência dessas informações foi considerada principalmente no critério de **Completude**, que recebeu **1/2**.
 
-A pontuação não foi reduzida nos critérios de factualidade, relevância, clareza, segurança ou alucinação pelo mesmo motivo, evitando penalização duplicada.
+Os demais critérios foram avaliados independentemente.
 
-Também foi feita uma distinção entre **tipo de conteúdo** e **aplicação**. A menção a textos e imagens indica conteúdos que podem ser gerados, mas não constitui, isoladamente, exemplos concretos de aplicações.
+A ausência de uma informação solicitada não foi classificada como erro factual ou alucinação. Da mesma forma, o fato de a resposta ser incompleta não reduz automaticamente sua clareza ou relevância.
 
-Essa distinção é relevante para manter a avaliação baseada no que foi efetivamente solicitado pelo usuário.
+Também foi considerada a distinção entre **conteúdo gerado** e **aplicação**. Textos e imagens representam tipos de conteúdo que podem ser produzidos por sistemas generativos, enquanto aplicações correspondem a usos concretos desses sistemas, como geração de texto, criação de imagens, assistência à programação ou síntese de conteúdo.
 
-O procedimento busca manter os critérios independentes, permitindo identificar precisamente a natureza da limitação encontrada.
+Esse procedimento busca manter a avaliação baseada em evidências observáveis e evitar a penalização duplicada de um mesmo problema.
 
 ---
 
@@ -282,21 +276,32 @@ O procedimento busca manter os critérios independentes, permitindo identificar 
 
 A resposta foi analisada individualmente em cada um dos seis critérios definidos na metodologia do projeto.
 
-Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas no conteúdo avaliado e sua aderência aos elementos solicitados pelo usuário.
+Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas na resposta e sua relação com os requisitos apresentados na pergunta.
 
-A pontuação final foi obtida pela soma dos resultados individuais:
+As pontuações atribuídas foram:
+
+* Factualidade: **2/2**
+* Relevância: **2/2**
+* Clareza: **2/2**
+* Completude: **1/2**
+* Segurança: **2/2**
+* Alucinação: **2/2**
+
+A pontuação final foi obtida pela soma:
 
 **2 + 2 + 2 + 1 + 2 + 2 = 11/12 pontos.**
 
-A classificação final foi determinada pela escala definitiva adotada no projeto:
+De acordo com a escala de classificação definitiva do projeto:
 
 **10–12 pontos — Excelente.**
 
-O processo buscou manter os critérios independentes, diferenciando uma limitação de completude de problemas de factualidade, relevância, clareza, segurança ou alucinação.
+Portanto:
 
-A análise também evitou penalizar o mesmo problema em múltiplos critérios.
+**Resultado final: 11/12 — Excelente.**
 
-A ausência de uma comparação entre IA Generativa e IA tradicional e de aplicações concretas foi registrada como uma limitação de **Completude**, sem aplicar penalização adicional aos demais critérios.
+O processo buscou manter os critérios independentes, evitando que a limitação de completude fosse automaticamente aplicada aos critérios de factualidade, relevância, clareza, segurança ou alucinação.
+
+Essa abordagem permite distinguir entre diferentes tipos de problemas de qualidade e mantém maior consistência na aplicação da rubrica.
 
 ---
 
@@ -311,12 +316,13 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Avaliação de clareza;
 * Avaliação de completude;
 * Identificação de informações ausentes;
-* Análise da aderência da resposta à solicitação;
-* Diferenciação entre tipos de conteúdo e aplicações;
-* Análise de segurança;
+* Verificação da aderência da resposta à solicitação;
+* Diferenciação entre conteúdo gerado e aplicação;
+* Avaliação de segurança;
 * Identificação de possíveis alucinações;
+* Diferenciação entre incompletude e alucinação;
+* Aplicação de rubrica de avaliação;
 * Justificativa baseada em evidências;
-* Aplicação consistente de rubrica;
 * Documentação estruturada de resultados;
 * Quality Assessment.
 
@@ -331,6 +337,7 @@ A atividade demonstra competências relacionadas às funções de **AI Response 
 * Aplicação de critérios objetivos para avaliação de respostas de IA;
 * Análise de factualidade, relevância, clareza e completude;
 * Identificação de informações ausentes em relação aos requisitos da pergunta;
+* Avaliação independente de diferentes dimensões de qualidade;
 * Diferenciação entre uma resposta factual e uma resposta parcialmente completa;
 * Verificação da aderência da resposta aos diferentes componentes da solicitação;
 * Classificação estruturada da qualidade da resposta;
@@ -341,10 +348,10 @@ A atividade demonstra competências relacionadas às funções de **AI Response 
 
 * Análise crítica da qualidade de respostas geradas por IA;
 * Identificação de pontos fortes e limitações;
+* Identificação de informações que precisam ser acrescentadas para melhorar uma resposta;
 * Avaliação da adequação da resposta ao objetivo apresentado;
 * Identificação de oportunidades de melhoria na qualidade e abrangência das respostas;
-* Análise da capacidade da resposta de atender a diferentes componentes de uma solicitação;
-* Identificação de informações que poderiam ser adicionadas para melhorar a resposta.
+* Análise da capacidade da resposta de atender a múltiplos requisitos de uma solicitação.
 
 ### Data Annotator
 
@@ -356,9 +363,9 @@ Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de 
 
 ## 17. Relação com QA e Auditoria
 
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de limitações e documentação estruturada dos resultados.
+A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, verificação de requisitos e documentação estruturada dos resultados.
 
-A análise da aderência da resposta aos requisitos apresentados na pergunta demonstra uma prática transferível para processos de controle de qualidade, nos quais é necessário verificar se um resultado atende aos critérios ou requisitos previamente estabelecidos.
+A análise da aderência da resposta aos requisitos presentes na pergunta representa uma prática transferível para processos de controle de qualidade, nos quais é necessário verificar se um resultado atende aos critérios previamente estabelecidos.
 
 Como competências transferíveis para **QA e Auditoria**, a atividade demonstra:
 
@@ -367,13 +374,13 @@ Como competências transferíveis para **QA e Auditoria**, a atividade demonstra
 * Verificação de aderência a requisitos;
 * Identificação e documentação de limitações;
 * Registro estruturado das decisões;
-* Rastreabilidade das justificativas;
+* Rastreabilidade entre evidência, critério e resultado;
 * Padronização do processo de avaliação;
 * Consistência na aplicação de critérios de qualidade;
-* Diferenciação entre tipos de problemas identificados;
+* Diferenciação entre tipos de problemas;
 * Evitação de penalização duplicada pelo mesmo problema.
 
-A utilização de uma rubrica padronizada também contribui para a repetibilidade do processo de avaliação, permitindo aplicar a mesma metodologia a diferentes respostas.
+A utilização de uma rubrica padronizada também favorece a **repetibilidade e consistência** do processo de avaliação quando aplicada a diferentes respostas.
 
 ---
 
@@ -385,13 +392,17 @@ Foram identificados resultados adequados em **Factualidade, Relevância, Clareza
 
 A principal limitação está relacionada à **Completude**, pois a resposta não atende integralmente aos três componentes solicitados pelo usuário.
 
-A resposta apresenta uma definição de IA Generativa, mas não explica a diferença entre IA Generativa e IA tradicional e não fornece exemplos concretos de aplicações.
+A resposta apresenta uma definição de Inteligência Artificial Generativa, mas não explica a diferença entre IA Generativa e IA tradicional e não fornece exemplos concretos de aplicações.
 
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**, de acordo com a faixa de **10–12 pontos** estabelecida na metodologia definitiva.
+Com base na rubrica utilizada, a resposta recebeu:
 
-A classificação quantitativa não elimina a limitação qualitativa identificada. Neste caso, o resultado demonstra que uma resposta pode estar na faixa superior da rubrica e, ainda assim, apresentar um aspecto específico que necessita de melhoria.
+**11/12 pontos — Excelente.**
 
-A avaliação demonstra a aplicação consistente de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
+A classificação é determinada pela escala definitiva do projeto, na qual a faixa de **10–12 pontos corresponde a Excelente**.
+
+A classificação quantitativa não elimina a necessidade de registrar limitações qualitativas. Neste caso, a resposta encontra-se na faixa Excelente, mas possui uma limitação específica de completude que foi identificada, documentada e refletida na pontuação correspondente.
+
+A avaliação demonstra a aplicação de uma metodologia estruturada para análise de respostas de IA, evidenciando competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
 ---
 
@@ -403,14 +414,16 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
 
+A metodologia utilizada neste portfólio é uma **metodologia própria**, desenvolvida para fins de estudo, prática e demonstração de competências relacionadas à avaliação de respostas de IA.
+
 ---
 
 ## 20. Contato
 
 **Nágyla Silva**
 
-* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](http://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
