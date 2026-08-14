@@ -1,4 +1,4 @@
-# Avaliação 008 — Viés e Justiça em Sistemas de IA para Recrutamento
+# Avaliação 008 — Viés em Recrutamento por IA
 
 ## 1. Introdução
 
