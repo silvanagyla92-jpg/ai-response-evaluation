@@ -20,6 +20,8 @@ Neste exercício, o foco está na análise de uma resposta relacionada ao uso de
 
 **Observação:** A resposta foi utilizada exclusivamente como objeto de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
 
+As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa.
+
 ---
 
 ## 3. Pergunta do usuário
@@ -78,9 +80,9 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
 ---
 
@@ -113,22 +115,24 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 **Classificação: Excelente**
 
+> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. A resposta atende aos requisitos explícitos da pergunta e apresenta uma abordagem cuidadosa ao reconhecer que medidas de mitigação de viés podem reduzir riscos, mas não eliminam automaticamente todos os vieses.
+
 ---
 
 ## 9. Justificativa geral
 
 A resposta atende integralmente aos principais elementos solicitados na pergunta.
 
-Foram apresentados quatro cuidados relacionados à redução de vieses em sistemas de Inteligência Artificial utilizados na triagem de currículos:
+Foram apresentados quatro cuidados relacionados à redução de vieses em sistemas de Inteligência Artificial utilizados na **triagem de currículos**:
 
 1. **Diversidade nos dados de treinamento**;
 2. **Anonimização de dados sensíveis**;
-3. **Testes de equidade (fairness testing)**;
-4. **Supervisão humana (human-in-the-loop)**.
+3. **Testes de equidade (*fairness testing*)**;
+4. **Supervisão humana**.
 
 Além de apresentar os quatro cuidados solicitados, a resposta explica brevemente cada um deles e apresenta limitações importantes.
 
-Um aspecto positivo é que a resposta não trata essas medidas como soluções capazes de eliminar completamente os vieses. Ela reconhece, por exemplo, que a anonimização pode reduzir riscos, mas não elimina possíveis variáveis indiretas ou *proxies*; que diferentes métricas de equidade podem produzir resultados diferentes; e que a supervisão humana também está sujeita a vieses.
+Um aspecto positivo é que a resposta não trata essas medidas como soluções capazes de eliminar completamente os vieses. Ela reconhece, por exemplo, que a anonimização pode reduzir riscos, mas não eliminar possíveis variáveis indiretas ou *proxies*; que diferentes **métricas de equidade** podem produzir resultados diferentes; e que a supervisão humana também está sujeita a vieses.
 
 A resposta, portanto, demonstra uma abordagem relativamente cuidadosa para um tema relacionado a decisões automatizadas em recrutamento.
 
@@ -138,18 +142,18 @@ Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classif
 
 ## 10. Pontos fortes
 
-- Responde diretamente à pergunta apresentada.
-- Apresenta os quatro cuidados solicitados.
-- Explica brevemente cada cuidado.
-- Aborda a importância da qualidade e diversidade dos dados.
-- Reconhece que a anonimização não elimina completamente o risco de viés.
-- Introduz o conceito de variáveis indiretas ou *proxies*.
-- Apresenta a necessidade de testes de equidade.
-- Reconhece que não existe necessariamente uma única definição de *fairness*.
-- Recomenda supervisão humana em decisões de recrutamento.
-- Reconhece a possibilidade de *automation bias*.
-- Evita apresentar a redução de vieses como uma solução absoluta.
-- Mantém linguagem técnica, mas suficientemente contextualizada para compreensão.
+* Responde diretamente à pergunta apresentada.
+* Apresenta os quatro cuidados solicitados.
+* Explica brevemente cada cuidado.
+* Aborda a importância da qualidade e diversidade dos dados.
+* Reconhece que a anonimização não elimina completamente o risco de viés.
+* Introduz o conceito de variáveis indiretas ou *proxies*.
+* Apresenta a necessidade de testes de equidade.
+* Reconhece que não existe necessariamente uma única definição de *fairness*.
+* Recomenda supervisão humana em decisões de recrutamento.
+* Reconhece a possibilidade de *automation bias*.
+* Evita apresentar a redução de vieses como uma solução absoluta.
+* Mantém linguagem técnica, mas suficientemente contextualizada para compreensão.
 
 ---
 
@@ -161,7 +165,7 @@ A resposta concentra-se em quatro cuidados principais e não aborda outros mecan
 
 Entretanto, essas informações adicionais não foram exigidas pela pergunta original.
 
-Também existe uma simplificação na ideia de avaliar se diferentes grupos são recomendados em "proporções semelhantes", pois diferentes contextos de seleção podem exigir métricas e critérios de equidade específicos.
+Também existe uma simplificação na ideia de avaliar se diferentes grupos são recomendados em “proporções semelhantes”, pois diferentes contextos de seleção podem exigir métricas e critérios de equidade específicos.
 
 Essa limitação, porém, não compromete a resposta para o nível e o escopo da pergunta apresentada.
 
@@ -173,11 +177,13 @@ Essa limitação, porém, não compromete a resposta para o nível e o escopo da
 
 A resposta apresenta informações coerentes com os cuidados geralmente associados à redução de vieses em sistemas de Inteligência Artificial utilizados em processos de recrutamento.
 
-A recomendação de utilizar dados de treinamento representativos, realizar testes de equidade e manter supervisão humana é compatível com uma abordagem de avaliação responsável de sistemas automatizados.
+A recomendação de utilizar dados de treinamento representativos, realizar testes de equidade e manter supervisão humana é compatível com uma abordagem responsável de avaliação de sistemas automatizados.
 
 A resposta também evita afirmar que essas medidas eliminam completamente os vieses.
 
 O reconhecimento de que variáveis aparentemente neutras podem funcionar como *proxies* para características demográficas também é adequado ao contexto apresentado.
+
+A menção a diferentes métricas de equidade também é pertinente, pois diferentes definições de justiça podem levar a critérios de avaliação distintos.
 
 Não foram identificados erros factuais relevantes no conteúdo avaliado que justificassem a redução da pontuação.
 
@@ -205,10 +211,10 @@ A resposta atende diretamente a esses dois requisitos.
 
 Os quatro cuidados apresentados são:
 
-- diversidade nos dados de treinamento;
-- anonimização de dados sensíveis;
-- testes de equidade;
-- supervisão humana.
+* diversidade nos dados de treinamento;
+* anonimização de dados sensíveis;
+* testes de equidade;
+* supervisão humana.
 
 Além disso, cada item apresenta uma explicação e algumas limitações relevantes.
 
@@ -232,6 +238,8 @@ Os conceitos utilizados são pertinentes ao tema e aparecem de maneira coerente 
 
 A resposta também utiliza uma linguagem relativamente cautelosa, evitando apresentar as medidas como garantias absolutas de justiça.
 
+Não foram identificados nomes, acontecimentos ou dados específicos evidentemente fabricados.
+
 ---
 
 ## 13. Observação da avaliadora
@@ -246,6 +254,8 @@ Um aspecto metodológico importante desta avaliação foi evitar reduzir automat
 
 A avaliação considerou principalmente se a resposta cumpriu os requisitos explícitos da pergunta e se os conteúdos apresentados apresentavam problemas relevantes.
 
+Também foi considerada a diferença entre **mitigação de risco** e **eliminação de viés**. A resposta foi considerada adequada por não apresentar as medidas descritas como garantias absolutas de justiça.
+
 ---
 
 ## 14. Processo de avaliação
@@ -256,9 +266,9 @@ Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclu
 
 ### Escala utilizada
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
@@ -274,21 +284,21 @@ A metodologia busca avaliar cada dimensão de forma independente, evitando que u
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-- Avaliação estruturada de respostas de IA;
-- Análise crítica de conteúdo;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de possíveis alucinações;
-- Análise de vieses em sistemas de Inteligência Artificial;
-- Avaliação de conceitos relacionados à equidade (*fairness*);
-- Identificação de riscos associados a decisões automatizadas;
-- Análise de limitações de medidas de mitigação de viés;
-- Aplicação consistente de uma rubrica;
-- Justificativa baseada em evidências;
-- Documentação estruturada de resultados.
+* Avaliação estruturada de respostas de IA;
+* Análise crítica de conteúdo;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Análise de segurança;
+* Identificação de possíveis alucinações;
+* Análise de vieses em sistemas de Inteligência Artificial;
+* Avaliação de conceitos relacionados à equidade (*fairness*);
+* Identificação de riscos associados a decisões automatizadas;
+* Análise de limitações de medidas de mitigação de viés;
+* Aplicação consistente de uma rubrica;
+* Justificativa baseada em evidências;
+* Documentação estruturada de resultados.
 
 ---
 
@@ -296,21 +306,21 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ### AI Response Evaluator
 
-- Aplicação de uma rubrica estruturada para avaliação de respostas de IA;
-- Análise individual de diferentes dimensões de qualidade;
-- Avaliação da factualidade de conceitos relacionados a sistemas de IA;
-- Verificação da aderência da resposta aos requisitos da pergunta;
-- Identificação de riscos e limitações apresentados no conteúdo;
-- Diferenciação entre uma recomendação adequada e uma garantia absoluta de justiça;
-- Justificativa das pontuações com base no conteúdo avaliado.
+* Aplicação de uma rubrica estruturada para avaliação de respostas de IA;
+* Análise individual de diferentes dimensões de qualidade;
+* Avaliação da factualidade de conceitos relacionados a sistemas de IA;
+* Verificação da aderência da resposta aos requisitos da pergunta;
+* Identificação de riscos e limitações apresentados no conteúdo;
+* Diferenciação entre uma recomendação adequada e uma garantia absoluta de justiça;
+* Justificativa das pontuações com base no conteúdo avaliado.
 
 ### AI Trainer
 
-- Análise crítica da qualidade de respostas geradas por IA;
-- Identificação de pontos fortes e limitações;
-- Avaliação da adequação da resposta ao contexto apresentado;
-- Análise da precisão e responsabilidade da linguagem utilizada;
-- Identificação de oportunidades de melhoria na qualidade de respostas relacionadas a sistemas de IA.
+* Análise crítica da qualidade de respostas geradas por IA;
+* Identificação de pontos fortes e limitações;
+* Avaliação da adequação da resposta ao contexto apresentado;
+* Análise da precisão e responsabilidade da linguagem utilizada;
+* Identificação de oportunidades de melhoria na qualidade de respostas relacionadas a sistemas de IA.
 
 ### Data Annotator
 
@@ -328,14 +338,20 @@ O exercício também demonstra a importância de avaliar sistemas e respostas se
 
 Como competências transferíveis para **QA e Auditoria**, a atividade demonstra:
 
-- Aplicação consistente de critérios previamente definidos;
-- Análise baseada em evidências;
-- Identificação e documentação de riscos e limitações;
-- Padronização do processo de avaliação;
-- Registro estruturado das decisões;
-- Rastreabilidade das justificativas;
-- Avaliação de conformidade com critérios estabelecidos;
-- Consistência na aplicação de padrões de qualidade.
+* Aplicação consistente de critérios previamente definidos;
+* Análise baseada em evidências;
+* Identificação e documentação de riscos e limitações;
+* Padronização do processo de avaliação;
+* Registro estruturado das decisões;
+* Rastreabilidade das justificativas;
+* Avaliação de conformidade com critérios estabelecidos;
+* Consistência na aplicação de padrões de qualidade.
+
+A atividade também demonstra uma prática importante de QA: **não tratar todos os problemas como equivalentes**.
+
+Uma simplificação conceitual, uma omissão, uma informação inventada e uma afirmação excessivamente generalizada podem possuir impactos diferentes e devem ser avaliadas de acordo com critérios previamente definidos.
+
+Nesse sentido, a atividade demonstra uma abordagem de avaliação baseada em **critérios, evidências, classificação e justificativa**, competências transferíveis para processos de QA e auditoria.
 
 ---
 
@@ -346,6 +362,8 @@ A resposta analisada apresentou desempenho satisfatório em todos os critérios 
 Ela atendeu aos requisitos explícitos da pergunta ao apresentar quatro cuidados para reduzir vieses em sistemas de IA utilizados em recrutamento e explicar brevemente cada um deles.
 
 Também apresentou uma abordagem cuidadosa ao reconhecer que medidas como anonimização, testes de equidade e supervisão humana podem reduzir riscos, mas não eliminam automaticamente todos os vieses.
+
+A resposta demonstra ainda compreensão de que diferentes métricas de equidade podem ser aplicadas conforme o objetivo de avaliação e que a supervisão humana, embora importante, também está sujeita a limitações.
 
 Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de informações inventadas que justificassem a redução da pontuação.
 
@@ -369,8 +387,8 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](http://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
