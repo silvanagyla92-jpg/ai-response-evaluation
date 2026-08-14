@@ -1,14 +1,14 @@
-# Avaliação 015 — RAG — 3 Frases
+# Avaliação 007 — Instrução Complexa
 
 ## 1. Introdução
 
 Esta avaliação apresenta um exercício prático de **cumprimento e verificação de instruções complexas aplicadas a respostas geradas por modelos de Inteligência Artificial**.
 
-O objetivo é verificar se diferentes respostas atendem aos requisitos explícitos de uma mesma solicitação, considerando conteúdo, quantidade de frases, linguagem, formato, ausência de exemplos e requisito específico para a última frase.
+O objetivo é verificar se diferentes respostas atendem simultaneamente aos requisitos explícitos de uma mesma solicitação, considerando conteúdo, quantidade de frases, linguagem, formato, ausência de listas, ausência de exemplos e requisito específico para a última frase.
 
-A avaliação também compara duas respostas para identificar qual apresenta melhor adequação ao público-alvo e à forma de comunicação solicitada.
+A avaliação também compara duas respostas geradas por modelos distintos para identificar o nível de aderência às instruções e verificar qual apresenta melhor adequação ao público-alvo e à forma de comunicação solicitada.
 
-O cumprimento das instruções é analisado qualitativamente. A pontuação oficial permanece baseada exclusivamente nos seis critérios padronizados da rubrica-base.
+O cumprimento das instruções é analisado qualitativamente. A **pontuação oficial permanece baseada exclusivamente nos seis critérios padronizados da rubrica-base**.
 
 ---
 
@@ -22,7 +22,7 @@ O cumprimento das instruções é analisado qualitativamente. A pontuação ofic
 
 **Finalidade:** Geração de respostas independentes para a mesma solicitação, permitindo posterior comparação.
 
-**Observação:** As respostas foram avaliadas diretamente pela autora. Nenhum dos modelos foi utilizado para avaliar ou classificar a resposta do outro.
+**Observação:** As respostas foram avaliadas diretamente pela avaliadora. Nenhum dos modelos foi utilizado para avaliar ou classificar a resposta do outro.
 
 Esta avaliação possui finalidade educacional e demonstrativa e não representa avaliação oficial realizada pela Anthropic, Google ou qualquer outra empresa.
 
@@ -30,7 +30,7 @@ Esta avaliação possui finalidade educacional e demonstrativa e não representa
 
 ## 3. Pergunta
 
-> **Explique o que é Machine Learning para uma pessoa que nunca estudou Inteligência Artificial. Responda em exatamente 4 frases, utilizando linguagem simples e sem termos técnicos em inglês. Não use listas, tópicos ou exemplos. Na última frase, explique por que os dados são importantes para o treinamento de modelos de Machine Learning.**
+> **Explique o que é Machine Learning para uma pessoa que nunca estudou Inteligência Artificial. Responda em exatamente 4 frases, utilizando linguagem simples e sem termos técnicos em inglês. Não utilize listas, tópicos ou exemplos. Na última frase, explique por que os dados são importantes para o treinamento de modelos de Machine Learning.**
 
 ### Requisitos explícitos identificados
 
@@ -48,6 +48,12 @@ A solicitação apresenta os seguintes requisitos:
 10. Colocar essa explicação na última frase.
 
 Esses requisitos são utilizados na verificação qualitativa do cumprimento da solicitação e **não constituem critérios adicionais de pontuação**.
+
+### Observação sobre o termo "Machine Learning"
+
+O termo **“Machine Learning”** aparece na própria pergunta como identificação do conceito solicitado.
+
+Por esse motivo, sua utilização pelas respostas não foi considerada, isoladamente, uma violação relevante da instrução de evitar termos técnicos em inglês.
 
 ---
 
@@ -79,68 +85,68 @@ Esses requisitos são utilizados na verificação qualitativa do cumprimento da 
 
 Cada resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia definitiva do portfólio.
 
-| Critério | Pontuação | Definição |
-|---|---:|---|
-| **Factualidade** | 0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas. |
-| **Relevância** | 0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto. |
-| **Clareza** | 0–2 | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado. |
-| **Completude** | 0–2 | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes. |
-| **Segurança** | 0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário. |
-| **Alucinação** | 0–2 | Avalia a **ausência de informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente**. |
+| Critério         | Pontuação | Definição                                                                                                                   |
+| ---------------- | --------: | --------------------------------------------------------------------------------------------------------------------------- |
+| **Factualidade** |       0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas. |
+| **Relevância**   |       0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.              |
+| **Clareza**      |       0–2 | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.                                        |
+| **Completude**   |       0–2 | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.      |
+| **Segurança**    |       0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.         |
+| **Alucinação**   |       0–2 | Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.      |
 
 **Pontuação máxima por resposta: 12 pontos.**
 
-Os seis critérios são avaliados de maneira independente. Um problema identificado em um critério não reduz automaticamente a pontuação dos demais.
+Os seis critérios são avaliados de forma independente.
+
+Um problema identificado em um critério não reduz automaticamente a pontuação dos demais.
 
 ### Verificação do cumprimento das instruções
 
-O cumprimento das instruções é verificado separadamente da pontuação oficial.
+| Requisito                                    | Resposta A | Resposta B |
+| -------------------------------------------- | :--------: | :--------: |
+| Explica o conceito solicitado                |      ✅     |      ✅     |
+| Adequada para iniciantes                     |      ✅     |      ✅     |
+| Exatamente 4 frases                          |      ✅     |      ✅     |
+| Linguagem simples                            |      ✅     |      ✅     |
+| Não utiliza listas                           |      ✅     |      ✅     |
+| Não utiliza tópicos                          |      ✅     |      ✅     |
+| Não apresenta exemplos externos              |      ✅     |      ✅     |
+| Última frase explica a importância dos dados |      ✅     |      ✅     |
 
-| Requisito | Resposta A | Resposta B |
-|---|:---:|:---:|
-| Explica o conceito solicitado | ✅ | ✅ |
-| Adequada para iniciantes | ✅ | ✅ |
-| Exatamente 4 frases | ✅ | ✅ |
-| Linguagem simples | ✅ | ✅ |
-| Não utiliza listas | ✅ | ✅ |
-| Não utiliza tópicos | ✅ | ✅ |
-| Não apresenta exemplos externos | ✅ | ✅ |
-| Última frase explica a importância dos dados | ✅ | ✅ |
+**Resultado do Instruction Following:**
 
-### Observação metodológica
+**Resposta A — Cumprimento satisfatório**
 
-O termo **“Machine Learning”** aparece na própria pergunta como identificação do conceito solicitado.
+**Resposta B — Cumprimento satisfatório**
 
-Por esse motivo, sua utilização pelas respostas não foi considerada, isoladamente, uma violação relevante da instrução de evitar termos técnicos em inglês.
-
-O cumprimento de instruções permanece como **objeto de verificação qualitativa**, e não como um sétimo critério da rubrica oficial.
+O cumprimento das instruções permanece como **objeto de verificação qualitativa**, não sendo transformado em um sétimo critério da rubrica.
 
 ---
 
 ## 6. Escala de pontuação
 
-Cada um dos seis critérios recebe uma pontuação de 0 a 2:
+Cada um dos seis critérios recebe uma pontuação de 0 a 2.
 
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+**0 — Inadequado:** apresenta problema significativo no critério avaliado.
+
+**1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+
+**2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
 **Pontuação máxima: 12 pontos por resposta.**
 
 A pontuação de cada critério é atribuída de forma independente.
 
-Um problema identificado em um critério não reduz automaticamente a pontuação dos demais.
-
 ---
 
 ## 7. Escala de classificação
 
-| Pontuação total | Classificação |
-|---:|---|
-| **0–3** | **Inadequada** |
-| **4–6** | **Parcialmente adequada** |
-| **7–9** | **Adequada** |
-| **10–12** | **Excelente** |
+|  Pontuação total | Classificação             |
+| ---------------: | ------------------------- |
+|   **0–3 pontos** | **Inadequada**            |
+|   **4–6 pontos** | **Parcialmente adequada** |
+|   **7–9 pontos** | **Adequada**              |
+| **10–12 pontos** | **Excelente**             |
 
 ### Escala de Classificação da Rubrica de Avaliação
 
@@ -154,28 +160,28 @@ A classificação geral representa o desempenho da resposta segundo os seis crit
 
 ### 8.1. Resposta A — Claude
 
-| Critério | Pontuação |
-|---|---:|
-| **Factualidade** | **2/2** |
-| **Relevância** | **2/2** |
-| **Clareza** | **2/2** |
-| **Completude** | **2/2** |
-| **Segurança** | **2/2** |
-| **Alucinação** | **2/2** |
+| Critério            | Pontuação |
+| ------------------- | --------: |
+| **Factualidade**    |   **2/2** |
+| **Relevância**      |   **2/2** |
+| **Clareza**         |   **2/2** |
+| **Completude**      |   **2/2** |
+| **Segurança**       |   **2/2** |
+| **Alucinação**      |   **2/2** |
 | **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
 ### 8.2. Resposta B — Gemini
 
-| Critério | Pontuação |
-|---|---:|
-| **Factualidade** | **2/2** |
-| **Relevância** | **2/2** |
-| **Clareza** | **2/2** |
-| **Completude** | **2/2** |
-| **Segurança** | **2/2** |
-| **Alucinação** | **2/2** |
+| Critério            | Pontuação |
+| ------------------- | --------: |
+| **Factualidade**    |   **2/2** |
+| **Relevância**      |   **2/2** |
+| **Clareza**         |   **2/2** |
+| **Completude**      |   **2/2** |
+| **Segurança**       |   **2/2** |
+| **Alucinação**      |   **2/2** |
 | **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
@@ -194,7 +200,7 @@ A classificação geral representa o desempenho da resposta segundo os seis crit
 
 A preferência qualitativa não altera a pontuação oficial.
 
-A Resposta B foi considerada ligeiramente superior por apresentar linguagem mais direta e maior acessibilidade para o público iniciante.
+A Resposta B foi considerada ligeiramente superior por apresentar uma formulação mais direta e acessível para o público iniciante.
 
 ---
 
@@ -204,19 +210,23 @@ As duas respostas atendem aos requisitos da solicitação e apresentam desempenh
 
 ### Resposta A — Claude
 
-A resposta apresenta explicação coerente sobre aprendizado de máquina, identificação de padrões e utilização desses padrões para realizar previsões ou tomar decisões.
+A resposta apresenta uma explicação conceitualmente adequada sobre aprendizado de máquina, abordando aprendizagem a partir de dados, identificação de padrões e utilização desses padrões para realizar previsões ou tomar decisões.
 
-Também atende às restrições de quantidade de frases, ausência de listas e explicação dos dados na última frase.
+Também atende à restrição de quatro frases e apresenta a explicação sobre a importância dos dados na última frase.
+
+A linguagem é compreensível para um público iniciante, embora alguns trechos sejam ligeiramente mais abstratos.
 
 ### Resposta B — Gemini
 
 A resposta apresenta uma explicação mais direta e acessível.
 
-A sequência de ideias é simples e adequada ao público iniciante. A metáfora dos dados como “combustível” facilita a compreensão, embora represente uma simplificação didática.
+A sequência de ideias é simples e adequada ao público iniciante.
+
+A expressão **“combustível do sistema”** funciona como uma metáfora didática para explicar a importância dos dados. Embora seja uma simplificação, não compromete a precisão necessária ao nível introdutório da solicitação.
 
 ### Comparação
 
-As duas respostas são adequadas e recebem **12/12**.
+As duas respostas são adequadas e recebem **12/12 — Excelente**.
 
 A preferência pela Resposta B decorre principalmente da **clareza e adequação ao público-alvo**, e não de uma falha significativa da Resposta A.
 
@@ -233,6 +243,7 @@ A preferência pela Resposta B decorre principalmente da **clareza e adequação
 * Não utiliza listas ou tópicos.
 * Explica a importância dos dados na última frase.
 * Mantém coerência conceitual.
+* Utiliza linguagem compatível com uma explicação introdutória.
 
 ### Resposta B — Gemini
 
@@ -243,6 +254,7 @@ A preferência pela Resposta B decorre principalmente da **clareza e adequação
 * Não utiliza listas ou tópicos.
 * Explica a importância dos dados na última frase.
 * Apresenta progressão lógica.
+* Utiliza uma metáfora que facilita a compreensão inicial.
 
 ---
 
@@ -250,15 +262,19 @@ A preferência pela Resposta B decorre principalmente da **clareza e adequação
 
 ### Resposta A — Claude
 
-Alguns trechos apresentam formulação mais abstrata para um público completamente iniciante.
+Alguns trechos apresentam formulação mais abstrata para uma pessoa completamente iniciante em Inteligência Artificial.
 
-Isso representa uma oportunidade de simplificação da linguagem, mas não configura erro relevante.
+A expressão **“identifica padrões”** é conceitualmente adequada, mas poderia exigir explicação adicional em um contexto de ensino mais básico.
+
+Isso representa uma oportunidade de simplificação, mas não configura erro relevante.
 
 ### Resposta B — Gemini
 
-A expressão “combustível do sistema” é uma metáfora didática que simplifica o papel dos dados no treinamento.
+A expressão **“combustível do sistema”** é uma metáfora didática que simplifica o papel dos dados no treinamento.
 
-A simplificação não é suficiente para reduzir a pontuação nos critérios da rubrica.
+Os dados são fundamentais para o treinamento, mas seu papel não se resume literalmente a funcionar como “combustível”.
+
+Ainda assim, considerando o público iniciante e o limite de quatro frases, a simplificação não é suficiente para reduzir a pontuação nos critérios da rubrica.
 
 ---
 
@@ -268,21 +284,25 @@ A simplificação não é suficiente para reduzir a pontuação nos critérios d
 
 **Resposta A — 2/2**
 
-Apresenta explicação conceitualmente adequada para o nível introdutório solicitado.
+Apresenta uma explicação conceitualmente adequada sobre aprendizado de máquina em nível introdutório.
+
+Não foram identificadas afirmações factualmente incorretas relevantes.
 
 **Resposta B — 2/2**
 
-Apresenta explicação conceitualmente adequada. A metáfora utilizada não compromete a precisão necessária ao contexto.
+Apresenta explicação conceitualmente adequada.
+
+A metáfora utilizada não compromete a precisão necessária ao contexto.
 
 ### 12.2. Relevância
 
 **Resposta A — 2/2**
 
-Permanece diretamente relacionada à pergunta.
+Permanece diretamente relacionada à pergunta e não apresenta informações significativamente fora do tema.
 
 **Resposta B — 2/2**
 
-Permanece diretamente relacionada à pergunta.
+Permanece diretamente relacionada à pergunta e atende ao objetivo solicitado.
 
 ### 12.3. Clareza
 
@@ -290,15 +310,23 @@ Permanece diretamente relacionada à pergunta.
 
 Apresenta sequência lógica e linguagem compreensível.
 
+A explicação progride de aprendizagem para identificação de padrões e posteriormente para utilização desses padrões.
+
 **Resposta B — 2/2**
 
-Apresenta linguagem mais direta e acessível ao público iniciante.
+Apresenta linguagem direta e acessível.
+
+A construção das frases facilita a compreensão do conceito por um público iniciante.
+
+Qualitativamente, apresenta uma pequena vantagem de acessibilidade em relação à Resposta A.
 
 ### 12.4. Completude
 
 **Resposta A — 2/2**
 
 Atende aos elementos essenciais solicitados dentro da limitação de quatro frases.
+
+Explica o conceito e aborda explicitamente a importância dos dados na última frase.
 
 **Resposta B — 2/2**
 
@@ -308,23 +336,23 @@ Atende aos elementos essenciais solicitados e explica a importância dos dados n
 
 **Resposta A — 2/2**
 
-Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco.
+Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco ao usuário.
 
 **Resposta B — 2/2**
 
-Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco.
+Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco ao usuário.
 
 ### 12.6. Alucinação
 
 **Resposta A — 2/2**
 
-Não foram identificadas informações claramente inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
+Não foram identificadas informações inventadas ou apresentadas sem fundamento suficiente.
 
 **Resposta B — 2/2**
 
-Não foram identificadas informações claramente inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
+Não foram identificadas informações inventadas ou apresentadas sem fundamento suficiente.
 
-A metáfora utilizada não caracteriza, por si só, alucinação factual.
+A metáfora utilizada não caracteriza alucinação factual.
 
 ### 12.7. Cumprimento das instruções
 
@@ -334,13 +362,13 @@ As duas respostas atendem aos requisitos explícitos identificados na pergunta:
 * linguagem adequada ao público;
 * ausência de listas;
 * ausência de tópicos;
-* ausência de exemplos externos;
+* ausência de exemplos;
 * explicação do conceito;
 * importância dos dados apresentada na última frase.
 
 Portanto, ambas apresentam **cumprimento satisfatório das instruções**.
 
-Esse aspecto é registrado qualitativamente e não constitui um sétimo critério da rubrica.
+O resultado do Instruction Following é registrado separadamente para permitir análise específica da aderência às restrições sem alterar a rubrica oficial.
 
 ---
 
@@ -356,15 +384,17 @@ Ambas receberam:
 
 A Resposta B foi selecionada como preferência qualitativa por apresentar maior simplicidade e adequação ao público iniciante.
 
-A preferência não altera a classificação oficial.
+A preferência não altera a pontuação ou a classificação oficial.
 
-A avaliação reforça a separação metodológica entre:
+A avaliação também demonstra a importância de separar:
 
-**verificação de instruções → análise qualitativa**
+**aderência às instruções → análise qualitativa**
 
-e
+de
 
-**rubrica oficial → pontuação quantitativa.**
+**qualidade da resposta → pontuação oficial da rubrica.**
+
+Essa separação mantém a metodologia consistente com as demais avaliações do portfólio.
 
 ---
 
@@ -374,22 +404,32 @@ A avaliação foi realizada nas seguintes etapas:
 
 1. Identificação da solicitação.
 2. Identificação dos requisitos explícitos.
-3. Verificação do cumprimento das instruções pela Resposta A.
-4. Verificação do cumprimento das instruções pela Resposta B.
-5. Avaliação da factualidade.
-6. Avaliação da relevância.
-7. Avaliação da clareza.
-8. Avaliação da completude.
-9. Avaliação da segurança.
-10. Verificação de possíveis sinais de alucinação.
-11. Atribuição das pontuações individuais.
-12. Soma das pontuações.
-13. Classificação segundo a rubrica.
-14. Comparação qualitativa das respostas.
-15. Registro da preferência qualitativa.
-16. Verificação da consistência metodológica.
+3. Separação das restrições de conteúdo, linguagem e formato.
+4. Verificação do número de frases da Resposta A.
+5. Verificação do número de frases da Resposta B.
+6. Verificação da linguagem utilizada.
+7. Verificação da ausência de listas e tópicos.
+8. Verificação da ausência de exemplos.
+9. Verificação do requisito da última frase.
+10. Avaliação da factualidade.
+11. Avaliação da relevância.
+12. Avaliação da clareza.
+13. Avaliação da completude.
+14. Avaliação da segurança.
+15. Verificação de possíveis alucinações.
+16. Atribuição das pontuações individuais.
+17. Soma das pontuações.
+18. Classificação segundo a rubrica.
+19. Comparação qualitativa das respostas.
+20. Registro da preferência qualitativa.
 
-O cumprimento das instruções permanece como **objeto de verificação**, enquanto os seis critérios permanecem como **base oficial de pontuação**.
+### Princípio metodológico
+
+O processo separa:
+
+**Requisitos da tarefa → Verificação de conformidade → Avaliação qualitativa → Aplicação da rubrica → Resultado**
+
+O cumprimento das instruções permanece como objeto de verificação, enquanto os seis critérios permanecem como base oficial de pontuação.
 
 ---
 
@@ -409,7 +449,7 @@ Esta avaliação permitiu praticar:
 * Avaliação de adequação ao público;
 * Aplicação de rubrica;
 * Justificativa de preferência;
-* Verificação de conformidade com requisitos explícitos.
+* Verificação sistemática de requisitos.
 
 ---
 
@@ -424,8 +464,9 @@ Esta avaliação permitiu praticar:
 * Avaliação de clareza;
 * Avaliação de completude;
 * Identificação de possíveis alucinações;
+* Análise de aderência a instruções;
 * Justificativa de preferência entre respostas;
-* Verificação de aderência a instruções explícitas.
+* Registro estruturado de decisões avaliativas.
 
 ### AI Trainer
 
@@ -433,7 +474,7 @@ Esta avaliação permitiu praticar:
 * Análise de aderência aos requisitos;
 * Identificação de oportunidades de melhoria;
 * Avaliação da adequação da linguagem ao público;
-* Análise de instruções e restrições de geração.
+* Reconhecimento de diferenças de qualidade entre respostas.
 
 ### Data Annotator
 
@@ -441,7 +482,7 @@ Esta avaliação permitiu praticar:
 * Classificação de outputs;
 * Registro padronizado de decisões;
 * Comparação de respostas segundo critérios definidos;
-* Verificação estruturada de atributos previamente especificados.
+* Verificação sistemática de atributos específicos.
 
 ---
 
@@ -458,16 +499,21 @@ São praticadas competências como:
 * Rastreabilidade das decisões;
 * Comparação entre outputs;
 * Controle de qualidade;
-* Verificação de requisitos;
-* Padronização do processo avaliativo.
+* Verificação sistemática de requisitos.
 
 A lógica aplicada pode ser representada por:
 
 **Requisito → Verificação → Avaliação → Decisão**
 
-Essa separação contribui para manter consistência entre diferentes avaliações.
+Essa estrutura é semelhante a processos de QA nos quais um resultado é comparado com requisitos previamente definidos.
 
-Assim como em processos de QA e auditoria, a verificação deve ser baseada em requisitos previamente definidos e em evidências observáveis no objeto avaliado.
+No contexto de avaliação de IA, a mesma lógica pode ser utilizada para verificar se um modelo:
+
+1. compreendeu a solicitação;
+2. respeitou as restrições;
+3. apresentou conteúdo adequado;
+4. evitou erros relevantes;
+5. produziu uma resposta consistente com os requisitos.
 
 ---
 
@@ -487,7 +533,9 @@ A Resposta B foi escolhida como preferência qualitativa por apresentar linguage
 
 A preferência não altera a pontuação ou a classificação oficial.
 
-A avaliação demonstra que o **cumprimento de instruções pode ser analisado como foco do exercício sem criar um novo critério de pontuação**, preservando a rubrica-base de seis critérios utilizada no portfólio.
+A avaliação demonstra que o **cumprimento de instruções pode ser analisado como foco específico do exercício sem criar um novo critério de pontuação**, preservando a rubrica-base de seis critérios utilizada no portfólio.
+
+O exercício também demonstra a importância de avaliar separadamente a **aderência às instruções** e a **qualidade multidimensional da resposta**, permitindo maior consistência e rastreabilidade na avaliação de outputs de IA.
 
 ---
 
@@ -499,14 +547,16 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
+A metodologia apresentada representa uma estrutura própria desenvolvida para fins de demonstração prática de competências de avaliação de respostas de IA.
+
 ---
 
 ## 20. Contato
 
 **Nágyla Silva**
 
-* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35](https://www.linkedin.com/in/nágyla-silva-215aba35)
-* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35](http://www.linkedin.com/in/nágyla-silva-215aba35)
+* **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
