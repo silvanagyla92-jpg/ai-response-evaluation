@@ -1,4 +1,4 @@
-# Avaliação 005 — Inteligência Artificial Generativa
+# Avaliação 005 — IA Generativa × IA Tradicional
 
 ## 1. Introdução
 
