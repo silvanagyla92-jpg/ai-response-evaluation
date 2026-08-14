@@ -103,17 +103,17 @@ Essa escala é utilizada para interpretar o resultado obtido após a soma dos se
 
 | **Critério**        | **Pontuação** |
 | ------------------- | ------------: |
-| Factualidade        |       **2/2** |
+| Factualidade        |       **1/2** |
 | Relevância          |       **2/2** |
 | Clareza             |       **2/2** |
 | Completude          |       **2/2** |
 | Segurança           |       **2/2** |
 | Alucinação          |       **2/2** |
-| **Pontuação total** |     **12/12** |
+| **Pontuação total** |     **11/12** |
 
 **Classificação: Excelente**
 
-> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. A resposta apresenta algumas simplificações conceituais, especialmente ao relacionar diretamente o conhecimento desatualizado dos LLMs às alucinações e ao afirmar que RAG “reduz alucinações”. Essas formulações foram consideradas simplificações aceitáveis no contexto introdutório, sem caracterizar erro factual significativo.
+> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. Entretanto, a análise qualitativa identificou limitações de precisão na explicação sobre a relação entre conhecimento desatualizado, alucinações e os benefícios do RAG. Essas limitações foram consideradas no critério de **Factualidade**, sem caracterizar a resposta como uma alucinação.
 
 ---
 
@@ -125,17 +125,17 @@ Ela apresenta uma definição de RAG e explica seu funcionamento por meio das et
 
 A estrutura da resposta facilita a compreensão do conceito e permanece adequada ao nível introdutório solicitado pelo usuário.
 
-Entretanto, existem algumas simplificações que merecem ser registradas.
+Entretanto, existem algumas formulações que precisam ser qualificadas.
 
-A afirmação de que o “conhecimento congelado dos LLMs” **causa** respostas desatualizadas e alucinações é excessivamente direta. A ausência de conhecimento atualizado pode contribuir para respostas desatualizadas, enquanto alucinações podem ocorrer por diferentes razões e não são causadas exclusivamente por conhecimento desatualizado.
+A afirmação de que o “conhecimento congelado dos LLMs” **causa** respostas desatualizadas e alucinações estabelece uma relação causal excessivamente direta. A disponibilidade de conhecimento limitado ou desatualizado pode contribuir para respostas desatualizadas, mas as alucinações podem ocorrer por diferentes razões e não são causadas exclusivamente por esse fator.
 
-Da mesma forma, a afirmação de que o RAG “reduz alucinações” deve ser interpretada como um possível benefício, e não como uma garantia. A eficácia depende da qualidade da recuperação, da relevância dos documentos recuperados, da qualidade das fontes e do comportamento do modelo durante a geração.
+Da mesma forma, a afirmação de que o RAG “reduz alucinações” deve ser interpretada como um **possível benefício**, e não como uma garantia. A capacidade do RAG de melhorar a precisão depende, entre outros fatores, da qualidade das fontes, da recuperação dos documentos relevantes e da forma como o modelo utiliza o contexto recuperado.
 
-Também é importante observar que RAG não simplesmente substitui o conhecimento adquirido durante o treinamento. O conteúdo recuperado é utilizado como contexto adicional para orientar a geração da resposta.
+Também é importante observar que o RAG não substitui o conhecimento adquirido pelo modelo durante seu treinamento. O conteúdo recuperado funciona como **contexto adicional** utilizado para orientar a geração da resposta.
 
-Essas ressalvas não comprometem significativamente a resposta no contexto introdutório proposto.
+Essas limitações reduzem a precisão factual da resposta, mas não comprometem significativamente sua adequação geral como explicação introdutória.
 
-Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
 
 ---
 
@@ -144,7 +144,7 @@ Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classif
 * Define RAG de forma objetiva.
 * Explica o conceito por meio das etapas de recuperação, aumento e geração.
 * Relaciona RAG ao uso de informações externas.
-* Identifica o problema de respostas potencialmente desatualizadas.
+* Identifica o problema relacionado à possibilidade de informações desatualizadas.
 * Apresenta benefícios relacionados ao uso de informações externas.
 * Fornece dois exemplos concretos de aplicações práticas.
 * Utiliza linguagem clara e acessível.
@@ -156,7 +156,7 @@ Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classif
 
 ## 11. Limitações
 
-A principal limitação da resposta está relacionada a algumas simplificações conceituais.
+A principal limitação da resposta está relacionada à **precisão de algumas afirmações sobre o funcionamento e os benefícios do RAG**.
 
 A afirmação:
 
@@ -164,35 +164,39 @@ A afirmação:
 
 estabelece uma relação causal excessivamente direta.
 
-O conhecimento disponível durante o treinamento pode ficar desatualizado em relação a eventos ou informações posteriores, mas isso não significa que esse fator, isoladamente, seja responsável por todas as alucinações produzidas por um modelo.
+Um modelo pode possuir limitações relacionadas à atualização de seu conhecimento, o que pode contribuir para respostas desatualizadas. Entretanto, as alucinações podem ocorrer por diferentes fatores e não são necessariamente causadas pelo fato de o conhecimento do modelo estar desatualizado.
 
 Também é necessário interpretar com cautela a afirmação:
 
 > “reduz alucinações”.
 
-O RAG pode ajudar a reduzir determinados tipos de respostas incorretas ao fornecer contexto externo relevante, mas não elimina completamente a possibilidade de alucinações.
+O RAG pode ajudar a reduzir determinados tipos de respostas incorretas ao fornecer contexto externo relevante, mas não elimina nem reduz necessariamente todos os tipos de alucinação em qualquer situação.
 
-Outra simplificação está na descrição do processo como se o LLM respondesse “em vez de depender só do que aprendeu no treinamento”. Na prática, o modelo continua utilizando suas capacidades adquiridas durante o treinamento, enquanto o conteúdo recuperado funciona como contexto adicional para orientar a geração.
+Outra simplificação está na descrição do processo como se o LLM respondesse “em vez de depender só do que aprendeu no treinamento”. Na prática, o modelo continua utilizando suas capacidades adquiridas durante o treinamento, enquanto os documentos recuperados funcionam como contexto adicional para orientar a resposta.
 
-Essas limitações não comprometem a adequação da resposta para uma explicação introdutória, mas representam pontos que poderiam ser refinados em uma explicação técnica mais aprofundada.
+Essas limitações justificam a redução da pontuação de **Factualidade para 1/2**, mas não comprometem a relevância, clareza ou completude da resposta.
 
 ---
 
 ## 12. Análise detalhada por critério
 
-### Factualidade — 2/2
+### Factualidade — 1/2
 
 A resposta apresenta uma explicação geral adequada sobre RAG e descreve seu funcionamento por meio das etapas de recuperação, aumento e geração.
 
 A explicação de que informações externas podem ser recuperadas e utilizadas como contexto para orientar a geração da resposta é adequada para o nível introdutório proposto.
 
-A resposta também identifica corretamente um dos problemas que RAG procura ajudar a tratar: a utilização de informações externas para complementar o conhecimento disponível no modelo e possibilitar respostas mais específicas ou atualizadas.
+A resposta também identifica corretamente um dos problemas que RAG procura ajudar a tratar: a necessidade de complementar o conhecimento do modelo com informações externas que podem ser mais específicas ou atualizadas.
 
-Entretanto, a afirmação de que o conhecimento congelado dos LLMs “causa” alucinações é uma simplificação excessiva. Da mesma forma, “reduz alucinações” deve ser interpretado como um possível benefício, não como uma garantia.
+Entretanto, duas formulações reduzem a precisão factual da resposta.
 
-Essas formulações poderiam ser mais precisas, mas não representam um erro factual significativo no contexto introdutório da avaliação.
+Primeiro, a afirmação de que o conhecimento “congelado” dos LLMs **causa** respostas desatualizadas e alucinações estabelece uma relação causal excessivamente direta. A falta de atualização pode contribuir para respostas desatualizadas, mas não explica sozinha a ocorrência de alucinações.
 
-Por esse motivo, o critério foi considerado **adequado — 2/2**.
+Segundo, a afirmação de que o RAG “reduz alucinações” é apresentada de forma absoluta. O RAG pode ajudar a reduzir determinados erros quando a recuperação fornece contexto relevante e confiável, mas isso não constitui uma garantia.
+
+Essas limitações não tornam toda a resposta factualmente incorreta, mas representam generalizações que precisam ser qualificadas.
+
+Por esse motivo, o critério foi considerado **parcialmente adequado — 1/2**.
 
 ### Relevância — 2/2
 
@@ -220,6 +224,8 @@ Essa organização facilita a compreensão do processo e torna a explicação ad
 
 A separação entre problema, benefícios e aplicações também contribui para a clareza da resposta.
 
+As limitações identificadas estão principalmente relacionadas à precisão de algumas afirmações, e não à forma de apresentação.
+
 ### Completude — 2/2
 
 A resposta atende aos requisitos apresentados na pergunta.
@@ -245,9 +251,9 @@ Não foram identificadas informações claramente inventadas ou afirmações sem
 
 A resposta apresenta conceitos relacionados ao funcionamento geral do RAG e não introduz nomes, acontecimentos ou dados específicos evidentemente fabricados.
 
-As simplificações identificadas sobre a relação entre conhecimento desatualizado e alucinações foram tratadas como questões de precisão conceitual, e não como evidência de uma informação inventada.
+As simplificações identificadas sobre a relação entre conhecimento desatualizado e alucinações foram tratadas como questões de **precisão conceitual**, e não como evidência de informação inventada.
 
-A afirmação de que o RAG “reduz alucinações” também não foi interpretada como uma alucinação, mas como uma descrição geral de um possível benefício da técnica.
+A afirmação de que o RAG “reduz alucinações” também não foi interpretada como uma alucinação, mas como uma generalização sobre um possível benefício da técnica.
 
 Por esse motivo, o critério foi considerado **adequado — 2/2**.
 
@@ -259,13 +265,21 @@ Durante a avaliação, foi considerado o conteúdo efetivamente apresentado pela
 
 Não foram adicionadas informações externas para completar ou corrigir a resposta durante a atribuição das notas.
 
-A análise também buscou diferenciar **simplificação conceitual** de **erro factual** e de **alucinação**.
+A análise buscou diferenciar:
 
-A afirmação de que o conhecimento congelado dos LLMs “causa” alucinações foi considerada uma formulação simplificada e excessivamente direta, mas não uma informação completamente falsa.
+* **erro factual**;
+* **generalização excessiva**;
+* **simplificação conceitual**;
+* **informação inventada**;
+* **omissão de informação**.
 
-Da mesma forma, a afirmação de que o RAG “reduz alucinações” foi interpretada como um possível benefício da técnica, e não como uma garantia de eliminação desse problema.
+A afirmação de que o conhecimento congelado dos LLMs “causa” alucinações foi considerada uma formulação excessivamente direta e, por isso, afetou o critério de **Factualidade**.
 
-Esse procedimento permite avaliar a qualidade da resposta sem penalizar automaticamente uma explicação introdutória por não apresentar todas as nuances técnicas possíveis.
+Da mesma forma, a afirmação de que o RAG “reduz alucinações” foi interpretada como uma descrição excessivamente abrangente de um possível benefício da técnica, e não como uma informação inventada.
+
+O critério de **Alucinação** foi mantido em **2/2**, pois não foram identificadas evidências de que a resposta tenha inventado pessoas, acontecimentos, fontes, dados ou fatos específicos.
+
+Esse procedimento evita tratar uma generalização factual como se fosse necessariamente uma alucinação.
 
 ---
 
@@ -277,7 +291,7 @@ Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclu
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
-**2 + 2 + 2 + 2 + 2 + 2 = 12/12 pontos.**
+**1 + 2 + 2 + 2 + 2 + 2 = 11/12 pontos.**
 
 A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
 
@@ -306,6 +320,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Avaliação de clareza;
 * Avaliação de completude;
 * Identificação de simplificações conceituais;
+* Identificação de generalizações excessivas;
 * Diferenciação entre simplificação e erro factual;
 * Análise da qualidade de explicações técnicas;
 * Análise de segurança;
@@ -319,12 +334,14 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ## 16. Competências demonstradas
 
+A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis do contexto de **QA e Auditoria**.
+
 ### AI Response Evaluator
 
 * Aplicação de critérios objetivos para avaliação de respostas de IA;
 * Análise individual de diferentes dimensões de qualidade;
 * Avaliação da factualidade de uma explicação técnica sobre RAG;
-* Identificação de simplificações conceituais;
+* Identificação de generalizações excessivas;
 * Diferenciação entre erro factual, generalização e simplificação didática;
 * Identificação de possíveis evidências de alucinação;
 * Avaliação da aderência da resposta aos requisitos da pergunta;
@@ -373,15 +390,15 @@ Nesse sentido, a atividade demonstra uma abordagem de avaliação baseada em **c
 
 ## 18. Conclusão
 
-A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
+A resposta analisada apresentou desempenho adequado na maioria dos critérios avaliados.
 
 Ela explicou o conceito de RAG, descreveu seu funcionamento por meio das etapas de recuperação, aumento e geração, apresentou o problema que a técnica procura ajudar a tratar, indicou benefícios e forneceu exemplos de aplicações práticas.
 
-Foram identificadas algumas simplificações conceituais, principalmente na relação estabelecida entre conhecimento desatualizado e alucinações e na afirmação de que RAG “reduz alucinações”. Essas formulações poderiam ser refinadas tecnicamente, mas não comprometem significativamente a qualidade da resposta no contexto introdutório solicitado.
+Foram identificadas limitações de precisão, principalmente na relação estabelecida entre conhecimento desatualizado e alucinações e na afirmação de que RAG “reduz alucinações”. Essas formulações poderiam ser refinadas tecnicamente e justificaram a redução da pontuação de **Factualidade para 1/2**.
 
-Não foram identificados problemas relevantes de segurança ou evidências de informações claramente inventadas.
+Não foram identificados problemas relevantes de segurança ou evidências de informações claramente inventadas. Por esse motivo, o critério de **Alucinação** permaneceu em **2/2**.
 
-Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
+Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
 
 A avaliação também demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
