@@ -1,471 +1,493 @@
-# Avaliação 007 — RAG (Retrieval-Augmented Generation)
+# Avaliação 015 — Instrução Complexa
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
+Esta avaliação apresenta um exercício prático de **cumprimento e verificação de instruções complexas aplicadas a respostas geradas por modelos de Inteligência Artificial**.
 
-A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, com registro das decisões, evidências observadas e justificativas utilizadas para chegar ao resultado final.
+O objetivo é verificar se diferentes respostas atendem aos requisitos explícitos de uma mesma solicitação, considerando conteúdo, quantidade de frases, linguagem, formato, ausência de exemplos e requisito específico para a última frase.
 
-Neste exercício, o foco está na avaliação de uma explicação introdutória sobre **RAG (Retrieval-Augmented Generation)**, considerando seu funcionamento, o problema que procura ajudar a resolver, seus benefícios e suas aplicações práticas.
+A avaliação também compara duas respostas para identificar qual apresenta melhor adequação ao público-alvo e à forma de comunicação solicitada.
+
+O cumprimento das instruções é analisado qualitativamente. A pontuação oficial permanece baseada exclusivamente nos seis critérios padronizados da rubrica-base.
 
 ---
 
 ## 2. Plataforma utilizada
 
-**Plataforma:** Claude
+**Modelos avaliados:** Claude e Gemini
 
-**Finalidade:** Utilização da plataforma para geração da resposta utilizada como objeto de avaliação durante este exercício prático.
+**Resposta A:** Claude
 
-**Fonte da resposta:** Resposta gerada pelo Claude para a pergunta proposta na Avaliação 007.
+**Resposta B:** Gemini
 
-**Observação:** A resposta foi utilizada exclusivamente como objeto de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
+**Finalidade:** Geração de respostas independentes para a mesma solicitação, permitindo posterior comparação.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa.
+**Observação:** As respostas foram avaliadas diretamente pela autora. Nenhum dos modelos foi utilizado para avaliar ou classificar a resposta do outro.
+
+Esta avaliação possui finalidade educacional e demonstrativa e não representa avaliação oficial realizada pela Anthropic, Google ou qualquer outra empresa.
 
 ---
 
 ## 3. Pergunta
 
-> O que é RAG (Retrieval-Augmented Generation)? Explique de forma simples como funciona, qual problema ele procura resolver e cite pelo menos dois benefícios e dois exemplos de aplicação prática.
+> **Explique o que é Machine Learning para uma pessoa que nunca estudou Inteligência Artificial. Responda em exatamente 4 frases, utilizando linguagem simples e sem termos técnicos em inglês. Não use listas, tópicos ou exemplos. Na última frase, explique por que os dados são importantes para o treinamento de modelos de Machine Learning.**
+
+### Requisitos explícitos identificados
+
+A solicitação apresenta os seguintes requisitos:
+
+1. Explicar o conceito de Machine Learning.
+2. Direcionar a explicação para uma pessoa sem conhecimento prévio de Inteligência Artificial.
+3. Utilizar exatamente quatro frases.
+4. Utilizar linguagem simples.
+5. Evitar termos técnicos em inglês.
+6. Não utilizar listas.
+7. Não utilizar tópicos.
+8. Não apresentar exemplos.
+9. Explicar a importância dos dados para o treinamento.
+10. Colocar essa explicação na última frase.
+
+Esses requisitos são utilizados na verificação qualitativa do cumprimento da solicitação e **não constituem critérios adicionais de pontuação**.
 
 ---
 
 ## 4. Resposta avaliada
 
-> **RAG** é uma técnica que combina um LLM com busca em uma base de dados externa, funcionando em três etapas: **recuperação** (o sistema busca trechos relevantes em documentos externos com base na pergunta), **aumento** (esses trechos são inseridos junto com a pergunta, formando um contexto ampliado) e **geração** (o LLM produz a resposta com base nesse contexto, em vez de depender só do que aprendeu no treinamento).
+### 4.1. Resposta A — Claude
+
+> Aprendizado de máquina é uma forma de a inteligência artificial aprender a partir de experiências passadas, em vez de seguir apenas regras fixas escritas por uma pessoa.
 >
-> **Problema que resolve:** conhecimento congelado dos LLMs, que causa respostas desatualizadas e alucinações.
+> O sistema observa muitos casos parecidos e identifica, sozinho, padrões que se repetem entre eles.
 >
-> **Benefícios:** reduz alucinações e permite respostas atualizadas/específicas sem precisar retreinar o modelo.
+> Com base nesses padrões, ele passa a fazer previsões ou tomar decisões diante de situações novas, semelhantes às que já observou antes.
 >
-> **Aplicações:** chatbots de suporte que usam manuais da empresa e assistentes internos que buscam em documentos corporativos.
+> Os dados são fundamentais nesse processo porque são a única fonte de aprendizado do sistema: quanto mais variados e numerosos forem os exemplos vistos, mais precisos e confiáveis se tornam os padrões aprendidos.
+
+### 4.2. Resposta B — Gemini
+
+> Machine Learning é a capacidade de um computador aprender a realizar tarefas sozinho a partir de experiências passadas.
+>
+> Em vez de receber instruções detalhadas para cada situação, o sistema analisa muitas informações e descobre sozinho os padrões necessários para tomar decisões.
+>
+> Conforme é exposto a novas situações, ele aprimora o próprio desempenho e se torna cada vez mais preciso.
+>
+> Os dados são essenciais para esse treinamento porque funcionam como o combustível do sistema, fornecendo os exemplos práticos que a máquina precisa estudar para aprender corretamente.
 
 ---
 
 ## 5. Critérios
 
-Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+Cada resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia definitiva do portfólio.
 
-### 5.1. Factualidade — 0 a 2
+| Critério | Pontuação | Definição |
+|---|---:|---|
+| **Factualidade** | 0–2 | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas. |
+| **Relevância** | 0–2 | Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto. |
+| **Clareza** | 0–2 | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado. |
+| **Completude** | 0–2 | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes. |
+| **Segurança** | 0–2 | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário. |
+| **Alucinação** | 0–2 | Avalia a **ausência de informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente**. |
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou excessivamente generalizadas.
+**Pontuação máxima por resposta: 12 pontos.**
 
-### 5.2. Relevância — 0 a 2
+Os seis critérios são avaliados de maneira independente. Um problema identificado em um critério não reduz automaticamente a pontuação dos demais.
 
-Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+### Verificação do cumprimento das instruções
 
-### 5.3. Clareza — 0 a 2
+O cumprimento das instruções é verificado separadamente da pontuação oficial.
 
-Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+| Requisito | Resposta A | Resposta B |
+|---|:---:|:---:|
+| Explica o conceito solicitado | ✅ | ✅ |
+| Adequada para iniciantes | ✅ | ✅ |
+| Exatamente 4 frases | ✅ | ✅ |
+| Linguagem simples | ✅ | ✅ |
+| Não utiliza listas | ✅ | ✅ |
+| Não utiliza tópicos | ✅ | ✅ |
+| Não apresenta exemplos externos | ✅ | ✅ |
+| Última frase explica a importância dos dados | ✅ | ✅ |
 
-### 5.4. Completude — 0 a 2
+### Observação metodológica
 
-Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+O termo **“Machine Learning”** aparece na própria pergunta como identificação do conceito solicitado.
 
-### 5.5. Segurança — 0 a 2
+Por esse motivo, sua utilização pelas respostas não foi considerada, isoladamente, uma violação relevante da instrução de evitar termos técnicos em inglês.
 
-Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
-
-### 5.6. Alucinação — 0 a 2
-
-Avalia se a resposta apresenta informações inventadas, fabricadas ou apresentadas como fatos sem fundamento suficiente.
-
-**Pontuação máxima: 12 pontos.**
+O cumprimento de instruções permanece como **objeto de verificação qualitativa**, e não como um sétimo critério da rubrica oficial.
 
 ---
 
 ## 6. Escala de pontuação
 
-Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
+Cada um dos seis critérios recebe uma pontuação de 0 a 2:
 
 * **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
 * **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
-A pontuação máxima possível é de **12 pontos**.
+**Pontuação máxima: 12 pontos por resposta.**
+
+A pontuação de cada critério é atribuída de forma independente.
+
+Um problema identificado em um critério não reduz automaticamente a pontuação dos demais.
 
 ---
 
 ## 7. Escala de classificação
 
-Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
+| Pontuação total | Classificação |
+|---:|---|
+| **0–3** | **Inadequada** |
+| **4–6** | **Parcialmente adequada** |
+| **7–9** | **Adequada** |
+| **10–12** | **Excelente** |
 
-| **Pontuação total** | **Classificação** |
-| ------------------: | ----------------- |
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Parcialmente adequada** |
-| **7–9 pontos** | **Adequada** |
-| **10–12 pontos** | **Excelente** |
+### Escala de Classificação da Rubrica de Avaliação
 
 **Fonte:** Metodologia própria desenvolvida para este portfólio.
 
-A classificação considera exclusivamente a pontuação total obtida nos seis critérios avaliados.
+A classificação geral representa o desempenho da resposta segundo os seis critérios oficiais.
 
 ---
 
 ## 8. Resultado
 
-| **Critério** | **Pontuação** |
-| --- | ---: |
-| Factualidade | **1/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **2/2** |
-| **Pontuação total** | **11/12** |
+### 8.1. Resposta A — Claude
+
+| Critério | Pontuação |
+|---|---:|
+| **Factualidade** | **2/2** |
+| **Relevância** | **2/2** |
+| **Clareza** | **2/2** |
+| **Completude** | **2/2** |
+| **Segurança** | **2/2** |
+| **Alucinação** | **2/2** |
+| **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
-> **Observação:** A resposta recebeu **11/12 pontos** e foi classificada como **Excelente** de acordo com a escala quantitativa definitiva do projeto. Entretanto, a análise qualitativa identificou limitações de precisão técnica em algumas afirmações, especialmente nas expressões “conhecimento congelado”, “causa respostas desatualizadas e alucinações” e “reduz alucinações”. Essas limitações foram concentradas no critério de **Factualidade**, sem caracterizar a resposta como uma alucinação.
+### 8.2. Resposta B — Gemini
+
+| Critério | Pontuação |
+|---|---:|
+| **Factualidade** | **2/2** |
+| **Relevância** | **2/2** |
+| **Clareza** | **2/2** |
+| **Completude** | **2/2** |
+| **Segurança** | **2/2** |
+| **Alucinação** | **2/2** |
+| **Pontuação total** | **12/12** |
+
+**Classificação: Excelente**
+
+### 8.3. Resultado comparativo
+
+**Resposta A — Claude: 12/12 — Excelente**
+
+**Resposta B — Gemini: 12/12 — Excelente**
+
+**Resultado quantitativo: empate.**
+
+### 8.4. Preferência qualitativa
+
+**Resposta preferida: B — Gemini**
+
+A preferência qualitativa não altera a pontuação oficial.
+
+A Resposta B foi considerada ligeiramente superior por apresentar linguagem mais direta e maior acessibilidade para o público iniciante.
 
 ---
 
 ## 9. Justificativa
 
-A resposta atende aos principais elementos solicitados na pergunta.
+As duas respostas atendem aos requisitos da solicitação e apresentam desempenho satisfatório nos seis critérios da rubrica.
 
-Ela apresenta uma definição de RAG e explica seu funcionamento por meio das etapas de **recuperação, aumento e geração**. Também identifica um problema que a técnica procura ajudar a tratar, apresenta benefícios e fornece dois exemplos concretos de aplicações práticas.
+### Resposta A — Claude
 
-A estrutura da resposta facilita a compreensão do conceito e permanece adequada ao nível introdutório solicitado pelo usuário.
+A resposta apresenta explicação coerente sobre aprendizado de máquina, identificação de padrões e utilização desses padrões para realizar previsões ou tomar decisões.
 
-Entretanto, foram identificadas algumas formulações que reduzem a precisão técnica da resposta.
+Também atende às restrições de quantidade de frases, ausência de listas e explicação dos dados na última frase.
 
-A primeira está na afirmação:
+### Resposta B — Gemini
 
-> “conhecimento congelado dos LLMs, que causa respostas desatualizadas e alucinações.”
+A resposta apresenta uma explicação mais direta e acessível.
 
-A expressão **“conhecimento congelado”** constitui uma simplificação válida para explicar que o conhecimento incorporado durante o treinamento não é automaticamente atualizado com novos acontecimentos. Entretanto, a afirmação de que esse fator **“causa”** respostas desatualizadas e alucinações estabelece uma relação causal excessivamente ampla.
+A sequência de ideias é simples e adequada ao público iniciante. A metáfora dos dados como “combustível” facilita a compreensão, embora represente uma simplificação didática.
 
-A falta de atualização pode contribuir para respostas desatualizadas, mas as alucinações podem ocorrer por diferentes fatores e não são necessariamente causadas pela ausência de atualização do conhecimento.
+### Comparação
 
-A segunda questão está na afirmação:
+As duas respostas são adequadas e recebem **12/12**.
 
-> “reduz alucinações”.
-
-Essa formulação também é excessivamente abrangente quando apresentada sem qualificação. O RAG **pode contribuir para reduzir determinados tipos de respostas incorretas ou alucinações** quando documentos relevantes e confiáveis são corretamente recuperados e utilizados como contexto. Entretanto, isso não constitui uma garantia de redução de alucinações em todas as situações.
-
-Também é necessário observar que o RAG não substitui o conhecimento adquirido pelo modelo durante o treinamento. O conteúdo recuperado funciona como **contexto adicional** utilizado para orientar a geração da resposta.
-
-Essas limitações reduzem a precisão factual da resposta, mas não comprometem significativamente sua adequação geral como explicação introdutória.
-
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
+A preferência pela Resposta B decorre principalmente da **clareza e adequação ao público-alvo**, e não de uma falha significativa da Resposta A.
 
 ---
 
 ## 10. Pontos fortes
 
-* Define RAG de forma objetiva.
-* Explica o conceito por meio das etapas de recuperação, aumento e geração.
-* Relaciona RAG ao uso de informações externas.
-* Identifica a necessidade de complementar o conhecimento do modelo com informações externas.
-* Apresenta benefícios relacionados ao uso de contexto externo.
-* Fornece dois exemplos concretos de aplicações práticas.
-* Utiliza linguagem clara e acessível.
-* Responde diretamente aos elementos solicitados pelo usuário.
-* Diferencia as etapas de recuperação, aumento e geração.
-* Mantém foco no tema solicitado.
-* Não apresenta nomes, acontecimentos ou dados específicos evidentemente inventados.
-* Permite identificar claramente os pontos que necessitam de maior precisão técnica.
+### Resposta A — Claude
+
+* Cumpre os requisitos explícitos.
+* Utiliza exatamente quatro frases.
+* Apresenta sequência lógica.
+* Explica o conceito de forma progressiva.
+* Não utiliza listas ou tópicos.
+* Explica a importância dos dados na última frase.
+* Mantém coerência conceitual.
+
+### Resposta B — Gemini
+
+* Cumpre os requisitos explícitos.
+* Utiliza exatamente quatro frases.
+* Apresenta linguagem direta.
+* É adequada ao público iniciante.
+* Não utiliza listas ou tópicos.
+* Explica a importância dos dados na última frase.
+* Apresenta progressão lógica.
 
 ---
 
 ## 11. Limitações
 
-A principal limitação da resposta está relacionada à **precisão de algumas afirmações sobre o funcionamento e os benefícios do RAG**.
+### Resposta A — Claude
 
-A expressão:
+Alguns trechos apresentam formulação mais abstrata para um público completamente iniciante.
 
-> “conhecimento congelado dos LLMs”
+Isso representa uma oportunidade de simplificação da linguagem, mas não configura erro relevante.
 
-é uma simplificação utilizada para descrever o fato de que o conhecimento incorporado durante o treinamento não é automaticamente atualizado com novas informações.
+### Resposta B — Gemini
 
-Entretanto, a continuação:
+A expressão “combustível do sistema” é uma metáfora didática que simplifica o papel dos dados no treinamento.
 
-> “que causa respostas desatualizadas e alucinações”
-
-estabelece uma relação causal excessivamente ampla.
-
-A ausência de atualização pode contribuir para respostas desatualizadas, mas não constitui uma explicação suficiente para todas as ocorrências de alucinação.
-
-Também é necessário qualificar a afirmação:
-
-> “reduz alucinações”.
-
-O RAG pode contribuir para reduzir determinados tipos de erros ao fornecer informações externas relevantes e potencialmente mais atualizadas, mas sua eficácia depende de fatores como qualidade das fontes, qualidade da recuperação, relevância dos documentos recuperados e utilização adequada do contexto pelo modelo.
-
-Portanto, a formulação não deve ser interpretada como uma garantia de redução ou eliminação de alucinações.
-
-Outra simplificação está na descrição do processo como se o LLM respondesse “em vez de depender só do que aprendeu no treinamento”.
-
-Na prática, o modelo continua utilizando as capacidades adquiridas durante o treinamento, enquanto as informações recuperadas funcionam como **contexto adicional** para orientar a geração.
-
-Essas limitações justificam a redução da pontuação de **Factualidade para 1/2**, mas não comprometem os demais critérios.
+A simplificação não é suficiente para reduzir a pontuação nos critérios da rubrica.
 
 ---
 
 ## 12. Análise detalhada
 
-### Factualidade — 1/2
+### 12.1. Factualidade
 
-A resposta apresenta uma explicação geral adequada sobre RAG e descreve seu funcionamento por meio das etapas de recuperação, aumento e geração.
+**Resposta A — 2/2**
 
-A explicação de que informações externas podem ser recuperadas e utilizadas como contexto para orientar a geração da resposta é adequada para o nível introdutório proposto.
+Apresenta explicação conceitualmente adequada para o nível introdutório solicitado.
 
-A resposta também identifica corretamente um dos problemas que o RAG procura ajudar a tratar: a necessidade de complementar o conhecimento do modelo com informações externas que podem ser mais específicas ou atualizadas.
+**Resposta B — 2/2**
 
-Entretanto, existem formulações que reduzem a precisão da explicação.
+Apresenta explicação conceitualmente adequada. A metáfora utilizada não compromete a precisão necessária ao contexto.
 
-A expressão **“conhecimento congelado”** é uma simplificação aceitável, mas a afirmação de que esse conhecimento **“causa” respostas desatualizadas e alucinações** estabelece uma relação causal excessivamente ampla.
+### 12.2. Relevância
 
-A ausência de atualização pode contribuir para respostas desatualizadas, mas não explica sozinha a ocorrência de alucinações.
+**Resposta A — 2/2**
 
-Além disso, a afirmação de que o RAG **“reduz alucinações”** é apresentada sem qualificação. O RAG pode ajudar a reduzir determinados erros quando informações relevantes e confiáveis são recuperadas e utilizadas adequadamente, mas não garante a eliminação ou redução de alucinações em todas as situações.
+Permanece diretamente relacionada à pergunta.
 
-Também é importante esclarecer que o RAG não substitui o conhecimento adquirido pelo modelo durante o treinamento. Os documentos recuperados funcionam como contexto adicional para orientar a geração.
+**Resposta B — 2/2**
 
-Dessa forma, a resposta é majoritariamente adequada, mas apresenta generalizações técnicas que necessitam de qualificação.
+Permanece diretamente relacionada à pergunta.
 
-**Pontuação: 1/2.**
+### 12.3. Clareza
 
-### Relevância — 2/2
+**Resposta A — 2/2**
 
-A resposta atende diretamente aos elementos solicitados na pergunta.
+Apresenta sequência lógica e linguagem compreensível.
 
-Ela apresenta:
+**Resposta B — 2/2**
 
-* definição de RAG;
-* funcionamento;
-* problema que procura ajudar a resolver;
-* benefícios;
-* aplicações práticas.
+Apresenta linguagem mais direta e acessível ao público iniciante.
 
-O conteúdo permanece focado no tema e não apresenta informações significativamente desviantes.
+### 12.4. Completude
 
-**Pontuação: 2/2.**
+**Resposta A — 2/2**
 
-### Clareza — 2/2
+Atende aos elementos essenciais solicitados dentro da limitação de quatro frases.
 
-A resposta utiliza uma estrutura organizada e apresenta o funcionamento do RAG em três etapas:
+**Resposta B — 2/2**
 
-1. **Recuperação**
-2. **Aumento**
-3. **Geração**
+Atende aos elementos essenciais solicitados e explica a importância dos dados na última frase.
 
-Essa organização facilita a compreensão do processo e torna a explicação adequada para uma introdução ao conceito.
+### 12.5. Segurança
 
-A separação entre problema, benefícios e aplicações também contribui para a clareza da resposta.
+**Resposta A — 2/2**
 
-As limitações identificadas estão principalmente relacionadas à precisão de algumas afirmações, e não à forma de apresentação.
+Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco.
 
-**Pontuação: 2/2.**
+**Resposta B — 2/2**
 
-### Completude — 2/2
+Não apresenta conteúdo perigoso, inadequado ou orientação que represente risco.
 
-A resposta atende aos requisitos apresentados na pergunta.
+### 12.6. Alucinação
 
-Ela explica o que é RAG, descreve seu funcionamento, apresenta o problema que procura ajudar a resolver, cita benefícios e fornece exemplos de aplicações práticas.
+**Resposta A — 2/2**
 
-Também apresenta dois exemplos concretos de aplicação:
+Não foram identificadas informações claramente inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
 
-* chatbots de suporte que utilizam manuais da empresa;
-* assistentes internos que consultam documentos corporativos.
+**Resposta B — 2/2**
 
-Dessa forma, não foram identificadas lacunas relevantes em relação ao que foi explicitamente solicitado pelo usuário.
+Não foram identificadas informações claramente inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
 
-As limitações de precisão técnica não representam ausência de conteúdo e, portanto, não justificam redução neste critério.
+A metáfora utilizada não caracteriza, por si só, alucinação factual.
 
-**Pontuação: 2/2.**
+### 12.7. Cumprimento das instruções
 
-### Segurança — 2/2
+As duas respostas atendem aos requisitos explícitos identificados na pergunta:
 
-Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+* quatro frases;
+* linguagem adequada ao público;
+* ausência de listas;
+* ausência de tópicos;
+* ausência de exemplos externos;
+* explicação do conceito;
+* importância dos dados apresentada na última frase.
 
-A resposta apresenta informações técnicas e educacionais sobre uma técnica de Inteligência Artificial.
+Portanto, ambas apresentam **cumprimento satisfatório das instruções**.
 
-**Pontuação: 2/2.**
-
-### Alucinação — 2/2
-
-Não foram identificadas informações claramente inventadas ou afirmações sem fundamento aparente dentro do conteúdo avaliado.
-
-A resposta apresenta conceitos relacionados ao funcionamento geral do RAG e não introduz pessoas, acontecimentos, fontes ou dados específicos evidentemente fabricados.
-
-As simplificações identificadas sobre a relação entre conhecimento desatualizado, alucinações e benefícios do RAG foram tratadas como questões de **precisão conceitual e generalização**, e não como evidência de informação inventada.
-
-A afirmação de que o RAG “reduz alucinações” também não foi classificada como alucinação. O problema está na amplitude da formulação e na ausência de qualificação, não na invenção de um fato específico.
-
-Por esse motivo, o critério permanece em **2/2**.
-
-**Pontuação: 2/2.**
+Esse aspecto é registrado qualitativamente e não constitui um sétimo critério da rubrica.
 
 ---
 
 ## 13. Observação da avaliadora
 
-Durante a avaliação, foi considerado exclusivamente o conteúdo efetivamente apresentado pela resposta e sua capacidade de atender aos requisitos presentes na pergunta original.
+Esta avaliação demonstra que uma tarefa pode ter como foco principal o **cumprimento de instruções complexas** sem que Instruction Following seja transformado em um critério adicional da rubrica.
 
-Não foram adicionadas informações externas para completar ou corrigir a resposta durante a atribuição das notas.
+As duas respostas atenderam satisfatoriamente aos requisitos da solicitação.
 
-A análise buscou diferenciar:
+Ambas receberam:
 
-* **erro factual**;
-* **generalização excessiva**;
-* **simplificação conceitual**;
-* **informação inventada**;
-* **omissão de informação**;
-* **limitação de precisão técnica**.
+**12/12 — Excelente**
 
-A expressão **“conhecimento congelado”** foi considerada uma simplificação aceitável para uma explicação introdutória, mas sua utilização acompanhada da afirmação de que esse conhecimento “causa” alucinações foi considerada excessivamente abrangente.
+A Resposta B foi selecionada como preferência qualitativa por apresentar maior simplicidade e adequação ao público iniciante.
 
-A afirmação de que o RAG **“reduz alucinações”** também foi considerada uma generalização que necessita de qualificação. Uma formulação metodologicamente mais precisa seria indicar que o RAG **pode contribuir para reduzir determinados tipos de erros ou alucinações**, dependendo da qualidade da recuperação e das informações utilizadas como contexto.
+A preferência não altera a classificação oficial.
 
-Essas questões foram concentradas no critério de **Factualidade**, evitando penalização duplicada nos critérios de **Completude** ou **Alucinação**.
+A avaliação reforça a separação metodológica entre:
 
-O critério de **Alucinação** foi mantido em **2/2** porque não foram identificadas evidências de que a resposta tenha inventado pessoas, acontecimentos, fontes, dados ou fatos específicos.
+**verificação de instruções → análise qualitativa**
 
-Esse procedimento mantém a distinção entre uma **afirmação excessivamente generalizada** e uma **informação inventada**, evitando que esses fenômenos sejam tratados como equivalentes.
+e
+
+**rubrica oficial → pontuação quantitativa.**
 
 ---
 
 ## 14. Processo
 
-A resposta foi analisada individualmente em cada um dos seis critérios definidos na metodologia do projeto.
+A avaliação foi realizada nas seguintes etapas:
 
-Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas no conteúdo avaliado e sua aderência à solicitação original.
+1. Identificação da solicitação.
+2. Identificação dos requisitos explícitos.
+3. Verificação do cumprimento das instruções pela Resposta A.
+4. Verificação do cumprimento das instruções pela Resposta B.
+5. Avaliação da factualidade.
+6. Avaliação da relevância.
+7. Avaliação da clareza.
+8. Avaliação da completude.
+9. Avaliação da segurança.
+10. Verificação de possíveis sinais de alucinação.
+11. Atribuição das pontuações individuais.
+12. Soma das pontuações.
+13. Classificação segundo a rubrica.
+14. Comparação qualitativa das respostas.
+15. Registro da preferência qualitativa.
+16. Verificação da consistência metodológica.
 
-A pontuação final foi obtida pela soma dos resultados individuais:
-
-**1 + 2 + 2 + 2 + 2 + 2 = 11/12 pontos.**
-
-A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de:
-
-**10–12 pontos — Excelente.**
-
-O processo também considerou a diferença entre:
-
-* erro factual;
-* simplificação conceitual;
-* informação inventada;
-* omissão de informação;
-* afirmação excessivamente generalizada;
-* limitação técnica;
-* informação relevante apresentada corretamente.
-
-A análise buscou evitar que uma única falha fosse automaticamente reproduzida nos demais critérios.
-
-Nesse sentido, uma limitação de factualidade não foi automaticamente considerada uma falha de completude, clareza ou alucinação.
-
-Essa separação contribui para maior consistência, rastreabilidade e independência entre os critérios.
+O cumprimento das instruções permanece como **objeto de verificação**, enquanto os seis critérios permanecem como **base oficial de pontuação**.
 
 ---
 
 ## 15. Competências praticadas
 
-Esta avaliação permitiu praticar as seguintes competências:
+Esta avaliação permitiu praticar:
 
-* Avaliação estruturada de respostas de IA;
-* Análise crítica de conteúdo;
+* Verificação de cumprimento de instruções complexas;
+* Análise de múltiplas restrições;
 * Avaliação de factualidade;
 * Avaliação de relevância;
 * Avaliação de clareza;
 * Avaliação de completude;
-* Identificação de simplificações conceituais;
-* Identificação de generalizações excessivas;
-* Diferenciação entre simplificação e erro factual;
-* Diferenciação entre generalização e alucinação;
-* Análise da qualidade de explicações técnicas;
-* Análise de segurança;
+* Avaliação de segurança;
 * Identificação de possíveis alucinações;
-* Aplicação consistente de uma rubrica;
-* Justificativa baseada em evidências;
-* Documentação estruturada de resultados;
-* Quality Assessment.
+* Comparação de respostas de diferentes modelos;
+* Avaliação de adequação ao público;
+* Aplicação de rubrica;
+* Justificativa de preferência;
+* Verificação de conformidade com requisitos explícitos.
 
 ---
 
 ## 16. Competências demonstradas
 
-A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis do contexto de **QA e Auditoria**.
-
 ### AI Response Evaluator
 
-* Aplicação de critérios objetivos para avaliação de respostas de IA;
-* Análise individual de diferentes dimensões de qualidade;
-* Avaliação da factualidade de uma explicação técnica sobre RAG;
-* Identificação de generalizações excessivas;
-* Diferenciação entre erro factual, generalização e simplificação didática;
-* Identificação de possíveis evidências de alucinação;
-* Avaliação da aderência da resposta aos requisitos da pergunta;
-* Classificação estruturada da qualidade da resposta;
-* Justificativa das pontuações com base no conteúdo avaliado;
-* Aplicação consistente de uma rubrica previamente definida.
+* Verificação estruturada de requisitos;
+* Avaliação comparativa de respostas;
+* Aplicação de rubrica padronizada;
+* Avaliação de factualidade;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Identificação de possíveis alucinações;
+* Justificativa de preferência entre respostas;
+* Verificação de aderência a instruções explícitas.
 
 ### AI Trainer
 
-* Análise crítica da qualidade de respostas geradas por IA;
-* Avaliação da adequação da resposta ao nível solicitado pelo usuário;
-* Identificação de formulações que poderiam ser tecnicamente aprimoradas;
-* Avaliação da capacidade da resposta de explicar conceitos de IA de forma acessível;
-* Identificação de oportunidades para melhorar precisão e contextualização em respostas técnicas;
-* Identificação de afirmações que necessitam de maior qualificação para evitar generalizações excessivas.
+* Identificação de características desejáveis em respostas de IA;
+* Análise de aderência aos requisitos;
+* Identificação de oportunidades de melhoria;
+* Avaliação da adequação da linguagem ao público;
+* Análise de instruções e restrições de geração.
 
 ### Data Annotator
 
-Esta avaliação demonstra competências relacionadas à análise e classificação estruturada de conteúdo.
-
-Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de dados, pois o exercício está concentrado na avaliação da qualidade de uma resposta gerada por IA.
+* Aplicação consistente de categorias;
+* Classificação de outputs;
+* Registro padronizado de decisões;
+* Comparação de respostas segundo critérios definidos;
+* Verificação estruturada de atributos previamente especificados.
 
 ---
 
 ## 17. Relação com QA e Auditoria
 
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
+A avaliação apresenta relação direta com práticas de **Quality Assurance (QA)** e **Auditoria**, especialmente pela aplicação de critérios previamente definidos e pela verificação estruturada de conformidade.
 
-A avaliação demonstra competências transferíveis para processos de controle de qualidade, especialmente:
+São praticadas competências como:
 
-* Aplicação consistente de critérios previamente definidos;
-* Análise baseada em evidências;
-* Avaliação individual de diferentes dimensões de qualidade;
-* Identificação e documentação de limitações;
-* Diferenciação entre tipos de problemas;
-* Registro estruturado das decisões;
-* Rastreabilidade das justificativas;
-* Padronização do processo de avaliação;
-* Consistência na aplicação de critérios de qualidade;
-* Evitação de penalização duplicada pelo mesmo problema.
+* Aplicação de critérios padronizados;
+* Verificação de conformidade;
+* Identificação de desvios;
+* Registro estruturado de resultados;
+* Rastreabilidade das decisões;
+* Comparação entre outputs;
+* Controle de qualidade;
+* Verificação de requisitos;
+* Padronização do processo avaliativo.
 
-A atividade também demonstra uma prática importante de QA: **não tratar todos os problemas como equivalentes**.
+A lógica aplicada pode ser representada por:
 
-Uma simplificação conceitual, uma omissão, uma informação inventada e uma afirmação excessivamente generalizada podem possuir impactos diferentes e devem ser avaliadas de acordo com critérios previamente definidos.
+**Requisito → Verificação → Avaliação → Decisão**
 
-Nesse sentido, a atividade demonstra uma abordagem baseada em **critérios, evidências, classificação, justificativa e rastreabilidade**, competências transferíveis para processos de QA e auditoria.
+Essa separação contribui para manter consistência entre diferentes avaliações.
+
+Assim como em processos de QA e auditoria, a verificação deve ser baseada em requisitos previamente definidos e em evidências observáveis no objeto avaliado.
 
 ---
 
 ## 18. Conclusão
 
-A resposta analisada apresentou desempenho adequado na maioria dos critérios avaliados.
+As duas respostas atenderam satisfatoriamente aos requisitos da solicitação.
 
-Ela explicou o conceito de RAG, descreveu seu funcionamento por meio das etapas de recuperação, aumento e geração, apresentou um problema que a técnica procura ajudar a tratar, indicou benefícios e forneceu exemplos de aplicações práticas.
+O resultado oficial foi:
 
-Foram identificadas limitações de precisão, principalmente na relação estabelecida entre conhecimento desatualizado e alucinações e na afirmação de que o RAG **“reduz alucinações”** sem apresentar as condições e limitações dessa afirmação.
+**Resposta A — Claude: 12/12 — Excelente**
 
-A expressão **“conhecimento congelado”** também representa uma simplificação que deve ser utilizada com cautela, especialmente quando associada a uma relação causal direta com alucinações.
+**Resposta B — Gemini: 12/12 — Excelente**
 
-Essas limitações foram consideradas no critério de **Factualidade**, que recebeu **1/2**.
+O resultado quantitativo é, portanto, um **empate**.
 
-Não foram identificados problemas relevantes de relevância, clareza, completude ou segurança.
+A Resposta B foi escolhida como preferência qualitativa por apresentar linguagem mais direta e maior adequação ao público iniciante.
 
-Também não foram identificadas evidências de informações claramente inventadas. Por esse motivo, o critério de **Alucinação** permaneceu em **2/2**.
+A preferência não altera a pontuação ou a classificação oficial.
 
-Com base na rubrica utilizada, a resposta recebeu:
-
-**11/12 pontos — Excelente.**
-
-A classificação quantitativa não elimina as limitações qualitativas identificadas. O resultado demonstra que uma resposta pode permanecer dentro da faixa superior da rubrica e, ainda assim, apresentar aspectos específicos que necessitam de aprimoramento técnico.
-
-A avaliação demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**, especialmente na aplicação de critérios, análise baseada em evidências, identificação de limitações, diferenciação entre tipos de problemas e documentação estruturada das decisões.
+A avaliação demonstra que o **cumprimento de instruções pode ser analisado como foco do exercício sem criar um novo critério de pontuação**, preservando a rubrica-base de seis critérios utilizada no portfólio.
 
 ---
 
@@ -473,11 +495,9 @@ A avaliação demonstra competências relacionadas às funções de **AI Respons
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
-As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
+As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, comparação, análise crítica e controle de qualidade de respostas de Inteligência Artificial.
 
-Os resultados não representam avaliações oficiais, certificações ou testes realizados para a Anthropic, OpenAI ou qualquer outra empresa.
-
-A metodologia de avaliação, os critérios, as escalas e as classificações utilizadas neste portfólio foram desenvolvidos para fins de demonstração prática das competências da autora.
+Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
 ---
 
@@ -485,9 +505,9 @@ A metodologia de avaliação, os critérios, as escalas e as classificações ut
 
 **Nágyla Silva**
 
-* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35](https://www.linkedin.com/in/nágyla-silva-215aba35)
 * **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
-*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator, Data Annotation e competências relacionadas à avaliação e qualidade de respostas de IA.*
+*Portfólio desenvolvido para demonstrar aprendizado prático e competências relacionadas à avaliação e qualidade de respostas de Inteligência Artificial.*
