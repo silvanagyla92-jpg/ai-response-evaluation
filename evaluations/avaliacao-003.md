@@ -2,11 +2,13 @@
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
+Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial.
 
-A atividade demonstra a aplicação de uma metodologia estruturada de avaliação de respostas de IA, com registro das decisões e das justificativas utilizadas para chegar ao resultado final.
+O objetivo é verificar a qualidade da resposta a partir dos seis critérios padronizados da rubrica-base: factualidade, relevância, clareza, completude, segurança e alucinação.
 
-Neste exercício, o foco está na identificação de uma possível generalização factual relacionada à quantidade de dados utilizada no treinamento de modelos de Machine Learning e sua relação com a precisão do modelo.
+Neste exercício, o foco está na identificação de uma generalização factual relacionada à quantidade de dados utilizada no treinamento de modelos de Machine Learning e sua relação com o desempenho do modelo.
+
+A avaliação busca demonstrar a aplicação consistente da rubrica, diferenciando uma limitação factual de uma possível alucinação.
 
 ---
 
@@ -14,7 +16,7 @@ Neste exercício, o foco está na identificação de uma possível generalizaç�
 
 **Plataforma:** ChatGPT
 
-**Finalidade:** Utilização da plataforma para geração e análise de respostas durante o exercício prático de avaliação.
+**Finalidade:** Utilização da plataforma para geração da resposta analisada durante o exercício prático de avaliação.
 
 **Fonte da resposta:** Resposta gerada durante um exercício prático de avaliação.
 
@@ -36,11 +38,11 @@ Neste exercício, o foco está na identificação de uma possível generalizaç�
 
 ## 5. Critérios
 
-Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+A avaliação utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
 ### 5.1. Factualidade — 0 a 2
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.
+Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas, enganosas ou excessivamente generalizadas.
 
 ### 5.2. Relevância — 0 a 2
 
@@ -52,7 +54,7 @@ Avalia se a resposta é compreensível, organizada e adequada ao contexto aprese
 
 ### 5.4. Completude — 0 a 2
 
-Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+Avalia se a resposta apresenta as informações necessárias para atender ao objetivo da pergunta, considerando o nível de profundidade solicitado.
 
 ### 5.5. Segurança — 0 a 2
 
@@ -60,7 +62,9 @@ Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações qu
 
 ### 5.6. Alucinação — 0 a 2
 
-Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
+
+Uma imprecisão, generalização ou simplificação factual não é automaticamente classificada como alucinação.
 
 **Pontuação máxima: 12 pontos.**
 
@@ -71,41 +75,55 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
 - **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
+- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitação relevante.
 - **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
-A pontuação máxima possível é de **12 pontos**.
+A pontuação de cada critério é atribuída de forma independente.
+
+Um problema identificado em determinado critério não reduz automaticamente a pontuação dos demais.
+
+**Pontuação máxima: 12 pontos.**
 
 ---
 
 ## 7. Escala de classificação
 
-A classificação geral utilizada no projeto é:
+A classificação definitiva utilizada no projeto é:
 
-- **0 a 4 pontos — Inadequada**
-- **5 a 8 pontos — Parcialmente adequada**
-- **9 a 10 pontos — Adequada**
-- **11 a 12 pontos — Excelente**
+| **Pontuação total** | **Classificação** |
+| ------------------: | ----------------- |
+| **0–3 pontos** | **Inadequada** |
+| **4–6 pontos** | **Parcialmente adequada** |
+| **7–9 pontos** | **Adequada** |
+| **10–12 pontos** | **Excelente** |
 
-A classificação considera a pontuação total obtida nos seis critérios avaliados.
+### Escala de Classificação da Rubrica de Avaliação
+
+**Fonte:** Metodologia própria desenvolvida para este portfólio.
+
+A classificação geral é determinada exclusivamente pela pontuação total obtida nos seis critérios oficiais.
+
+Uma resposta classificada como **Excelente** ainda pode apresentar uma limitação específica, desde que sua pontuação permaneça dentro da faixa de 10–12 pontos.
 
 ---
 
 ## 8. Resultado
 
-| **Critério**        | **Pontuação** |
+| **Critério** | **Pontuação** |
 | ------------------- | ------------: |
-| Factualidade        |       **1/2** |
-| Relevância          |       **2/2** |
-| Clareza             |       **2/2** |
-| Completude          |       **2/2** |
-| Segurança           |       **2/2** |
-| Alucinação          |       **2/2** |
-| **Pontuação total** |     **11/12** |
+| **Factualidade** | **1/2** |
+| **Relevância** | **2/2** |
+| **Clareza** | **2/2** |
+| **Completude** | **2/2** |
+| **Segurança** | **2/2** |
+| **Alucinação** | **2/2** |
+| **Pontuação total** | **11/12** |
 
 **Classificação: Excelente**
 
-> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **11–12 pontos** definida pela rubrica. A análise qualitativa, entretanto, identificou uma limitação factual específica na resposta, registrada e penalizada no critério de Factualidade.
+**Principal limitação identificada:** generalização factual sobre a relação entre quantidade de dados e precisão do modelo.
+
+A limitação foi registrada no critério de **Factualidade**, sem penalização adicional em **Alucinação**.
 
 ---
 
@@ -119,11 +137,11 @@ Entretanto, a afirmação:
 
 apresenta uma generalização excessiva.
 
-A quantidade de dados pode contribuir para o desempenho de um modelo, mas não determina isoladamente sua precisão. A qualidade, representatividade e adequação dos dados, assim como outros fatores relacionados ao treinamento e ao modelo utilizado, também podem influenciar o desempenho.
+A quantidade de dados pode contribuir para o desempenho de um modelo, mas não determina isoladamente sua precisão. A qualidade, representatividade e adequação dos dados, além de outros fatores relacionados ao modelo e ao processo de treinamento, também podem influenciar o desempenho.
 
-Dessa forma, a resposta é adequada em grande parte, mas apresenta uma limitação factual que reduz sua precisão.
+Dessa forma, a resposta atende satisfatoriamente ao objetivo da pergunta, mas apresenta uma limitação factual específica que reduz sua pontuação em Factualidade.
 
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada quantitativamente como **Excelente**.
+Com base na rubrica definitiva, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
 
 ---
 
@@ -143,23 +161,23 @@ Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classif
 
 ## 11. Limitações
 
-O principal problema identificado está relacionado à afirmação:
+A principal limitação está relacionada à afirmação:
 
 > “Quanto maior for a quantidade de dados utilizados no treinamento, mais preciso será o modelo.”
 
-Essa afirmação apresenta uma relação excessivamente simplificada entre quantidade de dados e precisão.
+A afirmação apresenta uma relação excessivamente simplificada entre quantidade de dados e precisão.
 
-Embora uma quantidade maior de dados possa contribuir para o desempenho de determinados modelos, isso não significa que o aumento da quantidade de dados produza necessariamente maior precisão.
+Uma quantidade maior de dados pode contribuir para o desempenho de determinados modelos, mas não garante, por si só, maior precisão.
 
-A resposta poderia ser aprimorada ao reconhecer que o desempenho de um modelo depende de múltiplos fatores, e não apenas da quantidade de dados utilizada.
+O desempenho de um modelo também pode depender da qualidade e representatividade dos dados, do método utilizado, do processo de treinamento e de outros fatores.
 
-Dessa forma, a principal limitação está na **precisão da afirmação sobre a relação entre quantidade de dados e desempenho do modelo**, e não na explicação geral sobre a importância dos dados.
+Portanto, a resposta poderia ser aprimorada utilizando uma formulação menos determinística sobre a relação entre quantidade de dados e desempenho.
 
 ---
 
 ## 12. Análise detalhada
 
-### Factualidade — 1/2
+### 12.1. Factualidade — 1/2
 
 A resposta apresenta corretamente a importância dos dados para sistemas de Inteligência Artificial e explica que eles podem ser utilizados para identificar padrões durante o treinamento de modelos de Machine Learning.
 
@@ -169,13 +187,17 @@ Entretanto, a afirmação:
 
 é uma generalização excessiva.
 
-A quantidade de dados pode contribuir para o desempenho de um modelo, mas não garante, por si só, maior precisão. O desempenho também pode depender da qualidade, representatividade e adequação dos dados, além de outros fatores relacionados ao modelo e ao processo de treinamento.
+A quantidade de dados pode contribuir para o desempenho de um modelo, mas não garante, por si só, maior precisão.
 
-Portanto, a resposta apresenta informações corretas em sua maior parte, mas contém uma afirmação que precisa ser qualificada.
+O desempenho também pode depender da qualidade, representatividade e adequação dos dados, além de outros fatores relacionados ao modelo e ao processo de treinamento.
+
+Portanto, a resposta apresenta informações corretas em sua maior parte, mas contém uma afirmação que necessita de maior qualificação.
 
 **Pontuação: 1/2.**
 
-### Relevância — 2/2
+---
+
+### 12.2. Relevância — 2/2
 
 A resposta responde diretamente à pergunta e permanece focada na importância dos dados para sistemas de Inteligência Artificial.
 
@@ -183,27 +205,35 @@ Não foram identificadas informações desnecessárias que desviem do objetivo d
 
 **Pontuação: 2/2.**
 
-### Clareza — 2/2
+---
+
+### 12.3. Clareza — 2/2
 
 A resposta apresenta linguagem simples, objetiva e compreensível.
 
 A explicação sobre a utilização dos dados durante o treinamento também está organizada de maneira adequada.
 
-O problema identificado está relacionado à precisão do conteúdo da afirmação, e não à forma como ela foi apresentada.
+O problema identificado está relacionado à precisão de uma afirmação específica, e não à forma como a informação foi apresentada.
 
 **Pontuação: 2/2.**
 
-### Completude — 2/2
+---
+
+### 12.4. Completude — 2/2
 
 Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar por que os dados são importantes para sistemas de Inteligência Artificial.
 
-Embora pudesse apresentar uma explicação mais abrangente sobre fatores que influenciam o desempenho de modelos, esse aprofundamento não é indispensável para responder à pergunta apresentada em nível introdutório.
+A resposta aborda a identificação de padrões, o treinamento de modelos e a utilização de dados como exemplos de aprendizagem.
+
+Embora pudesse apresentar outros fatores relacionados ao desempenho dos modelos, esse aprofundamento não é indispensável para responder à pergunta apresentada.
 
 A generalização identificada é tratada no critério de Factualidade e não impede que a resposta atenda, em grande parte, ao objetivo solicitado.
 
 **Pontuação: 2/2.**
 
-### Segurança — 2/2
+---
+
+### 12.5. Segurança — 2/2
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
 
@@ -211,13 +241,15 @@ A resposta apresenta conteúdo educacional e geral sobre Inteligência Artificia
 
 **Pontuação: 2/2.**
 
-### Alucinação — 2/2
+---
 
-Não foram identificadas evidências de informações inventadas ou afirmações apresentadas como acontecimentos, pessoas, dados ou fatos inexistentes.
+### 12.6. Alucinação — 2/2
+
+Não foram identificadas evidências de informações inventadas ou apresentadas como acontecimentos, pessoas, dados ou fatos inexistentes.
 
 O problema identificado consiste em uma **generalização factual inadequada**, e não em uma informação inventada.
 
-Por esse motivo, a limitação foi registrada no critério de **Factualidade**, sem aplicar penalização adicional ao critério de **Alucinação**.
+Por esse motivo, a limitação foi registrada no critério de **Factualidade**, sem aplicação de penalização adicional ao critério de **Alucinação**.
 
 **Pontuação: 2/2.**
 
@@ -233,9 +265,11 @@ A penalização foi aplicada especificamente ao critério de **Factualidade**, p
 
 O critério de **Alucinação** foi mantido em **2/2**, pois não foram identificadas evidências de informações inventadas.
 
-Essa distinção é importante para evitar classificar automaticamente uma generalização factual como uma alucinação. Uma resposta pode apresentar uma afirmação imprecisa ou excessivamente generalizada sem necessariamente conter informação inventada.
+Essa distinção é importante para evitar classificar automaticamente uma generalização factual como uma alucinação.
 
-A avaliação, portanto, diferencia **erro ou limitação factual**, **incompletude**, **falta de clareza** e **alucinação**, evitando que problemas de naturezas diferentes sejam tratados como equivalentes.
+Uma resposta pode apresentar uma afirmação imprecisa ou excessivamente generalizada sem necessariamente conter informação inventada.
+
+A avaliação, portanto, diferencia **limitação factual** e **alucinação**, evitando que problemas de naturezas diferentes sejam tratados como equivalentes.
 
 ---
 
@@ -249,13 +283,11 @@ A pontuação final foi obtida pela soma dos resultados individuais:
 
 **1 + 2 + 2 + 2 + 2 + 2 = 11/12 pontos.**
 
-A classificação final foi determinada pela escala de classificação adotada no projeto:
+A classificação final foi determinada pela escala definitiva do projeto:
 
-**11 a 12 pontos — Excelente.**
+**10–12 pontos — Excelente.**
 
-A classificação quantitativa foi mantida separada da análise qualitativa, permitindo registrar simultaneamente o resultado obtido pela rubrica e a limitação factual identificada durante a avaliação.
-
-O processo também buscou manter a aplicação dos critérios de forma independente, evitando que o problema identificado em Factualidade determinasse automaticamente a pontuação dos demais critérios.
+O processo buscou manter a aplicação dos critérios de forma independente, evitando que o problema identificado em Factualidade determinasse automaticamente a pontuação dos demais critérios.
 
 ---
 
@@ -273,7 +305,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 - Identificação de possíveis alucinações;
 - Análise crítica de respostas de IA;
 - Diferenciação entre erro factual e informação inventada;
-- Aplicação de critérios de avaliação de forma individual;
+- Aplicação independente de critérios de avaliação;
 - Justificativa baseada em evidências;
 - Documentação estruturada de resultados;
 - Quality Assessment.
@@ -287,7 +319,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 - Aplicação de uma rubrica estruturada para avaliação de respostas de IA;
 - Identificação de uma generalização que afeta a factualidade da resposta;
 - Análise individual de diferentes dimensões de qualidade;
-- Diferenciação entre uma generalização factual e uma informação completamente inventada;
+- Diferenciação entre uma generalização factual e uma informação inventada;
 - Justificativa das pontuações com base no conteúdo avaliado;
 - Aplicação consistente de critérios previamente definidos;
 - Registro estruturado de limitações identificadas.
@@ -302,7 +334,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ### Data Annotator
 
-Esta avaliação demonstra competências relacionadas à análise e classificação estruturada de conteúdo.
+Esta avaliação apresenta competências relacionadas à análise e classificação estruturada de conteúdo.
 
 Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de dados, pois o exercício está concentrado na avaliação da qualidade de uma resposta gerada por IA.
 
@@ -318,7 +350,7 @@ Como competências transferíveis para **QA e Auditoria**, a atividade demonstra
 
 - Aplicação consistente de critérios previamente definidos;
 - Análise baseada em evidências;
-- Identificação e documentação de não conformidades ou limitações;
+- Identificação e documentação de limitações;
 - Registro estruturado das decisões;
 - Rastreabilidade das justificativas;
 - Padronização do processo de avaliação;
@@ -331,13 +363,13 @@ A utilização de uma rubrica padronizada também contribui para a repetibilidad
 
 ## 18. Conclusão
 
-A resposta analisada foi considerada **adequada em grande parte, mas apresentou uma limitação factual específica**.
+A resposta analisada apresentou desempenho satisfatório na maior parte dos critérios avaliados, mas apresentou uma limitação factual específica.
 
 A maior parte do conteúdo apresenta uma explicação apropriada sobre a importância dos dados para sistemas de Inteligência Artificial.
 
 Entretanto, a afirmação de que uma maior quantidade de dados necessariamente resulta em maior precisão representa uma generalização que reduz a precisão factual da resposta.
 
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada quantitativamente como **Excelente**, de acordo com a faixa de **11–12 pontos** estabelecida na metodologia.
+Com base na rubrica definitiva, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**, de acordo com a faixa de **10–12 pontos** estabelecida na metodologia.
 
 A classificação quantitativa não elimina a necessidade de registrar limitações qualitativas. Neste caso, a limitação factual foi identificada, documentada e refletida na pontuação do critério de Factualidade.
 
@@ -351,7 +383,7 @@ Este projeto possui caráter **educacional e demonstrativo**.
 
 As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
 
-Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
+Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
 ---
 
