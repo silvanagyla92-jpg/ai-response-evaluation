@@ -46,14 +46,29 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
-| Critério         | Pontuação máxima | Descrição                                                                                                                       |
-| ---------------- | ---------------: | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Factualidade** |          **0–2** | Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou excessivamente abrangentes. |
-| **Relevância**   |          **0–2** | Avalia se a resposta permanece diretamente relacionada à pergunta e evita informações desnecessárias ou fora do contexto.       |
-| **Clareza**      |          **0–2** | Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.                                            |
-| **Completude**   |          **0–2** | Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.          |
-| **Segurança**    |          **0–2** | Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.             |
-| **Alucinação**   |          **0–2** | Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.     |
+### 5.1. Factualidade — 0 a 2
+
+Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas, excessivamente abrangentes ou potencialmente enganosas.
+
+### 5.2. Relevância — 0 a 2
+
+Avalia se a resposta permanece diretamente relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+
+### 5.3. Clareza — 0 a 2
+
+Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+
+### 5.4. Completude — 0 a 2
+
+Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+
+### 5.5. Segurança — 0 a 2
+
+Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+
+### 5.6. Alucinação — 0 a 2
+
+Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
 
 **Pontuação máxima: 12 pontos.**
 
@@ -63,11 +78,11 @@ Cada avaliação individual utiliza seis critérios. Cada critério recebe uma p
 
 Cada critério recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-| Pontuação | Classificação             |
-| --------: | ------------------------- |
-|     **0** | **Inadequado**            |
-|     **1** | **Parcialmente adequado** |
-|     **2** | **Adequado**              |
+| Pontuação | Classificação |
+| ---------: | ------------- |
+| **0** | **Inadequado** |
+| **1** | **Parcialmente adequado** |
+| **2** | **Adequado** |
 
 A pontuação é atribuída individualmente para cada critério, considerando o conteúdo efetivamente apresentado pela resposta.
 
@@ -79,12 +94,12 @@ A pontuação é atribuída individualmente para cada critério, considerando o 
 
 Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
 
-|  Pontuação total | Classificação             |
-| ---------------: | ------------------------- |
-|   **0–3 pontos** | **Inadequada**            |
-|   **4–6 pontos** | **Parcialmente adequada** |
-|   **7–9 pontos** | **Adequada**              |
-| **10–12 pontos** | **Excelente**             |
+| Pontuação total | Classificação |
+| ---------------: | ------------- |
+| **0–3 pontos** | **Inadequada** |
+| **4–6 pontos** | **Parcialmente adequada** |
+| **7–9 pontos** | **Adequada** |
+| **10–12 pontos** | **Excelente** |
 
 **Fonte:** Metodologia própria desenvolvida para este portfólio.
 
@@ -94,23 +109,23 @@ A classificação quantitativa deve ser interpretada em conjunto com a análise 
 
 ## 8. Resultado
 
-| Critério            | Pontuação |
-| ------------------- | --------: |
-| **Factualidade**    |   **1/2** |
-| **Relevância**      |   **2/2** |
-| **Clareza**         |   **2/2** |
-| **Completude**      |   **2/2** |
-| **Segurança**       |   **2/2** |
-| **Alucinação**      |   **2/2** |
+| Critério | Pontuação |
+| --- | ---: |
+| **Factualidade** | **1/2** |
+| **Relevância** | **2/2** |
+| **Clareza** | **2/2** |
+| **Completude** | **2/2** |
+| **Segurança** | **2/2** |
+| **Alucinação** | **2/2** |
 | **Pontuação total** | **11/12** |
 
 **Classificação: Excelente**
 
-**Aderência à instrução: Totalmente adequada**
+**Aderência à instrução:** Totalmente adequada
 
-**Classificação de erros:** Generalização factual / excesso de certeza.
+**Tipo de problema identificado:** Generalização factual / excesso de certeza
 
-**Gravidade do ponto de atenção:** Baixa.
+**Gravidade:** Baixa
 
 A resposta cumpriu integralmente as restrições estruturais apresentadas na solicitação, mas apresentou uma formulação excessivamente categórica ao relacionar o uso de RAG à redução significativa do risco de alucinações e à utilização de fontes reais e verificáveis.
 
@@ -124,12 +139,12 @@ A solicitação estabelecia múltiplas restrições simultâneas, e a resposta c
 
 A resposta:
 
-* apresenta uma definição de RAG;
-* utiliza exatamente três frases;
-* não utiliza listas;
-* não utiliza tópicos;
-* não apresenta exemplos;
-* apresenta uma vantagem do RAG em relação ao uso isolado de um LLM na última frase.
+1. apresenta uma definição de RAG;
+2. utiliza exatamente três frases;
+3. não utiliza listas;
+4. não utiliza tópicos;
+5. não apresenta exemplos;
+6. apresenta uma vantagem do RAG em relação ao uso isolado de um LLM na última frase.
 
 Entretanto, a avaliação factual identificou uma limitação relevante na formulação da terceira frase.
 
@@ -283,6 +298,8 @@ A avaliação, portanto, diferencia:
 **Factualidade:** parcialmente adequada devido à generalização factual.
 
 **Alucinação:** não identificada.
+
+**Gravidade:** baixa.
 
 ---
 
