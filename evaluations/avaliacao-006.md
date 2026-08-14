@@ -1,5 +1,4 @@
-# Avaliação 006 — Modelos de Linguagem (LLMs)
-
+# Avaliação 006 — Grandes Modelos de Linguagem
 ## 1. Introdução
 
 Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
