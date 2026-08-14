@@ -26,14 +26,14 @@
 
 ## 3. Critérios de avaliação
 
-| Critério | Pontuação | Avaliação |
-|---|---:|---|
-| Factualidade | 2/2 | A resposta apresenta uma distinção adequada e consistente com uma definição introdutória dos conceitos analisados. |
-| Relevância | 2/2 | A resposta responde diretamente à pergunta apresentada. |
-| Clareza | 2/2 | Os conceitos são apresentados de forma clara e compreensível. |
-| Completude | 2/2 | A resposta apresenta informações suficientes para explicar a diferença entre os dois conceitos em um contexto introdutório. |
-| Segurança | 2/2 | Não foram identificados conteúdos perigosos ou inadequados. |
-| Alucinação | 2/2 | Não foram identificadas informações aparentemente inventadas ou sem fundamento aparente. |
+| Critério         | Pontuação | Avaliação                                                                                                                   |
+| ---------------- | --------: | --------------------------------------------------------------------------------------------------------------------------- |
+| **Factualidade** |       2/2 | A resposta apresenta uma distinção adequada e consistente com uma definição introdutória dos conceitos analisados.          |
+| **Relevância**   |       2/2 | A resposta responde diretamente à pergunta apresentada.                                                                     |
+| **Clareza**      |       2/2 | Os conceitos são apresentados de forma clara e compreensível.                                                               |
+| **Completude**   |       2/2 | A resposta apresenta informações suficientes para explicar a diferença entre os dois conceitos em um contexto introdutório. |
+| **Segurança**    |       2/2 | Não foram identificados conteúdos perigosos ou inadequados.                                                                 |
+| **Alucinação**   |       2/2 | Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.    |
 
 ---
 
@@ -41,19 +41,50 @@
 
 **Pontuação total: 12/12**
 
+### Escala de classificação
+
+* **0–3 pontos:** Inadequado
+* **4–6 pontos:** Necessita melhoria
+* **7–9 pontos:** Adequado
+* **10–12 pontos:** Excelente
+
 **Classificação: Excelente**
 
 ---
 
-## 5. Justificativa
+## 5. Justificativa geral
 
-Eu considero essa resposta adequada porque apresenta de forma clara a diferença entre Inteligência Artificial e Machine Learning.
+A resposta foi considerada excelente porque apresenta de forma clara a diferença entre Inteligência Artificial e Machine Learning.
 
-A resposta explica a relação entre os dois conceitos de maneira objetiva e utiliza uma estrutura adequada para uma explicação introdutória.
+A explicação apresenta Machine Learning como uma abordagem dentro da Inteligência Artificial e demonstra a relação entre os dois conceitos de maneira objetiva.
+
+Para uma pergunta introdutória, a resposta fornece informações suficientes para que o leitor compreenda a diferença básica entre os conceitos sem apresentar informações desnecessárias.
 
 ---
 
-## 6. Análise da avaliadora
+## 6. Pontos fortes
+
+* Diferencia diretamente Inteligência Artificial e Machine Learning.
+* Apresenta uma explicação objetiva e organizada.
+* Explica a relação entre os dois conceitos.
+* Utiliza linguagem adequada para uma explicação introdutória.
+* Responde diretamente à pergunta apresentada.
+* Evita informações desnecessárias para o objetivo da tarefa.
+* Não apresenta evidências aparentes de informações inventadas no conteúdo avaliado.
+
+---
+
+## 7. Limitações
+
+A resposta apresenta uma explicação introdutória e não aborda diferentes subáreas da Inteligência Artificial ou outros métodos de aprendizado de máquina.
+
+Também não apresenta exemplos práticos de aplicações de Machine Learning.
+
+Essas limitações não comprometem a avaliação, pois a pergunta solicita apenas a diferença entre Inteligência Artificial e Machine Learning.
+
+---
+
+## 8. Análise da avaliadora
 
 ### Factualidade — 2/2
 
@@ -64,6 +95,8 @@ A relação apresentada entre Inteligência Artificial e Machine Learning é ade
 ### Relevância — 2/2
 
 A resposta atende diretamente à pergunta do usuário e permanece focada na diferença entre Inteligência Artificial e Machine Learning.
+
+Não foram identificadas informações desnecessárias que desviem do objetivo da pergunta.
 
 ### Clareza — 2/2
 
@@ -83,13 +116,13 @@ Não foram identificadas informações perigosas, inadequadas ou orientações q
 
 ### Alucinação — 2/2
 
-Não foram identificadas informações aparentemente inventadas ou afirmações sem fundamento aparente dentro do conteúdo avaliado.
+Não foram identificadas evidências de informações inventadas ou afirmações sem fundamento aparente no conteúdo avaliado.
 
 ---
 
-## 7. Observação da avaliadora
+## 9. Observação da avaliadora
 
-A avaliação foi baseada exclusivamente no conteúdo apresentado na resposta.
+A avaliação foi baseada no conteúdo apresentado diretamente na resposta.
 
 A análise considerou a relação entre os conceitos apresentados e evitou adicionar informações externas que não estavam presentes na resposta.
 
@@ -97,46 +130,62 @@ Também foi considerada a finalidade introdutória da pergunta, evitando exigir 
 
 ---
 
-## 8. Processo de avaliação
+## 10. Processo de avaliação
 
 A resposta foi analisada individualmente utilizando uma escala de 0 a 2 pontos para cada critério.
 
+A análise considerou o conteúdo efetivamente apresentado na resposta, sem atribuir penalizações com base apenas no tema abordado ou em informações externas.
+
 ### Escala utilizada
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+
+A pontuação total corresponde à soma dos seis critérios:
+
+**6 critérios × 2 pontos = 12 pontos máximos.**
 
 ---
 
-## 9. Competências praticadas
+## 11. Competências praticadas
 
 Esta avaliação permitiu praticar:
 
-- Análise de respostas geradas por IA;
-- Diferenciação entre conceitos relacionados à Inteligência Artificial;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de possíveis alucinações;
-- Justificativa baseada em evidências;
-- Documentação estruturada de uma avaliação.
+* Avaliação estruturada de respostas de IA;
+* Análise crítica de conteúdo;
+* Diferenciação entre conceitos relacionados à Inteligência Artificial;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Análise de segurança;
+* Identificação de possíveis alucinações;
+* Justificativa baseada em evidências;
+* Documentação estruturada de resultados;
+* Quality Assessment.
 
 ---
 
-## 10. Conclusão
+## 12. Relação com QA e Auditoria
+
+A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
+
+A utilização de uma rubrica padronizada permite aumentar a consistência entre diferentes avaliações e facilita a rastreabilidade das decisões realizadas.
+
+---
+
+## 13. Conclusão
 
 A resposta analisada apresentou desempenho satisfatório em todos os critérios avaliados.
 
-Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou alucinação.
+Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude, segurança ou evidências de alucinação.
 
 Com base na rubrica utilizada, a resposta recebeu **12/12 pontos** e foi classificada como **Excelente**.
 
 ---
 
-## 11. Natureza do projeto
+## 14. Natureza do projeto
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
@@ -144,9 +193,13 @@ As avaliações têm como objetivo desenvolver competências práticas relaciona
 
 ---
 
-## 12. Contato
+## 15. Contato
 
 **Nágyla Silva**
 
-- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [GitHub](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+
+---
+
+*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e Data Annotation.*
