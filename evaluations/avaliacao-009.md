@@ -6,9 +6,17 @@ Esta avaliação apresenta um exercício prático de **comparação entre respos
 
 O objetivo é analisar duas respostas produzidas para a mesma pergunta e identificar qual apresenta melhor desempenho considerando critérios objetivos de qualidade, além da adequação ao público-alvo e ao contexto da solicitação.
 
-A atividade demonstra a aplicação de uma metodologia estruturada de avaliação comparativa, permitindo analisar não apenas se uma resposta apresenta informações adequadas, mas também qual resposta atende melhor às necessidades específicas do usuário.
+A atividade demonstra a aplicação de uma metodologia estruturada de avaliação comparativa, permitindo analisar não apenas se uma resposta atende aos requisitos mínimos, mas também qual resposta apresenta melhor combinação entre precisão, clareza, completude e adequação contextual.
 
 Neste exercício, o foco está na comparação de duas explicações sobre **Large Language Models (LLMs)** destinadas a uma pessoa sem conhecimento prévio em Inteligência Artificial.
+
+A metodologia estabelece uma separação entre:
+
+* **avaliação individual**, realizada por meio dos seis critérios da rubrica;
+* **classificação quantitativa**, determinada pela soma das pontuações;
+* **comparação contextual**, utilizada posteriormente para identificar a resposta preferível.
+
+Essa separação evita que a preferência entre duas respostas altere artificialmente a pontuação individual atribuída a cada uma.
 
 ---
 
@@ -22,7 +30,7 @@ Neste exercício, o foco está na comparação de duas explicações sobre **Lar
 
 **Observação:** As respostas foram utilizadas exclusivamente como objetos de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma de Inteligência Artificial.
+As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
 
 ---
 
@@ -50,6 +58,8 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 >
 > Duas aplicações práticas comuns: chatbots de atendimento ao cliente, que respondem dúvidas de forma automática 24 horas por dia; e ferramentas de geração de texto, usadas para redigir resumos, e-mails ou relatórios de forma mais rápida.
 
+**Nota metodológica:** As respostas avaliadas devem ser preservadas em seu conteúdo original. A avaliadora não deve corrigir, editar ou melhorar o output antes da atribuição das pontuações.
+
 ---
 
 ## 5. Critérios
@@ -60,19 +70,19 @@ Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máxim
 
 ### 5.1. Factualidade — 0 a 2
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.
+Avalia se as informações apresentadas estão corretas, suficientemente precisas e não apresentam afirmações factualmente incorretas ou excessivamente generalizadas que comprometam a compreensão do tema.
 
 ### 5.2. Relevância — 0 a 2
 
-Avalia se a resposta permanece relacionada à pergunta e atende aos elementos solicitados.
+Avalia se a resposta permanece relacionada à pergunta e atende aos elementos solicitados, evitando desvios significativos.
 
 ### 5.3. Clareza — 0 a 2
 
-Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+Avalia se a resposta é compreensível, organizada e adequada ao público e ao contexto apresentados.
 
 ### 5.4. Completude — 0 a 2
 
-Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes em relação aos requisitos explícitos da pergunta.
 
 ### 5.5. Segurança — 0 a 2
 
@@ -80,7 +90,15 @@ Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações qu
 
 ### 5.6. Alucinação — 0 a 2
 
-Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+Avalia a presença de informações inventadas, fabricadas ou sem sustentação aparente.
+
+Neste critério, a pontuação representa a **qualidade da resposta quanto à ausência de alucinação**:
+
+* **0 — Inadequado:** existem evidências relevantes de informações inventadas ou fabricadas;
+* **1 — Parcialmente adequado:** existem indícios, afirmações duvidosas ou elementos que exigem verificação;
+* **2 — Adequado:** não foram identificadas evidências relevantes de informações inventadas ou fabricadas.
+
+**Importante:** simplificações, generalizações ou imprecisões técnicas não devem ser automaticamente classificadas como alucinação. Esses problemas devem ser atribuídos ao critério mais diretamente afetado, especialmente Factualidade, quando apropriado.
 
 **Pontuação máxima por resposta: 12 pontos.**
 
@@ -90,101 +108,134 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 Cada critério recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+* **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
+* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
-Nesta avaliação comparativa, a pontuação quantitativa é utilizada para analisar o desempenho individual das respostas.
+A pontuação é atribuída individualmente para cada resposta.
 
-Além da pontuação, a **adequação ao público-alvo e ao contexto da solicitação** é considerada na comparação final.
+Em avaliações comparativas, a pontuação individual deve ser determinada **antes da decisão sobre qual resposta é preferida**.
 
 ---
 
 ## 7. Escala de classificação
 
-Após a análise individual dos seis critérios, as pontuações podem ser interpretadas conforme a seguinte escala:
+Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral de cada resposta.
 
-| **Pontuação total** | **Classificação** |
-| ------------------: | ----------------- |
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Necessita melhoria** |
-| **7–9 pontos** | **Parcialmente adequada** |
-| **10–12 pontos** | **Excelente** |
+|  Pontuação total | Classificação             |
+| ---------------: | ------------------------- |
+|   **0–3 pontos** | **Inadequada**            |
+|   **4–6 pontos** | **Parcialmente adequada** |
+|   **7–9 pontos** | **Adequada**              |
+| **10–12 pontos** | **Excelente**             |
 
-Essa classificação é aplicada individualmente às respostas.
+Esta é a **Escala de Classificação da Rubrica de Avaliação** utilizada como padrão definitivo em todas as avaliações deste portfólio.
+
+**Fonte:** Metodologia própria desenvolvida para este portfólio.
+
+A classificação quantitativa não determina automaticamente a resposta preferida em uma comparação. Duas respostas podem receber a mesma classificação e, ainda assim, uma apresentar melhor adequação ao contexto específico da pergunta.
 
 ---
 
 ## 8. Resultado
 
-### Resultado individual
+### 8.1. Resultado individual
 
-| **Critério** | **Resposta A** | **Resposta B** |
-|---|---:|---:|
-| Factualidade | **2/2** | **1/2** |
-| Relevância | **2/2** | **2/2** |
-| Clareza | **2/2** | **2/2** |
-| Completude | **2/2** | **2/2** |
-| Segurança | **2/2** | **2/2** |
-| Alucinação | **2/2** | **2/2** |
-| **Pontuação total** | **12/12** | **11/12** |
+| Critério            | Resposta A | Resposta B |
+| ------------------- | ---------: | ---------: |
+| Factualidade        |    **1/2** |    **1/2** |
+| Relevância          |    **2/2** |    **2/2** |
+| Clareza             |    **2/2** |    **2/2** |
+| Completude          |    **2/2** |    **2/2** |
+| Segurança           |    **2/2** |    **2/2** |
+| Alucinação          |    **2/2** |    **2/2** |
+| **Pontuação total** |  **11/12** |  **11/12** |
 
-**Resposta A:** 12/12 — **Excelente**
+**Resposta A:** 11/12 — **Excelente**
 
 **Resposta B:** 11/12 — **Excelente**
 
-### Resultado comparativo
+### 8.2. Resultado comparativo
 
 **Resposta preferida: Resposta A**
 
-A Resposta A foi considerada superior principalmente por apresentar uma combinação mais consistente de **precisão conceitual, linguagem acessível e adequação ao público-alvo**.
+Embora ambas tenham recebido **11/12 pontos — Excelente**, a Resposta A foi considerada preferível para o contexto específico da pergunta.
 
-A Resposta B apresenta um estilo mais conversacional e informal, adequado ao contexto introdutório, porém contém algumas formulações excessivamente categóricas que reduzem sua precisão conceitual.
+A preferência não decorre de uma diferença quantitativa de pontuação, mas de uma análise contextual posterior à avaliação individual.
 
-Entre os principais pontos identificados estão a afirmação de que o modelo "não memoriza frases prontas" e a descrição de que ele aprende "como as ideias se conectam logicamente".
+A Resposta A apresenta melhor equilíbrio entre:
 
-Essas formulações simplificam excessivamente aspectos do funcionamento de LLMs.
+* linguagem acessível;
+* explicação intuitiva;
+* adequação ao público iniciante;
+* cautela conceitual;
+* utilização de uma analogia cotidiana.
+
+A Resposta B também apresenta boa qualidade geral, porém contém formulações mais categóricas, especialmente ao afirmar que o modelo “não memoriza frases prontas” e que aprende “como as ideias se conectam logicamente”.
+
+Essas formulações reduzem a precisão conceitual, embora não sejam suficientes para classificar a resposta como inadequada.
 
 ---
 
 ## 9. Justificativa
 
-As duas respostas atendem aos principais requisitos da pergunta.
+As duas respostas atendem aos requisitos principais da pergunta.
 
 Ambas:
 
-- definem o conceito de LLM;
-- explicam, em nível introdutório, o aprendizado de padrões de linguagem;
-- descrevem a geração de texto;
-- apresentam aplicações práticas;
-- utilizam linguagem acessível;
-- não apresentam conteúdos perigosos.
+* definem o conceito de LLM;
+* explicam, em nível introdutório, o aprendizado de padrões de linguagem;
+* descrevem a geração de texto;
+* apresentam dois exemplos de aplicações práticas;
+* utilizam linguagem acessível;
+* permanecem relacionadas ao contexto solicitado;
+* não apresentam conteúdo perigoso.
 
-Entretanto, existem diferenças relevantes na precisão das formulações.
+Entretanto, foram identificadas limitações de precisão nas duas respostas.
 
-A Resposta B afirma:
+Na **Resposta A**, algumas expressões são simplificações próprias de uma explicação introdutória.
 
-> "Nessa fase, ele não memoriza frases prontas, mas aprende padrões."
+A expressão:
 
-A afirmação é excessivamente absoluta. Embora seja adequado explicar que LLMs aprendem padrões a partir dos dados de treinamento, não é tecnicamente apropriado estabelecer como regra geral que o modelo "não memoriza" elementos dos dados de treinamento.
+> “treinado para entender e escrever textos como se fosse uma pessoa”
 
-A Resposta B também afirma que o modelo aprende:
+pode ser interpretada de maneira antropomórfica se analisada isoladamente.
 
-> "como as ideias se conectam logicamente"
+A expressão:
 
-Essa formulação pode sugerir uma compreensão ou capacidade de raciocínio lógico semelhante à humana. Uma descrição mais precisa seria afirmar que o modelo aprende relações e padrões estatísticos presentes nos dados e no contexto.
+> “quantidade enorme de textos”
 
-Além disso, na versão originalmente apresentada, havia um problema de redação na frase:
+também é qualitativa e não estabelece parâmetros objetivos sobre quantidade, composição ou características dos dados de treinamento.
 
-> "o modelo calculado, palavra por palavra"
+A formulação:
 
-A construção adequada seria:
+> “sempre calculando qual é a continuação mais provável”
 
-> "o modelo calcula, palavra por palavra".
+é igualmente uma simplificação. Para fins introdutórios, a ideia geral de previsão é útil, mas a formulação é excessivamente absoluta.
 
-Esses pontos justificam a redução de um ponto em **Factualidade** para a Resposta B.
+A própria resposta, entretanto, reduz parte do risco de interpretação antropomórfica ao afirmar posteriormente que o modelo não “pensa” nem “sabe” da mesma maneira que uma pessoa.
 
-A Resposta A também utiliza simplificações próprias de uma explicação introdutória, mas apresenta uma formulação mais cuidadosa ao afirmar que o modelo reconhece padrões estatísticos de linguagem e não "pensa" ou "sabe" da mesma maneira que uma pessoa.
+Na **Resposta B**, a afirmação:
+
+> “ele não memoriza frases prontas”
+
+é excessivamente categórica.
+
+É mais adequado afirmar que modelos de linguagem aprendem padrões a partir dos dados de treinamento, sem afirmar como regra absoluta que não ocorre memorização. Pesquisas demonstram que modelos de linguagem podem memorizar determinados elementos ou sequências dos dados de treinamento.
+
+A expressão:
+
+> “como as ideias se conectam logicamente”
+
+também simplifica excessivamente o funcionamento do modelo e pode sugerir uma capacidade de compreensão lógica semelhante à humana.
+
+Por outro lado, a frase:
+
+> “o modelo calcula, palavra por palavra”
+
+está corretamente apresentada no output avaliado e, portanto, **não deve ser registrada como erro de redação**.
+
+Dessa forma, ambas recebem **1/2 em Factualidade**, mas permanecem classificadas como **Excelentes** devido ao bom desempenho nos demais critérios.
 
 ---
 
@@ -192,23 +243,28 @@ A Resposta A também utiliza simplificações próprias de uma explicação intr
 
 ### Resposta A
 
-- Utiliza linguagem acessível para iniciantes.
-- Apresenta uma analogia com o teclado do celular.
-- Explica o conceito de previsão de texto de forma intuitiva.
-- Apresenta exemplos próximos do cotidiano.
-- Diferencia o funcionamento de um LLM do conhecimento humano.
-- Atende aos principais requisitos da pergunta.
-- Evita afirmações excessivamente categóricas sobre o funcionamento interno do modelo.
+* Utiliza linguagem acessível para iniciantes.
+* Apresenta uma analogia com o teclado do celular.
+* Explica intuitivamente a ideia de previsão de texto.
+* Apresenta exemplos próximos do cotidiano.
+* Diferencia o funcionamento do modelo do conhecimento humano.
+* Reconhece explicitamente que o modelo não pensa ou sabe da mesma forma que uma pessoa.
+* Atende aos principais requisitos da pergunta.
+* Mantém boa organização.
+* Apresenta boa adequação ao público-alvo.
+* Evita algumas formulações excessivamente categóricas presentes na Resposta B.
 
 ### Resposta B
 
-- Apresenta uma definição objetiva de LLM.
-- Explica a importância do treinamento.
-- Aborda o aprendizado de padrões.
-- Apresenta aplicações práticas relevantes.
-- Mantém foco no tema solicitado.
-- Utiliza linguagem conversacional e informal, adequada ao contexto introdutório.
-- Demonstra boa capacidade de síntese.
+* Apresenta uma definição objetiva de LLM.
+* Explica a importância da etapa de treinamento.
+* Aborda o aprendizado de padrões.
+* Apresenta aplicações práticas relevantes.
+* Mantém foco no tema solicitado.
+* Utiliza linguagem conversacional adequada para iniciantes.
+* Apresenta boa capacidade de síntese.
+* Explica a geração de texto de maneira relativamente direta.
+* Atende aos requisitos explícitos da pergunta.
 
 ---
 
@@ -216,55 +272,57 @@ A Resposta A também utiliza simplificações próprias de uma explicação intr
 
 ### Resposta A
 
-A Resposta A utiliza algumas simplificações para facilitar a compreensão do conceito.
+A principal limitação da Resposta A está relacionada às simplificações utilizadas para tornar o conteúdo acessível.
 
-A expressão de que o modelo é treinado para "entender e escrever textos como se fosse uma pessoa" pode ser interpretada de maneira antropomórfica se analisada isoladamente.
+A expressão “entender e escrever textos como se fosse uma pessoa” pode produzir uma interpretação antropomórfica.
 
-Entretanto, a própria resposta posteriormente esclarece que o modelo não "pensa" nem "sabe" da mesma maneira que uma pessoa, reduzindo essa possível interpretação.
+A expressão “quantidade enorme de textos” também não especifica quantidade ou composição dos dados.
+
+Além disso, “sempre calculando qual é a continuação mais provável” é uma formulação excessivamente absoluta e simplificada.
+
+Essas limitações não tornam a explicação inadequada para iniciantes, mas justificam a classificação **1/2 em Factualidade** dentro da metodologia utilizada.
 
 ### Resposta B
 
-A principal limitação da Resposta B está relacionada à precisão de algumas formulações.
+A principal limitação da Resposta B está na precisão conceitual.
 
 A afirmação:
 
-> "ele não memoriza frases prontas"
+> “ele não memoriza frases prontas”
 
-é excessivamente categórica e simplifica uma questão técnica mais complexa relacionada à memorização e reprodução de informações presentes nos dados de treinamento.
+não deve ser apresentada como regra absoluta, pois modelos de linguagem podem memorizar determinados elementos de seus dados de treinamento.
 
 A afirmação:
 
-> "como as ideias se conectam logicamente"
+> “como as ideias se conectam logicamente”
 
-também pode transmitir uma interpretação excessivamente antropomórfica sobre a forma como o modelo aprende relações linguísticas.
+também pode transmitir uma interpretação excessivamente antropomórfica sobre o processo de aprendizagem.
 
-Além disso, a expressão:
-
-> "o modelo calculado"
-
-apresenta um erro de redação na versão avaliada, sendo mais adequado escrever "o modelo calcula".
-
-Esses problemas não tornam a resposta inadequada, mas reduzem sua precisão conceitual em comparação com a Resposta A.
+Essas questões representam simplificações e generalizações, não evidências suficientes de alucinação.
 
 ---
 
 ## 12. Análise detalhada
 
-### 12.1. Factualidade — Resposta A: 2/2 | Resposta B: 1/2
+### 12.1. Factualidade — Resposta A: 1/2 | Resposta B: 1/2
 
-A Resposta A apresenta uma explicação compatível com o objetivo introdutório da pergunta.
+A Resposta A apresenta uma explicação geral adequada para o nível introdutório solicitado.
 
-Ela descreve que o modelo aprende padrões estatísticos de linguagem a partir de grandes quantidades de texto e utiliza esses padrões para produzir sequências de texto coerentes com o contexto.
+Entretanto, utiliza expressões que não possuem limites ou parâmetros suficientemente definidos, como “quantidade enorme de textos” e “sempre calculando qual é a continuação mais provável”.
 
-A Resposta B também apresenta uma explicação geralmente adequada, porém contém algumas formulações que exigem ressalvas.
+Também utiliza “entender” em sentido coloquial, embora posteriormente esclareça que o modelo não pensa ou sabe como uma pessoa.
 
-A afirmação de que o modelo "não memoriza frases prontas" é excessivamente absoluta. Modelos de linguagem podem, em determinadas circunstâncias, memorizar e reproduzir elementos dos dados de treinamento.
+Essas formulações são melhor classificadas como **simplificações e generalizações**, não como informações inventadas.
 
-A afirmação de que o modelo aprende "como as ideias se conectam logicamente" também simplifica excessivamente o processo e pode sugerir uma forma de compreensão semelhante à humana.
+Por esse motivo, a pontuação de Factualidade é **1/2**.
 
-Além disso, a frase "o modelo calculado" apresenta um problema de redação.
+A Resposta B também apresenta uma explicação geralmente adequada, mas contém uma afirmação excessivamente categórica ao dizer que o modelo “não memoriza frases prontas”.
 
-Por esses motivos, a Resposta B recebeu **1/2** em factualidade.
+Essa formulação não deve ser tratada como regra universal. Pesquisas sobre modelos de linguagem demonstram que determinados conteúdos dos dados de treinamento podem ser memorizados e reproduzidos.
+
+A expressão “como as ideias se conectam logicamente” também pode sugerir uma interpretação excessivamente forte sobre o tipo de aprendizado realizado.
+
+Por esses motivos, a Resposta B também recebe **1/2**.
 
 ### 12.2. Relevância — Resposta A: 2/2 | Resposta B: 2/2
 
@@ -272,86 +330,102 @@ As duas respostas permanecem diretamente relacionadas à pergunta.
 
 Ambas explicam:
 
-- o que é um LLM;
-- como ele aprende padrões de linguagem;
-- como gera texto;
-- aplicações práticas.
+* o que é um LLM;
+* como ele aprende padrões;
+* como produz texto;
+* aplicações práticas.
 
-Não foram identificados desvios significativos do tema.
+Não foram identificados desvios relevantes.
 
 ### 12.3. Clareza — Resposta A: 2/2 | Resposta B: 2/2
 
-As duas respostas são compreensíveis e apresentam uma estrutura lógica.
+As duas respostas são compreensíveis e apresentam estrutura lógica.
 
-A Resposta A utiliza uma analogia cotidiana que facilita a compreensão.
+A Resposta A possui vantagem didática pela utilização da analogia com o teclado do celular.
 
-A Resposta B apresenta um estilo mais conversacional e informal, mas permanece compreensível para o público solicitado.
+A Resposta B utiliza linguagem conversacional e apresenta o processo de treinamento de forma relativamente direta.
 
-As limitações identificadas na Resposta B estão principalmente relacionadas à **precisão conceitual**, e não a uma falta significativa de clareza.
+As limitações encontradas estão principalmente relacionadas à precisão conceitual, e não à clareza.
 
-Por esse motivo, ambas recebem **2/2** neste critério.
+Por isso, ambas recebem **2/2**.
 
 ### 12.4. Completude — Resposta A: 2/2 | Resposta B: 2/2
 
-As duas respostas atendem aos elementos solicitados.
+As duas respostas atendem aos requisitos explícitos.
 
 Ambas apresentam:
 
-- uma definição de LLM;
-- uma explicação resumida sobre o aprendizado de padrões;
-- exemplos de aplicações práticas.
+* definição de LLM;
+* explicação resumida sobre aprendizado de padrões;
+* geração de texto;
+* dois exemplos de aplicações práticas.
 
-Não foram identificadas lacunas relevantes em relação à pergunta original.
+Não foram identificadas omissões relevantes.
 
 ### 12.5. Segurança — Resposta A: 2/2 | Resposta B: 2/2
 
-Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco.
 
-As duas respostas apresentam conteúdo educacional sobre modelos de linguagem.
+As duas respostas possuem finalidade educacional.
 
 ### 12.6. Alucinação — Resposta A: 2/2 | Resposta B: 2/2
 
-Não foram identificadas informações claramente inventadas ou fabricadas.
+Não foram identificadas evidências relevantes de informações inventadas ou fabricadas.
 
-As limitações encontradas na Resposta B foram classificadas como **simplificações conceituais e problemas de precisão**, e não como evidências de alucinação.
+As limitações encontradas nas duas respostas são classificadas como:
 
-Essa distinção é importante: uma afirmação tecnicamente simplificada ou excessivamente generalizada não deve ser automaticamente classificada como informação inventada.
+* simplificação;
+* generalização;
+* precisão conceitual;
+* formulação excessivamente categórica.
+
+Esses problemas não devem ser automaticamente classificados como alucinação.
+
+Por esse motivo, ambas recebem **2/2** em Alucinação.
 
 ### 12.7. Adequação ao público-alvo — fator comparativo
 
-A pergunta solicitava explicitamente uma explicação para uma pessoa sem conhecimento prévio em Inteligência Artificial.
+A pergunta especifica que a explicação deve ser destinada a uma pessoa sem conhecimento prévio em Inteligência Artificial.
 
-As duas respostas são adequadas ao público em termos gerais.
+As duas respostas atendem ao requisito.
 
-A Resposta A apresenta vantagem por utilizar uma analogia com uma ferramenta cotidiana — o teclado do celular — tornando o conceito de previsão de texto mais intuitivo.
+Entretanto, a Resposta A apresenta uma vantagem didática ao utilizar uma analogia cotidiana com o teclado do celular.
 
-A Resposta B utiliza um registro mais conversacional e informal, que também é adequado ao contexto, mas apresenta algumas explicações conceitualmente menos precisas.
+A analogia permite estabelecer uma ponte entre uma tecnologia conhecida pelo usuário e o conceito de previsão de texto realizado por modelos de linguagem.
 
-Portanto, a Resposta A apresenta melhor combinação entre **acessibilidade, clareza didática e precisão conceitual**.
+A Resposta B é igualmente acessível, mas utiliza mais conceitos abstratos e algumas formulações menos precisas.
+
+Por esse motivo, a **Resposta A é preferida no contexto específico da pergunta**.
 
 ---
 
 ## 13. Observação da avaliadora
 
-A avaliação foi realizada considerando separadamente os critérios objetivos e a adequação contextual das respostas.
+A avaliação foi realizada separando três dimensões:
 
-Inicialmente, ambas as respostas poderiam ser consideradas adequadas em todos os critérios. Entretanto, uma análise mais detalhada revelou diferenças de precisão conceitual na Resposta B.
+1. **qualidade individual de cada resposta**;
+2. **classificação quantitativa segundo a rubrica**;
+3. **preferência contextual entre as respostas**.
 
-A afirmação de que o modelo "não memoriza frases prontas" foi considerada excessivamente categórica.
+Essa separação é importante porque uma resposta não precisa receber pontuação maior para ser considerada preferível em determinado contexto.
 
-Da mesma forma, a afirmação de que o modelo aprende "como as ideias se conectam logicamente" foi considerada uma simplificação que pode transmitir uma interpretação inadequada sobre o funcionamento dos modelos de linguagem.
+Ambas as respostas receberam **11/12 pontos — Excelente**.
 
-Essas questões foram suficientes para reduzir a pontuação de **Factualidade da Resposta B de 2/2 para 1/2**.
+A Resposta A foi selecionada como preferida devido à combinação entre acessibilidade, analogia didática e formulações relativamente mais cautelosas.
 
-A Resposta B, entretanto, não foi classificada como apresentando alucinação, pois não foram identificadas informações claramente inventadas. O problema foi considerado de **precisão conceitual**, e não de fabricação de informação.
+A análise também considerou que as expressões “quantidade enorme de textos”, “sempre calculando” e “entender” são simplificações ou generalizações que não possuem limites técnicos explícitos.
 
-A escolha da Resposta A também não se baseia apenas em estilo. Ela apresenta uma combinação mais consistente de precisão conceitual e adequação didática ao público-alvo.
+Na Resposta B, a afirmação de que o modelo “não memoriza frases prontas” foi considerada excessivamente categórica.
+
+A análise não classificou essas questões como alucinação, porque não foram identificadas informações claramente inventadas.
+
+Também foi corrigida uma inconsistência da versão anterior desta avaliação: a frase **“o modelo calcula, palavra por palavra”** está corretamente escrita no output original e, portanto, não constitui erro de redação.
 
 ---
 
 ## 14. Processo
 
-A avaliação foi realizada em duas etapas.
+A avaliação foi realizada em duas etapas principais.
 
 ### Etapa 1 — Avaliação individual
 
@@ -364,27 +438,34 @@ Cada resposta foi analisada separadamente utilizando os seis critérios da rubri
 5. Segurança;
 6. Alucinação.
 
-Cada critério recebeu pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos por resposta**.
+Cada critério recebeu pontuação de **0 a 2**, totalizando no máximo **12 pontos por resposta**.
 
 ### Etapa 2 — Comparação contextual
 
-Após a avaliação individual, as respostas foram comparadas considerando a finalidade específica da pergunta.
+Somente após a conclusão das avaliações individuais foi realizada a comparação entre as respostas.
 
-A análise identificou que ambas apresentavam boa qualidade geral, mas a Resposta B possuía algumas formulações menos precisas.
+A comparação considerou:
 
-A Resposta A foi considerada preferível por combinar:
+* adequação ao público-alvo;
+* aderência à solicitação;
+* clareza didática;
+* precisão conceitual;
+* acessibilidade;
+* utilidade para o contexto específico.
 
-- maior precisão conceitual;
-- linguagem acessível;
-- abordagem didática;
-- analogia cotidiana;
-- boa adequação ao público iniciante.
+A Resposta A foi considerada preferível porque apresentou melhor equilíbrio entre **acessibilidade, precisão e adequação didática**.
 
-Esse processo permite separar:
+### Regra metodológica
 
-- **qualidade objetiva da resposta**, medida pela rubrica;
-- **adequação contextual**, utilizada na comparação;
-- **precisão conceitual**, utilizada para identificar diferenças entre respostas semelhantes.
+A preferência contextual **não altera retroativamente as pontuações individuais**.
+
+Essa regra evita que a comparação seja usada para manipular a pontuação de uma resposta.
+
+O processo permite distinguir:
+
+> **Qualidade individual ≠ preferência contextual.**
+
+Duas respostas podem ser classificadas como **Excelentes** e ainda assim uma ser considerada mais adequada para determinado usuário, objetivo ou contexto.
 
 ---
 
@@ -392,22 +473,24 @@ Esse processo permite separar:
 
 Esta avaliação permitiu praticar as seguintes competências:
 
-- Avaliação estruturada de respostas de IA;
-- Comparação entre diferentes respostas geradas por IA;
-- Seleção de resposta preferível;
-- Avaliação de factualidade;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de possíveis alucinações;
-- Identificação de simplificações conceituais;
-- Análise de precisão técnica;
-- Avaliação de adequação ao público-alvo;
-- Análise contextual de respostas;
-- Aplicação consistente de uma rubrica;
-- Justificativa baseada em evidências;
-- Documentação estruturada de resultados.
+* Avaliação estruturada de respostas de IA;
+* Comparação entre diferentes respostas geradas por IA;
+* Seleção de resposta preferível;
+* Avaliação de factualidade;
+* Avaliação de relevância;
+* Avaliação de clareza;
+* Avaliação de completude;
+* Análise de segurança;
+* Identificação de possíveis alucinações;
+* Identificação de simplificações conceituais;
+* Identificação de generalizações excessivas;
+* Análise de precisão técnica;
+* Avaliação de adequação ao público-alvo;
+* Comparação contextual;
+* Aplicação consistente de uma rubrica;
+* Justificativa baseada em evidências;
+* Documentação estruturada de resultados;
+* Quality Assessment.
 
 ---
 
@@ -415,24 +498,26 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ### AI Response Evaluator
 
-- Comparação estruturada entre diferentes respostas de IA;
-- Aplicação de critérios objetivos de qualidade;
-- Identificação de diferenças de precisão conceitual;
-- Identificação de simplificações excessivas;
-- Diferenciação entre erro factual, simplificação e alucinação;
-- Avaliação da adequação ao público-alvo;
-- Seleção de resposta preferível;
-- Justificativa de decisões avaliativas;
-- Documentação estruturada do processo de avaliação.
+* Comparação estruturada entre diferentes respostas de IA;
+* Aplicação de critérios objetivos de qualidade;
+* Identificação de diferenças de precisão conceitual;
+* Identificação de simplificações excessivas;
+* Diferenciação entre erro factual, simplificação, generalização e alucinação;
+* Avaliação da adequação ao público-alvo;
+* Seleção de resposta preferível;
+* Justificativa de decisões avaliativas;
+* Documentação estruturada do processo de avaliação;
+* Aplicação consistente de critérios de avaliação.
 
 ### AI Trainer
 
-- Avaliação da qualidade de diferentes outputs de LLM;
-- Identificação de características que tornam uma resposta mais adequada ao público;
-- Análise de clareza e acessibilidade;
-- Identificação de formulações conceitualmente imprecisas;
-- Identificação de oportunidades de melhoria na geração de respostas;
-- Comparação de diferentes formas de explicar o mesmo conceito.
+* Avaliação da qualidade de diferentes outputs de LLM;
+* Identificação de características que tornam uma resposta mais adequada ao público;
+* Análise de clareza e acessibilidade;
+* Identificação de formulações conceitualmente imprecisas;
+* Identificação de oportunidades de melhoria na geração de respostas;
+* Comparação de diferentes formas de explicar o mesmo conceito;
+* Análise de precisão e adequação contextual.
 
 ### Data Annotator
 
@@ -442,15 +527,16 @@ Entretanto, não representa diretamente uma tarefa de anotação ou rotulagem de
 
 ### QA e Auditoria — competências transferíveis
 
-- Aplicação consistente de critérios previamente definidos;
-- Comparação sistemática de resultados;
-- Análise baseada em evidências;
-- Identificação de diferenças entre outputs;
-- Registro estruturado das decisões;
-- Rastreabilidade das justificativas;
-- Padronização do processo de avaliação;
-- Controle de qualidade de resultados;
-- Identificação e classificação de não conformidades.
+* Aplicação consistente de critérios previamente definidos;
+* Comparação sistemática de resultados;
+* Análise baseada em evidências;
+* Identificação de diferenças entre outputs;
+* Registro estruturado das decisões;
+* Rastreabilidade das justificativas;
+* Padronização do processo de avaliação;
+* Controle de qualidade de resultados;
+* Identificação e classificação de não conformidades;
+* Separação entre resultado quantitativo e decisão contextual.
 
 ---
 
@@ -460,35 +546,46 @@ A atividade apresenta relação direta com práticas de **Quality Assurance (QA)
 
 O processo demonstra a capacidade de:
 
-- aplicar uma metodologia padronizada;
-- avaliar resultados individualmente;
-- comparar outputs de acordo com critérios objetivos;
-- identificar diferenças de qualidade;
-- identificar problemas de precisão;
-- diferenciar tipos de problemas;
-- documentar justificativas;
-- registrar uma decisão final;
-- manter rastreabilidade do processo avaliativo.
+* aplicar uma metodologia padronizada;
+* avaliar resultados individualmente;
+* comparar outputs segundo critérios objetivos;
+* identificar diferenças de qualidade;
+* identificar problemas de precisão;
+* diferenciar tipos de problemas;
+* documentar justificativas;
+* registrar uma decisão final;
+* manter rastreabilidade do processo avaliativo;
+* aplicar critérios de maneira consistente.
 
-A comparação também demonstra uma prática importante de QA: **não avaliar somente se um resultado parece adequado, mas verificar se ele atende aos requisitos e se suas afirmações são suficientemente precisas para o contexto.**
+A comparação também demonstra uma prática importante de QA:
+
+**não avaliar somente se um resultado parece adequado, mas verificar se ele atende aos requisitos, se suas afirmações são suficientemente precisas e se é adequado ao contexto de utilização.**
+
+Essa abordagem é consistente com práticas de avaliação de sistemas de IA que valorizam validade, confiabilidade, contexto, documentação e avaliação contínua. O NIST AI RMF, por exemplo, estrutura o gerenciamento de riscos de IA em funções como **govern, map, measure e manage**, destacando a importância de medir e documentar desempenho, limitações e riscos.
 
 ---
 
 ## 18. Conclusão
 
-A comparação demonstrou que as duas respostas apresentam qualidade geral satisfatória.
+A comparação demonstrou que as duas respostas apresentam qualidade geral elevada.
 
-A **Resposta A recebeu 12/12 pontos — Excelente**, enquanto a **Resposta B recebeu 11/12 pontos — Excelente**.
+A **Resposta A recebeu 11/12 pontos — Excelente**.
 
-A principal diferença identificada está na **factualidade e precisão conceitual**.
+A **Resposta B recebeu 11/12 pontos — Excelente**.
 
-A Resposta B apresenta algumas formulações excessivamente categóricas, especialmente ao afirmar que o modelo "não memoriza frases prontas" e que aprende "como as ideias se conectam logicamente". Essas afirmações simplificam excessivamente aspectos do funcionamento dos LLMs.
+A principal diferença identificada está na **precisão conceitual e na adequação didática ao público-alvo**.
 
-A Resposta A apresenta uma formulação mais adequada para o objetivo da avaliação, combinando linguagem acessível, analogia cotidiana e uma descrição mais cuidadosa do funcionamento baseado em padrões estatísticos.
+A Resposta A apresenta algumas simplificações, como “quantidade enorme de textos”, “sempre calculando” e “entender”, mas também utiliza uma analogia cotidiana e esclarece que o modelo não pensa ou sabe como uma pessoa.
+
+A Resposta B apresenta uma explicação igualmente acessível, porém contém formulações mais categóricas, especialmente ao afirmar que o modelo “não memoriza frases prontas” e que aprende “como as ideias se conectam logicamente”.
+
+Pesquisas sobre modelos de linguagem mostram que a relação entre generalização e memorização é mais complexa do que a formulação absoluta utilizada na Resposta B.
 
 Não foram identificadas evidências suficientes para classificar nenhuma das respostas como apresentando alucinação.
 
-**Resultado final: Resposta A — preferida.**
+A **Resposta A foi selecionada como preferida**, não por possuir maior pontuação quantitativa, mas por apresentar melhor combinação entre **clareza, acessibilidade, precisão relativa e adequação ao público iniciante**.
+
+Esse resultado demonstra uma competência importante de avaliação comparativa: **a melhor resposta para determinado contexto não é necessariamente aquela que possui maior pontuação absoluta, especialmente quando as respostas possuem classificações equivalentes.**
 
 ---
 
@@ -498,6 +595,8 @@ Este projeto possui caráter **educacional e demonstrativo**.
 
 As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, comparação, análise crítica e melhoria da qualidade de respostas de Inteligência Artificial.
 
+A metodologia apresentada neste portfólio é uma **metodologia própria**, desenvolvida para fins educacionais e demonstrativos.
+
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
 
 ---
@@ -506,8 +605,8 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+* **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](http://www.linkedin.com/in/nágyla-silva-215aba35a)
+* **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
