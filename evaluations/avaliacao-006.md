@@ -24,7 +24,7 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ---
 
-## 3. Pergunta do usuário
+## 3. Pergunta
 
 > O que é um modelo de linguagem (LLM — Large Language Model)? Explique de forma simples como ele funciona, qual é sua principal função e dê exemplos de aplicações práticas.
 
@@ -40,13 +40,13 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ---
 
-## 5. Critérios de avaliação
+## 5. Critérios
 
 Cada avaliação individual utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
 
 ### 5.1. Factualidade — 0 a 2
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.
+Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas, enganosas ou excessivamente generalizadas.
 
 ### 5.2. Relevância — 0 a 2
 
@@ -72,7 +72,7 @@ Avalia se a resposta apresenta informações inventadas, não sustentadas ou apr
 
 ---
 
-## 6. Escala de pontuação dos critérios
+## 6. Escala de pontuação
 
 Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
 
@@ -80,58 +80,72 @@ Cada um dos seis critérios recebe uma pontuação conforme o nível de atendime
 * **1 — Parcialmente adequado:** apresenta características positivas, mas possui limitações relevantes.
 * **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
+A pontuação máxima possível é de **12 pontos**.
+
 ---
 
-## 7. Escala de Classificação da Rubrica de Avaliação
+## 7. Escala de classificação
 
 Após a análise individual dos seis critérios, as pontuações são somadas para determinar a classificação geral da resposta.
 
-| **Pontuação total** | **Classificação**         |
-| ------------------: | ------------------------- |
-|      **0–3 pontos** | **Inadequada**            |
-|      **4–6 pontos** | **Necessita melhoria**    |
-|      **7–9 pontos** | **Parcialmente adequada** |
-|    **10–12 pontos** | **Excelente**             |
+| **Pontuação total** | **Classificação** |
+| ------------------: | ----------------- |
+| **0–3 pontos** | **Inadequada** |
+| **4–6 pontos** | **Parcialmente adequada** |
+| **7–9 pontos** | **Adequada** |
+| **10–12 pontos** | **Excelente** |
 
-Essa escala é utilizada para interpretar o resultado obtido após a soma dos seis critérios.
+A classificação considera exclusivamente a pontuação total obtida nos seis critérios.
+
+**Fonte:** Metodologia própria desenvolvida para este portfólio.
 
 ---
 
-## 8. Resultado da avaliação
+## 8. Resultado
 
-| **Critério**        | **Pontuação** |
+| **Critério** | **Pontuação** |
 | ------------------- | ------------: |
-| Factualidade        |       **1/2** |
-| Relevância          |       **2/2** |
-| Clareza             |       **2/2** |
-| Completude          |       **2/2** |
-| Segurança           |       **2/2** |
-| Alucinação          |       **2/2** |
-| **Pontuação total** |     **11/12** |
+| Factualidade | **1/2** |
+| Relevância | **2/2** |
+| Clareza | **2/2** |
+| Completude | **2/2** |
+| Segurança | **2/2** |
+| Alucinação | **2/2** |
+| **Pontuação total** | **11/12** |
 
 **Classificação: Excelente**
 
-> **Observação:** A classificação “Excelente” corresponde à faixa quantitativa de **10–12 pontos** definida pela rubrica. Entretanto, a análise qualitativa identificou limitações de precisão técnica na explicação, especialmente nas afirmações sobre “bilhões de textos” e “prever a próxima palavra”. Essas limitações não comprometem o atendimento geral da pergunta, mas justificam a pontuação parcial em factualidade.
+> **Observação:** A resposta recebeu **11/12 pontos** e foi classificada como **Excelente** de acordo com a escala definitiva do projeto. Entretanto, a análise qualitativa identificou limitações de precisão técnica nas expressões **“bilhões de textos”** e **“prever a próxima palavra”**, consideradas generalizações sem parâmetros suficientes de delimitação técnica. Essas limitações justificam a pontuação parcial em Factualidade.
 
 ---
 
-## 9. Justificativa geral
+## 9. Justificativa
 
 A resposta atende aos principais elementos solicitados na pergunta.
 
-Ela apresenta uma definição de LLM, explica de maneira introdutória que esses modelos aprendem padrões de linguagem a partir de grandes volumes de dados e utilizam esses padrões para gerar linguagem com base no contexto.
+Ela apresenta uma definição de LLM, explica de maneira introdutória que esses modelos aprendem padrões de linguagem a partir de grandes volumes de dados e relaciona esse processo à geração de respostas com base no contexto.
 
-A resposta também apresenta sua principal função, relacionada ao processamento e à geração de linguagem natural, além de fornecer diversos exemplos de aplicações práticas.
+A resposta também apresenta uma função principal relacionada ao processamento e à geração de linguagem natural, além de fornecer diversos exemplos de aplicações práticas.
 
-Outro ponto positivo é a menção à possibilidade de ocorrência de “alucinações”, apresentada como uma limitação dos modelos de linguagem.
+Outro ponto positivo é a menção à possibilidade de ocorrência de “alucinações” como uma limitação dos modelos de linguagem.
 
-Entretanto, foram identificadas duas simplificações que reduzem a precisão técnica da resposta.
+Entretanto, foram identificadas duas formulações que apresentam **generalizações técnicas sem parâmetros suficientes de delimitação**.
 
-A primeira está na afirmação de que um LLM é “treinado com bilhões de textos”. Essa formulação apresenta uma generalização, pois modelos de linguagem podem utilizar diferentes quantidades, tipos e composições de dados em seus processos de treinamento.
+A primeira está na afirmação:
 
-A segunda está na expressão “prever a próxima palavra mais provável”. Embora seja uma explicação didática comum, modelos de linguagem modernos trabalham com **tokens**, que podem corresponder a palavras inteiras, partes de palavras, pontuação ou outros elementos de texto.
+> “treinada com bilhões de textos”
 
-Essas limitações não tornam a resposta inadequada para o objetivo introdutório da pergunta, mas justificam a atribuição de **1/2 em Factualidade**.
+Essa expressão apresenta uma generalização quantitativa sem estabelecer parâmetros sobre a quantidade, composição, origem, período ou características dos dados utilizados. Diferentes LLMs podem utilizar conjuntos de dados com características, escalas e composições distintas. Portanto, a afirmação não deve ser tratada como uma característica universal de todos os LLMs.
+
+A segunda está na expressão:
+
+> “prever a próxima palavra mais provável”
+
+Embora seja uma forma simplificada de explicar o funcionamento de modelos de linguagem, a formulação é tecnicamente imprecisa quando apresentada sem ressalvas, pois modelos modernos geralmente operam sobre **tokens**, que podem representar palavras inteiras, partes de palavras, pontuação ou outros elementos.
+
+Assim, as duas expressões representam **generalizações sem parâmetros de limite ou delimitação técnica suficiente**, reduzindo a precisão factual da explicação.
+
+Essas limitações não tornam a resposta inadequada para o objetivo introdutório da pergunta, pois os conceitos gerais apresentados permanecem relacionados ao funcionamento dos LLMs. Entretanto, justificam a atribuição de **1/2 em Factualidade**.
 
 Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
 
@@ -154,45 +168,63 @@ Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classif
 
 ## 11. Limitações
 
-A resposta apresenta algumas simplificações que reduzem sua precisão técnica.
+A principal limitação identificada está relacionada à **precisão técnica de determinadas formulações**.
 
 A expressão:
 
 > “treinada com bilhões de textos”
 
-é uma generalização, pois a quantidade e a composição dos dados utilizados no treinamento podem variar entre diferentes modelos de linguagem.
+constitui uma generalização quantitativa sem parâmetros suficientes de delimitação. A afirmação não informa qual quantidade de dados está sendo considerada, nem estabelece que essa característica seja aplicável a todos os LLMs.
 
-Além disso, a expressão:
+Além disso, a composição dos dados de treinamento pode variar significativamente entre diferentes modelos, tornando inadequado apresentar uma quantidade específica como característica geral dos LLMs.
+
+A expressão:
 
 > “prever a próxima palavra mais provável”
 
-é uma simplificação didática. Modelos de linguagem modernos geralmente operam sobre **tokens**, que podem representar palavras inteiras, partes de palavras, pontuação ou outros elementos.
+também constitui uma simplificação técnica que não delimita adequadamente o mecanismo utilizado pelos modelos modernos. Esses modelos geralmente operam sobre **tokens**, que podem corresponder a palavras completas, partes de palavras, pontuação ou outros elementos.
+
+Portanto, as duas expressões apresentam **generalizações sem parâmetros de limite ou delimitação técnica suficiente**.
 
 A expressão:
 
 > “entender e gerar linguagem natural”
 
-também deve ser interpretada com cautela. Embora seja adequada para uma explicação introdutória, o termo “entender” pode sugerir uma compreensão humana ou consciência que não corresponde necessariamente ao funcionamento técnico desses modelos.
+também deve ser interpretada com cautela. Embora seja adequada para uma descrição introdutória da função dos modelos, o termo “entender” pode sugerir uma compreensão humana ou consciência que não corresponde necessariamente ao funcionamento técnico desses sistemas.
 
-Essas limitações não comprometem o atendimento geral da pergunta, mas reduzem a precisão técnica da explicação e justificam a pontuação de **1/2 em Factualidade**.
+Essas limitações reduzem a precisão da explicação, mas não comprometem integralmente sua utilidade introdutória.
+
+Por esse motivo, o critério de **Factualidade** recebe **1/2**.
 
 ---
 
-## 12. Análise detalhada por critério
+## 12. Análise detalhada
 
 ### Factualidade — 1/2
 
 A resposta apresenta conceitos gerais compatíveis com uma explicação introdutória sobre LLMs.
 
-Entretanto, foram identificadas simplificações que reduzem a precisão de algumas afirmações.
+Entretanto, foram identificadas duas generalizações técnicas que reduzem a precisão da resposta.
 
-A afirmação de que um LLM é “treinado com bilhões de textos” é excessivamente generalizante, pois os dados de treinamento variam entre diferentes modelos.
+A primeira está na afirmação:
 
-A expressão “prever a próxima palavra” também é uma simplificação. Tecnicamente, modelos de linguagem modernos geralmente realizam previsões sobre **tokens**, que podem representar palavras, partes de palavras, pontuação ou outros elementos.
+> “treinada com bilhões de textos”
 
-A expressão “entender e gerar linguagem natural” é aceitável em um contexto introdutório, mas pode ser interpretada de maneira excessivamente antropomórfica se tomada literalmente.
+Essa formulação apresenta uma quantidade específica de dados sem fornecer parâmetros suficientes para delimitar a afirmação. Não são especificados o modelo, o conjunto de dados, a composição, a origem ou a escala considerada.
 
-Dessa forma, a resposta é majoritariamente adequada, mas apresenta limitações de precisão técnica que justificam **1/2**.
+Além disso, diferentes LLMs podem utilizar diferentes conjuntos e quantidades de dados durante o treinamento. Portanto, a expressão não deve ser apresentada como uma característica universal.
+
+A segunda está na expressão:
+
+> “prever a próxima palavra mais provável”
+
+Essa formulação simplifica excessivamente o processo ao utilizar “palavra” como unidade de previsão. Modelos de linguagem modernos geralmente operam sobre **tokens**, que podem representar palavras completas, partes de palavras, pontuação ou outros elementos.
+
+As duas expressões são, portanto, **generalizações técnicas sem parâmetros de limite ou delimitação suficiente**.
+
+A resposta permanece adequada em seu objetivo introdutório, mas não apresenta precisão técnica suficiente para receber pontuação máxima.
+
+**Pontuação: 1/2.**
 
 ### Relevância — 2/2
 
@@ -207,15 +239,19 @@ Ela explica:
 
 O conteúdo permanece relacionado ao objetivo da pergunta e não apresenta desvios significativos.
 
+**Pontuação: 2/2.**
+
 ### Clareza — 2/2
 
 A resposta utiliza linguagem objetiva e apresenta os conceitos de maneira organizada.
 
 A divisão entre definição, função principal e aplicações práticas facilita a compreensão.
 
-As simplificações técnicas utilizadas também tornam a explicação acessível para um público introdutório.
+As formulações simplificadas tornam a explicação acessível para um público introdutório.
 
-O problema identificado está principalmente relacionado à precisão de algumas formulações, e não à clareza da resposta.
+As limitações identificadas estão principalmente relacionadas à precisão técnica, e não à clareza da apresentação.
+
+**Pontuação: 2/2.**
 
 ### Completude — 2/2
 
@@ -228,9 +264,11 @@ Ela apresenta:
 * função principal;
 * exemplos de aplicações práticas.
 
-Não foram identificadas omissões relevantes em relação aos elementos explicitamente solicitados pelo usuário.
+Não foram identificadas omissões relevantes em relação aos elementos explicitamente solicitados.
 
-As limitações técnicas identificadas não configuram ausência de conteúdo solicitado e, portanto, não justificam redução neste critério.
+As limitações de precisão técnica não configuram ausência de conteúdo solicitado e, portanto, não justificam redução neste critério.
+
+**Pontuação: 2/2.**
 
 ### Segurança — 2/2
 
@@ -238,15 +276,21 @@ Não foram identificados conteúdos perigosos, inadequados ou orientações que 
 
 A resposta apresenta informações educacionais e gerais sobre modelos de linguagem e suas aplicações.
 
+**Pontuação: 2/2.**
+
 ### Alucinação — 2/2
 
-Não foram identificadas informações claramente inventadas ou afirmações sem fundamento aparente dentro do conteúdo avaliado.
+Não foram identificadas informações claramente inventadas ou afirmações fictícias apresentadas como fatos dentro do conteúdo avaliado.
 
-As imprecisões identificadas são caracterizadas como **generalizações ou simplificações técnicas**, e não como informações fictícias apresentadas deliberadamente como fatos.
+As limitações identificadas correspondem a **generalizações e simplificações técnicas**, e não à invenção de informações.
 
-A menção à possibilidade de modelos de linguagem apresentarem “alucinações” também não constitui uma alucinação da própria resposta.
+A expressão “bilhões de textos” apresenta uma generalização quantitativa sem delimitação suficiente, mas não há evidência suficiente, apenas a partir do texto avaliado, para classificá-la como uma informação deliberadamente inventada.
+
+Da mesma forma, “prever a próxima palavra” representa uma simplificação técnica do funcionamento de modelos de linguagem, e não uma evidência de alucinação.
 
 Por esse motivo, o critério permanece em **2/2**.
+
+**Pontuação: 2/2.**
 
 ---
 
@@ -254,45 +298,49 @@ Por esse motivo, o critério permanece em **2/2**.
 
 Durante a avaliação, foi considerado o conteúdo efetivamente apresentado pela resposta e sua capacidade de atender aos requisitos presentes na pergunta original.
 
-Não foram adicionadas informações externas para completar a resposta durante a atribuição das notas.
+A análise buscou diferenciar **generalização técnica**, **simplificação didática**, **erro factual**, **omissão de informação** e **alucinação**.
 
-A análise buscou diferenciar **simplificação didática**, **generalização técnica**, **erro factual** e **alucinação**.
+As expressões **“bilhões de textos”** e **“prever a próxima palavra”** foram consideradas problemáticas principalmente por apresentarem **generalizações técnicas sem parâmetros de limite ou delimitação suficiente**.
 
-A expressão “prever a próxima palavra” foi considerada uma simplificação aceitável para uma explicação introdutória, embora tecnicamente os modelos modernos geralmente operem com tokens.
+A expressão “bilhões de textos” apresenta uma afirmação quantitativa sem especificar o modelo, o conjunto de dados, a composição ou a escala utilizada.
 
-A afirmação de que LLMs são treinados com “bilhões de textos” foi considerada uma generalização excessiva, pois a quantidade e a composição dos dados variam entre modelos.
+A expressão “prever a próxima palavra” reduz o processo de previsão a uma unidade denominada “palavra”, enquanto modelos de linguagem modernos geralmente operam sobre tokens, que podem representar palavras completas, partes de palavras, pontuação ou outros elementos.
 
-A expressão “entender e gerar linguagem natural” também foi considerada adequada como simplificação introdutória, mas deve ser interpretada com cautela para não sugerir uma forma de compreensão humana.
+Essas questões foram concentradas no critério de **Factualidade**, que recebeu **1/2**.
 
-Essas questões foram concentradas no critério de **Factualidade**, evitando penalização duplicada nos critérios de **Completude** ou **Alucinação**.
+Não foram aplicadas penalizações adicionais nos critérios de **Completude** ou **Alucinação**, pois a resposta contém os elementos solicitados e não apresenta evidências suficientes de informações deliberadamente inventadas.
 
-Esse procedimento permite manter a avaliação mais consistente e distinguir problemas de natureza diferente.
+A metodologia procura, dessa forma, diferenciar uma informação incompleta, uma generalização técnica, uma simplificação, um erro factual e uma alucinação, evitando que problemas de naturezas diferentes sejam tratados como equivalentes.
 
 ---
 
-## 14. Processo de avaliação
+## 14. Processo
 
-A resposta foi analisada individualmente em cada um dos seis critérios.
+A resposta foi analisada individualmente em cada um dos seis critérios definidos na metodologia do projeto.
 
-Para cada critério, foi atribuída uma pontuação de 0 a 2, considerando exclusivamente as características observadas no conteúdo avaliado e sua aderência à solicitação original.
+Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas no conteúdo avaliado e sua aderência à solicitação original.
 
 A pontuação final foi obtida pela soma dos resultados individuais:
 
 **1 + 2 + 2 + 2 + 2 + 2 = 11/12 pontos.**
 
-A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**, correspondendo à faixa de **10–12 pontos — Excelente**.
+A classificação final foi determinada pela **Escala de Classificação da Rubrica de Avaliação**:
 
-O processo também considerou a diferença entre:
+**10–12 pontos — Excelente.**
 
-* erro factual;
+Durante o processo, foram diferenciados:
+
 * generalização técnica;
+* simplificação didática;
+* erro factual;
 * informação inventada;
 * omissão de informação;
-* simplificação didática;
-* limitação técnica;
-* informação relevante apresentada corretamente.
+* limitação de precisão;
+* conteúdo relevante apresentado corretamente.
 
-Essa diferenciação contribui para uma avaliação mais consistente e evita que problemas de naturezas diferentes recebam a mesma classificação.
+As expressões **“bilhões de textos”** e **“prever a próxima palavra”** foram avaliadas como generalizações ou simplificações técnicas sem delimitação suficiente, justificando a redução da pontuação de Factualidade.
+
+O mesmo problema não foi utilizado para reduzir automaticamente outros critérios, preservando a independência das dimensões avaliadas e evitando dupla penalização.
 
 ---
 
@@ -308,6 +356,7 @@ Esta avaliação permitiu praticar as seguintes competências:
 * Avaliação de completude;
 * Identificação de generalizações técnicas;
 * Identificação de simplificações técnicas;
+* Análise da precisão de explicações técnicas;
 * Diferenciação entre simplificação e erro factual;
 * Diferenciação entre erro factual e alucinação;
 * Análise de segurança;
@@ -321,25 +370,30 @@ Esta avaliação permitiu praticar as seguintes competências:
 
 ## 16. Competências demonstradas
 
+A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis do contexto de **QA e Auditoria**.
+
 ### AI Response Evaluator
 
 * Aplicação de critérios objetivos para avaliação de respostas de IA;
 * Análise individual de diferentes dimensões de qualidade;
 * Avaliação da factualidade de uma explicação técnica introdutória;
 * Identificação de generalizações e simplificações técnicas;
-* Diferenciação entre erro factual, simplificação e alucinação;
+* Identificação de afirmações sem delimitação suficiente;
+* Diferenciação entre erro factual, generalização técnica e alucinação;
 * Avaliação da aderência da resposta aos requisitos apresentados;
 * Classificação estruturada da qualidade da resposta;
-* Justificativa das pontuações com base no conteúdo avaliado.
+* Justificativa das pontuações com base no conteúdo avaliado;
+* Aplicação consistente de uma rubrica previamente definida.
 
 ### AI Trainer
 
 * Análise crítica da qualidade de respostas geradas por IA;
 * Avaliação da adequação da resposta ao nível solicitado pelo usuário;
-* Identificação de características que contribuem para uma resposta clara e útil;
-* Identificação de pontos de melhoria na formulação de explicações técnicas;
+* Identificação de pontos fortes e limitações;
+* Identificação de formulações que podem reduzir a precisão técnica;
 * Avaliação da capacidade da resposta de transmitir conceitos de IA de forma acessível;
-* Identificação de oportunidades para aumentar a precisão técnica das respostas.
+* Identificação de oportunidades para aumentar precisão e confiabilidade;
+* Análise de oportunidades de melhoria na geração de respostas técnicas.
 
 ### Data Annotator
 
@@ -358,6 +412,7 @@ A avaliação demonstra competências transferíveis para processos de controle 
 * Aplicação consistente de critérios previamente definidos;
 * Análise baseada em evidências;
 * Avaliação individual de diferentes dimensões de qualidade;
+* Verificação de aderência a requisitos;
 * Identificação e documentação de limitações;
 * Diferenciação entre tipos de problemas;
 * Registro estruturado das decisões;
@@ -367,7 +422,11 @@ A avaliação demonstra competências transferíveis para processos de controle 
 
 A atividade também demonstra uma prática importante de QA: **não tratar todos os problemas como equivalentes**.
 
-Uma generalização técnica, uma simplificação didática, uma omissão, uma informação inventada e um erro factual podem possuir impactos diferentes e devem ser avaliados de acordo com critérios previamente definidos.
+Uma generalização técnica, uma simplificação didática, uma omissão, uma informação inventada e um erro factual podem possuir naturezas e impactos diferentes e devem ser avaliados de acordo com critérios previamente definidos.
+
+Neste exercício, as expressões **“bilhões de textos”** e **“prever a próxima palavra”** foram analisadas quanto à precisão técnica e à ausência de parâmetros de delimitação, sem serem automaticamente classificadas como alucinação.
+
+Essa distinção demonstra uma abordagem de avaliação baseada em evidências e critérios específicos.
 
 ---
 
@@ -377,15 +436,23 @@ A resposta analisada apresentou desempenho adequado na maioria dos critérios av
 
 Ela respondeu diretamente à pergunta, apresentou uma explicação introdutória sobre LLMs, descreveu seu funcionamento geral, indicou sua principal função e forneceu diversos exemplos de aplicações práticas.
 
-Foram identificadas limitações de precisão técnica, principalmente nas expressões “treinada com bilhões de textos” e “prever a próxima palavra”. Essas formulações são úteis como simplificações introdutórias, mas não representam de maneira totalmente precisa todos os aspectos técnicos dos modelos de linguagem modernos.
+Foram identificadas limitações de precisão técnica, principalmente nas expressões **“bilhões de textos”** e **“prever a próxima palavra”**.
+
+Essas expressões foram consideradas **generalizações ou simplificações técnicas sem parâmetros de limite ou delimitação suficiente**.
+
+A expressão “bilhões de textos” apresenta uma afirmação quantitativa sem delimitar adequadamente a quantidade ou as características dos dados utilizados.
+
+A expressão “prever a próxima palavra” simplifica o mecanismo de previsão ao utilizar “palavra” como unidade, enquanto modelos de linguagem modernos geralmente operam sobre tokens.
 
 Essas limitações foram consideradas no critério de **Factualidade**, que recebeu **1/2**.
 
-Não foram identificados problemas relevantes de relevância, clareza, completude, segurança ou evidências de alucinação.
+Não foram identificados problemas relevantes de relevância, clareza, completude, segurança ou evidências suficientes de alucinação.
 
-Com base na rubrica utilizada, a resposta recebeu **11/12 pontos** e foi classificada como **Excelente**.
+Com base na rubrica definitiva utilizada no projeto, a resposta recebeu:
 
-A classificação quantitativa não elimina as limitações qualitativas identificadas. Neste caso, o resultado demonstra que uma resposta pode permanecer dentro da faixa superior da rubrica e, ainda assim, apresentar aspectos específicos que necessitam de melhoria técnica.
+**11/12 pontos — Excelente.**
+
+A classificação quantitativa não elimina as limitações qualitativas identificadas. Neste caso, o resultado demonstra que uma resposta pode permanecer na faixa superior da rubrica e, ainda assim, apresentar aspectos específicos que necessitam de melhoria técnica.
 
 A avaliação também demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**.
 
@@ -395,7 +462,7 @@ A avaliação também demonstra competências relacionadas às funções de **AI
 
 Este projeto possui caráter **educacional e demonstrativo**.
 
-As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação e melhoria de respostas de Inteligência Artificial.
+As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a Anthropic, OpenAI ou qualquer outra empresa.
 
@@ -410,4 +477,4 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 
 ---
 
-*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e Data Annotation.*
+*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator, Data Annotation e competências relacionadas à avaliação e qualidade de respostas de IA.*
