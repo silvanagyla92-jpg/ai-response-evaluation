@@ -63,6 +63,8 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 **Convenção de justificativa:** Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação, constituindo o núcleo mínimo da avaliação. Critérios com pontuação inferior a 2/2 recebem, adicionalmente, justificativa específica sobre o desvio que motivou a redução. Em critérios com pontuação 2/2, essa justificativa adicional é omitida por não haver desvio a justificar. Frases puramente hipotéticas ou especulativas sobre situações que não ocorreram são removidas, independentemente da pontuação. Não é criado texto artificial apenas para preencher a estrutura ou simular simetria entre os critérios.
 
+**Convenção de evidência:** A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia ou a força probatória da evidência. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+
 ---
 
 ## 6. Análise detalhada
@@ -71,7 +73,7 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 **Evidência:** “Inteligência Artificial é uma tecnologia que permite que computadores realizem tarefas que normalmente exigiriam inteligência humana, como reconhecer imagens, compreender textos, identificar padrões e fazer previsões.”
 
-**Análise:** O trecho apresenta uma caracterização compatível com o conceito de Inteligência Artificial e relaciona corretamente a área à realização de tarefas associadas à inteligência humana, incluindo exemplos de capacidades e aplicações de sistemas de IA.
+**Análise:** O trecho apresenta uma caracterização compatível com o conceito de Inteligência Artificial e relaciona corretamente a área à realização de tarefas associadas à inteligência humana. Os exemplos apresentados também são compatíveis com capacidades encontradas em sistemas de IA.
 
 **Pontuação: 2/2**
 
@@ -79,9 +81,9 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 ### 6.2. Relevância — 2/2
 
-**Evidência:** “Inteligência Artificial é uma tecnologia que permite que computadores realizem tarefas que normalmente exigiriam inteligência humana...”
+**Evidência:** “Inteligência Artificial é uma tecnologia que permite que computadores realizem tarefas que normalmente exigiriam inteligência humana”
 
-**Análise:** A resposta aborda diretamente a pergunta e concentra o conteúdo na definição e caracterização da Inteligência Artificial, sem desviar para assuntos não solicitados.
+**Análise:** O trecho responde diretamente à pergunta ao apresentar uma definição de Inteligência Artificial associada ao tipo de capacidade que a caracteriza. A resposta permanece concentrada no tema solicitado e não introduz informações fora do contexto da pergunta.
 
 **Pontuação: 2/2**
 
@@ -91,7 +93,7 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 **Evidência:** “como reconhecer imagens, compreender textos, identificar padrões e fazer previsões.”
 
-**Análise:** A enumeração apresenta exemplos de forma organizada e direta, utilizando linguagem compreensível para uma explicação introdutória e facilitando a identificação das capacidades mencionadas.
+**Análise:** A enumeração apresenta exemplos concretos em sequência lógica e utiliza linguagem acessível, facilitando a compreensão da definição por um leitor em contexto introdutório.
 
 **Pontuação: 2/2**
 
@@ -101,7 +103,7 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 **Evidência:** “Ela utiliza diferentes técnicas, incluindo aprendizado de máquina, para processar informações e produzir resultados.”
 
-**Análise:** O trecho complementa a definição inicial ao indicar que a Inteligência Artificial utiliza diferentes técnicas e ao mencionar o aprendizado de máquina, o processamento de informações e a produção de resultados, contribuindo para uma resposta suficientemente completa para o nível introdutório da pergunta.
+**Análise:** O trecho complementa a definição inicial ao apresentar uma referência às técnicas utilizadas por sistemas de Inteligência Artificial e ao mencionar o processamento de informações e a produção de resultados. Em conjunto com a primeira frase, fornece informação suficiente para responder à pergunta em nível introdutório.
 
 **Pontuação: 2/2**
 
@@ -119,9 +121,9 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 ### 6.6. Alucinação — 2/2
 
-**Evidência:** “Ela utiliza diferentes técnicas, incluindo aprendizado de máquina, para processar informações e produzir resultados.”
+**Evidência:** “para processar informações e produzir resultados.”
 
-**Análise:** A afirmação é compatível com uma explicação introdutória sobre Inteligência Artificial e não apresenta informação específica sem sustentação que indique conteúdo inventado.
+**Análise:** A afirmação descreve uma função geral atribuída a sistemas de Inteligência Artificial, compatível com a caracterização apresentada no restante da resposta, e não introduz informação específica, inventada ou sem sustentação suficiente que indique ocorrência de alucinação.
 
 **Pontuação: 2/2**
 
@@ -129,7 +131,7 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 ## 7. Parecer
 
-Considerando o conjunto da avaliação, a resposta apresenta uma definição introdutória adequada ao nível da pergunta, combinando explicação conceitual com exemplos de tarefas e uma referência a técnicas utilizadas em sistemas de Inteligência Artificial.
+Considerando o conjunto da avaliação, a resposta apresenta uma definição introdutória adequada ao nível da pergunta, combinando caracterização conceitual, exemplos de tarefas e referência a uma técnica relacionada à Inteligência Artificial.
 
 O conteúdo permanece concentrado no tema solicitado, utiliza linguagem acessível e fornece informação suficiente para o contexto introdutório proposto.
 
@@ -177,7 +179,7 @@ A atividade demonstra a utilização de critérios previamente definidos para an
 
 **Nágyla Silva**
 
-- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
 - **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
