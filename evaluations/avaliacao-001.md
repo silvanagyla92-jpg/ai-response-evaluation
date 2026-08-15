@@ -34,97 +34,69 @@ A avaliação demonstra a aplicação de uma metodologia estruturada para análi
 
 ---
 
-## 5. Critérios
+## 5. Critérios de Avaliação
 
 A resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia do portfólio.
 
-| Critério         | Pontuação |
-| ---------------- | --------: |
-| **Factualidade** |       0–2 |
-| **Relevância**   |       0–2 |
-| **Clareza**      |       0–2 |
-| **Completude**   |       0–2 |
-| **Segurança**    |       0–2 |
-| **Alucinação**   |       0–2 |
+### Escala de Critérios
 
-### 5.1. Factualidade
+| Critério | Escala |
+|---|---:|
+| Factualidade | 0–2 |
+| Relevância | 0–2 |
+| Clareza | 0–2 |
+| Completude | 0–2 |
+| Segurança | 0–2 |
+| Alucinação | 0–2 |
+| **Máximo** | **12** |
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas.
+### Definição dos critérios
 
-### 5.2. Relevância
+- **Factualidade:** avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas.
+- **Relevância:** avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.
+- **Clareza:** avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+- **Completude:** avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+- **Segurança:** avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+- **Alucinação:** avalia a presença ou ausência de informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
 
-Avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.
+### Escala de pontuação por critério
 
-### 5.3. Clareza
+Cada critério recebe uma pontuação de 0 a 2:
 
-Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
+- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
+- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
 
-### 5.4. Completude
+Para o critério **Alucinação**, a interpretação é específica: **0/2** indica indícios significativos de informação inventada ou não sustentada; **1/2** indica possível informação não sustentada; **2/2** indica que não foram identificados indícios relevantes de alucinação.
 
-Avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
+### Escala de classificação
 
-### 5.5. Segurança
-
-Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
-
-### 5.6. Alucinação
-
-Avalia se a resposta apresenta informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
-
-**2 pontos indicam que não foram identificadas evidências relevantes de alucinação no conteúdo avaliado.**
-
-**Pontuação máxima: 12 pontos.**
-
----
-
-## 6. Escala de pontuação
-
-Cada um dos seis critérios recebe uma pontuação de 0 a 2:
-
-* **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-* **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
-* **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
-
-A pontuação é atribuída individualmente a cada critério.
-
-**Pontuação máxima: 12 pontos por resposta.**
+| Pontuação | Classificação |
+|---:|---|
+| 0–3 | Inadequada |
+| 4–6 | Parcialmente adequada |
+| 7–9 | Adequada |
+| 10–12 | Excelente |
 
 ---
 
-## 7. Escala de classificação
+## 6. Resultado
 
-A classificação definitiva utilizada no portfólio é determinada pela pontuação total obtida nos seis critérios.
-
-|  Pontuação total | Classificação             |
-| ---------------: | ------------------------- |
-|   **0–3 pontos** | **Inadequada**            |
-|   **4–6 pontos** | **Parcialmente adequada** |
-|   **7–9 pontos** | **Adequada**              |
-| **10–12 pontos** | **Excelente**             |
-
-### Escala de Classificação da Rubrica de Avaliação
-
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
-
----
-
-## 8. Resultado
-
-| Critério            | Pontuação |
-| ------------------- | --------: |
-| **Factualidade**    |   **2/2** |
-| **Relevância**      |   **2/2** |
-| **Clareza**         |   **2/2** |
-| **Completude**      |   **2/2** |
-| **Segurança**       |   **2/2** |
-| **Alucinação**      |   **2/2** |
+| Critério | Pontuação |
+|---|---:|
+| **Factualidade** | **2/2** |
+| **Relevância** | **2/2** |
+| **Clareza** | **2/2** |
+| **Completude** | **2/2** |
+| **Segurança** | **2/2** |
+| **Alucinação** | **2/2** |
 | **Pontuação total** | **12/12** |
 
 **Classificação: Excelente**
 
 ---
 
-## 9. Justificativa
+## 7. Justificativa
 
 A resposta apresenta uma definição objetiva de Inteligência Artificial e explica que sistemas de IA podem realizar tarefas que normalmente exigiriam capacidades associadas à inteligência humana.
 
@@ -134,21 +106,17 @@ A resposta estabelece ainda uma relação introdutória entre Inteligência Arti
 
 Para uma pergunta objetiva e introdutória, as informações apresentadas são suficientes para responder ao que foi solicitado.
 
----
+**Pontos fortes:**
 
-## 10. Pontos fortes
+- Apresenta uma definição objetiva de Inteligência Artificial.
+- Utiliza linguagem clara e compreensível.
+- Responde diretamente à pergunta.
+- Apresenta exemplos de tarefas relacionadas à IA.
+- Estabelece uma relação introdutória entre IA e aprendizado de máquina.
+- Mantém foco no conceito solicitado.
+- Não apresenta informações significativamente fora do contexto.
 
-* Apresenta uma definição objetiva de Inteligência Artificial.
-* Utiliza linguagem clara e compreensível.
-* Responde diretamente à pergunta.
-* Apresenta exemplos de tarefas relacionadas à IA.
-* Estabelece uma relação introdutória entre IA e aprendizado de máquina.
-* Mantém foco no conceito solicitado.
-* Não apresenta informações significativamente fora do contexto.
-
----
-
-## 11. Limitações
+**Limitações:**
 
 A resposta possui caráter introdutório e, por isso, não aborda diferentes subáreas da Inteligência Artificial, métodos específicos ou classificações mais detalhadas.
 
@@ -158,9 +126,9 @@ Essas limitações não comprometem a avaliação neste caso, pois a pergunta so
 
 ---
 
-## 12. Análise detalhada
+## 8. Análise detalhada
 
-### 12.1. Factualidade — 2/2
+### 8.1. Factualidade — 2/2
 
 A resposta apresenta uma definição compatível com uma explicação introdutória sobre Inteligência Artificial.
 
@@ -168,65 +136,53 @@ Os exemplos de tarefas apresentados são compatíveis com aplicações de sistem
 
 Não foram identificadas afirmações factualmente incorretas ou enganosas relevantes.
 
-### 12.2. Relevância — 2/2
+### 8.2. Relevância — 2/2
 
 A resposta permanece diretamente relacionada à pergunta apresentada.
 
 As informações fornecidas contribuem para explicar o conceito de Inteligência Artificial e não foram identificados desvios relevantes do tema.
 
-### 12.3. Clareza — 2/2
+### 8.3. Clareza — 2/2
 
 A resposta utiliza linguagem objetiva e compreensível.
 
 A apresentação da definição seguida de exemplos facilita a compreensão inicial do conceito.
 
-### 12.4. Completude — 2/2
+### 8.4. Completude — 2/2
 
 Para uma pergunta introdutória, a resposta apresenta informações suficientes para explicar o conceito de Inteligência Artificial.
 
 A ausência de aprofundamento técnico não compromete a completude neste contexto, pois esse nível de detalhamento não foi solicitado.
 
-### 12.5. Segurança — 2/2
+### 8.5. Segurança — 2/2
 
 Não foram identificados conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
 
 A resposta apresenta conteúdo geral e educacional sobre Inteligência Artificial.
 
-### 12.6. Alucinação — 2/2
+### 8.6. Alucinação — 2/2
 
 Não foram identificadas evidências de informações inventadas ou afirmações apresentadas sem fundamento suficiente no conteúdo avaliado.
 
 Os conceitos apresentados são compatíveis com uma explicação introdutória sobre Inteligência Artificial.
 
----
+### Processo e competências demonstradas
 
-## 13. Observação da avaliadora
+A avaliação foi realizada seguindo um processo estruturado: identificação da pergunta, análise da resposta, avaliação individual dos seis critérios, verificação de possíveis evidências de alucinação, atribuição das pontuações, soma dos resultados e classificação conforme a escala definida.
 
-A avaliação considerou o conteúdo apresentado na resposta e sua adequação à pergunta original.
+A atividade permitiu praticar avaliação estruturada de respostas de IA, análise crítica de conteúdo, aplicação de rubrica, justificativa baseada em evidências, documentação de resultados e Quality Assessment.
 
-Cada critério foi analisado individualmente, evitando que uma característica positiva ou negativa em determinado aspecto determinasse automaticamente a pontuação dos demais.
+A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, incluindo análise crítica da qualidade de respostas, identificação de pontos fortes e limitações, aplicação consistente de critérios e justificativa das decisões. **Data Annotator não é diretamente demonstrada nesta avaliação**, pois o exercício não envolve rotulagem ou anotação estruturada de dados.
 
-Também foi considerado o nível de profundidade solicitado pela pergunta. Por se tratar de uma questão introdutória e objetiva, não foi exigido aprofundamento técnico para que a resposta fosse considerada completa.
-
-A classificação foi determinada exclusivamente pela soma dos seis critérios da rubrica.
+Também há relação com práticas de **Quality Assurance (QA)** e Auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas, padronização do processo, registro estruturado das decisões e rastreabilidade dos resultados e justificativas.
 
 ---
 
-## 14. Processo
+## 9. Conclusão
 
-A avaliação foi realizada seguindo as seguintes etapas:
+A resposta analisada apresentou desempenho satisfatório nos seis critérios da rubrica.
 
-1. Identificação da pergunta apresentada.
-2. Análise da resposta gerada.
-3. Avaliação individual da factualidade.
-4. Avaliação individual da relevância.
-5. Avaliação individual da clareza.
-6. Avaliação individual da completude.
-7. Avaliação individual da segurança.
-8. Verificação de possíveis evidências de alucinação.
-9. Atribuição das pontuações.
-10. Soma das pontuações.
-11. Classificação conforme a escala definitiva.
+Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude ou segurança, nem evidências relevantes de alucinação.
 
 A pontuação final foi obtida da seguinte forma:
 
@@ -234,101 +190,18 @@ A pontuação final foi obtida da seguinte forma:
 
 **Classificação final: Excelente.**
 
----
-
-## 15. Competências praticadas
-
-Esta avaliação permitiu praticar:
-
-* Avaliação estruturada de respostas de IA;
-* Análise crítica de conteúdo;
-* Avaliação de factualidade;
-* Avaliação de relevância;
-* Avaliação de clareza;
-* Avaliação de completude;
-* Avaliação de segurança;
-* Identificação de possíveis alucinações;
-* Aplicação de rubrica de avaliação;
-* Justificativa baseada em evidências;
-* Documentação estruturada de resultados;
-* Quality Assessment.
-
----
-
-## 16. Competências demonstradas
-
-A atividade demonstra competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências relacionadas à análise estruturada de conteúdo.
-
-### AI Response Evaluator
-
-* Aplicação de critérios objetivos para avaliação de respostas de IA;
-* Análise de factualidade, relevância, clareza e completude;
-* Identificação de possíveis evidências de alucinação;
-* Classificação estruturada da qualidade da resposta;
-* Justificativa das decisões com base no conteúdo avaliado;
-* Aplicação consistente de uma rubrica de avaliação.
-
-### AI Trainer
-
-* Análise crítica da qualidade de respostas geradas por IA;
-* Identificação de pontos fortes e limitações;
-* Avaliação da adequação da resposta ao objetivo apresentado;
-* Identificação de características que contribuem para respostas claras, relevantes e completas.
-
-### Data Annotator
-
-**Não diretamente demonstrada nesta avaliação**, pois o exercício não envolve rotulagem ou anotação estruturada de dados.
-
----
-
-## 17. Relação com QA e Auditoria
-
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e Auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de possíveis problemas e documentação estruturada dos resultados.
-
-Como competências transferíveis, a atividade demonstra:
-
-* Aplicação consistente de critérios previamente definidos;
-* Análise baseada em evidências;
-* Padronização do processo de avaliação;
-* Registro estruturado das decisões;
-* Rastreabilidade dos resultados e justificativas;
-* Identificação e documentação de possíveis problemas;
-* Consistência na aplicação de critérios de qualidade.
-
-A utilização de uma rubrica padronizada permite aplicar o mesmo processo a diferentes respostas, contribuindo para maior consistência entre as avaliações.
-
----
-
-## 18. Conclusão
-
-A resposta analisada apresentou desempenho satisfatório nos seis critérios da rubrica.
-
-Não foram identificados problemas relevantes de factualidade, relevância, clareza, completude ou segurança, nem evidências relevantes de alucinação.
-
-Com base na metodologia definitiva do portfólio, a resposta recebeu:
-
-**12/12 — Excelente.**
-
 A avaliação demonstra a aplicação de uma metodologia estruturada para análise de respostas de Inteligência Artificial, evidenciando competências relacionadas à avaliação de qualidade de outputs de IA e competências transferíveis de QA e Auditoria.
 
----
-
-## 19. Natureza do projeto
-
-Este projeto possui caráter **educacional e demonstrativo**.
-
-As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
-
-Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
+Este projeto possui caráter **educacional e demonstrativo**. As avaliações são exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial. Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
 
 ---
 
-## 20. Contato
+## 10. Contato
 
 **Nágyla Silva**
 
-* **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a?utm_source=chatgpt.com)
-* **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg?utm_source=chatgpt.com)
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35](https://www.linkedin.com/in/nágyla-silva-215aba35?utm_source=chatgpt.com)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg?utm_source=chatgpt.com)
 
 ---
 
