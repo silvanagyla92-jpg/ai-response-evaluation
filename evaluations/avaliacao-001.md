@@ -82,7 +82,7 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) exige perda de pelo menos 3 pontos em relação ao máximo de 12. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Portanto, uma única limitação pontual normalmente não altera a classificação geral.
+**Nota de calibração:** *com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.*
 
 ### 5.5 Convenção de justificativa
 
