@@ -22,6 +22,8 @@ O exercício demonstra a aplicação prática de uma rubrica estruturada para av
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
+As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+
 ---
 
 ## 3. Pergunta
@@ -40,7 +42,7 @@ A avaliação foi realizada pela autora. O modelo utilizado para gerar a respost
 
 A resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia do portfólio.
 
-### Escala de Critérios
+### Escala de critérios
 
 | **Critério** | **Escala** |
 |---|---:|
@@ -63,11 +65,11 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 
 ### Escala de pontuação por critério
 
-Cada critério recebe uma pontuação de 0 a 2:
+Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
-- **0 — Inadequado:** o critério não é atendido; há um problema que compromete a resposta nesse aspecto.
-- **1 — Parcialmente adequado:** atendido em parte, com limitação relevante o suficiente para não conceder nota máxima.
-- **2 — Adequado:** atendido de forma satisfatória para o nível e escopo da pergunta, sem limitação relevante.
+- **0 — Inadequado:** o critério não é atendido; a resposta apresenta um problema que compromete esse aspecto especificamente.
+- **1 — Parcialmente adequado:** o critério é atendido em parte, mas há uma limitação relevante o bastante para impedir a nota máxima.
+- **2 — Adequado:** o critério é atendido de forma satisfatória, considerando o nível e o escopo da pergunta, sem limitação relevante a apontar.
 
 ### Escala de classificação
 
@@ -80,9 +82,28 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Convenção de justificativa:** Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação, constituindo o núcleo mínimo da avaliação. Critérios com pontuação inferior a 2/2 recebem, adicionalmente, justificativa específica sobre o desvio que motivou a redução. Em critérios com pontuação 2/2, essa justificativa adicional é omitida por não haver desvio a justificar. Frases puramente hipotéticas ou especulativas sobre situações que não ocorreram são removidas, independentemente da pontuação. Não é criado texto artificial apenas para preencher a estrutura ou simular simetria entre os critérios.
+- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
+- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
+- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
+- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos seis critérios, sem limitação relevante a apontar.
 
-**Convenção de evidência:** A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia ou a força probatória da evidência. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
+
+### Convenção de justificativa
+
+Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
+
+### Convenção de evidência
+
+A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+
+### Síntese em regras objetivas
+
+- **Nota abaixo de 2 →** justificar obrigatoriamente o desvio.
+- **Nota 2 →** justificar apenas se houver observação relevante para a rastreabilidade da decisão.
+- **Evidência e Análise →** sempre presentes, em todos os critérios, sem exceção.
+- **Frases hipotéticas/especulativas →** remover.
+- **Texto artificial de preenchimento ou simetria forçada →** não criar.
 
 ---
 
