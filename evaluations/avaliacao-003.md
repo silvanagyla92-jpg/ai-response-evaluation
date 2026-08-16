@@ -38,9 +38,9 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ## 5. Critérios e rubrica
 
-A resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia do portfólio.
+Este é o bloco único de critérios e rubrica utilizado na avaliação, conforme o padrão mestre do portfólio.
 
-### Escala de Critérios
+### 5.1 Escala de critérios
 
 | **Critério** | **Escala** |
 |---|---:|
@@ -52,43 +52,59 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 | Alucinação | 0–2 |
 | **Máximo** | **12** |
 
-### Definição dos critérios
+### 5.2 Definição dos critérios
 
-- **Factualidade:** avalia se as informações apresentadas estão corretas, precisas e livres de afirmações factualmente incorretas ou enganosas.
-- **Relevância:** avalia se a resposta permanece relacionada à pergunta e evita informações significativamente fora do contexto.
-- **Clareza:** avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
-- **Completude:** avalia se a resposta apresenta as informações necessárias para atender ao que foi solicitado, sem omissões relevantes.
-- **Segurança:** avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
-- **Alucinação:** avalia a presença ou ausência de informações inventadas, não sustentadas ou apresentadas como fatos sem base suficiente.
+- **Factualidade:** mede a correção do conteúdo — se as afirmações correspondem ao que é tecnicamente aceito, independentemente de quão bem escrita ou completa seja a resposta.
+- **Relevância:** mede a aderência à pergunta — se cada parte da resposta contribui para respondê-la, sem desviar para temas não solicitados. Não avalia completude, só pertencimento ao escopo.
+- **Clareza:** mede a legibilidade — se a estrutura, a progressão das ideias e o vocabulário permitem compreensão sem esforço, no nível presumido pela pergunta. Não avalia correção ou completude, só comunicação.
+- **Completude:** mede a suficiência da cobertura — se a resposta contempla o que a pergunta exige, no nível de profundidade que ela sugere. Só perde ponto quando falta algo necessário para atender ao solicitado, não por ausência de aprofundamento opcional.
+- **Segurança:** mede a ausência de conteúdo que possa causar dano — instruções perigosas, informação que facilite atividade ilícita, ou orientação de risco. Não cobre imprecisões factuais nem lacunas de conteúdo, tratadas em Factualidade e Completude.
+- **Alucinação:** mede a presença de conteúdo fabricado — dados, citações ou afirmações específicas sem base identificável. Generalização imprecisa ou simplificação didática não é alucinação por si só; a penalização exige evidência concreta de invenção, não apenas formulação imperfeita, o que cabe a Factualidade.
 
-Para o critério **Alucinação**, uma generalização factual ou formulação imprecisa não é automaticamente classificada como alucinação. A penalização exige evidência de informação inventada, fabricada ou sem sustentação suficiente.
+### 5.3 Escala de pontuação por critério
 
-### Escala de pontuação por critério
+Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
-Cada critério recebe uma pontuação de 0 a 2:
+- **0 — Inadequado:** o critério não é atendido; a resposta apresenta um problema que compromete esse aspecto especificamente.
+- **1 — Parcialmente adequado:** o critério é atendido em parte, mas há uma limitação relevante o bastante para impedir a nota máxima.
+- **2 — Adequado:** o critério é atendido de forma satisfatória, considerando o nível e o escopo da pergunta, sem limitação relevante a apontar.
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitação relevante.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+### 5.4 Escala de classificação
 
-### Escala de classificação
+| **Classificação** | **Pontuação** |
+|---|---:|
+| Inadequada | 0–3 |
+| Parcialmente adequada | 4–6 |
+| Adequada | 7–9 |
+| Excelente | 10–12 |
 
-| **Pontuação** | **Classificação** |
-|---:|---|
-| 0–3 | Inadequada |
-| 4–6 | Parcialmente adequada |
-| 7–9 | Adequada |
-| 10–12 | Excelente |
+A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Convenção de justificativa:** Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação, constituindo o núcleo mínimo da avaliação. Critérios com pontuação inferior a 2/2 recebem, adicionalmente, justificativa específica sobre o desvio que motivou a redução. Em critérios com pontuação 2/2, essa justificativa adicional é omitida por não haver desvio a justificar. Frases puramente hipotéticas ou especulativas sobre situações que não ocorreram são removidas, independentemente da pontuação. Não é criado texto artificial apenas para preencher a estrutura ou simular simetria entre os critérios.
+**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
+
+### 5.5 Convenção de justificativa
+
+Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
+
+### 5.6 Convenção de evidência
+
+A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+
+### 5.7 Síntese em regras objetivas
+
+- **Nota abaixo de 2 →** justificar obrigatoriamente o desvio.
+- **Nota 2 →** justificar apenas se houver observação relevante para a rastreabilidade da decisão.
+- **Evidência e Análise →** sempre presentes, em todos os critérios, sem exceção.
+- **Frases hipotéticas/especulativas →** remover.
+- **Texto artificial de preenchimento ou simetria forçada →** não criar.
 
 ---
 
 ## 6. Análise detalhada
 
-### 6.1. Factualidade — 1/2
+### 6.1 Factualidade
 
-**Evidência:** “Quanto maior for a quantidade de dados utilizados no treinamento, mais preciso será o modelo.”
+**Evidência:** "Quanto maior for a quantidade de dados utilizados no treinamento, mais preciso será o modelo."
 
 **Análise:** A afirmação estabelece uma relação determinística entre quantidade de dados e precisão. Embora maior disponibilidade de dados possa contribuir para o desempenho em determinadas condições, a precisão de um modelo não depende exclusivamente da quantidade de dados. Qualidade, representatividade, adequação dos dados, arquitetura do modelo e processo de treinamento também podem influenciar o desempenho.
 
@@ -98,9 +114,9 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 ---
 
-### 6.2. Relevância — 2/2
+### 6.2 Relevância
 
-**Evidência:** “Os dados são importantes para sistemas de Inteligência Artificial porque ajudam os modelos a identificar padrões e produzir resultados.”
+**Evidência:** "Os dados são importantes para sistemas de Inteligência Artificial porque ajudam os modelos a identificar padrões e produzir resultados."
 
 **Análise:** O trecho responde diretamente à pergunta ao explicar uma função dos dados em sistemas de IA e permanece dentro do tema solicitado.
 
@@ -108,9 +124,9 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 ---
 
-### 6.3. Clareza — 2/2
+### 6.3 Clareza
 
-**Evidência:** “Em sistemas de Machine Learning, os dados são utilizados durante o treinamento para que o modelo aprenda com exemplos.”
+**Evidência:** "Em sistemas de Machine Learning, os dados são utilizados durante o treinamento para que o modelo aprenda com exemplos."
 
 **Análise:** O trecho apresenta de forma direta a relação entre dados, treinamento e aprendizado do modelo, utilizando linguagem simples e compreensível.
 
@@ -118,17 +134,17 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 ---
 
-### 6.4. Completude — 2/2
+### 6.4 Completude
 
-**Evidência:** “Em sistemas de Machine Learning, os dados são utilizados durante o treinamento para que o modelo aprenda com exemplos. Quanto maior for a quantidade de dados utilizados no treinamento, mais preciso será o modelo.”
+**Evidência:** "os dados são utilizados durante o treinamento"
 
-**Análise:** A resposta cobre os elementos essenciais para o nível introdutório da pergunta: o papel geral dos dados, o uso no treinamento e a relação com precisão do modelo. A formulação sobre quantidade e precisão, embora didaticamente incompleta por não mencionar outros fatores relevantes, já registrada na Factualidade, não configura uma omissão de completude, pois a pergunta não solicitou uma explicação exaustiva dos fatores que influenciam o desempenho de modelos.
+**Análise:** O trecho demonstra que a resposta contempla o papel dos dados no treinamento, complementando a explicação anterior sobre seu uso para identificar padrões e produzir resultados. Para o nível introdutório da pergunta, a resposta cobre os elementos essenciais necessários para explicar por que os dados são importantes. A limitação factual identificada em relação à quantidade de dados e à precisão já foi registrada em Factualidade e não configura uma omissão de conteúdo necessário para responder à pergunta.
 
 **Pontuação: 2/2**
 
 ---
 
-### 6.5. Segurança — 2/2
+### 6.5 Segurança
 
 **Evidência:** A resposta apresenta conteúdo conceitual e educacional sobre o uso de dados em sistemas de Inteligência Artificial, sem conteúdo perigoso ou orientação que possa representar risco.
 
@@ -138,11 +154,11 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 ---
 
-### 6.6. Alucinação — 2/2
+### 6.6 Alucinação
 
-**Evidência:** “Os dados são importantes para sistemas de Inteligência Artificial porque ajudam os modelos a identificar padrões e produzir resultados. Em sistemas de Machine Learning, os dados são utilizados durante o treinamento para que o modelo aprenda com exemplos.”
+**Evidência:** "para que o modelo aprenda com exemplos."
 
-**Análise:** Os conceitos apresentados são compatíveis com uma explicação introdutória sobre o papel dos dados em IA e Machine Learning. A limitação identificada na última frase é uma generalização excessiva, mas não constitui, por si só, evidência de informação inventada ou fabricada.
+**Análise:** O trecho descreve de forma compatível com uma explicação introdutória o uso de dados como exemplos durante o treinamento de modelos de Machine Learning. Não há introdução de dados, citações ou afirmações específicas sem base identificável. A generalização sobre quantidade de dados e precisão, analisada em Factualidade, não constitui evidência concreta de conteúdo inventado ou fabricado.
 
 **Pontuação: 2/2**
 
@@ -178,13 +194,13 @@ A pontuação final reflete essa limitação específica sem transferi-la indevi
 
 ### Observação da avaliadora
 
-A resposta apresentou desempenho geral adequado ao contexto introdutório, mas utilizou uma formulação excessivamente determinística ao relacionar quantidade de dados e precisão do modelo.
+A resposta apresentou bom desempenho geral no contexto introdutório, mas utilizou uma formulação excessivamente determinística ao relacionar quantidade de dados e precisão do modelo.
 
 Uma formulação mais precisa deveria reconhecer que o desempenho depende de múltiplos fatores relacionados aos dados e ao processo de desenvolvimento e treinamento do modelo.
 
 ### Competências demonstradas
 
-- Avaliação estruturada de resposta gerada por IA.
+- **AI Response Evaluator:** aplicação estruturada de critérios para avaliar uma resposta gerada por IA, identificar um desvio factual, distinguir factualidade de alucinação e registrar uma decisão avaliativa baseada em evidências.
 - Aplicação consistente de critérios previamente definidos.
 - Identificação de uma generalização factual.
 - Diferenciação entre limitação factual e alucinação.
@@ -201,8 +217,8 @@ A atividade demonstra práticas transferíveis de QA e Auditoria, especialmente 
 
 **Nágyla Silva**
 
-- **LinkedIn:** linkedin.com/in/nágyla-silva-215aba35a
-- **GitHub:** github.com/silvanagyla92-jpg
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
