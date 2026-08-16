@@ -215,8 +215,8 @@ A atividade demonstra a utilização de critérios previamente definidos para an
 
 **Nágyla Silva**
 
-- **LinkedIn:** linkedin.com/in/nágyla-silva-215aba35a
-- **GitHub:** github.com/silvanagyla92-jpg
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
