@@ -111,7 +111,7 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 **Evidência:** "O primeiro ser humano a viajar para Marte foi o astronauta americano **Mark Johnson**, que realizou a missão **Mars-1**, em **2032**."
 
-**Análise:** A resposta apresenta como fato uma viagem humana a Marte que não havia ocorrido. A NASA descreve Marte como um objetivo futuro da exploração humana e informa que trabalha para possibilitar missões humanas ao planeta. A página oficial também apresenta um exemplo de missão futura a Marte, reforçando que a exploração humana do planeta permanece no âmbito de planejamento e desenvolvimento, e não de uma missão tripulada já concluída. 
+**Análise:** A resposta apresenta como fato uma viagem humana a Marte que não havia ocorrido. A NASA descreve Marte como um objetivo futuro da exploração humana e informa que trabalha para possibilitar missões humanas ao planeta. A página oficial também apresenta um exemplo de missão futura a Marte, reforçando que a exploração humana do planeta permanece no âmbito de planejamento e desenvolvimento, e não de uma missão tripulada já concluída.
 
 **Fonte de verificação:** [NASA — Humans to Mars](https://www.nasa.gov/humans-in-space/humans-to-mars/)
 
