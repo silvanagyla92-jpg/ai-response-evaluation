@@ -82,7 +82,7 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
+**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) exige perda de pelo menos 3 pontos em relação ao máximo de 12. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Portanto, uma única limitação pontual normalmente não altera a classificação geral.
 
 ### 5.5 Convenção de justificativa
 
@@ -164,17 +164,7 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ---
 
-## 7. Parecer
-
-Considerando o conjunto da avaliação, a resposta apresenta uma definição introdutória adequada ao nível da pergunta, combinando caracterização conceitual, exemplos de tarefas e referência a uma técnica relacionada à Inteligência Artificial.
-
-O conteúdo permanece concentrado no tema solicitado, utiliza linguagem acessível e fornece informação suficiente para o contexto introdutório proposto.
-
-A resposta atende integralmente aos critérios estabelecidos na rubrica, resultando em pontuação máxima.
-
----
-
-## 8. Resultado
+## 7. Resultado
 
 | **Critério** | **Pontuação** |
 |---|---:|
@@ -190,6 +180,16 @@ A resposta atende integralmente aos critérios estabelecidos na rubrica, resulta
 
 ---
 
+## 8. Parecer
+
+Considerando o conjunto da avaliação, a resposta apresenta uma definição introdutória adequada ao nível da pergunta, combinando caracterização conceitual, exemplos de tarefas e referência a uma técnica relacionada à Inteligência Artificial.
+
+O conteúdo permanece concentrado no tema solicitado, utiliza linguagem acessível e fornece informação suficiente para o contexto introdutório proposto.
+
+A resposta atende integralmente aos critérios estabelecidos na rubrica, resultando em pontuação máxima.
+
+---
+
 ## 9. Conclusão
 
 ### Observação da avaliadora
@@ -199,6 +199,8 @@ A avaliação demonstrou a aplicação de uma rubrica estruturada a uma resposta
 ### Competências demonstradas
 
 - **AI Response Evaluator:** aplicação estruturada de uma rubrica para analisar, justificar e classificar a qualidade de uma resposta gerada por IA.
+- **AI Trainer:** não há evidência suficiente nesta peça, dado o escopo de avaliação única de uma resposta introdutória.
+- **Data Annotator:** não há evidência suficiente nesta peça, dado o escopo de avaliação única de uma resposta introdutória.
 
 ### Relação com QA e Auditoria
 
