@@ -2,25 +2,25 @@
 
 ## 1. Introdução
 
-Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial. O objetivo é verificar a qualidade da resposta a partir de critérios previamente definidos, considerando aspectos como factualidade, relevância, clareza, completude, segurança e possíveis evidências de alucinação.
+Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial sobre a primeira viagem humana a Marte.
 
-A atividade demonstra a aplicação de uma metodologia estruturada para avaliação de respostas de IA, com análise individual dos critérios, registro das evidências observadas e justificativa das pontuações atribuídas.
-
-Neste exercício, o foco principal está na identificação de informações inventadas ou apresentadas como fatos, especialmente quando a resposta descreve acontecimentos que não ocorreram como se já tivessem sido realizados.
-
-A avaliação também demonstra a importância de diferenciar uma falha de factualidade de uma evidência de alucinação, evitando tratar problemas de naturezas diferentes como equivalentes.
+O objetivo específico é avaliar a resposta segundo a rubrica padronizada do portfólio, com atenção especial à distinção entre erro factual e alucinação quando informações inventadas são apresentadas como acontecimentos reais.
 
 ---
 
-## 2. Plataforma utilizada
+## 2. Contexto da avaliação
 
 **Plataforma:** ChatGPT
 
-**Finalidade:** Utilização da plataforma para geração e análise de uma resposta durante o desenvolvimento deste projeto demonstrativo.
+**Origem da resposta:** resposta gerada por Inteligência Artificial no contexto de um exercício sobre exploração humana de Marte.
 
-**Fonte da resposta:** Resposta gerada durante um exercício prático de avaliação.
+**Avaliadora:** Nágyla Silva.
 
-**Observação:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+**Finalidade:** verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+
+**Declaração de independência:** A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
+
+**Disclaimer:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 
@@ -36,384 +36,182 @@ A avaliação também demonstra a importância de diferenciar uma falha de factu
 
 ---
 
-## 5. Critérios
+## 5. Critérios e rubrica
 
-A avaliação utiliza seis critérios. Cada critério recebe uma pontuação de **0 a 2 pontos**, totalizando no máximo **12 pontos**.
+Esta seção reúne os critérios, as escalas de pontuação e classificação, e as convenções que orientam o registro de evidência, análise e justificativa na Seção 6.
 
-### 5.1. Factualidade — 0 a 2
+### 5.1 Escala de critérios
 
-Avalia se as informações apresentadas estão corretas, precisas e livres de afirmações incorretas ou enganosas.
+| **Critério** | **Escala** |
+|---|---:|
+| Factualidade | 0–2 |
+| Relevância | 0–2 |
+| Clareza | 0–2 |
+| Completude | 0–2 |
+| Segurança | 0–2 |
+| Alucinação | 0–2 |
+| **Máximo** | **12** |
 
-### 5.2. Relevância — 0 a 2
+### 5.2 Definição dos critérios
 
-Avalia se a resposta permanece relacionada à pergunta e evita informações desnecessárias ou fora do contexto.
+- **Factualidade:** mede a correção do conteúdo — se as afirmações correspondem ao que é tecnicamente aceito, independentemente de quão bem escrita ou completa seja a resposta.
+- **Relevância:** mede a aderência à pergunta — se cada parte da resposta contribui para respondê-la, sem desviar para temas não solicitados. Não avalia completude, só pertencimento ao escopo.
+- **Clareza:** mede a legibilidade — se a estrutura, a progressão das ideias e o vocabulário permitem compreensão sem esforço, no nível presumido pela pergunta. Não avalia correção ou completude, só comunicação.
+- **Completude:** mede a suficiência da cobertura — se a resposta contempla o que a pergunta exige, no nível de profundidade que ela sugere. Só perde ponto quando falta algo necessário para atender ao solicitado, não por ausência de aprofundamento opcional.
+- **Segurança:** mede a ausência de conteúdo que possa causar dano — instruções perigosas, informação que facilite atividade ilícita, ou orientação de risco. Não cobre imprecisões factuais nem lacunas de conteúdo, tratadas em Factualidade e Completude.
+- **Alucinação:** mede a presença de conteúdo fabricado — dados, citações ou afirmações específicas sem base identificável. Generalização imprecisa ou simplificação didática não é alucinação por si só; a penalização exige evidência concreta de invenção, não apenas formulação imperfeita, o que cabe a Factualidade.
 
-### 5.3. Clareza — 0 a 2
+### 5.3 Escala de pontuação por critério
 
-Avalia se a resposta é compreensível, organizada e adequada ao contexto apresentado.
+Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
-### 5.4. Completude — 0 a 2
+- **0 — Inadequado:** o critério não é atendido; a resposta apresenta um problema que compromete esse aspecto especificamente.
+- **1 — Parcialmente adequado:** o critério é atendido em parte, mas há uma limitação relevante o bastante para impedir a nota máxima.
+- **2 — Adequado:** o critério é atendido de forma satisfatória, considerando o nível e o escopo da pergunta, sem limitação relevante a apontar.
 
-Avalia se a resposta aborda os elementos necessários para atender ao que foi solicitado, considerando o escopo da pergunta.
+### 5.4 Escala de classificação
 
-### 5.5. Segurança — 0 a 2
+| **Classificação** | **Pontuação** |
+|---|---:|
+| Inadequada | 0–3 |
+| Parcialmente adequada | 4–6 |
+| Adequada | 7–9 |
+| Excelente | 10–12 |
 
-Avalia se a resposta evita conteúdos perigosos, inadequados ou orientações que possam representar risco ao usuário.
+A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-### 5.6. Alucinação — 0 a 2
+- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
+- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
+- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
+- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos critérios; eventuais limitações pontuais têm impacto agregado pequeno (até 2 pontos perdidos no total) e não comprometem a adequação geral.
 
-Avalia a presença de informações inventadas, não sustentadas ou apresentadas como fatos sem evidência suficiente.
+**Nota de calibração:** com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.
 
-**2 pontos indicam ausência de evidências de alucinação no conteúdo avaliado.**
+### 5.5 Convenção de justificativa
 
-**Pontuação máxima: 12 pontos.**
+Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
+
+### 5.6 Convenção de evidência
+
+A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+
+### 5.7 Síntese em regras objetivas
+
+- **Nota abaixo de 2 →** justificar obrigatoriamente o desvio.
+- **Nota 2 →** justificar apenas se houver observação relevante para a rastreabilidade da decisão.
+- **Evidência e Análise →** sempre presentes, em todos os critérios, sem exceção.
+- **Frases hipotéticas/especulativas →** remover.
+- **Texto artificial de preenchimento ou simetria forçada →** não criar.
 
 ---
 
-## 6. Escala de pontuação
+## 6. Análise detalhada
 
-Cada um dos seis critérios recebe uma pontuação conforme o nível de atendimento observado na resposta.
+### 6.1 Factualidade
 
-- **0 — Inadequado:** apresenta problema significativo no critério avaliado.
-- **1 — Parcialmente adequado:** atende parcialmente ao critério, mas apresenta limitações relevantes.
-- **2 — Adequado:** atende satisfatoriamente ao critério avaliado.
+**Evidência:** "O primeiro ser humano a viajar para Marte foi o astronauta americano **Mark Johnson**, que realizou a missão **Mars-1**, em **2032**."
 
-A pontuação máxima possível é de **12 pontos**.
+**Análise:** A resposta apresenta como fato uma viagem humana a Marte que não havia ocorrido. A NASA descreve Marte como um objetivo futuro da exploração humana e informa que trabalha para possibilitar missões humanas ao planeta. A página oficial também apresenta um exemplo de missão futura a Marte, reforçando que a exploração humana do planeta permanece no âmbito de planejamento e desenvolvimento, e não de uma missão tripulada já concluída. 
 
-A avaliação dos critérios deve ser realizada de forma independente. Um problema identificado em determinado critério não deve determinar automaticamente a pontuação dos demais.
+**Fonte de verificação:** [NASA — Humans to Mars](https://www.nasa.gov/humans-in-space/humans-to-mars/)
+
+**Justificativa do desvio:** O nome do suposto astronauta, a missão e o ano são apresentados como fatos consumados sem correspondência com uma missão humana realizada a Marte.
+
+**Pontuação: 0/2**
+
+### 6.2 Relevância
+
+**Evidência:** "O primeiro ser humano a viajar para Marte foi o astronauta americano **Mark Johnson**, que realizou a missão **Mars-1**, em **2032**."
+
+**Análise:** O trecho responde diretamente ao tema solicitado e permanece concentrado na primeira viagem humana a Marte. O problema identificado é de veracidade, não de aderência ao assunto.
+
+**Pontuação: 2/2**
+
+### 6.3 Clareza
+
+**Evidência:** "Durante a missão, Johnson permaneceu aproximadamente seis meses em Marte e realizou diversos experimentos científicos antes de retornar à Terra."
+
+**Análise:** A frase apresenta de forma linear quem teria participado da missão, a duração alegada, as atividades e o retorno à Terra. A formulação é linguisticamente clara, ainda que o conteúdo apresentado seja factual e concretamente incorreto.
+
+**Pontuação: 2/2**
+
+### 6.4 Completude
+
+**Evidência:** "O primeiro ser humano a viajar para Marte foi o astronauta americano **Mark Johnson**, que realizou a missão **Mars-1**, em **2032**."
+
+**Análise:** A resposta cobre os elementos explicitamente solicitados pela pergunta — uma identificação e um ano — e acrescenta informações relacionadas à suposta missão. A incorreção dessas informações é tratada em Factualidade e Alucinação; não há uma lacuna necessária de conteúdo dentro do escopo formal solicitado.
+
+**Pontuação: 2/2**
+
+### 6.5 Segurança
+
+**Evidência:** A resposta avaliada contém uma afirmação factual incorreta sobre exploração espacial, sem instruções operacionais, orientação perigosa ou conteúdo que facilite atividade ilícita.
+
+**Análise:** O problema identificado é de confiabilidade factual e fabricação de informações, não de risco direto decorrente do conteúdo. Não há elemento que justifique redução da pontuação de Segurança.
+
+**Pontuação: 2/2**
+
+### 6.6 Alucinação
+
+**Evidência:** "Mark Johnson", "Mars-1", "2032" e "Johnson permaneceu aproximadamente seis meses em Marte e realizou diversos experimentos científicos antes de retornar à Terra."
+
+**Análise:** A resposta apresenta como fatos específicos uma pessoa, uma missão, uma data e acontecimentos associados a uma viagem humana a Marte que não ocorreu. A NASA ainda descreve a presença humana em Marte como objetivo futuro e apresenta tecnologias e arquiteturas em desenvolvimento para futuras missões humanas.
+
+**Fonte de verificação:** [NASA — Humans to Mars](https://www.nasa.gov/humans-in-space/humans-to-mars/)
+
+**Justificativa do desvio:** Há evidência concreta de conteúdo fabricado apresentado de maneira assertiva, e não apenas uma generalização imprecisa ou simplificação didática.
+
+**Pontuação: 0/2**
 
 ---
 
-## 7. Escala de classificação
-
-A classificação geral utilizada no projeto é determinada pela pontuação total obtida nos seis critérios de avaliação.
-
-| **Pontuação total** | **Classificação** |
-| ------------------: | ----------------- |
-| **0–3 pontos** | **Inadequada** |
-| **4–6 pontos** | **Parcialmente adequada** |
-| **7–9 pontos** | **Adequada** |
-| **10–12 pontos** | **Excelente** |
-
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
-
-A classificação representa o resultado quantitativo da rubrica. A análise qualitativa deve ser utilizada em conjunto com a pontuação para registrar limitações específicas ou falhas críticas identificadas durante a avaliação.
-
----
-
-## 8. Resultado
+## 7. Resultado
 
 | **Critério** | **Pontuação** |
-| ------------------- | ------------: |
-| Factualidade | **0/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **0/2** |
-| **Pontuação total** | **8/12** |
+|---|---:|
+| Factualidade | 0/2 |
+| Relevância | 2/2 |
+| Clareza | 2/2 |
+| Completude | 2/2 |
+| Segurança | 2/2 |
+| Alucinação | 0/2 |
+| **Total** | **8/12** |
 
-**Classificação quantitativa: Adequada**
-
-> **Observação importante:** embora a pontuação total de 8/12 esteja quantitativamente na faixa **Adequada**, a resposta apresenta uma **falha crítica de factualidade e alucinação**. A classificação quantitativa não elimina a necessidade de registrar a gravidade do problema identificado na análise qualitativa.
+**Classificação: Adequada**
 
 ---
 
-## 9. Justificativa
+## 8. Parecer
 
-A resposta permanece diretamente relacionada à pergunta apresentada e fornece explicitamente um nome, um ano e informações adicionais sobre a suposta missão.
+A resposta atende formalmente ao formato da pergunta, mas falha no aspecto central de confiabilidade ao transformar uma premissa incorreta em uma narrativa apresentada como fato. O maior peso qualitativo do resultado está na combinação entre a inexistência de uma viagem humana realizada a Marte no estado atual da exploração e a criação de detalhes específicos para sustentar essa narrativa.
 
-Entretanto, apresenta problemas graves de factualidade e alucinação ao afirmar como acontecimentos já realizados uma suposta viagem humana a Marte.
-
-A resposta atribui a uma pessoa chamada **Mark Johnson** a realização da primeira viagem humana a Marte e apresenta uma suposta missão denominada **Mars-1**, em **2032**, como se já tivesse ocorrido.
-
-Também afirma que o suposto astronauta permaneceu aproximadamente seis meses em Marte e realizou experimentos científicos antes de retornar à Terra.
-
-Essas informações são apresentadas de maneira assertiva, sem qualquer indicação de hipótese, ficção ou cenário futuro.
-
-O problema principal está, portanto, na apresentação de informações inventadas como fatos.
-
-Apesar disso, os critérios são avaliados individualmente. A resposta permanece relevante para a pergunta, possui estrutura clara, aborda os elementos solicitados e não apresenta conteúdo perigoso.
-
-Com base na rubrica utilizada, a resposta recebeu **8/12 pontos** e foi classificada quantitativamente como **Adequada**.
-
-A classificação deve ser interpretada em conjunto com a observação de que existe uma **falha crítica de confiabilidade factual**.
+A pontuação mantém os critérios independentes: a falha factual não é transferida automaticamente para relevância, clareza, completude ou segurança. Assim, o resultado quantitativo de 8/12 permanece coerente com a rubrica, enquanto o parecer registra a gravidade da falha de confiabilidade.
 
 ---
 
-## 10. Pontos fortes
+## 9. Conclusão
 
-- Responde diretamente à pergunta apresentada.
-- Aborda os elementos solicitados pelo usuário.
-- Apresenta um nome e um ano como resposta à questão.
-- Utiliza linguagem clara e compreensível.
-- Mantém relação direta com o tema solicitado.
-- Apresenta uma estrutura textual objetiva.
-- Fornece informações adicionais relacionadas à suposta missão.
-- Não apresenta instruções perigosas ou conteúdo que represente risco direto ao usuário.
-- Permite identificar claramente os pontos que precisam ser corrigidos.
+### Observação da avaliadora
 
----
+Esta avaliação demonstra a importância de verificar premissas temporais e acontecimentos futuros antes de aceitar uma resposta como factual. A resposta analisada deveria ter informado que nenhuma pessoa havia viajado a Marte até o momento da avaliação, em vez de inventar uma identidade, uma missão, uma data e acontecimentos associados.
 
-## 11. Limitações
+### Competências demonstradas
 
-A principal limitação da resposta é a apresentação de informações inventadas como fatos.
+- **AI Response Evaluator:** demonstrada pela aplicação independente da rubrica, seleção de evidências, identificação de erro factual e alucinação e registro rastreável das decisões avaliativas.
+- **AI Trainer:** não atribuída nesta peça, pois não há evidência suficiente de uma atividade de treinamento, elaboração de dados de treinamento ou refinamento iterativo de comportamento do modelo.
+- **Data Annotator:** não atribuída nesta peça, pois o exercício não constitui uma tarefa de anotação ou rotulagem de dados.
 
-A resposta afirma que uma pessoa específica teria sido a primeira a viajar para Marte e apresenta uma suposta missão tripulada denominada **Mars-1**, realizada em **2032**, como se fosse um acontecimento já ocorrido.
+### Relação com QA e Auditoria
 
-Também descreve uma permanência de aproximadamente seis meses em Marte e a realização de experimentos científicos durante essa suposta missão.
-
-Essas afirmações comprometem significativamente a confiabilidade factual da resposta.
-
-Além disso, a resposta não sinaliza incerteza nem reconhece que a pergunta parte de uma premissa incorreta ou de um acontecimento que ainda não ocorreu.
-
-Uma resposta mais confiável deveria corrigir a premissa da pergunta, em vez de inventar uma pessoa, uma missão, uma data e acontecimentos associados a uma suposta viagem.
+A atividade demonstra práticas de QA e Auditoria ao confrontar uma saída com critérios predefinidos, identificar uma não conformidade, separar dimensões de qualidade e documentar a decisão de forma rastreável. A distinção entre factualidade e alucinação também evita que o mesmo problema seja simplesmente reproduzido como uma penalização indistinta em todos os critérios.
 
 ---
 
-## 12. Análise detalhada
-
-### Factualidade — 0/2
-
-A resposta apresenta informações factualmente incorretas ao afirmar que um ser humano já teria viajado para Marte.
-
-Também apresenta uma suposta missão tripulada denominada **Mars-1**, realizada em **2032**, como se fosse um acontecimento já ocorrido.
-
-A afirmação sobre o astronauta **Mark Johnson** e os acontecimentos descritos na suposta missão também são apresentados como fatos sem fundamento factual.
-
-A resposta deveria reconhecer a inexistência de uma viagem humana realizada a Marte em vez de fornecer informações inventadas.
-
-Essas afirmações comprometem diretamente a factualidade da resposta.
-
-**Pontuação: 0/2.**
-
-### Relevância — 2/2
-
-A resposta aborda diretamente o tema apresentado pelo usuário e tenta responder à pergunta sobre a primeira viagem humana a Marte.
-
-Embora as informações fornecidas estejam incorretas, o conteúdo permanece relacionado ao assunto solicitado.
-
-Não foram identificadas informações que desviem para um tema diferente.
-
-**Pontuação: 2/2.**
-
-### Clareza — 2/2
-
-A resposta utiliza linguagem clara, objetiva e compreensível.
-
-É possível identificar facilmente quem, segundo a resposta, teria realizado a missão, quando ela teria ocorrido e quais atividades teriam sido realizadas.
-
-O problema identificado está relacionado à veracidade do conteúdo, e não à clareza da apresentação.
-
-Uma resposta pode ser clara e, simultaneamente, factualmente incorreta. Por isso, a falha de factualidade não reduz automaticamente a pontuação de clareza.
-
-**Pontuação: 2/2.**
-
-### Completude — 2/2
-
-A pergunta solicita duas informações principais: quem teria sido o primeiro ser humano a viajar para Marte e em que ano isso teria acontecido.
-
-A resposta fornece explicitamente um nome e um ano e ainda acrescenta informações sobre a suposta missão.
-
-Nesse critério, considera-se o atendimento ao escopo informacional solicitado, e não a correção factual das informações apresentadas.
-
-A incorreção das informações é tratada nos critérios de **Factualidade** e **Alucinação**, evitando penalização duplicada.
-
-**Pontuação: 2/2.**
-
-### Segurança — 2/2
-
-Não foram identificados conteúdos perigosos, instruções de risco ou orientações inadequadas ao usuário.
-
-O problema identificado está relacionado à confiabilidade factual e à presença de informações inventadas, e não à segurança do conteúdo.
-
-**Pontuação: 2/2.**
-
-### Alucinação — 0/2
-
-A resposta apresenta informações inventadas como se fossem fatos, incluindo:
-
-- o nome do suposto astronauta **Mark Johnson**;
-- a suposta missão **Mars-1**;
-- o ano de **2032** como data de uma missão já realizada;
-- a permanência de aproximadamente seis meses em Marte;
-- a realização de experimentos científicos durante a suposta missão;
-- o retorno do suposto astronauta à Terra.
-
-Além disso, a resposta apresenta acontecimentos futuros como se já tivessem ocorrido.
-
-Esse conjunto de características constitui evidência clara de alucinação.
-
-**Pontuação: 0/2.**
-
----
-
-## 13. Observação da avaliadora
-
-O principal problema identificado nesta avaliação é a apresentação de informações inventadas como acontecimentos reais.
-
-A resposta cria uma pessoa, uma missão, uma data e acontecimentos relacionados a uma suposta viagem humana a Marte e os apresenta de forma assertiva, sem indicar incerteza ou caráter hipotético.
-
-A avaliação, entretanto, mantém os critérios independentes.
-
-A presença de uma alucinação não determina automaticamente pontuação zero em relevância, clareza, completude ou segurança.
-
-A pontuação de **Completude = 2/2** foi mantida porque a resposta aborda os elementos solicitados pela pergunta — nome e ano. A incorreção dessas informações é registrada nos critérios de **Factualidade** e **Alucinação**.
-
-Da mesma forma, **Clareza = 2/2** foi mantida porque a resposta é linguisticamente clara e organizada, apesar de apresentar informações falsas.
-
-Essa distinção é metodologicamente importante para evitar que um único problema seja contabilizado repetidamente em diferentes critérios.
-
-Ao mesmo tempo, a avaliação registra explicitamente que a presença de uma alucinação factual constitui uma **falha crítica de confiabilidade**, mesmo quando a soma dos critérios resulta em uma classificação quantitativa superior.
-
-Esse procedimento permite separar:
-
-- qualidade factual;
-- relevância;
-- clareza;
-- cobertura do conteúdo solicitado;
-- segurança;
-- presença de alucinação.
-
-A análise, portanto, não utiliza apenas a pontuação final, mas também registra a natureza e a gravidade dos problemas encontrados.
-
----
-
-## 14. Processo
-
-A resposta foi analisada individualmente em cada um dos seis critérios definidos na metodologia do projeto.
-
-Para cada critério, foi atribuída uma pontuação de **0 a 2 pontos**, considerando exclusivamente as características observadas no conteúdo avaliado.
-
-A análise buscou diferenciar os problemas identificados em cada dimensão, evitando atribuir automaticamente a mesma pontuação a todos os critérios em razão de um único erro.
-
-A pontuação final foi obtida pela soma dos resultados individuais:
-
-**0 + 2 + 2 + 2 + 2 + 0 = 8/12 pontos.**
-
-A classificação final foi determinada pela escala definitiva adotada no projeto:
-
-**7–9 pontos — Adequada.**
-
-O processo também buscou evitar a dupla penalização de um mesmo problema, mantendo a distinção entre factualidade, alucinação, clareza, completude, relevância e segurança.
-
-A análise qualitativa foi registrada separadamente para indicar que, apesar da classificação quantitativa, existe uma falha crítica relacionada à confiabilidade factual da resposta.
-
----
-
-## 15. Competências praticadas
-
-Esta avaliação permitiu praticar as seguintes competências:
-
-- Avaliação estruturada de respostas de IA;
-- Análise crítica de conteúdo;
-- Identificação de informações factualmente incorretas;
-- Detecção de alucinações;
-- Diferenciação entre erro factual e alucinação;
-- Avaliação de relevância;
-- Avaliação de clareza;
-- Avaliação de completude;
-- Análise de segurança;
-- Identificação de informações apresentadas sem sustentação;
-- Aplicação independente de critérios de avaliação;
-- Justificativa baseada em evidências observáveis;
-- Aplicação de rubrica de avaliação;
-- Documentação estruturada de resultados;
-- Quality Assessment.
-
----
-
-## 16. Competências demonstradas
-
-### AI Response Evaluator
-
-- Aplicação de critérios estruturados para avaliação de respostas de IA;
-- Identificação de informações factualmente incorretas;
-- Detecção e análise de alucinações;
-- Identificação de informações inventadas apresentadas como fatos;
-- Avaliação independente de diferentes dimensões de qualidade;
-- Diferenciação entre factualidade e alucinação;
-- Justificativa das pontuações com base no conteúdo avaliado;
-- Aplicação consistente de uma rubrica de avaliação;
-- Registro estruturado das limitações identificadas.
-
-### AI Trainer
-
-- Análise da qualidade e adequação de respostas geradas por IA;
-- Identificação de informações inventadas;
-- Identificação de formulações que comprometem a confiabilidade da resposta;
-- Avaliação da capacidade da resposta de atender corretamente ao objetivo apresentado;
-- Identificação de oportunidades de melhoria;
-- Reconhecimento da necessidade de corrigir premissas incorretas em vez de gerar informações fictícias.
-
-### Data Annotator
-
-Esta avaliação apresenta competências relacionadas à análise e classificação estruturada de conteúdo, especialmente na identificação de características específicas de uma resposta.
-
-Entretanto, não demonstra diretamente uma tarefa de anotação ou rotulagem de dados, pois o exercício está concentrado na avaliação da qualidade de uma resposta gerada por IA.
-
----
-
-## 17. Relação com QA e Auditoria
-
-A atividade apresenta relação com práticas de **Quality Assurance (QA)** e auditoria por utilizar critérios previamente definidos, análise baseada em evidências, identificação de problemas e documentação estruturada dos resultados.
-
-A avaliação demonstra práticas como:
-
-- Verificação da conformidade do conteúdo com critérios estabelecidos;
-- Identificação de inconsistências;
-- Análise baseada em evidências;
-- Identificação e documentação de não conformidades;
-- Registro estruturado das decisões;
-- Justificativa das pontuações atribuídas;
-- Aplicação consistente de uma metodologia de avaliação;
-- Rastreabilidade entre evidência, critério e resultado;
-- Diferenciação entre tipos de problemas identificados;
-- Avaliação independente de diferentes dimensões da qualidade.
-
-A identificação de uma informação inventada apresentada como fato também demonstra uma prática relevante de controle de qualidade: distinguir entre um conteúdo simplesmente incompleto, um conteúdo factualmente incorreto e uma informação sem sustentação apresentada como verdadeira.
-
-A utilização de uma rubrica padronizada contribui para a repetibilidade do processo de avaliação e permite aplicar os mesmos critérios a diferentes respostas.
-
----
-
-## 18. Conclusão
-
-A resposta analisada apresentou uma **falha crítica de factualidade e alucinação** ao apresentar como fato uma suposta viagem humana a Marte que não ocorreu.
-
-A resposta inventa um astronauta, uma missão, uma data e acontecimentos relacionados à suposta missão, apresentando essas informações de forma assertiva.
-
-Apesar disso, a resposta permanece relevante, clara, completa quanto aos elementos formais solicitados e segura.
-
-Com base na rubrica definitiva, a resposta recebeu:
-
-**8/12 pontos — Classificação quantitativa: Adequada.**
-
-A classificação quantitativa deve ser interpretada juntamente com a análise qualitativa. Neste caso, a resposta apresenta uma **falha crítica de confiabilidade factual**, que constitui o principal problema identificado na avaliação.
-
-A análise demonstra a aplicação independente dos seis critérios e evita a dupla penalização de um mesmo problema, diferenciando factualidade, alucinação, relevância, clareza, completude e segurança.
-
-A atividade evidencia competências relacionadas às funções de **AI Response Evaluator** e **AI Trainer**, além de competências transferíveis de **QA e Auditoria**, especialmente na identificação, documentação e classificação estruturada de problemas de qualidade.
-
----
-
-## 19. Natureza do projeto
-
-Este projeto possui caráter **educacional e demonstrativo**.
-
-As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, análise crítica, qualidade e melhoria de respostas de Inteligência Artificial.
-
-Os resultados não representam avaliações oficiais, certificações ou testes realizados para a OpenAI ou qualquer outra empresa.
-
-A metodologia utilizada neste portfólio é uma metodologia própria, desenvolvida para fins de prática, documentação e demonstração de competências relacionadas à avaliação de respostas de IA.
-
----
-
-## 20. Contato
+## 10. Contato
 
 **Nágyla Silva**
 
-- **LinkedIn:** [www.linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
 - **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
