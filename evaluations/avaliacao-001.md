@@ -82,11 +82,6 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
-- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
-- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
-- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos seis critérios, sem limitação relevante a apontar.
-
 **Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
 
 ### 5.5 Convenção de justificativa
@@ -203,11 +198,7 @@ A avaliação demonstrou a aplicação de uma rubrica estruturada a uma resposta
 
 ### Competências demonstradas
 
-- Avaliação estruturada de resposta gerada por IA.
-- Aplicação de critérios previamente definidos.
-- Análise da adequação do conteúdo ao contexto.
-- Registro padronizado de uma decisão avaliativa.
-- Aplicação de princípios relacionados a QA e controle de qualidade.
+- **AI Response Evaluator:** aplicação estruturada de uma rubrica para analisar, justificar e classificar a qualidade de uma resposta gerada por IA.
 
 ### Relação com QA e Auditoria
 
