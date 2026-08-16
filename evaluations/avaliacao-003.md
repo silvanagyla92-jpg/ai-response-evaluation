@@ -10,13 +10,13 @@ O objetivo é verificar a qualidade da resposta utilizando os seis critérios pa
 
 ## 2. Contexto da avaliação
 
-**Plataforma de origem da resposta:** ChatGPT
+**Plataforma:** ChatGPT
 
-**Tipo de exercício:** Avaliação individual de resposta gerada por Inteligência Artificial.
-
-**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Origem da resposta:** resposta gerada por Inteligência Artificial no contexto de um exercício introdutório sobre a importância dos dados para sistemas de Inteligência Artificial.
 
 **Avaliadora:** Nágyla Silva.
+
+**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
@@ -38,7 +38,7 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ## 5. Critérios e rubrica
 
-Este é o bloco único de critérios e rubrica utilizado na avaliação, conforme o padrão mestre do portfólio.
+Esta seção reúne os critérios, as escalas de pontuação e classificação, e as convenções que orientam o registro de evidência, análise e justificativa na Seção 6.
 
 ### 5.1 Escala de critérios
 
@@ -80,7 +80,12 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
+- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
+- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
+- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
+- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos critérios; eventuais limitações pontuais têm impacto agregado pequeno (até 2 pontos perdidos no total) e não comprometem a adequação geral.
+
+**Nota de calibração:** com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.
 
 ### 5.5 Convenção de justificativa
 
@@ -164,17 +169,7 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ---
 
-## 7. Parecer
-
-Considerando o conjunto da avaliação, a resposta atende ao objetivo introdutório da pergunta e apresenta uma explicação coerente sobre o papel dos dados em sistemas de Inteligência Artificial.
-
-A principal limitação está na formulação determinística que relaciona quantidade de dados e precisão do modelo. Essa afirmação reduz a precisão factual da resposta, mas não caracteriza informação inventada.
-
-A pontuação final reflete essa limitação específica sem transferi-la indevidamente para outros critérios.
-
----
-
-## 8. Resultado
+## 7. Resultado
 
 | **Critério** | **Pontuação** |
 |---|---:|
@@ -190,6 +185,16 @@ A pontuação final reflete essa limitação específica sem transferi-la indevi
 
 ---
 
+## 8. Parecer
+
+Considerando o conjunto da avaliação, a resposta atende ao objetivo introdutório da pergunta e apresenta uma explicação coerente sobre o papel dos dados em sistemas de Inteligência Artificial.
+
+A principal limitação está na formulação determinística que relaciona quantidade de dados e precisão do modelo. Essa afirmação reduz a precisão factual da resposta, mas não caracteriza informação inventada.
+
+O resultado geral permanece adequado ao propósito introdutório da peça, com a limitação factual registrada de forma específica e sem transferência indevida para outros critérios.
+
+---
+
 ## 9. Conclusão
 
 ### Observação da avaliadora
@@ -200,16 +205,13 @@ Uma formulação mais precisa deveria reconhecer que o desempenho depende de mú
 
 ### Competências demonstradas
 
-- **AI Response Evaluator:** aplicação estruturada de critérios para avaliar uma resposta gerada por IA, identificar um desvio factual, distinguir factualidade de alucinação e registrar uma decisão avaliativa baseada em evidências.
-- Aplicação consistente de critérios previamente definidos.
-- Identificação de uma generalização factual.
-- Diferenciação entre limitação factual e alucinação.
-- Justificativa de pontuação baseada em evidências.
-- Registro estruturado e rastreável de decisões avaliativas.
+- **AI Response Evaluator:** demonstrada pela aplicação estruturada dos seis critérios da rubrica, pelo registro de evidências e análises, pela identificação de um desvio factual e pela distinção entre limitação de factualidade e alucinação.
+- **AI Trainer:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
+- **Data Annotator:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
 
 ### Relação com QA e Auditoria
 
-A atividade demonstra práticas transferíveis de QA e Auditoria, especialmente na identificação de desvios, aplicação independente de critérios, prevenção de dupla penalização e documentação objetiva da decisão avaliativa.
+A atividade demonstra práticas transferíveis de QA e Auditoria, especialmente na identificação de desvios, aplicação independente de critérios, prevenção de dupla penalização e documentação objetiva e rastreável da decisão avaliativa.
 
 ---
 
