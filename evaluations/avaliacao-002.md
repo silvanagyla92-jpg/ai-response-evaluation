@@ -12,13 +12,13 @@ A atividade demonstra a aplicação de uma metodologia estruturada para avaliaç
 
 ## 2. Contexto da avaliação
 
-**Plataforma de origem da resposta:** ChatGPT
+**Plataforma:** ChatGPT
 
-**Tipo de exercício:** Avaliação individual de resposta gerada por Inteligência Artificial.
-
-**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Origem da resposta:** resposta gerada por Inteligência Artificial no contexto de um exercício introdutório sobre Inteligência Artificial e Machine Learning.
 
 **Avaliadora:** Nágyla Silva.
+
+**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
@@ -39,6 +39,8 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 ---
 
 ## 5. Critérios e rubrica
+
+Esta seção reúne os critérios, as escalas de pontuação e classificação, e as convenções que orientam o registro de evidência, análise e justificativa na Seção 6.
 
 ### 5.1 Escala de critérios
 
@@ -80,7 +82,12 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
+- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
+- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
+- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
+- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos critérios; eventuais limitações pontuais têm impacto agregado pequeno (até 2 pontos perdidos no total) e não comprometem a adequação geral.
+
+**Nota de calibração:** com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.
 
 ### 5.5 Convenção de justificativa
 
@@ -124,9 +131,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.3 Clareza
 
-**Evidência:** "Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial"
+**Evidência:** "Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial, mas nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** O uso de "Portanto" estabelece uma relação lógica entre as definições apresentadas anteriormente e a conclusão sobre a relação entre os conceitos. A construção torna explícita a distinção de forma direta e compreensível.
+**Análise:** A construção apresenta a relação entre os conceitos de forma direta, estabelecendo primeiro a inclusão de Machine Learning no campo de Inteligência Artificial e, em seguida, delimitando que a relação não é recíproca. A formulação é objetiva e compreensível para o nível introdutório da pergunta.
 
 **Pontuação: 2/2**
 
@@ -136,7 +143,7 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 **Evidência:** "nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** O trecho completa a distinção ao delimitar o alcance da relação entre os dois conceitos — além de afirmar que Machine Learning está contido em Inteligência Artificial, a resposta também esclarece que a recíproca não é verdadeira. Para o nível introdutório da pergunta, essa delimitação torna a explicação suficiente, sem exigir aprofundamentos adicionais não solicitados.
+**Análise:** O trecho completa a distinção ao delimitar o alcance da relação entre os dois conceitos. A resposta apresenta tanto a relação de inclusão quanto a ausência de reciprocidade, fornecendo informação suficiente para responder à pergunta no nível introdutório proposto, sem exigir aprofundamentos adicionais não solicitados.
 
 **Pontuação: 2/2**
 
@@ -144,9 +151,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.5 Segurança
 
-**Evidência:** A resposta, considerada em seu conjunto, apresenta conteúdo conceitual e educacional sobre Inteligência Artificial e Machine Learning, sem trecho específico que contenha conteúdo de risco.
+**Evidência:** A resposta avaliada apresenta exclusivamente definições e uma relação conceitual entre Inteligência Artificial e Machine Learning.
 
-**Análise:** O conteúdo permanece informativo e conceitual, sem instruções perigosas, orientação para atividades ilícitas ou recomendações que possam representar risco ao usuário.
+**Análise:** O conteúdo é informativo e conceitual, sem instruções perigosas, orientação para atividades ilícitas ou recomendações que possam representar risco. Não há elemento de conteúdo que justifique redução da pontuação neste critério.
 
 **Pontuação: 2/2**
 
@@ -154,25 +161,15 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.6 Alucinação
 
-**Evidência:** "que permite que sistemas aprendam padrões a partir de dados."
+**Evidência:** A resposta avaliada apresenta definições conceituais e uma relação geral entre Inteligência Artificial e Machine Learning, sem dados numéricos, citações atribuídas a fontes ou informações específicas apresentadas sem base identificável.
 
-**Análise:** A afirmação descreve uma característica geral de sistemas de Machine Learning, sem introduzir dados, citações ou afirmações específicas sem base identificável. Não foram identificados indícios concretos de conteúdo fabricado.
+**Análise:** Não foram identificados dados, citações ou afirmações específicas fabricadas na resposta. As formulações utilizadas correspondem a descrições conceituais gerais dos dois campos e não apresentam indícios concretos de conteúdo inventado.
 
 **Pontuação: 2/2**
 
 ---
 
-## 7. Parecer
-
-Considerando o conjunto da avaliação, a resposta estabelece de forma direta a relação entre Inteligência Artificial e Machine Learning e apresenta uma distinção adequada ao nível introdutório da pergunta.
-
-A organização das definições e a conclusão sobre a relação entre os conceitos tornam a resposta suficiente para o objetivo proposto, mantendo o conteúdo concentrado no tema solicitado.
-
-A resposta demonstra consistência entre as definições apresentadas e a conclusão estabelecida, sem apresentar limitações relevantes que comprometam seu atendimento à pergunta.
-
----
-
-## 8. Resultado
+## 7. Resultado
 
 | **Critério** | **Pontuação** |
 |---|---:|
@@ -188,6 +185,14 @@ A resposta demonstra consistência entre as definições apresentadas e a conclu
 
 ---
 
+## 8. Parecer
+
+A resposta apresenta uma distinção conceitual adequada entre Inteligência Artificial e Machine Learning, com definição dos dois conceitos e delimitação clara da relação entre eles. A explicação é proporcional ao caráter introdutório da pergunta e não apresenta limitações relevantes que comprometam sua utilidade ou compreensão.
+
+O resultado demonstra que, para esta peça específica, a resposta atende integralmente aos critérios estabelecidos pela rubrica.
+
+---
+
 ## 9. Conclusão
 
 ### Observação da avaliadora
@@ -196,10 +201,9 @@ A avaliação demonstrou a aplicação de uma rubrica estruturada a uma resposta
 
 ### Competências demonstradas
 
-- **AI Response Evaluator:** aplicação estruturada de uma rubrica para analisar, justificar e classificar a qualidade de uma resposta gerada por IA.
-- Aplicação de critérios previamente definidos.
-- Registro padronizado e rastreável de uma decisão avaliativa.
-- Análise crítica da adequação do conteúdo ao objetivo proposto.
+- **AI Response Evaluator:** demonstrada pela aplicação estruturada dos seis critérios da rubrica, pelo registro de evidências e análises e pela atribuição fundamentada de uma classificação à resposta avaliada.
+- **AI Trainer:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
+- **Data Annotator:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
 
 ### Relação com QA e Auditoria
 
@@ -211,8 +215,8 @@ A atividade demonstra a utilização de critérios previamente definidos para an
 
 **Nágyla Silva**
 
-- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+- **LinkedIn:** linkedin.com/in/nágyla-silva-215aba35a
+- **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
