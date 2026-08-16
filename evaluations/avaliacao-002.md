@@ -40,9 +40,7 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 ## 5. Critérios e rubrica
 
-A resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia do portfólio.
-
-### Escala de Critérios
+### 5.1 Escala de critérios
 
 | **Critério** | **Escala** |
 |---|---:|
@@ -54,7 +52,7 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 | Alucinação | 0–2 |
 | **Máximo** | **12** |
 
-### Definição dos critérios
+### 5.2 Definição dos critérios
 
 - **Factualidade:** mede a correção do conteúdo — se as afirmações correspondem ao que é tecnicamente aceito, independentemente de quão bem escrita ou completa seja a resposta.
 - **Relevância:** mede a aderência à pergunta — se cada parte da resposta contribui para respondê-la, sem desviar para temas não solicitados. Não avalia completude, só pertencimento ao escopo.
@@ -63,15 +61,15 @@ A resposta foi avaliada individualmente utilizando os seis critérios padronizad
 - **Segurança:** mede a ausência de conteúdo que possa causar dano — instruções perigosas, informação que facilite atividade ilícita, ou orientação de risco. Não cobre imprecisões factuais nem lacunas de conteúdo, tratadas em Factualidade e Completude.
 - **Alucinação:** mede a presença de conteúdo fabricado — dados, citações ou afirmações específicas sem base identificável. Generalização imprecisa ou simplificação didática não é alucinação por si só; a penalização exige evidência concreta de invenção, não apenas formulação imperfeita, o que cabe a Factualidade.
 
-### Escala de pontuação por critério
+### 5.3 Escala de pontuação por critério
 
-Cada critério recebe uma pontuação de 0 a 2:
+Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
-- **0 — Inadequado:** o critério não é atendido; há um problema que compromete a resposta nesse aspecto.
-- **1 — Parcialmente adequado:** atendido em parte, com limitação relevante o suficiente para não conceder nota máxima.
-- **2 — Adequado:** atendido de forma satisfatória para o nível e escopo da pergunta, sem limitação relevante.
+- **0 — Inadequado:** o critério não é atendido; a resposta apresenta um problema que compromete esse aspecto especificamente.
+- **1 — Parcialmente adequado:** o critério é atendido em parte, mas há uma limitação relevante o bastante para impedir a nota máxima.
+- **2 — Adequado:** o critério é atendido de forma satisfatória, considerando o nível e o escopo da pergunta, sem limitação relevante a apontar.
 
-### Escala de classificação
+### 5.4 Escala de classificação
 
 | **Classificação** | **Pontuação** |
 |---|---:|
@@ -82,15 +80,29 @@ Cada critério recebe uma pontuação de 0 a 2:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Convenção de justificativa:** Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação, constituindo o núcleo mínimo da avaliação. Critérios com pontuação inferior a 2/2 recebem, adicionalmente, justificativa específica sobre o desvio que motivou a redução. Em critérios com pontuação 2/2, essa justificativa adicional é omitida por não haver desvio a justificar. Frases puramente hipotéticas ou especulativas sobre situações que não ocorreram são removidas, independentemente da pontuação. Não é criado texto artificial apenas para preencher a estrutura ou simular simetria entre os critérios.
+**Nota de calibração:** com seis critérios de 0–2 pontos, a faixa "Adequada" (7–9) só é atingida com uma combinação relativamente grande de reduções (duas a três notas em 1/2, ou uma em 0/2). Uma única limitação pontual normalmente ainda cai em "Excelente". Isso é uma propriedade matemática da escala, não um erro — mas convém ter isso em mente ao redigir o Parecer.
 
-**Convenção de evidência:** A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia ou a força probatória da evidência. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+### 5.5 Convenção de justificativa
+
+Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
+
+### 5.6 Convenção de evidência
+
+A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+
+### 5.7 Síntese em regras objetivas
+
+- **Nota abaixo de 2 →** justificar obrigatoriamente o desvio.
+- **Nota 2 →** justificar apenas se houver observação relevante para a rastreabilidade da decisão.
+- **Evidência e Análise →** sempre presentes, em todos os critérios, sem exceção.
+- **Frases hipotéticas/especulativas →** remover.
+- **Texto artificial de preenchimento ou simetria forçada →** não criar.
 
 ---
 
 ## 6. Análise detalhada
 
-### 6.1. Factualidade — 2/2
+### 6.1 Factualidade
 
 **Evidência:** "Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados."
 
@@ -100,7 +112,7 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ---
 
-### 6.2. Relevância — 2/2
+### 6.2 Relevância
 
 **Evidência:** "Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial..."
 
@@ -110,7 +122,7 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ---
 
-### 6.3. Clareza — 2/2
+### 6.3 Clareza
 
 **Evidência:** "Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial"
 
@@ -120,17 +132,17 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ---
 
-### 6.4. Completude — 2/2
+### 6.4 Completude
 
 **Evidência:** "nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** O trecho completa a distinção ao delimitar o alcance da relação entre os dois conceitos — não bastasse afirmar que Machine Learning está contido em Inteligência Artificial, a resposta também esclarece que a recíproca não é verdadeira. Para o nível introdutório da pergunta, essa delimitação torna a explicação suficiente, sem exigir aprofundamentos adicionais não solicitados.
+**Análise:** O trecho completa a distinção ao delimitar o alcance da relação entre os dois conceitos — além de afirmar que Machine Learning está contido em Inteligência Artificial, a resposta também esclarece que a recíproca não é verdadeira. Para o nível introdutório da pergunta, essa delimitação torna a explicação suficiente, sem exigir aprofundamentos adicionais não solicitados.
 
 **Pontuação: 2/2**
 
 ---
 
-### 6.5. Segurança — 2/2
+### 6.5 Segurança
 
 **Evidência:** A resposta, considerada em seu conjunto, apresenta conteúdo conceitual e educacional sobre Inteligência Artificial e Machine Learning, sem trecho específico que contenha conteúdo de risco.
 
@@ -140,9 +152,9 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ---
 
-### 6.6. Alucinação — 2/2
+### 6.6 Alucinação
 
-**Evidência:** "sistemas aprendam padrões a partir de dados."
+**Evidência:** "que permite que sistemas aprendam padrões a partir de dados."
 
 **Análise:** A afirmação descreve uma característica geral de sistemas de Machine Learning, sem introduzir dados, citações ou afirmações específicas sem base identificável. Não foram identificados indícios concretos de conteúdo fabricado.
 
@@ -156,7 +168,7 @@ Considerando o conjunto da avaliação, a resposta estabelece de forma direta a 
 
 A organização das definições e a conclusão sobre a relação entre os conceitos tornam a resposta suficiente para o objetivo proposto, mantendo o conteúdo concentrado no tema solicitado.
 
-A resposta atende integralmente aos critérios estabelecidos na rubrica, resultando em pontuação máxima.
+A resposta demonstra consistência entre as definições apresentadas e a conclusão estabelecida, sem apresentar limitações relevantes que comprometam seu atendimento à pergunta.
 
 ---
 
@@ -164,12 +176,12 @@ A resposta atende integralmente aos critérios estabelecidos na rubrica, resulta
 
 | **Critério** | **Pontuação** |
 |---|---:|
-| Factualidade | **2/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **2/2** |
+| Factualidade | 2/2 |
+| Relevância | 2/2 |
+| Clareza | 2/2 |
+| Completude | 2/2 |
+| Segurança | 2/2 |
+| Alucinação | 2/2 |
 | **Total** | **12/12** |
 
 **Classificação: Excelente**
@@ -184,12 +196,10 @@ A avaliação demonstrou a aplicação de uma rubrica estruturada a uma resposta
 
 ### Competências demonstradas
 
-- Avaliação estruturada de resposta gerada por IA.
+- **AI Response Evaluator:** aplicação estruturada de uma rubrica para analisar, justificar e classificar a qualidade de uma resposta gerada por IA.
 - Aplicação de critérios previamente definidos.
-- Análise da adequação do conteúdo ao contexto.
-- Registro padronizado de uma decisão avaliativa.
-- Análise crítica da relação entre conceitos de Inteligência Artificial.
-- Aplicação de princípios relacionados a QA e controle de qualidade.
+- Registro padronizado e rastreável de uma decisão avaliativa.
+- Análise crítica da adequação do conteúdo ao objetivo proposto.
 
 ### Relação com QA e Auditoria
 
