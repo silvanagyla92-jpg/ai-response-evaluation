@@ -92,7 +92,7 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 6.1. Factualidade — 2/2
 
-**Evidência:** “Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados.”
+**Evidência:** "Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados."
 
 **Análise:** O trecho apresenta corretamente Machine Learning como uma abordagem pertencente ao campo mais amplo da Inteligência Artificial e descreve adequadamente o aprendizado de padrões a partir de dados como característica central de sistemas de Machine Learning.
 
@@ -102,7 +102,7 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 6.2. Relevância — 2/2
 
-**Evidência:** “Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial...”
+**Evidência:** "Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial..."
 
 **Análise:** A resposta apresenta diretamente os dois conceitos necessários para estabelecer a diferença solicitada e permanece concentrada na relação entre Inteligência Artificial e Machine Learning, sem introduzir informações fora do objetivo da pergunta.
 
@@ -112,9 +112,9 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 6.3. Clareza — 2/2
 
-**Evidência:** “Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial, mas nem todo sistema de Inteligência Artificial utiliza Machine Learning.”
+**Evidência:** "Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial"
 
-**Análise:** O uso de “Portanto” estabelece uma relação lógica entre as definições apresentadas anteriormente e a conclusão sobre a relação entre os conceitos. A construção torna explícita a distinção de forma direta e compreensível.
+**Análise:** O uso de "Portanto" estabelece uma relação lógica entre as definições apresentadas anteriormente e a conclusão sobre a relação entre os conceitos. A construção torna explícita a distinção de forma direta e compreensível.
 
 **Pontuação: 2/2**
 
@@ -122,9 +122,9 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 6.4. Completude — 2/2
 
-**Evidência:** “Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial, mas nem todo sistema de Inteligência Artificial utiliza Machine Learning.”
+**Evidência:** "nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** O trecho explicita a relação entre os dois conceitos e estabelece a distinção central solicitada pela pergunta. Para o nível introdutório da questão, a resposta contempla as informações necessárias para atender ao objetivo, sem exigir aprofundamentos adicionais que não foram solicitados.
+**Análise:** O trecho completa a distinção ao delimitar o alcance da relação entre os dois conceitos — não bastasse afirmar que Machine Learning está contido em Inteligência Artificial, a resposta também esclarece que a recíproca não é verdadeira. Para o nível introdutório da pergunta, essa delimitação torna a explicação suficiente, sem exigir aprofundamentos adicionais não solicitados.
 
 **Pontuação: 2/2**
 
@@ -142,9 +142,9 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 6.6. Alucinação — 2/2
 
-**Evidência:** “Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados.”
+**Evidência:** "sistemas aprendam padrões a partir de dados."
 
-**Análise:** A afirmação é compatível com a caracterização conceitual apresentada na resposta e não introduz dados, citações ou afirmações específicas sem base identificável. Não foram identificados indícios concretos de conteúdo fabricado.
+**Análise:** A afirmação descreve uma característica geral de sistemas de Machine Learning, sem introduzir dados, citações ou afirmações específicas sem base identificável. Não foram identificados indícios concretos de conteúdo fabricado.
 
 **Pontuação: 2/2**
 
