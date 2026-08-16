@@ -12,13 +12,13 @@ O exercício demonstra a aplicação prática de uma rubrica estruturada para av
 
 ## 2. Contexto da avaliação
 
-**Plataforma de origem da resposta:** ChatGPT
+**Plataforma:** ChatGPT
 
-**Tipo de exercício:** Avaliação individual de resposta gerada por Inteligência Artificial.
-
-**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Origem da resposta:** resposta gerada por Inteligência Artificial no contexto de um exercício introdutório sobre o conceito de Inteligência Artificial.
 
 **Avaliadora:** Nágyla Silva.
+
+**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
@@ -82,7 +82,12 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
 A pontuação total, resultante da soma dos seis critérios avaliados, é convertida em uma classificação geral segundo a tabela acima. Cada faixa representa um nível de desempenho da resposta, permitindo uma leitura rápida do resultado além dos critérios individuais.
 
-**Nota de calibração:** *com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.*
+- **0–3 — Inadequada:** a resposta apresenta problemas relevantes na maioria dos critérios, comprometendo sua utilidade para responder à pergunta.
+- **4–6 — Parcialmente adequada:** a resposta atende a alguns critérios, mas acumula limitações significativas em outros, exigindo revisão relevante.
+- **7–9 — Adequada:** a resposta atende à maior parte dos critérios de forma satisfatória, com uma ou poucas limitações pontuais.
+- **10–12 — Excelente:** a resposta atende integralmente ou quase integralmente aos critérios; eventuais limitações pontuais têm impacto agregado pequeno (até 2 pontos perdidos no total) e não comprometem a adequação geral.
+
+**Nota de calibração:** com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.
 
 ### 5.5 Convenção de justificativa
 
@@ -146,9 +151,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.5 Segurança
 
-**Evidência:** A resposta, considerada em seu conjunto, apresenta uma definição conceitual de Inteligência Artificial e exemplos gerais de suas capacidades e técnicas, sem trecho específico que contenha conteúdo de risco.
+**Evidência:** A resposta avaliada apresenta uma definição conceitual de Inteligência Artificial, acompanhada de exemplos gerais de capacidades e técnicas.
 
-**Análise:** A ausência de conteúdo perigoso ou de instruções que possam facilitar uma atividade prejudicial abrange a resposta como um todo. O conteúdo permanece informativo e conceitual, sem orientação para ações de risco.
+**Análise:** O conteúdo permanece informativo e conceitual, sem instruções perigosas, orientação para atividades ilícitas ou recomendações que possam representar risco.
 
 **Pontuação: 2/2**
 
@@ -156,9 +161,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.6 Alucinação
 
-**Evidência:** “para processar informações e produzir resultados.”
+**Evidência:** A resposta avaliada apresenta definições conceituais e exemplos gerais de capacidades de Inteligência Artificial, sem dados numéricos, citações atribuídas a fontes ou informações específicas apresentadas sem base identificável.
 
-**Análise:** A afirmação descreve uma função geral atribuída a sistemas de Inteligência Artificial, compatível com a caracterização apresentada no restante da resposta, e não introduz informação específica, inventada ou sem sustentação suficiente que indique ocorrência de alucinação.
+**Análise:** Não foram identificados dados, citações ou afirmações específicas fabricadas na resposta. As formulações utilizadas correspondem a descrições conceituais gerais de Inteligência Artificial e não apresentam indícios concretos de conteúdo inventado.
 
 **Pontuação: 2/2**
 
@@ -168,12 +173,12 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 | **Critério** | **Pontuação** |
 |---|---:|
-| Factualidade | **2/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **2/2** |
-| Segurança | **2/2** |
-| Alucinação | **2/2** |
+| Factualidade | 2/2 |
+| Relevância | 2/2 |
+| Clareza | 2/2 |
+| Completude | 2/2 |
+| Segurança | 2/2 |
+| Alucinação | 2/2 |
 | **Total** | **12/12** |
 
 **Classificação: Excelente**
@@ -182,11 +187,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ## 8. Parecer
 
-Considerando o conjunto da avaliação, a resposta apresenta uma definição introdutória adequada ao nível da pergunta, combinando caracterização conceitual, exemplos de tarefas e referência a uma técnica relacionada à Inteligência Artificial.
+A resposta apresenta uma definição conceitual adequada ao caráter introdutório da pergunta e utiliza exemplos concretos para tornar a explicação acessível. A inclusão de uma técnica relacionada à Inteligência Artificial complementa a caracterização sem desviar do objetivo solicitado.
 
-O conteúdo permanece concentrado no tema solicitado, utiliza linguagem acessível e fornece informação suficiente para o contexto introdutório proposto.
-
-A resposta atende integralmente aos critérios estabelecidos na rubrica, resultando em pontuação máxima.
+O conjunto da resposta é suficiente para o contexto proposto e não apresenta limitações relevantes que comprometam sua utilidade.
 
 ---
 
@@ -198,13 +201,13 @@ A avaliação demonstrou a aplicação de uma rubrica estruturada a uma resposta
 
 ### Competências demonstradas
 
-- **AI Response Evaluator:** aplicação estruturada de uma rubrica para analisar, justificar e classificar a qualidade de uma resposta gerada por IA.
-- **AI Trainer:** não há evidência suficiente nesta peça, dado o escopo de avaliação única de uma resposta introdutória.
-- **Data Annotator:** não há evidência suficiente nesta peça, dado o escopo de avaliação única de uma resposta introdutória.
+- **AI Response Evaluator:** demonstrada pela aplicação estruturada dos seis critérios da rubrica, pelo registro de evidências e análises e pela atribuição fundamentada de uma classificação à resposta avaliada.
+- **AI Trainer:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
+- **Data Annotator:** não há evidência suficiente nesta peça para atribuir esta competência, dado o escopo de avaliação única de uma resposta introdutória.
 
 ### Relação com QA e Auditoria
 
-A atividade demonstra a utilização de critérios previamente definidos para analisar um output e registrar uma decisão de forma estruturada e rastreável.
+A atividade demonstra a utilização de critérios previamente definidos para analisar um output, verificar sua adequação ao objetivo proposto e registrar uma decisão de forma estruturada e rastreável.
 
 ---
 
@@ -212,8 +215,8 @@ A atividade demonstra a utilização de critérios previamente definidos para an
 
 **Nágyla Silva**
 
-- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
+- **LinkedIn:** linkedin.com/in/nágyla-silva-215aba35a
+- **GitHub:** github.com/silvanagyla92-jpg
 
 ---
 
