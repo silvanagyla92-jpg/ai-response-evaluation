@@ -203,4 +203,4 @@ A atividade demonstra a utilização de critérios previamente definidos para an
 
 ---
 
-*Metodologia própria desenvolvida para este portfólio.*
+*Avaliação desenvolvida como parte do portfólio prático de estudos em Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e competências relacionadas à avaliação e qualidade de respostas de IA.*
