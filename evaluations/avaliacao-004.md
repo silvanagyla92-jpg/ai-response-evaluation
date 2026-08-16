@@ -18,9 +18,9 @@ O objetivo específico é avaliar a resposta segundo a rubrica padronizada do po
 
 **Finalidade:** verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
 
-**Declaração de independência:** A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
+A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
-**Disclaimer:** As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 
