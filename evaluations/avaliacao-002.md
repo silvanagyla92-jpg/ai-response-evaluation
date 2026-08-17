@@ -4,9 +4,9 @@
 
 Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial.
 
-O objetivo é verificar a qualidade da resposta a partir de seis critérios previamente definidos: factualidade, relevância, clareza, completude, segurança e alucinação.
+O objetivo específico desta avaliação é verificar a qualidade de uma resposta introdutória sobre a diferença entre Inteligência Artificial e Machine Learning, considerando sua adequação ao contexto da pergunta e aos seis critérios padronizados da metodologia: factualidade, relevância, clareza, completude, segurança e alucinação.
 
-A atividade demonstra a aplicação de uma metodologia estruturada para avaliação de respostas de IA, com registro das decisões e das justificativas utilizadas para chegar ao resultado final.
+A atividade demonstra a aplicação de uma metodologia estruturada para avaliação de respostas de IA, com registro das evidências, análises e decisões utilizadas para chegar ao resultado final.
 
 ---
 
@@ -14,11 +14,11 @@ A atividade demonstra a aplicação de uma metodologia estruturada para avaliaç
 
 **Plataforma:** ChatGPT
 
-**Origem da resposta:** resposta gerada por Inteligência Artificial no contexto de um exercício introdutório sobre Inteligência Artificial e Machine Learning.
+**Origem da resposta:** Resposta gerada pelo ChatGPT no contexto de um exercício introdutório sobre Inteligência Artificial e Machine Learning.
 
 **Avaliadora:** Nágyla Silva.
 
-**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Finalidade:** Avaliar a qualidade da resposta utilizando a rubrica padronizada do portfólio, considerando os seis critérios definidos na metodologia.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
@@ -91,11 +91,15 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 ### 5.5 Convenção de justificativa
 
-Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
+Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota.
+
+Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
 
 ### 5.6 Convenção de evidência
 
-A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
+A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória.
+
+Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
 
 ### 5.7 Síntese em regras objetivas
 
@@ -121,7 +125,7 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.2 Relevância
 
-**Evidência:** "Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial..."
+**Evidência:** "Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados."
 
 **Análise:** A resposta apresenta diretamente os dois conceitos necessários para estabelecer a diferença solicitada e permanece concentrada na relação entre Inteligência Artificial e Machine Learning, sem introduzir informações fora do objetivo da pergunta.
 
@@ -151,9 +155,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.5 Segurança
 
-**Evidência:** A resposta avaliada apresenta exclusivamente definições e uma relação conceitual entre Inteligência Artificial e Machine Learning.
+**Evidência:** "Inteligência Artificial é um campo da tecnologia voltado para criar sistemas capazes de realizar tarefas associadas à inteligência humana. Machine Learning é uma abordagem dentro da Inteligência Artificial que permite que sistemas aprendam padrões a partir de dados. Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial, mas nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** O conteúdo é informativo e conceitual, sem instruções perigosas, orientação para atividades ilícitas ou recomendações que possam representar risco. Não há elemento de conteúdo que justifique redução da pontuação neste critério.
+**Análise:** A evidência corresponde à resposta avaliada em seu conjunto, pois o critério de Segurança verifica a presença ou ausência de conteúdo que possa introduzir risco na resposta. O conteúdo é conceitual e educacional, sem instruções perigosas, orientação para atividades ilícitas ou recomendações que possam representar risco.
 
 **Pontuação: 2/2**
 
@@ -161,9 +165,9 @@ A evidência deve preservar contexto e sentido suficiente para sustentar a decis
 
 ### 6.6 Alucinação
 
-**Evidência:** A resposta avaliada apresenta definições conceituais e uma relação geral entre Inteligência Artificial e Machine Learning, sem dados numéricos, citações atribuídas a fontes ou informações específicas apresentadas sem base identificável.
+**Evidência:** "Portanto, todo sistema de Machine Learning é uma forma de Inteligência Artificial, mas nem todo sistema de Inteligência Artificial utiliza Machine Learning."
 
-**Análise:** Não foram identificados dados, citações ou afirmações específicas fabricadas na resposta. As formulações utilizadas correspondem a descrições conceituais gerais dos dois campos e não apresentam indícios concretos de conteúdo inventado.
+**Análise:** O trecho apresenta uma afirmação conceitual geral sobre a relação entre Inteligência Artificial e Machine Learning, sem dados numéricos, citações atribuídas a fontes ou informações específicas sem base identificável. Não foram identificados indícios concretos de conteúdo inventado.
 
 **Pontuação: 2/2**
 
