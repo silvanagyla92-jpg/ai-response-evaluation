@@ -2,7 +2,7 @@
 
 ## 1. Objetivo
 
-A pasta **CONCEITOS-EXPLICADOS** reúne a base conceitual que sustenta as avaliações deste projeto. O objetivo é apresentar, em um único documento, fundamentos de Inteligência Artificial, Aprendizado de Máquina, Grandes Modelos de Linguagem, embeddings, RAG e agentes de IA, transformando conceitos técnicos em explicações claras, verificáveis e úteis para a análise crítica de respostas produzidas por sistemas de IA.
+A pasta **conceitos-explicados** reúne a base conceitual que sustenta as avaliações deste projeto. O objetivo é apresentar, em um único documento, fundamentos de Inteligência Artificial, Aprendizado de Máquina, Grandes Modelos de Linguagem, embeddings, RAG e agentes de IA, transformando conceitos técnicos em explicações claras, verificáveis e úteis para a análise crítica de respostas produzidas por sistemas de IA.
 
 Os conteúdos servem como referência para as atividades de **AI Response Evaluator**, **AI Trainer** e **Data Annotator**, pois uma avaliação consistente depende da capacidade de reconhecer conceitos corretos, simplificações aceitáveis, erros conceituais, informações fabricadas e limitações dos sistemas avaliados.
 
