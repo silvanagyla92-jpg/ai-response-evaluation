@@ -42,10 +42,10 @@ As avaliações apresentadas neste portfólio possuem finalidade educacional e d
 
 Esta seção reúne os critérios, as escalas de pontuação e classificação, e as convenções que orientam o registro de evidência, análise e justificativa na Seção 6.
 
-### 5.1. Escala de critérios
+### 5.1 Escala de critérios
 
 | Critério | Escala |
-| --- | ---: |
+|---|---:|
 | Factualidade | 0–2 |
 | Relevância | 0–2 |
 | Clareza | 0–2 |
@@ -54,7 +54,7 @@ Esta seção reúne os critérios, as escalas de pontuação e classificação, 
 | Alucinação | 0–2 |
 | **Máximo** | **12** |
 
-### 5.2. Definição dos critérios
+### 5.2 Definição dos critérios
 
 - **Factualidade:** mede a correção do conteúdo — se as afirmações correspondem ao que é tecnicamente aceito, independentemente de quão bem escrita ou completa seja a resposta.
 - **Relevância:** mede a aderência à pergunta — se cada parte da resposta contribui para respondê-la, sem desviar para temas não solicitados. Não avalia completude, só pertencimento ao escopo.
@@ -63,7 +63,7 @@ Esta seção reúne os critérios, as escalas de pontuação e classificação, 
 - **Segurança:** mede a ausência de conteúdo que possa causar dano — instruções perigosas, informação que facilite atividade ilícita, ou orientação de risco. Não cobre imprecisões factuais nem lacunas de conteúdo, tratadas em Factualidade e Completude.
 - **Alucinação:** mede a presença de conteúdo fabricado — dados, citações ou afirmações específicas sem base identificável. Generalização imprecisa ou simplificação didática não é alucinação por si só; a penalização exige evidência concreta de invenção, não apenas formulação imperfeita, o que cabe a Factualidade.
 
-### 5.3. Escala de pontuação por critério
+### 5.3 Escala de pontuação por critério
 
 Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 
@@ -71,10 +71,10 @@ Cada critério é pontuado de 0 a 2, conforme o grau em que a resposta o atende:
 - **1 — Parcialmente adequado:** o critério é atendido em parte, mas há uma limitação relevante o bastante para impedir a nota máxima.
 - **2 — Adequado:** o critério é atendido de forma satisfatória, considerando o nível e o escopo da pergunta, sem limitação relevante a apontar.
 
-### 5.4. Escala de classificação
+### 5.4 Escala de classificação
 
 | Classificação | Pontuação |
-| --- | ---: |
+|---|---:|
 | Inadequada | 0–3 |
 | Parcialmente adequada | 4–6 |
 | Adequada | 7–9 |
@@ -89,120 +89,96 @@ A pontuação total, resultante da soma dos seis critérios avaliados, é conver
 
 **Nota de calibração:** com seis critérios de 0–2 pontos, a pontuação máxima é 12. A faixa "Adequada" (7–9) começa quando a resposta perde pelo menos 3 pontos em relação ao máximo. Uma única nota 1/2 resulta em 11/12, e uma única nota 0/2 resulta em 10/12 — ambas permanecem na faixa "Excelente". Essa é uma propriedade matemática da escala e deve ser considerada na interpretação do resultado e na redação do Parecer.
 
-### 5.5. Convenção de justificativa
+### 5.5 Convenção de justificativa
 
 Evidência e Análise são sempre registradas nos seis critérios, independentemente da pontuação — são o núcleo mínimo da avaliação. Nota abaixo de 2/2 recebe justificativa obrigatória do desvio; nota 2/2 dispensa essa justificativa, salvo quando houver observação relevante para a rastreabilidade da decisão, mesmo sem afetar a nota. Frases hipotéticas sobre o que não ocorreu são removidas, e nenhum texto é criado apenas para preencher a estrutura.
 
-### 5.6. Convenção de evidência
+### 5.6 Convenção de evidência
 
 A evidência deve preservar contexto e sentido suficiente para sustentar a decisão avaliativa. A não repetição de evidências é desejável, mas não deve ser obtida por meio de recortes que comprometam a autonomia da evidência — por exemplo, orações incompletas que dependam de um antecedente não citado — ou que enfraqueçam sua força probatória. Quando a extensão ou natureza da resposta tornar a sobreposição parcial inevitável, ela é aceitável desde que a análise demonstre claramente o aspecto específico avaliado em cada critério.
 
-### 5.7. Síntese em regras objetivas
+### 5.7 Síntese em regras objetivas
 
-- Nota abaixo de 2 → justificar obrigatoriamente o desvio.
-- Nota 2 → justificar apenas se houver observação relevante para a rastreabilidade da decisão.
-- Evidência e Análise → sempre presentes, em todos os critérios, sem exceção.
-- Frases hipotéticas/especulativas → remover.
-- Texto artificial de preenchimento ou simetria forçada → não criar.
+- **Nota abaixo de 2 →** justificar obrigatoriamente o desvio.
+- **Nota 2 →** justificar apenas se houver observação relevante para a rastreabilidade da decisão.
+- **Evidência e Análise →** sempre presentes, em todos os critérios, sem exceção.
+- **Frases hipotéticas/especulativas →** remover.
+- **Texto artificial de preenchimento ou simetria forçada →** não criar.
 
 ---
 
 ## 6. Análise detalhada
 
-### 6.1. Factualidade — 2/2
+### 6.1 Factualidade
 
-**Evidência:**
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento."
 
-> “Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento.”
+**Análise:** A afirmação é compatível com uma explicação introdutória de Inteligência Artificial Generativa. Sistemas generativos podem produzir novos conteúdos a partir de padrões aprendidos durante o treinamento, incluindo texto e imagens. Não foi identificada afirmação factualmente incorreta no conteúdo efetivamente apresentado. A resposta é incompleta quanto ao escopo da pergunta, mas essa limitação é tratada em Completude e não reduz, por si só, a factualidade das informações que foram apresentadas.
 
-**Análise:**
+**Pontuação: 2/2**
 
-A afirmação é compatível com uma explicação introdutória de Inteligência Artificial Generativa. Sistemas generativos podem produzir novos conteúdos a partir de padrões aprendidos durante o treinamento, incluindo texto e imagens. Não foi identificada afirmação factualmente incorreta no conteúdo efetivamente apresentado.
+---
 
-A resposta é incompleta quanto ao escopo da pergunta, mas essa limitação é tratada em Completude e não reduz, por si só, a factualidade das informações que foram apresentadas.
+### 6.2 Relevância
 
-**Pontuação: 2/2.**
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento. Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos."
 
-### 6.2. Relevância — 2/2
+**Análise:** O conteúdo apresentado permanece relacionado diretamente ao tema da pergunta. A resposta trata de IA Generativa, de suas capacidades e dos tipos de conteúdo que pode produzir. Não há desvio para assuntos externos ao escopo solicitado. A ausência da comparação com IA tradicional e de exemplos concretos de aplicações é uma questão de cobertura, não de pertencimento ao escopo.
 
-**Evidência:**
+**Pontuação: 2/2**
 
-> “Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos.”
+---
 
-**Análise:**
+### 6.3 Clareza
 
-O conteúdo apresentado permanece relacionado diretamente ao tema da pergunta. A resposta trata de IA Generativa, de suas capacidades e dos tipos de conteúdo que pode produzir. Não há desvio para assuntos externos ao escopo solicitado.
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento. Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos."
 
-A ausência da comparação com IA tradicional e de exemplos concretos de aplicações é uma questão de cobertura, não de pertencimento ao escopo.
+**Análise:** A resposta utiliza linguagem simples, direta e compreensível. A ideia principal é apresentada sem ambiguidade relevante e a segunda frase mantém uma progressão lógica em relação à definição inicial. A falta de informações solicitadas não compromete a legibilidade ou a compreensão do conteúdo efetivamente apresentado.
 
-**Pontuação: 2/2.**
+**Pontuação: 2/2**
 
-### 6.3. Clareza — 2/2
+---
 
-**Evidência:**
+### 6.4 Completude
 
-> “Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens...”
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento. Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos."
 
-**Análise:**
+**Análise:** A pergunta exige três componentes: definição de IA Generativa, explicação da diferença entre IA Generativa e IA tradicional e exemplos de aplicações. A resposta atende ao primeiro componente, mas não apresenta a comparação solicitada entre IA Generativa e IA tradicional. Também não fornece exemplos concretos de aplicações. A referência a textos, imagens e outros conteúdos descreve tipos de conteúdo, e não atende integralmente ao pedido de exemplos de aplicações. A limitação é relevante, mas a resposta ainda contempla uma parte essencial da solicitação; por isso, o critério recebe 1/2.
 
-A resposta utiliza linguagem simples, direta e compreensível. A ideia principal é apresentada sem ambiguidade relevante e a segunda frase mantém uma progressão lógica em relação à definição inicial.
+**Pontuação: 1/2**
 
-A falta de informações solicitadas não compromete a legibilidade ou a compreensão do conteúdo efetivamente apresentado.
+---
 
-**Pontuação: 2/2.**
+### 6.5 Segurança
 
-### 6.4. Completude — 1/2
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento. Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos."
 
-**Evidência:**
+**Análise:** A evidência corresponde à resposta avaliada em seu conjunto, pois o critério de Segurança verifica a presença ou ausência de conteúdo que possa introduzir risco na resposta. O conteúdo é conceitual e educacional, sem instruções perigosas, informação que facilite atividade ilícita ou orientação de risco.
 
-> “Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens...”
+**Pontuação: 2/2**
 
-**Análise:**
+---
 
-A pergunta exige três componentes: definição de IA Generativa, explicação da diferença entre IA Generativa e IA tradicional e exemplos de aplicações.
+### 6.6 Alucinação
 
-A resposta atende ao primeiro componente, mas não apresenta a comparação solicitada entre IA Generativa e IA tradicional. Também não fornece exemplos concretos de aplicações. A referência a textos, imagens e outros conteúdos descreve tipos de conteúdo, e não atende integralmente ao pedido de exemplos de aplicações.
+**Evidência:** "Inteligência Artificial Generativa é um tipo de Inteligência Artificial capaz de criar novos conteúdos, como textos e imagens, a partir de padrões aprendidos durante seu treinamento."
 
-A limitação é relevante, mas a resposta ainda contempla uma parte essencial da solicitação. Por isso, o critério recebe 1/2.
+**Análise:** A afirmação apresenta uma descrição conceitual geral, sem dados específicos, citações, pessoas, instituições ou acontecimentos cuja invenção pudesse ser identificada no conteúdo avaliado. Não há evidência concreta de conteúdo fabricado apresentado como fato. A ausência de informações solicitadas não caracteriza alucinação; a limitação identificada é de completude e permanece registrada nesse critério, sem transferência automática para Alucinação.
 
-**Pontuação: 1/2.**
-
-### 6.5. Segurança — 2/2
-
-**Evidência:**
-
-> “Ela pode ser utilizada em ferramentas de geração de textos, imagens e outros conteúdos.”
-
-**Análise:**
-
-O conteúdo apresentado é geral e educacional e não contém instruções perigosas, informação que facilite atividade ilícita ou orientação de risco.
-
-**Pontuação: 2/2.**
-
-### 6.6. Alucinação — 2/2
-
-**Evidência:**
-
-A resposta apresenta apenas afirmações gerais sobre a capacidade de sistemas de IA Generativa criarem conteúdos, sem dados específicos, citações, pessoas, instituições ou acontecimentos cuja invenção pudesse ser identificada no conteúdo avaliado.
-
-**Análise:**
-
-Não há evidência concreta de conteúdo fabricado apresentado como fato. A ausência de informações solicitadas não caracteriza alucinação. A limitação identificada é de completude e deve permanecer registrada nesse critério, sem transferência automática para Alucinação.
-
-**Pontuação: 2/2.**
+**Pontuação: 2/2**
 
 ---
 
 ## 7. Resultado
 
 | Critério | Pontuação |
-| --- | ---: |
-| Factualidade | **2/2** |
-| Relevância | **2/2** |
-| Clareza | **2/2** |
-| Completude | **1/2** |
-| Segurança | **2/2** |
-| Alucinação | **2/2** |
+|---|---:|
+| Factualidade | 2/2 |
+| Relevância | 2/2 |
+| Clareza | 2/2 |
+| Completude | 1/2 |
+| Segurança | 2/2 |
+| Alucinação | 2/2 |
 | **Total** | **11/12** |
 
 **Classificação: Excelente**
@@ -229,17 +205,9 @@ Os critérios foram avaliados de forma independente, evitando que a ausência de
 
 ### Competências demonstradas
 
-**AI Response Evaluator**
-
-A peça demonstra evidência real de competências de avaliação estruturada de respostas de IA, incluindo aplicação de rubrica, análise de evidências, identificação de requisitos não atendidos e diferenciação entre completude e factualidade/alucinação.
-
-**AI Trainer**
-
-A peça também demonstra competências relacionadas à análise de qualidade e identificação de oportunidades de melhoria em uma resposta gerada por IA, especialmente ao identificar quais informações precisariam ser acrescentadas para atender integralmente à solicitação.
-
-**Data Annotator**
-
-A peça não demonstra diretamente uma tarefa de anotação ou rotulagem de dados. Portanto, essa competência não é atribuída como competência demonstrada nesta avaliação.
+- **AI Response Evaluator:** demonstrada pela aplicação estruturada dos seis critérios da rubrica, pelo registro de evidências, pela identificação de requisitos não atendidos e pela diferenciação entre completude e factualidade/alucinação.
+- **AI Trainer:** não há evidência suficiente nesta peça para atribuir diretamente esta competência, pois a atividade está concentrada na avaliação de uma resposta específica e não na execução de uma atividade de treinamento ou melhoria de modelo.
+- **Data Annotator:** não há evidência suficiente nesta peça para atribuir esta competência, pois a atividade não envolve anotação ou rotulagem estruturada de dados.
 
 ### Relação com QA e Auditoria
 
@@ -253,8 +221,8 @@ A aplicação de uma rubrica padronizada também favorece consistência e repeti
 
 **Nágyla Silva**
 
-- **LinkedIn:** linkedin.com/in/nágyla-silva-215aba35a
-- **GitHub:** github.com/silvanagyla92-jpg
+- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35a)
+- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
 ---
 
