@@ -196,24 +196,6 @@ Com a evolução do portfólio, poderão ser incorporados novos métodos de aval
 
 ---
 
-## 13. Autoria e contato
+**Autor:** Nágyla Silva
 
-**Nágyla Silva**
-
-Profissional em transição de carreira para a área de Inteligência Artificial, com foco em AI Trainer, AI Response Evaluator e Data Annotator, aplicando competências de QA, Auditoria, análise crítica e avaliação baseada em evidências.
-
-- **LinkedIn:** [linkedin.com/in/nágyla-silva-215aba35a](https://www.linkedin.com/in/nágyla-silva-215aba35a)
-- **GitHub:** [github.com/silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
-
----
-
-## 14. Observação
-
-Este projeto possui finalidade educacional e demonstrativa.
-
-As avaliações e exercícios documentados neste repositório representam práticas independentes desenvolvidas para demonstrar competências relacionadas à avaliação de respostas e sistemas de Inteligência Artificial.
-
-Os exemplos não representam avaliações oficiais, certificações ou experiência profissional realizada para a OpenAI ou qualquer outra empresa, salvo quando explicitamente indicado.
-
-Projeto desenvolvido por Nágyla Silva como parte de um portfólio prático voltado ao desenvolvimento de competências em AI Trainer, AI Response Evaluator, Data Annotation, RLHF, Prompt Engineering e Quality Assurance aplicado à Inteligência Artificial.
-
+*Projeto integrado do portfólio prático de estudos em Inteligência Artificial, com foco em engenharia de prompts, avaliação crítica de respostas de IA e desenvolvimento de competências para AI Trainer, AI Response Evaluator e Data Annotator.*
