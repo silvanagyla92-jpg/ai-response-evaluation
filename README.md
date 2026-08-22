@@ -584,27 +584,21 @@ A prioridade será manter **qualidade, consistência e rastreabilidade**, em vez
 
 ---
 
-# 21. Autoria
+# 21. Contato
 
-**Nágyla Silva**
+**Autor:** Nágyla Silva
 
-### Qualificação profissional
+**Projeto:** AI Response Evaluation
 
-**AI Trainer | AI Response Evaluator | Data Annotator**
-**Background em QA e Auditoria**
+**GitHub:** [silvanagyla92-jpg](https://github.com/silvanagyla92-jpg)
 
-### LinkedIn
-
-[LinkedIn](https://www.linkedin.com/)
-
-### GitHub
-
-[GitHub](https://github.com/silvanagyla92-jpg)
+**LinkedIn:** [Nágyla Silva](https://www.linkedin.com/in/n%C3%A1gyla-silva-215aba35/)
 
 ---
 
-## Observação
+**Autor:** Nágyla Silva
 
-Este portfólio representa uma iniciativa independente de desenvolvimento e demonstração de competências práticas relacionadas à Inteligência Artificial.
-
-A estrutura será continuamente aprimorada à medida que novos exercícios e evidências forem desenvolvidos.
+*Projeto integrado do portfólio
+prático de estudos em Inteligência Artificial, com foco em engenharia de
+prompts, avaliação crítica de respostas de IA e desenvolvimento de competências
+para AI Trainer, AI Response Evaluator e Data Annotator.*
