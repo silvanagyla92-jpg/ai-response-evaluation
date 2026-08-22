@@ -1,0 +1,35 @@
+name: Substituir Portfólio por Projeto
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  substituir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Substituir termos sem alterar rodapés
+        shell: python
+        run: |
+          from pathlib import Path
+          for path in Path('.').rglob('*.md'):
+              if '.git' in path.parts:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              marker = text.rfind('\n---')
+              body, footer = (text, '') if marker == -1 else (text[:marker], text[marker:])
+              updated = body.replace('Portfólio', 'Projeto').replace('portfólio', 'projeto')
+              if updated != body:
+                  path.write_text(updated + footer, encoding='utf-8')
+      - name: Commitar alterações
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Substitui Portfólio por Projeto nos textos'
+          git push
