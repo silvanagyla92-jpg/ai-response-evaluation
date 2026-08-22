@@ -4,7 +4,7 @@
 
 Esta avaliação analisa uma resposta de Inteligência Artificial sobre a importância dos dados em sistemas de IA.
 
-O objetivo é verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio, com atenção à distinção entre uma limitação de factualidade e uma possível alucinação.
+O objetivo é verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do projeto, com atenção à distinção entre uma limitação de factualidade e uma possível alucinação.
 
 ---
 
@@ -16,11 +16,11 @@ O objetivo é verificar a qualidade da resposta utilizando os seis critérios pa
 
 **Avaliadora:** Nágyla Silva.
 
-**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Finalidade:** Verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do projeto.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 

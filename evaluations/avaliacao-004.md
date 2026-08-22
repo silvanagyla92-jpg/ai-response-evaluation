@@ -4,7 +4,7 @@
 
 Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial sobre a primeira viagem humana a Marte.
 
-O objetivo específico é avaliar a resposta segundo a rubrica padronizada do portfólio, com atenção especial à distinção entre erro factual e alucinação quando informações inventadas são apresentadas como acontecimentos reais.
+O objetivo específico é avaliar a resposta segundo a rubrica padronizada do projeto, com atenção especial à distinção entre erro factual e alucinação quando informações inventadas são apresentadas como acontecimentos reais.
 
 ---
 
@@ -16,11 +16,11 @@ O objetivo específico é avaliar a resposta segundo a rubrica padronizada do po
 
 **Avaliadora:** Nágyla Silva.
 
-**Finalidade:** verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do portfólio.
+**Finalidade:** verificar a qualidade da resposta utilizando os seis critérios padronizados da metodologia do projeto.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 

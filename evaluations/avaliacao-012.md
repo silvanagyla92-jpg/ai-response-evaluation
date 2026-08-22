@@ -6,7 +6,7 @@ Esta avaliação apresenta um exercício prático de análise da capacidade de u
 
 O exercício utiliza uma solicitação com múltiplas restrições simultâneas, incluindo quantidade exata de frases, ausência de listas e tópicos, ausência de exemplos e uma exigência específica para o conteúdo da última frase.
 
-O objetivo é avaliar a resposta considerando tanto sua aderência às instruções quanto sua qualidade geral segundo a rubrica padronizada deste portfólio.
+O objetivo é avaliar a resposta considerando tanto sua aderência às instruções quanto sua qualidade geral segundo a rubrica padronizada deste projeto.
 
 A atividade busca verificar se o modelo consegue cumprir simultaneamente restrições estruturais e produzir uma resposta conceitualmente adequada, clara, relevante, completa, segura e factualmente precisa.
 
@@ -28,7 +28,7 @@ A aderência à instrução é tratada como o **foco específico do exercício**
 
 A análise considera a resposta originalmente gerada pelo modelo, antes da apresentação das conclusões ou correções ao modelo.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma.
 
 ---
 
@@ -136,7 +136,7 @@ Após a análise individual dos seis critérios, as pontuações são somadas pa
 | **7–9 pontos** | **Adequada** |
 | **10–12 pontos** | **Excelente** |
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa e os pontos de atenção identificados durante a avaliação.
 
@@ -642,7 +642,7 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
-A metodologia apresentada neste portfólio representa uma estrutura própria de avaliação desenvolvida para fins de demonstração prática de competências.
+A metodologia apresentada neste projeto representa uma estrutura própria de avaliação desenvolvida para fins de demonstração prática de competências.
 
 ---
 

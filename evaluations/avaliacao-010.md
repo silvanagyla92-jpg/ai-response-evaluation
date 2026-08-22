@@ -17,7 +17,7 @@ A avaliação também busca diferenciar quatro situações que não devem ser tr
 * informação não suficientemente sustentada;
 * alucinação ou fabricação de informação.
 
-Essa distinção faz parte da metodologia adotada neste portfólio.
+Essa distinção faz parte da metodologia adotada neste projeto.
 
 ---
 
@@ -33,7 +33,7 @@ Essa distinção faz parte da metodologia adotada neste portfólio.
 
 A análise registrada neste documento considera a resposta originalmente gerada pelo Claude, antes de qualquer correção ou reformulação realizada pela avaliadora.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma de Inteligência Artificial.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma de Inteligência Artificial.
 
 ---
 
@@ -138,9 +138,9 @@ Após a análise individual dos seis critérios, as pontuações são somadas pa
 |   **7–9 pontos** | **Adequada**              |
 | **10–12 pontos** | **Excelente**             |
 
-Essa é a **Escala de Classificação da Rubrica de Avaliação** utilizada como padrão definitivo neste portfólio.
+Essa é a **Escala de Classificação da Rubrica de Avaliação** utilizada como padrão definitivo neste projeto.
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa e com os pontos de atenção identificados durante a avaliação.
 
@@ -523,7 +523,7 @@ A referência a Boris Eldagsen não apresenta o mesmo problema: ele foi de fato 
 
 Esses problemas não caracterizam uma alucinação completa. São melhor classificados como **imprecisão/generalização factual**.
 
-A avaliação demonstra, portanto, uma competência particularmente importante para o portfólio:
+A avaliação demonstra, portanto, uma competência particularmente importante para o projeto:
 
 > **identificar que uma resposta pode evitar uma alucinação principal e, ainda assim, conter uma afirmação secundária que precisa ser corrigida ou qualificada.**
 
@@ -555,7 +555,7 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
-A metodologia, a rubrica, as pontuações e as classificações apresentadas neste portfólio correspondem a um exercício independente desenvolvido pela autora.
+A metodologia, a rubrica, as pontuações e as classificações apresentadas neste projeto correspondem a um exercício independente desenvolvido pela autora.
 
 ---
 

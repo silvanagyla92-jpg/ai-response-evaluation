@@ -18,11 +18,11 @@ A atividade demonstra a aplicação de uma metodologia estruturada de avaliaçã
 
 **Avaliadora:** Nágyla Silva.
 
-**Finalidade:** Avaliar a qualidade da resposta utilizando a rubrica padronizada do portfólio, considerando os seis critérios definidos na metodologia.
+**Finalidade:** Avaliar a qualidade da resposta utilizando a rubrica padronizada do projeto, considerando os seis critérios definidos na metodologia.
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 

@@ -37,7 +37,7 @@ Esta distinção é importante porque duas respostas podem receber a mesma pontu
 
 **Fonte das respostas:** outputs gerados pelos respectivos modelos para a pergunta apresentada nesta avaliação.
 
-**Observação:** as respostas foram analisadas pela avaliadora utilizando a rubrica definida neste portfólio. Nenhum dos modelos foi utilizado para avaliar ou classificar a resposta do outro.
+**Observação:** as respostas foram analisadas pela avaliadora utilizando a rubrica definida neste projeto. Nenhum dos modelos foi utilizado para avaliar ou classificar a resposta do outro.
 
 A avaliação possui finalidade **educacional e demonstrativa** e não representa avaliação oficial realizada pela Anthropic, OpenAI ou qualquer outra empresa.
 
@@ -152,7 +152,7 @@ Após a soma dos seis critérios, aplica-se a classificação definitiva da meto
 |         **7–9** | **Adequada**              |
 |       **10–12** | **Excelente**             |
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação quantitativa deve ser interpretada conjuntamente com a análise qualitativa registrada na avaliação.
 
@@ -615,7 +615,7 @@ Essa separação contribui para maior **consistência, rastreabilidade e reprodu
 
 ## 18. Conclusão
 
-A avaliação demonstrou que ambas as respostas apresentam desempenho elevado segundo a rubrica oficial do portfólio.
+A avaliação demonstrou que ambas as respostas apresentam desempenho elevado segundo a rubrica oficial do projeto.
 
 **Resposta A — Claude:**
 
@@ -664,7 +664,7 @@ As avaliações são realizadas como exercícios práticos destinados ao desenvo
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
-**Fonte da metodologia:** metodologia própria desenvolvida para este portfólio.
+**Fonte da metodologia:** metodologia própria desenvolvida para este projeto.
 
 ---
 

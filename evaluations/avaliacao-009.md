@@ -30,7 +30,7 @@ Essa separação evita que a preferência entre duas respostas altere artificial
 
 **Observação:** As respostas foram utilizadas exclusivamente como objetos de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
 
 ---
 
@@ -129,9 +129,9 @@ Após a análise individual dos seis critérios, as pontuações são somadas pa
 |   **7–9 pontos** | **Adequada**              |
 | **10–12 pontos** | **Excelente**             |
 
-Esta é a **Escala de Classificação da Rubrica de Avaliação** utilizada como padrão definitivo em todas as avaliações deste portfólio.
+Esta é a **Escala de Classificação da Rubrica de Avaliação** utilizada como padrão definitivo em todas as avaliações deste projeto.
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação quantitativa não determina automaticamente a resposta preferida em uma comparação. Duas respostas podem receber a mesma classificação e, ainda assim, uma apresentar melhor adequação ao contexto específico da pergunta.
 
@@ -595,7 +595,7 @@ Este projeto possui caráter **educacional e demonstrativo**.
 
 As avaliações são realizadas como exercícios práticos para desenvolver competências relacionadas à avaliação, comparação, análise crítica e melhoria da qualidade de respostas de Inteligência Artificial.
 
-A metodologia apresentada neste portfólio é uma **metodologia própria**, desenvolvida para fins educacionais e demonstrativos.
+A metodologia apresentada neste projeto é uma **metodologia própria**, desenvolvida para fins educacionais e demonstrativos.
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
 

@@ -115,7 +115,7 @@ Como Alucinação é um critério de qualidade, a escala é interpretada positiv
 |   **7–9 pontos** | **Adequada**              |
 | **10–12 pontos** | **Excelente**             |
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação representa exclusivamente o resultado quantitativo da aplicação dos seis critérios.
 

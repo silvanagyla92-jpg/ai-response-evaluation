@@ -4,7 +4,7 @@
 
 Esta avaliação apresenta um exercício prático de análise de uma resposta gerada por Inteligência Artificial.
 
-O objetivo é verificar a qualidade da resposta a partir da rubrica padronizada do portfólio, considerando factualidade, relevância, clareza, completude, segurança e alucinação.
+O objetivo é verificar a qualidade da resposta a partir da rubrica padronizada do projeto, considerando factualidade, relevância, clareza, completude, segurança e alucinação.
 
 Neste exercício, o foco está na capacidade da resposta de atender a uma solicitação composta por três elementos: definição de Inteligência Artificial Generativa, comparação entre IA Generativa e IA tradicional e apresentação de exemplos de aplicações.
 
@@ -22,7 +22,7 @@ Neste exercício, o foco está na capacidade da resposta de atender a uma solici
 
 A avaliação foi realizada pela autora. O modelo utilizado para gerar a resposta não foi utilizado para realizar sua própria avaliação.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela OpenAI ou por qualquer outra empresa.
 
 ---
 

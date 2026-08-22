@@ -18,11 +18,11 @@ O cumprimento das instruções é verificado qualitativamente, em etapa separada
 
 **Avaliadora:** Nágyla Silva.
 
-**Finalidade:** verificar o cumprimento de instruções complexas e comparar a qualidade de duas respostas geradas por plataformas distintas, utilizando a rubrica padronizada do portfólio.
+**Finalidade:** verificar o cumprimento de instruções complexas e comparar a qualidade de duas respostas geradas por plataformas distintas, utilizando a rubrica padronizada do projeto.
 
 A avaliação foi realizada pela autora. As plataformas utilizadas para gerar as respostas não foram utilizadas para realizar sua própria avaliação ou classificar a resposta da outra plataforma.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, Google ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, Google ou por qualquer outra empresa.
 
 ---
 
@@ -312,7 +312,7 @@ As duas respostas atendem integralmente aos requisitos explícitos da solicitaç
 
 Nenhuma dessas diferenças compromete a correção, a segurança ou a ausência de conteúdo fabricado em qualquer das duas respostas; trata-se de uma distinção de grau de adequação comunicativa ao público iniciante, não de qualidade técnica. Por esse motivo, a preferência qualitativa pela Resposta B não decorre de uma falha da Resposta A.
 
-O resultado demonstra que o cumprimento de instruções complexas pode ser analisado como foco do exercício sem se tornar um sétimo critério de pontuação, preservando a rubrica-base de seis critérios do portfólio.
+O resultado demonstra que o cumprimento de instruções complexas pode ser analisado como foco do exercício sem se tornar um sétimo critério de pontuação, preservando a rubrica-base de seis critérios do projeto.
 
 ---
 

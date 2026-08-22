@@ -5,7 +5,7 @@ Esta avaliação apresenta um exercício prático de **classificação de erros 
 
 O objetivo é analisar uma resposta de IA, identificar possíveis problemas e determinar se cada aspecto observado representa um erro relevante ou uma oportunidade de melhoria.
 
-A análise utiliza a rubrica-base definida para este portfólio, composta por seis critérios: **Factualidade, Relevância, Clareza, Completude, Segurança e Alucinação**.
+A análise utiliza a rubrica-base definida para este projeto, composta por seis critérios: **Factualidade, Relevância, Clareza, Completude, Segurança e Alucinação**.
 
 Além da pontuação, a avaliação busca identificar a **natureza e a gravidade dos problemas encontrados**, diferenciando situações como erro factual, generalização excessiva, afirmação excessivamente categórica, falta de contextualização, limitação de completude, imprecisão e alucinação.
 
@@ -27,7 +27,7 @@ Neste exercício, atenção especial é dada à diferenciação entre **generali
 
 A análise considera a resposta originalmente gerada pelo modelo, antes da apresentação das conclusões ou correções ao modelo.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa ou plataforma.
 
 ---
 
@@ -139,7 +139,7 @@ Após a análise individual dos seis critérios, as pontuações são somadas pa
 | **7–9** | **Adequada** |
 | **10–12** | **Excelente** |
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação quantitativa deve ser interpretada em conjunto com a análise qualitativa e os problemas identificados durante a avaliação.
 
@@ -702,7 +702,7 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para empresas ou plataformas de Inteligência Artificial.
 
-A metodologia apresentada neste portfólio representa um modelo próprio de avaliação desenvolvido para fins de demonstração prática das competências da autora.
+A metodologia apresentada neste projeto representa um modelo próprio de avaliação desenvolvido para fins de demonstração prática das competências da autora.
 
 ---
 

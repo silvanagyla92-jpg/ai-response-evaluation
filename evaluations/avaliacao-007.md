@@ -83,7 +83,7 @@ Por esse motivo, sua utilização pelas respostas não foi considerada, isoladam
 
 ## 5. Critérios
 
-Cada resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia definitiva do portfólio.
+Cada resposta foi avaliada individualmente utilizando os seis critérios padronizados da metodologia definitiva do projeto.
 
 | Critério         | Pontuação | Definição                                                                                                                   |
 | ---------------- | --------: | --------------------------------------------------------------------------------------------------------------------------- |
@@ -150,7 +150,7 @@ A pontuação de cada critério é atribuída de forma independente.
 
 ### Escala de Classificação da Rubrica de Avaliação
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 A classificação geral representa o desempenho da resposta segundo os seis critérios oficiais.
 
@@ -394,7 +394,7 @@ de
 
 **qualidade da resposta → pontuação oficial da rubrica.**
 
-Essa separação mantém a metodologia consistente com as demais avaliações do portfólio.
+Essa separação mantém a metodologia consistente com as demais avaliações do projeto.
 
 ---
 
@@ -533,7 +533,7 @@ A Resposta B foi escolhida como preferência qualitativa por apresentar linguage
 
 A preferência não altera a pontuação ou a classificação oficial.
 
-A avaliação demonstra que o **cumprimento de instruções pode ser analisado como foco específico do exercício sem criar um novo critério de pontuação**, preservando a rubrica-base de seis critérios utilizada no portfólio.
+A avaliação demonstra que o **cumprimento de instruções pode ser analisado como foco específico do exercício sem criar um novo critério de pontuação**, preservando a rubrica-base de seis critérios utilizada no projeto.
 
 O exercício também demonstra a importância de avaliar separadamente a **aderência às instruções** e a **qualidade multidimensional da resposta**, permitindo maior consistência e rastreabilidade na avaliação de outputs de IA.
 

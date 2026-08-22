@@ -1,6 +1,6 @@
 # AI Response Evaluation
 
-## Portfólio Prático de Avaliação e Treinamento de Sistemas de Inteligência Artificial
+## Projeto Prático de Avaliação e Treinamento de Sistemas de Inteligência Artificial
 
 **Nágyla Silva**
 
@@ -11,7 +11,7 @@
 
 ## 1. Sobre o projeto
 
-Este repositório apresenta um portfólio prático voltado ao desenvolvimento e à demonstração de competências relacionadas à **avaliação, análise, classificação e melhoria de respostas geradas por sistemas de Inteligência Artificial**.
+Este repositório apresenta um projeto prático voltado ao desenvolvimento e à demonstração de competências relacionadas à **avaliação, análise, classificação e melhoria de respostas geradas por sistemas de Inteligência Artificial**.
 
 O projeto foi estruturado para documentar exercícios práticos de forma organizada, utilizando critérios objetivos, análise baseada em evidências, comparação de respostas, identificação de problemas e registro estruturado das decisões.
 
@@ -25,11 +25,11 @@ A proposta é demonstrar competências relevantes para funções como:
 * Prompt Engineering;
 * Quality Assurance aplicado à Inteligência Artificial.
 
-O portfólio também busca demonstrar a aplicação de competências transferíveis desenvolvidas em **Quality Assurance (QA)** e **Auditoria**, especialmente análise crítica, utilização de critérios, identificação de não conformidades, documentação, rastreabilidade e tomada de decisão baseada em evidências.
+O projeto também busca demonstrar a aplicação de competências transferíveis desenvolvidas em **Quality Assurance (QA)** e **Auditoria**, especialmente análise crítica, utilização de critérios, identificação de não conformidades, documentação, rastreabilidade e tomada de decisão baseada em evidências.
 
 ---
 
-# 2. Objetivos do portfólio
+# 2. Objetivos do projeto
 
 Os principais objetivos deste projeto são:
 
@@ -53,7 +53,7 @@ Os principais objetivos deste projeto são:
 
 ---
 
-# 3. Estrutura do portfólio
+# 3. Estrutura do projeto
 
 O projeto está organizado de forma progressiva, partindo dos conceitos fundamentais e avançando para metodologias, aplicações práticas e competências especializadas.
 
@@ -61,7 +61,7 @@ O projeto está organizado de forma progressiva, partindo dos conceitos fundamen
 ai-response-evaluation/
 │
 ├── README.md
-│   → Visão geral do portfólio, índice das pastas e como navegar
+│   → Visão geral do projeto, índice das pastas e como navegar
 │
 ├── conceitos-explicados/
 │   ├── README.md
@@ -185,7 +185,7 @@ A documentação desta seção estabelece **como uma resposta pode ser analisada
 
 A pasta [`evaluations/`](./evaluations/) reúne as **avaliações práticas de respostas geradas por Inteligência Artificial**.
 
-Esta é uma das principais áreas práticas do portfólio.
+Esta é uma das principais áreas práticas do projeto.
 
 Cada avaliação é documentada individualmente e pode apresentar:
 
@@ -387,7 +387,7 @@ As imagens serão utilizadas quando contribuírem para demonstrar o processo ou 
 
 # 13. Metodologia geral
 
-As atividades deste portfólio seguem uma abordagem estruturada baseada em critérios previamente definidos e evidências observáveis.
+As atividades deste projeto seguem uma abordagem estruturada baseada em critérios previamente definidos e evidências observáveis.
 
 Sempre que aplicável, o processo envolve:
 
@@ -411,7 +411,7 @@ As conclusões devem estar relacionadas aos critérios relevantes para a tarefa 
 
 # 14. Relação com QA e Auditoria
 
-A metodologia utilizada neste portfólio possui relação com práticas de **Quality Assurance (QA)** e auditoria.
+A metodologia utilizada neste projeto possui relação com práticas de **Quality Assurance (QA)** e auditoria.
 
 Entre as competências transferíveis estão:
 
@@ -486,7 +486,7 @@ As evidências poderão incluir:
 
 # 17. Desenvolvimento progressivo
 
-O portfólio será desenvolvido de forma incremental, seguindo a seguinte progressão:
+O projeto será desenvolvido de forma incremental, seguindo a seguinte progressão:
 
 **1. Conceitos fundamentais**
 Compreender e explicar conceitos essenciais de Inteligência Artificial.
@@ -515,7 +515,7 @@ Identificar informações incorretas, inventadas ou não sustentadas.
 **9. Evidências visuais**
 Organizar screenshots e outras evidências relevantes dos exercícios.
 
-Essa sequência permite que o portfólio evolua de:
+Essa sequência permite que o projeto evolua de:
 
 **Fundamentos → Metodologia → Prática → Especialização → Evidências**
 
@@ -535,7 +535,7 @@ O objetivo é demonstrar, por meio de exercícios documentados, a capacidade de 
 
 # 19. Competências demonstradas
 
-Este portfólio busca demonstrar competências relacionadas a:
+Este projeto busca demonstrar competências relacionadas a:
 
 * AI Trainer;
 * AI Response Evaluator;
@@ -562,7 +562,7 @@ Este portfólio busca demonstrar competências relacionadas a:
 
 ---
 
-# 20. Evolução do portfólio
+# 20. Evolução do projeto
 
 O repositório será atualizado progressivamente conforme novos exercícios forem realizados.
 

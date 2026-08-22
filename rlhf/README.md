@@ -186,13 +186,13 @@ O objetivo é demonstrar, por meio de exemplos documentados, a capacidade de ana
 
 ## 12. Evolução da seção
 
-Esta seção poderá ser ampliada ao longo do desenvolvimento do portfólio, incorporando novos exercícios, diferentes tipos de comparação, novas rubricas e situações mais complexas de avaliação.
+Esta seção poderá ser ampliada ao longo do desenvolvimento do projeto, incorporando novos exercícios, diferentes tipos de comparação, novas rubricas e situações mais complexas de avaliação.
 
 O objetivo é construir um conjunto progressivo de evidências práticas relacionadas a AI Trainer, AI Response Evaluator e Data Annotator, mantendo documentação clara e rastreável das decisões realizadas.
 
 Os exercícios poderão evoluir gradualmente de comparações simples entre duas respostas para cenários envolvendo múltiplas respostas, diferentes critérios de preferência, identificação de falhas, avaliação de instruções e análise de casos mais complexos.
 
-Com a evolução do portfólio, poderão ser incorporados novos métodos de avaliação, diferentes tipos de tarefas e situações que exijam maior capacidade de análise crítica e tomada de decisão.
+Com a evolução do projeto, poderão ser incorporados novos métodos de avaliação, diferentes tipos de tarefas e situações que exijam maior capacidade de análise crítica e tomada de decisão.
 
 ---
 

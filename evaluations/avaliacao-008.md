@@ -20,7 +20,7 @@ Neste exercício, o foco está na análise de uma resposta relacionada ao uso de
 
 **Observação:** A resposta foi utilizada exclusivamente como objeto de análise neste projeto demonstrativo. A avaliação foi realizada pela autora utilizando a rubrica definida no projeto.
 
-As avaliações apresentadas neste portfólio possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa.
+As avaliações apresentadas neste projeto possuem finalidade educacional e demonstrativa. Elas não representam avaliações oficiais realizadas pela Anthropic, OpenAI ou por qualquer outra empresa.
 
 ---
 
@@ -107,7 +107,7 @@ Após a análise individual dos seis critérios, as pontuações são somadas pa
 |      **7–9 pontos** | **Adequada**              |
 |    **10–12 pontos** | **Excelente**             |
 
-**Fonte:** Metodologia própria desenvolvida para este portfólio.
+**Fonte:** Metodologia própria desenvolvida para este projeto.
 
 Esta é a **escala de classificação definitiva** utilizada nas avaliações do projeto.
 
@@ -490,7 +490,7 @@ As avaliações são realizadas como exercícios práticos para desenvolver comp
 
 Os resultados não representam avaliações oficiais, certificações ou testes realizados para a Anthropic, OpenAI ou qualquer outra empresa ou plataforma de Inteligência Artificial.
 
-**Metodologia:** metodologia própria desenvolvida para este portfólio.
+**Metodologia:** metodologia própria desenvolvida para este projeto.
 
 ---
 

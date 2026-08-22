@@ -1,6 +1,6 @@
 # Screenshots
 
-Evidências visuais selecionadas de exercícios, processos e resultados do portfólio.
+Evidências visuais selecionadas de exercícios, processos e resultados do projeto.
 
 As imagens devem ser usadas apenas quando acrescentarem evidência relevante ao conteúdo documentado.
 
