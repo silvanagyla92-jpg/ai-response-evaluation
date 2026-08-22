@@ -214,23 +214,23 @@ A fundamentação conceitual foi organizada a partir de materiais técnicos e ed
 
 ## 10. Estrutura para as avaliações
 
-O README principal concentra a base conceitual. As quatro subpastas ficam reservadas para as avaliações práticas que serão executadas posteriormente.
+O README principal concentra a base conceitual. As quatro subpastas oficiais ficam reservadas para as avaliações práticas que serão executadas posteriormente.
 
 ```text
-CONCEITOS-EXPLICADOS/
+conceitos-explicados/
 ├── README.md
 │
 ├── 001-fundamentos-ia-machine-learning/
-│   └── avaliações
+│   └── avaliações futuras
 │
 ├── 002-grandes-modelos-de-linguagem/
-│   └── avaliações
+│   └── avaliações futuras
 │
 ├── 003-embeddings-e-rag/
-│   └── avaliações
+│   └── avaliações futuras
 │
 └── 004-agentes-de-ia/
-    └── avaliações
+    └── avaliações futuras
 ```
 
 **Autor:** Nágyla Silva
