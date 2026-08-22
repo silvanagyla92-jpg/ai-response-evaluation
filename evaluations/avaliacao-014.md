@@ -565,3 +565,10 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 * Stanford University — The Implementation of LISP: [The implementation of LISP — Stanford](https://www-formal.stanford.edu/jmc/history/lisp/node3.html?utm_source=chatgpt.com)
 * Smithsonian Institution — John Clifford Shaw Papers / IPL: [Smithsonian — John Clifford Shaw Papers](https://sova.si.edu/record/nmah.ac.0580?utm_source=chatgpt.com)
 * ISSN International Centre — *Artificial Intelligence Review*: [ISSN — Artificial Intelligence Review](https://portal.issn.org/resource/ISSN/1573-7462?utm_source=chatgpt.com)
+
+---
+
+**Projeto:** AI Response Evaluation
+**Autora:** Nágyla Silva
+
+Projeto integrante do portfólio prático em Inteligência Artificial, desenvolvido para demonstrar competências em treinamento e avaliação de sistemas de IA, análise crítica de respostas e anotação de dados, aplicadas às funções de AI Trainer, AI Response Evaluator e Data Annotator, com base em experiência em QA e Auditoria.

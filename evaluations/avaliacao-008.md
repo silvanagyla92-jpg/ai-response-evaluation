@@ -504,3 +504,10 @@ Os resultados não representam avaliações oficiais, certificações ou testes 
 ---
 
 *Portfólio desenvolvido para demonstrar aprendizado prático e competências relacionadas à avaliação e qualidade de respostas de Inteligência Artificial, com foco em AI Response Evaluation, AI Training, Data Annotation e competências transferíveis de QA e Auditoria.*
+
+---
+
+**Projeto:** AI Response Evaluation
+**Autora:** Nágyla Silva
+
+Projeto integrante do portfólio prático em Inteligência Artificial, desenvolvido para demonstrar competências em treinamento e avaliação de sistemas de IA, análise crítica de respostas e anotação de dados, aplicadas às funções de AI Trainer, AI Response Evaluator e Data Annotator, com base em experiência em QA e Auditoria.
