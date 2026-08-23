@@ -55,21 +55,21 @@ Os principais objetivos deste projeto são:
 
 # 3. Estrutura do projeto
 
-O projeto está organizado de forma progressiva, partindo dos conceitos fundamentais e avançando para metodologias, aplicações práticas e competências especializadas.
+O projeto está organizado de forma progressiva, partindo dos conceitos fundamentais e avançando para metodologias, aplicações práticas, plataformas de prática e competências especializadas.
 
 ```text
 ai-response-evaluation/
 │
 ├── README.md
-│   → Visão geral do projeto, índice das pastas e como navegar
+│   → Visão geral do projeto, objetivos, competências e navegação
 │
 ├── conceitos-explicados/
 │   ├── README.md
-│   ├── exemplo-001.md
-│   ├── exemplo-002.md
-│   ├── exemplo-003.md
-│   └── exemplo-004.md
-│   → LLM, ML, RAG e agentes de IA — explicações didáticas de conceitos-base
+│   ├── 001-fundamentos-ia-machine-learning/
+│   ├── 002-grandes-modelos-de-linguagem/
+│   ├── 003-embeddings-e-rag/
+│   └── 004-agentes-de-ia/
+│   → Conceitos fundamentais de IA, aprendizado de máquina, LLMs, embeddings, RAG e agentes de IA
 │
 ├── response-evaluation/
 │   ├── README.md
@@ -77,14 +77,14 @@ ai-response-evaluation/
 │   ├── exemplo-002.md
 │   ├── exemplo-003.md
 │   └── exemplo-004.md
-│   → Rubricas e metodologias utilizadas para avaliação de respostas de IA
+│   → Metodologia geral, rubricas, critérios, escalas e princípios para avaliação de respostas de IA
 │
 ├── evaluations/
 │   ├── avaliacao-001.md
 │   ├── avaliacao-002.md
 │   ├── ...
 │   └── avaliacao-030.md
-│   → Avaliações práticas de respostas de IA e aplicação dos critérios definidos
+│   → Casos práticos individuais de avaliação e comparação de respostas de IA
 │
 ├── rlhf/
 │   ├── README.md
@@ -92,7 +92,7 @@ ai-response-evaluation/
 │   ├── exemplo-002.md
 │   ├── exemplo-003.md
 │   └── exemplo-004.md
-│   → Preferência humana e comparação A/B entre respostas
+│   → Preferência humana, comparação A/B, ranking e justificativa de escolhas
 │
 ├── prompt-engineering/
 │   ├── README.md
@@ -100,7 +100,7 @@ ai-response-evaluation/
 │   ├── exemplo-002.md
 │   ├── exemplo-003.md
 │   └── exemplo-004.md
-│   → Criação, teste e melhoria de prompts
+│   → Criação, teste, análise e refinamento de prompts
 │
 ├── data-annotation/
 │   ├── README.md
@@ -108,37 +108,86 @@ ai-response-evaluation/
 │   ├── exemplo-002.md
 │   ├── exemplo-003.md
 │   └── exemplo-004.md
-│   → Classificação, rotulagem e consistência de dados
+│   → Classificação, rotulagem, categorização, guidelines e controle de consistência
 │
 ├── bias-fairness/
 │   ├── README.md
 │   └── exemplo-001.md
-│   → Identificação de vieses e avaliação de equidade
+│   → Identificação de vieses, fairness, equidade e avaliação de riscos
 │
 ├── hallucination-detection/
 │   ├── README.md
 │   └── exemplo-001.md
-│   → Detecção de informações incorretas ou inventadas em respostas de IA
+│   → Detecção, verificação e classificação de informações incorretas ou não sustentadas
+│
+├── PLATFORM-PRACTICE/
+│   ├── README.md
+│   ├── dataannotation/
+│   │   └── README.md
+│   ├── outlier/
+│   │   └── README.md
+│   ├── hugging-face/
+│   │   └── README.md
+│   └── lmsys-chatbot-arena/
+│       └── README.md
+│   → Registro das plataformas e ambientes utilizados para prática
 │
 └── assets/
     └── screenshots/
-    → Capturas de exercícios práticos e evidências visuais
+    → Evidências visuais dos exercícios e práticas realizadas
 ```
+
+### Navegação direta
+
+* [Conceitos Explicados](./conceitos-explicados/)
+* [Response Evaluation](./response-evaluation/)
+* [Evaluations](./evaluations/)
+* [RLHF](./rlhf/)
+* [Prompt Engineering](./prompt-engineering/)
+* [Data Annotation](./data-annotation/)
+* [Bias & Fairness](./bias-fairness/)
+* [Hallucination Detection](./hallucination-detection/)
+* [Platform Practice](./PLATFORM-PRACTICE/)
+* [Assets / Screenshots](./assets/screenshots/)
+
+### Navegação dos conceitos
+
+* [001 — Fundamentos de IA e Machine Learning](./conceitos-explicados/001-fundamentos-ia-machine-learning/)
+* [002 — Grandes Modelos de Linguagem](./conceitos-explicados/002-grandes-modelos-de-linguagem/)
+* [003 — Embeddings e RAG](./conceitos-explicados/003-embeddings-e-rag/)
+* [004 — Agentes de IA](./conceitos-explicados/004-agentes-de-ia/)
 
 ---
 
 # 4. Conceitos Explicados
 
-A pasta [`conceitos-explicados/`](./conceitos-explicados/) apresenta explicações didáticas sobre conceitos fundamentais relacionados à Inteligência Artificial.
+A pasta [`conceitos-explicados/`](./conceitos-explicados/) apresenta explicações didáticas sobre conceitos fundamentais relacionados à Inteligência Artificial. A organização atual utiliza quatro subpastas temáticas, cada uma destinada a receber conteúdos e avaliações específicas posteriormente.
 
-Os exercícios iniciais abordam:
+### 001 — Fundamentos de IA e Machine Learning
 
-* Large Language Models (LLMs);
-* Machine Learning (ML);
-* Retrieval-Augmented Generation (RAG);
-* Agentes de Inteligência Artificial.
+[`conceitos-explicados/001-fundamentos-ia-machine-learning/`](./conceitos-explicados/001-fundamentos-ia-machine-learning/)
 
-O objetivo é demonstrar capacidade de compreender conceitos técnicos e explicá-los de maneira clara e acessível, inclusive para pessoas que estão iniciando seus estudos na área.
+Reúne fundamentos de Inteligência Artificial e aprendizado de máquina, incluindo conceitos de aprendizagem a partir de dados, identificação de padrões, treinamento, avaliação e aplicações gerais.
+
+### 002 — Grandes Modelos de Linguagem
+
+[`conceitos-explicados/002-grandes-modelos-de-linguagem/`](./conceitos-explicados/002-grandes-modelos-de-linguagem/)
+
+Aborda grandes modelos de linguagem, geração de texto, processamento de linguagem natural, treinamento e limitações de modelos generativos.
+
+### 003 — Embeddings e RAG
+
+[`conceitos-explicados/003-embeddings-e-rag/`](./conceitos-explicados/003-embeddings-e-rag/)
+
+Apresenta conceitos relacionados a representações vetoriais, busca semântica, recuperação de informações e geração aumentada por recuperação.
+
+### 004 — Agentes de IA
+
+[`conceitos-explicados/004-agentes-de-ia/`](./conceitos-explicados/004-agentes-de-ia/)
+
+Aborda agentes de Inteligência Artificial, tomada de decisão orientada a objetivos, uso de ferramentas, interação com ambientes e execução de tarefas.
+
+O objetivo desta seção é demonstrar capacidade de compreender conceitos técnicos e explicá-los de maneira clara e acessível, inclusive para pessoas que estão iniciando seus estudos na área.
 
 ### Competências relacionadas
 
@@ -368,24 +417,32 @@ A análise deverá identificar o problema, registrar as evidências observadas e
 
 ---
 
-# 12. Assets / Screenshots
+# 12. Platform Practice
+
+A pasta [`PLATFORM-PRACTICE/`](./PLATFORM-PRACTICE/) registra ambientes e plataformas utilizados para prática, estudo e experimentação relacionada à Inteligência Artificial.
+
+As áreas atualmente organizadas incluem:
+
+* [`dataannotation/`](./PLATFORM-PRACTICE/dataannotation/) — registro de práticas relacionadas à anotação e avaliação de dados;
+* [`outlier/`](./PLATFORM-PRACTICE/outlier/) — registro de práticas realizadas no ambiente Outlier;
+* [`hugging-face/`](./PLATFORM-PRACTICE/hugging-face/) — registro de práticas relacionadas ao ecossistema Hugging Face;
+* [`lmsys-chatbot-arena/`](./PLATFORM-PRACTICE/lmsys-chatbot-arena/) — registro de práticas relacionadas à comparação de modelos e avaliação de respostas.
+
+Esta seção possui finalidade documental e educacional, registrando plataformas utilizadas durante o desenvolvimento das competências do projeto.
+
+---
+
+# 13. Assets / Screenshots
 
 A pasta [`assets/screenshots/`](./assets/screenshots/) será utilizada para armazenar **evidências visuais relacionadas aos exercícios práticos**.
 
 Poderão ser incluídas capturas de tela de atividades realizadas em plataformas ou ferramentas utilizadas durante o processo de aprendizagem e prática.
 
-Exemplos:
-
-* Azure;
-* Microsoft Copilot;
-* LMArena;
-* Outras plataformas utilizadas para exercícios práticos.
-
 As imagens serão utilizadas quando contribuírem para demonstrar o processo ou resultado de determinada atividade.
 
 ---
 
-# 13. Metodologia geral
+# 14. Metodologia geral
 
 As atividades deste projeto seguem uma abordagem estruturada baseada em critérios previamente definidos e evidências observáveis.
 
@@ -409,7 +466,7 @@ As conclusões devem estar relacionadas aos critérios relevantes para a tarefa 
 
 ---
 
-# 14. Relação com QA e Auditoria
+# 15. Relação com QA e Auditoria
 
 A metodologia utilizada neste projeto possui relação com práticas de **Quality Assurance (QA)** e auditoria.
 
@@ -431,7 +488,7 @@ Essas competências são aplicadas neste projeto ao contexto de avaliação, cla
 
 ---
 
-# 15. Princípios de avaliação
+# 16. Princípios de avaliação
 
 As avaliações realizadas neste projeto devem priorizar:
 
@@ -461,7 +518,7 @@ A avaliação deve considerar quais respostas, dados ou resultados atendem melho
 
 ---
 
-# 16. Evidências práticas
+# 17. Evidências práticas
 
 O objetivo deste repositório não é apresentar apenas conhecimento teórico.
 
@@ -484,7 +541,7 @@ As evidências poderão incluir:
 
 ---
 
-# 17. Desenvolvimento progressivo
+# 18. Desenvolvimento progressivo
 
 O projeto será desenvolvido de forma incremental, seguindo a seguinte progressão:
 
@@ -521,7 +578,7 @@ Essa sequência permite que o projeto evolua de:
 
 ---
 
-# 18. Natureza do projeto
+# 19. Natureza do projeto
 
 Este repositório possui caráter **educacional, prático e demonstrativo**.
 
@@ -533,7 +590,7 @@ O objetivo é demonstrar, por meio de exercícios documentados, a capacidade de 
 
 ---
 
-# 19. Competências demonstradas
+# 20. Competências demonstradas
 
 Este projeto busca demonstrar competências relacionadas a:
 
@@ -562,7 +619,7 @@ Este projeto busca demonstrar competências relacionadas a:
 
 ---
 
-# 20. Evolução do projeto
+# 21. Evolução do projeto
 
 O repositório será atualizado progressivamente conforme novos exercícios forem realizados.
 
@@ -584,7 +641,7 @@ A prioridade será manter **qualidade, consistência e rastreabilidade**, em vez
 
 ---
 
-# 21. Contato
+# 22. Contato
 
 **Autor:** Nágyla Silva
 
