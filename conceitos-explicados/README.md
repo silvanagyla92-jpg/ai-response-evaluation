@@ -2,117 +2,107 @@
 
 ## 1. Objetivo
 
-A pasta **conceitos-explicados** reúne a base conceitual que sustenta as avaliações deste projeto. O objetivo é apresentar, em um único documento, fundamentos de Inteligência Artificial, Aprendizado de Máquina, Grandes Modelos de Linguagem, embeddings, RAG e agentes de IA, transformando conceitos técnicos em explicações claras, verificáveis e úteis para a análise crítica de respostas produzidas por sistemas de IA.
+A pasta **conceitos-explicados** reúne a base conceitual que sustenta as avaliações deste projeto. O objetivo é apresentar, de forma organizada e verificável, fundamentos de Inteligência Artificial, Aprendizado de Máquina, Grandes Modelos de Linguagem, embeddings, RAG e agentes de IA.
 
-Os conteúdos servem como referência para as atividades de **AI Response Evaluator**, **AI Trainer** e **Data Annotator**, pois uma avaliação consistente depende da capacidade de reconhecer conceitos corretos, simplificações aceitáveis, erros conceituais, informações fabricadas e limitações dos sistemas avaliados.
+Os conteúdos funcionam como referência para as avaliações práticas porque uma análise de resposta exige conhecimento suficiente para diferenciar uma definição correta de uma simplificação excessiva, um erro factual, uma alucinação ou uma afirmação antropomórfica sem fundamento.
 
 ## 2. Fundamentos de Inteligência Artificial e Aprendizado de Máquina
 
 ### Inteligência Artificial
 
-Inteligência Artificial é um campo da computação dedicado ao desenvolvimento de sistemas capazes de executar tarefas associadas a capacidades como percepção, aprendizagem, resolução de problemas, tomada de decisão e geração de conteúdo. IA não corresponde a uma única técnica ou arquitetura, mas a um conjunto amplo de abordagens.
+Inteligência Artificial é um campo amplo da computação dedicado ao desenvolvimento de sistemas capazes de executar tarefas associadas a capacidades como percepção, aprendizagem, resolução de problemas, tomada de decisão e geração de conteúdo. IA não corresponde a uma única técnica ou arquitetura.
 
 ### Aprendizado de Máquina
 
-Aprendizado de Máquina é uma área da Inteligência Artificial na qual algoritmos aprendem padrões a partir de dados e utilizam esses padrões para realizar inferências ou previsões sobre novos dados. Em vez de depender exclusivamente de regras explicitamente programadas para cada situação, o processo de aprendizagem permite que o sistema ajuste seus parâmetros com base em dados e objetivos definidos.
+Aprendizado de Máquina é um subconjunto da IA no qual algoritmos aprendem padrões a partir de dados e utilizam esses padrões para realizar inferências ou previsões sobre novos dados. A IBM descreve ML como uma área concentrada em aprender padrões dos dados de treinamento e realizar inferências sobre novos dados. [IBM — O que é aprendizado de máquina](https://www.ibm.com/br-pt/think/topics/machine-learning)
 
-É importante evitar antropomorfizações. Dizer que um modelo "aprende com dados" pode ser uma simplificação adequada em uma explicação introdutória, mas isso não significa que o modelo compreenda os dados da mesma maneira que uma pessoa.
+### Tipos de aprendizado
 
-### Aprendizado Profundo
+Entre as categorias amplamente utilizadas estão aprendizado supervisionado, não supervisionado, semissupervisionado, auto-supervisionado e por reforço. A escolha depende do problema, dos dados e do objetivo. [IBM — Tipos de aprendizado de máquina](https://www.ibm.com/br-pt/think/topics/machine-learning-types)
 
-Aprendizado Profundo é uma abordagem de aprendizado de máquina baseada em redes neurais com múltiplas camadas. É utilizado em tarefas que envolvem padrões complexos, incluindo aplicações em linguagem, imagens e áudio.
+### Aprendizado profundo
+
+Aprendizado Profundo é uma abordagem baseada em redes neurais com múltiplas camadas. É utilizado em tarefas envolvendo padrões complexos, incluindo linguagem, imagens e áudio.
 
 ### Treinamento e inferência
 
-Durante o treinamento, os parâmetros do modelo são ajustados de acordo com os dados e o objetivo de aprendizagem. Na inferência, o modelo recebe novos dados e produz uma saída utilizando os padrões incorporados em seus parâmetros.
+Durante o treinamento, parâmetros do modelo são ajustados de acordo com os dados e o objetivo definido. Na inferência, o modelo recebe novos dados e produz uma saída utilizando os padrões incorporados em seus parâmetros.
 
-A qualidade do resultado depende de diversos fatores, como dados, arquitetura, objetivo, configuração do treinamento e características da tarefa. Portanto, maior quantidade de dados não significa automaticamente maior qualidade.
+É importante não concluir que maior quantidade de dados garante automaticamente maior qualidade. Qualidade, diversidade, representatividade, preparação dos dados, arquitetura, objetivo e avaliação também importam.
 
 ## 3. Grandes Modelos de Linguagem — LLMs
 
 ### Conceito
 
-Um Grande Modelo de Linguagem, ou LLM, é um modelo de aprendizado profundo treinado em grandes quantidades de dados para processar e gerar linguagem natural. Esses modelos aprendem relações e padrões presentes nos dados utilizados no treinamento e usam esses padrões para produzir saídas a partir de entradas.
+Um Grande Modelo de Linguagem, ou LLM, é um modelo de aprendizado profundo treinado em grandes quantidades de dados para processar e gerar linguagem natural. A Hugging Face apresenta LLMs no contexto de NLP e descreve o ecossistema de Transformers, Datasets e Tokenizers utilizado para trabalhar com esses modelos. [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
 
-O termo "modelo de linguagem" não significa que o sistema tenha consciência, intenção ou compreensão humana. Uma avaliação responsável deve evitar atribuir características humanas ao modelo sem evidência.
+### Tokens e contexto
 
-### Tokens e janela de contexto
+Antes de processar uma entrada textual, o conteúdo é dividido em unidades chamadas tokens. O modelo opera dentro de uma janela de contexto que limita a quantidade de informação considerada em uma interação.
 
-Antes de processar uma entrada textual, o conteúdo é dividido em unidades chamadas tokens. O modelo trabalha com uma janela de contexto que limita a quantidade de informação disponível em determinada interação.
+A presença de uma informação na janela de contexto não significa que ela será necessariamente considerada correta ou igualmente relevante.
 
-A janela de contexto influencia quanto conteúdo pode estar disponível durante uma geração, mas não significa que todas as informações presentes nela terão necessariamente a mesma relevância.
+### Geração
 
-### Treinamento e geração
+Durante a inferência, o modelo recebe uma entrada e gera uma sequência de saída considerando o contexto e as configurações utilizadas. A saída não deve ser tratada automaticamente como consulta a uma base de fatos perfeita.
 
-Durante o treinamento, o modelo ajusta seus parâmetros para melhorar seu desempenho em relação ao objetivo definido. Em modelos de linguagem, uma tarefa central envolve prever tokens em sequências de texto.
+### Limitações
 
-Durante a inferência, o modelo recebe uma entrada e gera uma saída considerando o contexto disponível e as configurações utilizadas. A resposta produzida não deve ser interpretada automaticamente como uma consulta a uma base de fatos perfeita.
-
-### Limitações dos LLMs
-
-LLMs podem produzir respostas linguisticamente convincentes, mas incorretas. Esse fenômeno é frequentemente chamado de **alucinação**. Os modelos também podem reproduzir vieses presentes nos dados ou apresentar desempenho diferente conforme a tarefa e o contexto.
-
-Por isso, a avaliação de uma resposta deve separar aspectos como factualidade, relevância, clareza, completude, segurança e presença de conteúdo fabricado.
+LLMs podem produzir respostas linguisticamente convincentes e incorretas. Também podem reproduzir vieses presentes nos dados e apresentar desempenho diferente conforme a tarefa, idioma, contexto e configuração.
 
 ## 4. Embeddings e RAG
 
 ### Embeddings
 
-Embeddings são representações numéricas de conteúdos como palavras, trechos de texto, documentos ou consultas. O conteúdo é transformado em vetores que podem ser comparados matematicamente para identificar relações de similaridade.
+Embeddings são representações numéricas de conteúdos como palavras, trechos, documentos ou consultas. O conteúdo é transformado em vetores que podem ser comparados matematicamente para identificar relações de similaridade.
 
-Em sistemas de busca semântica, essa representação permite localizar conteúdos relacionados ao significado de uma consulta mesmo quando os termos utilizados não são exatamente iguais aos presentes no documento.
-
-Embeddings não devem ser descritos como uma representação perfeita de "todo o significado" de um texto. São representações aprendidas que capturam determinadas relações úteis para uma tarefa e dependem do modelo utilizado.
+Essas representações são úteis em mecanismos de busca semântica, recomendação, classificação e recuperação de informação. Um embedding não é uma representação perfeita de todo o significado de um texto; ele captura relações úteis de acordo com o modelo e a tarefa.
 
 ### RAG
 
-RAG, sigla de *Retrieval-Augmented Generation*, é uma abordagem que combina recuperação de informações com geração de texto. Em uma arquitetura típica, uma consulta é preparada para busca, documentos relevantes são recuperados e o conteúdo encontrado é fornecido ao modelo generativo como contexto.
+RAG, sigla de *Retrieval-Augmented Generation*, combina recuperação de informações com geração de texto. Uma arquitetura típica prepara uma consulta, recupera conteúdos relevantes e fornece os trechos encontrados ao modelo generativo como contexto.
 
-A abordagem pode permitir que um sistema utilize informações externas aos parâmetros do modelo, sendo especialmente útil quando é necessário responder sobre conteúdos específicos ou que podem ser atualizados. Entretanto, RAG não garante automaticamente uma resposta correta.
+A documentação da Microsoft destaca que RAG pode fundamentar respostas em conteúdo próprio, mas também apresenta desafios relacionados a compreensão de consultas, acesso a múltiplas fontes, limites de tokens, latência, relevância, governança e segurança. [Microsoft Learn — RAG e IA generativa](https://learn.microsoft.com/pt-br/azure/search/retrieval-augmented-generation-overview)
 
-### Fluxo conceitual de RAG
+### Fluxo conceitual
 
 ```text
 Consulta do usuário
         ↓
-Representação / consulta para busca
+Preparação da consulta
         ↓
-Recuperação de documentos relevantes
+Recuperação de conteúdo
         ↓
-Contexto recuperado
+Contexto relevante
         ↓
 Modelo de linguagem
         ↓
-Resposta baseada no contexto disponível
+Resposta
 ```
 
-### Componentes e limitações
+### Recuperação e geração
 
-Um sistema RAG pode envolver preparação dos documentos, divisão em partes menores, geração de embeddings, armazenamento em índice ou banco vetorial, recuperação dos trechos relevantes e geração da resposta.
+A qualidade do RAG depende tanto da recuperação quanto da geração. Documentos inadequados, fragmentação ruim ou recuperação pouco relevante podem prejudicar o resultado. Mesmo com bons trechos recuperados, o modelo pode interpretar ou sintetizar o contexto incorretamente.
 
-A qualidade depende tanto da recuperação quanto da geração. Documentos inadequados, desatualizados ou irrelevantes podem prejudicar o resultado. Mesmo com bons documentos recuperados, o modelo generativo pode interpretar ou sintetizar o contexto de maneira incorreta.
-
-Na avaliação de RAG, portanto, é importante separar a **qualidade da recuperação** da **qualidade da geração**.
+Por isso, avaliações de RAG devem distinguir **qualidade da recuperação**, **qualidade do contexto** e **qualidade da resposta gerada**.
 
 ## 5. Agentes de Inteligência Artificial
 
 ### Conceito
 
-Um agente de IA é um sistema projetado para executar tarefas ou atingir objetivos utilizando informações disponíveis, processos de decisão e, em muitos casos, ferramentas externas. Em aplicações modernas, modelos de linguagem podem atuar como componentes centrais de sistemas capazes de interpretar instruções e coordenar ações.
+Um agente de IA é um sistema projetado para executar tarefas ou atingir objetivos utilizando um modelo, instruções, informações e ferramentas. A documentação do Microsoft Foundry descreve agentes como aplicações capazes de raciocinar sobre solicitações, chamar ferramentas, acessar dados externos e tomar decisões em várias etapas. [Microsoft Learn — Microsoft Foundry Agent Service](https://learn.microsoft.com/pt-br/azure/ai-foundry/agents/overview)
 
-Um agente não é necessariamente apenas um chatbot. Um chatbot pode limitar-se à produção de respostas textuais, enquanto um sistema agêntico pode planejar etapas, consultar fontes, chamar ferramentas e executar ações dentro das permissões definidas.
+### Componentes
 
-### Componentes conceituais
+**Modelo:** fornece capacidades de linguagem e raciocínio.
 
-**Modelo:** pode interpretar instruções, analisar informações e produzir decisões ou planos intermediários.
+**Instruções:** definem objetivos, limites e comportamento esperado.
 
-**Memória:** pode manter informações relevantes entre etapas ou interações, dependendo da arquitetura utilizada.
+**Ferramentas:** permitem acesso a dados ou ações, como pesquisa, arquivos, APIs ou funções.
 
-**Ferramentas:** permitem interação com APIs, bases de dados, mecanismos de busca ou funções de software, ampliando as capacidades além da geração de texto.
+**Memória:** pode preservar informações relevantes conforme a arquitetura.
 
-**Planejamento:** em tarefas complexas, o sistema pode decompor um objetivo em etapas, selecionar ações e utilizar resultados intermediários para definir os próximos passos.
-
-**Execução e observação:** após realizar uma ação, o agente pode receber o resultado e utilizá-lo para ajustar o fluxo até concluir, interromper ou encaminhar a tarefa para intervenção humana.
+**Planejamento:** permite decompor tarefas e decidir ações intermediárias quando necessário.
 
 ### Fluxo simplificado
 
@@ -121,26 +111,24 @@ Objetivo / instrução
         ↓
 Interpretação e planejamento
         ↓
-Escolha de ferramenta ou ação
+Escolha de ferramenta
         ↓
 Execução
         ↓
 Observação do resultado
         ↓
-Novo planejamento ou conclusão
+Novo passo ou conclusão
 ```
+
+### Agente não é sinônimo de chatbot
+
+Um chatbot pode limitar-se à geração de texto. Um agente pode utilizar ferramentas, acessar fontes externas e executar ações em múltiplas etapas. A diferença deve ser analisada pela arquitetura e pelas capacidades efetivamente disponíveis, não apenas pelo nome da aplicação.
 
 ### Autonomia e controle
 
-Autonomia não significa ausência de controle. O comportamento de um agente depende das permissões, ferramentas, políticas e limites definidos para o sistema. Segurança, controle de acesso, monitoramento e possibilidade de intervenção humana são elementos importantes no desenvolvimento e na avaliação de agentes.
-
-### Relação entre agentes e RAG
-
-Agentes podem utilizar RAG como uma das ferramentas de recuperação de informação. Entretanto, os conceitos não são equivalentes: nem todo sistema RAG é um agente e nem todo agente precisa utilizar RAG.
+Autonomia não significa ausência de controle. Permissões, ferramentas, políticas, autenticação, monitoramento, limites de ação e intervenção humana são componentes relevantes de sistemas agênticos.
 
 ## 6. Relação entre os conceitos
-
-Os quatro temas formam uma sequência conceitual:
 
 ```text
 Inteligência Artificial
@@ -156,86 +144,60 @@ Embeddings / Recuperação / RAG
 Agentes de IA
 ```
 
-Essa sequência não representa uma hierarquia obrigatória de implementação. Ela serve como mapa didático para compreender como diferentes conceitos se relacionam. Um LLM é uma aplicação de aprendizado profundo; embeddings podem ser utilizados em sistemas de recuperação; RAG pode fornecer contexto a modelos generativos; e agentes podem combinar modelos, ferramentas, memória e recuperação para executar tarefas mais complexas.
+Essa sequência é didática e não representa uma hierarquia obrigatória de implementação. Um LLM é uma aplicação de aprendizado profundo; embeddings podem apoiar recuperação; RAG pode fornecer contexto a um modelo; e agentes podem combinar modelos, ferramentas, memória e recuperação.
 
-## 7. Aplicação na avaliação de respostas de IA
+## 7. Aplicação na avaliação de respostas
 
-A base conceitual desta seção será utilizada para analisar respostas de diferentes modelos de IA. Entre os pontos de verificação estão:
+A base conceitual será utilizada para verificar:
 
-- correção das definições;
-- distinção entre fato e simplificação didática;
-- adequação da linguagem ao público-alvo;
-- completude da explicação;
-- identificação de afirmações absolutas ou antropomorfizações indevidas;
-- diferenciação entre treinamento e inferência;
-- compreensão do papel dos dados;
-- identificação de alucinações;
-- avaliação da qualidade de contexto em sistemas RAG;
-- diferenciação entre agente, chatbot e sistema baseado em ferramentas;
-- consideração de segurança, controle e intervenção humana.
+- correção de definições;
+- distinção entre fato e simplificação;
+- adequação da linguagem;
+- completude;
+- afirmações absolutas;
+- antropomorfização indevida;
+- diferenças entre treinamento e inferência;
+- papel e qualidade dos dados;
+- alucinações;
+- recuperação e geração em RAG;
+- diferença entre chatbot e agente;
+- segurança e controle de agentes.
 
-Uma resposta bem escrita não deve receber automaticamente uma avaliação alta. A análise deve verificar se o conteúdo está correto, se responde ao que foi solicitado e se apresenta limitações ou riscos relevantes.
+Uma resposta tecnicamente sofisticada não deve receber nota alta automaticamente. A avaliação precisa considerar o que foi solicitado e o público definido pela tarefa.
 
-## 8. Princípios para as futuras avaliações
+## 8. Fontes e atualização
 
-### Precisão
+A base deste README é complementada por documentação técnica e educacional de fontes reconhecidas:
 
-As explicações e avaliações devem representar os conceitos de maneira tecnicamente defensável, evitando afirmações absolutas quando o tema depender de contexto.
+- [IBM — Guia de Inteligência Artificial](https://www.ibm.com/think/topics/ai-guide)
+- [IBM — Aprendizado de Máquina](https://www.ibm.com/br-pt/think/topics/machine-learning)
+- [IBM — Tipos de aprendizado de máquina](https://www.ibm.com/br-pt/think/topics/machine-learning-types)
+- [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+- [Microsoft Learn — Técnicas de engenharia de prompt](https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering)
+- [Microsoft Learn — RAG e IA generativa](https://learn.microsoft.com/pt-br/azure/search/retrieval-augmented-generation-overview)
+- [Microsoft Learn — Microsoft Foundry Agent Service](https://learn.microsoft.com/pt-br/azure/ai-foundry/agents/overview)
 
-### Clareza
+Como tecnologias e plataformas de IA evoluem rapidamente, informações dependentes de versão devem ser verificadas na documentação oficial correspondente no momento da avaliação.
 
-A linguagem deve ser adequada ao público definido pela tarefa. Uma resposta pode ser tecnicamente correta e ainda inadequada se utilizar complexidade desnecessária.
+## 9. Estrutura para as avaliações
 
-### Rastreabilidade
-
-Quando informações externas forem utilizadas, as fontes devem ser identificadas para permitir conferência posterior.
-
-### Separação entre fato e metáfora
-
-Metáforas podem facilitar a compreensão, mas devem ser reconhecidas como recursos didáticos e não como descrições literais do funcionamento dos sistemas.
-
-### Atualização
-
-IA generativa, LLMs, RAG e agentes são áreas em rápida evolução. Os conceitos e as fontes devem ser revisados quando houver mudanças relevantes na documentação técnica ou no conhecimento consolidado.
-
-## 9. Fontes de referência
-
-A fundamentação conceitual foi organizada a partir de materiais técnicos e educacionais de organizações reconhecidas, incluindo IBM, Microsoft, Google Cloud e Hugging Face.
-
-- [IBM Think — Machine Learning](https://www.ibm.com/think/topics/machine-learning)
-- [IBM Think — Guia de Inteligência Artificial](https://www.ibm.com/think/topics/ai-guide)
-- [IBM Think — Grandes Modelos de Linguagem](https://www.ibm.com/br-pt/think/topics/large-language-models)
-- [IBM Think — Agentes de IA](https://www.ibm.com/br-pt/think/topics/ai-agents)
-- [IBM Think — RAG Agêntica](https://www.ibm.com/br-pt/think/topics/agentic-rag)
-- [Microsoft Learn — Azure AI](https://learn.microsoft.com/azure/ai-services/)
-- [Microsoft Learn — Azure AI Search](https://learn.microsoft.com/azure/search/)
-- [Google Cloud — AI](https://cloud.google.com/ai)
-- [Hugging Face Learn](https://huggingface.co/learn)
-
-## 10. Estrutura para as avaliações
-
-O README principal concentra a base conceitual. As quatro subpastas oficiais ficam reservadas para as avaliações práticas que serão executadas posteriormente.
+As quatro subpastas oficiais ficam reservadas para os conteúdos práticos correspondentes aos temas conceituais:
 
 ```text
 conceitos-explicados/
 ├── README.md
-│
 ├── 001-fundamentos-ia-machine-learning/
-│   └── avaliações futuras
-│
 ├── 002-grandes-modelos-de-linguagem/
-│   └── avaliações futuras
-│
 ├── 003-embeddings-e-rag/
-│   └── avaliações futuras
-│
 └── 004-agentes-de-ia/
-    └── avaliações futuras
 ```
+
+As avaliações futuras serão colocadas nas pastas temáticas correspondentes, mantendo o README desta pasta como referência consolidada.
 
 ---
 
-**Projeto:** AI Response Evaluation
+**Projeto:** Avaliação de Resposta de IA
+
 **Autora:** Nágyla Silva
 
 Projeto integrante do portfólio prático em Inteligência Artificial, desenvolvido para demonstrar competências em treinamento e avaliação de sistemas de IA, análise crítica de respostas e anotação de dados, aplicadas às funções de AI Trainer, AI Response Evaluator e Data Annotator, com base em experiência em QA e Auditoria.
