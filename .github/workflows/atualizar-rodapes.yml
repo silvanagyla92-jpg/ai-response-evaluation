@@ -43,13 +43,16 @@ experiência em QA e Auditoria.'''
               text = path.read_text(encoding='utf-8')
               original = text
 
-              # Remove rodape novo ou antigo somente quando estiver no final do arquivo.
-              text = re.sub(r'\n(?:---\n\n)?\*\*Projeto:\*\*\s*(?:Avaliação de Resposta de IA|AI Response Evaluation).*\Z', '', text, flags=re.S)
-              text = re.sub(r'\n---\n\n\*Avaliação desenvolvida como parte do portfólio.*\Z', '', text, flags=re.S)
-              text = re.sub(r'\n---\n\n\*Projeto integrado do portfólio.*\Z', '', text, flags=re.S)
-              text = text.rstrip()
-              text += '\n\n---\n\n' + FOOTER + '\n'
+              # Remove rodapes anteriores apenas no final do arquivo.
+              patterns = [
+                  r'\n(?:---\n\n)?\*\*Projeto:\*\*\s*(?:Avaliação de Resposta de IA|AI Response Evaluation).*\Z',
+                  r'\n---\n\n\*Avaliação desenvolvida como parte do portfólio.*\Z',
+                  r'\n---\n\n\*Projeto integrado do portfólio.*\Z',
+              ]
+              for pattern in patterns:
+                  text = re.sub(pattern, '', text, flags=re.S)
 
+              text = text.rstrip() + '\n\n---\n\n' + FOOTER + '\n'
               if text != original:
                   path.write_text(text, encoding='utf-8')
                   changed.append(str(path))
@@ -71,3 +74,5 @@ experiência em QA e Auditoria.'''
           fi
           git commit -m 'docs: atualizar rodapes para avaliacao de resposta de IA'
           git push
+
+# padronizacao de rodapes - execucao unica
