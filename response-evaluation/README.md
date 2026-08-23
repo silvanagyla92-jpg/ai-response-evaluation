@@ -89,7 +89,11 @@ A metodologia possui forte relação com práticas de QA e Auditoria: requisito 
 
 ## 10. Referências para estudo
 
-A metodologia conceitual é complementada por documentação técnica e educacional de organizações reconhecidas. O material da IBM descreve aprendizado de máquina como uma área de IA voltada ao aprendizado de padrões dos dados e à inferência sobre novos dados. citeturn0search1 A documentação da Hugging Face apresenta fundamentos de LLMs, transformadores, conjuntos de dados, tokenização, ajuste fino e avaliação. citeturn0search0turn0search11 A documentação da Microsoft aborda engenharia de prompts, mensagens de sistema, avaliação, RAG e agentes. citeturn1search3turn1search11turn1search0turn1search2
+- [IBM — O que é aprendizado de máquina](https://www.ibm.com/br-pt/think/topics/machine-learning)
+- [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+- [Microsoft Learn — Técnicas de engenharia de prompt](https://learn.microsoft.com/pt-br/azure/foundry/openai/concepts/prompt-engineering)
+- [Microsoft Learn — RAG e IA generativa](https://learn.microsoft.com/pt-br/azure/search/retrieval-augmented-generation-overview)
+- [Microsoft Learn — Microsoft Foundry Agent Service](https://learn.microsoft.com/pt-br/azure/ai-foundry/agents/overview)
 
 ## 11. Organização do diretório
 
