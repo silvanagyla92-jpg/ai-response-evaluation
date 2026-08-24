@@ -2,65 +2,117 @@
 
 ## 1. Objetivo
 
-Esta pasta organiza estudos e práticas relacionadas à plataforma **Outlier**, com foco documental em atividades ligadas à avaliação, treinamento e qualidade de dados para sistemas de Inteligência Artificial.
+Esta pasta organiza estudos e práticas relacionadas à plataforma **Outlier**, com foco em atividades públicas e competências ligadas à avaliação, treinamento e melhoria de sistemas de Inteligência Artificial.
 
-O conteúdo deve distinguir informações públicas da plataforma de atividades realmente executadas. Uma descrição de uma tarefa possível não deve ser apresentada como experiência realizada sem evidência.
+A documentação deve distinguir informações públicas da plataforma de atividades efetivamente executadas. A existência de uma descrição de tarefa não comprova, por si só, experiência profissional da autora.
 
-## 2. Contexto de treinamento de IA
+## 2. Contexto da plataforma
 
-Plataformas desse tipo podem reunir tarefas humanas destinadas a produzir ou avaliar dados utilizados no desenvolvimento de sistemas de IA. Dependendo do projeto, a atividade pode envolver análise de instruções, avaliação de respostas, classificação, comparação ou revisão.
+A Outlier apresenta publicamente atividades em que especialistas podem contribuir para o desenvolvimento de IA por meio de tarefas como criação de prompts, elaboração de critérios de avaliação e classificação ou ranqueamento de respostas. citeturn0search2turn0search0
 
-A natureza exata das tarefas pode variar por projeto, perfil e período; por isso, os registros deste repositório devem ser específicos e verificáveis.
+A plataforma também descreve tarefas de avaliação de factualidade e relevância em determinados domínios. citeturn0search6turn0search10
 
-## 3. Competências relacionadas
+Essas informações são utilizadas aqui como **referência de domínio e estudo**. Projetos e tarefas podem variar de acordo com área, localização, perfil e período.
 
-- análise de instruções;
-- avaliação de outputs;
-- comparação de respostas;
-- classificação e anotação;
-- identificação de erros;
-- aplicação de critérios;
-- justificativa baseada em evidências;
-- revisão de qualidade.
+## 3. Tipos de competência relacionados
 
-## 4. Metodologia de registro
+### Avaliação de respostas
 
-Cada atividade pode ser documentada com:
+Verificar se uma resposta atende à solicitação, apresenta informações corretas, permanece relevante e respeita critérios definidos.
 
-| Campo | Conteúdo |
+### Criação de prompts
+
+Elaborar instruções que permitam testar capacidades ou limitações de um modelo. O prompt deve ter objetivo claro e permitir avaliação do resultado.
+
+### Construção de rubricas
+
+Transformar requisitos de qualidade em critérios observáveis. Uma rubrica útil deve reduzir ambiguidades e permitir decisões consistentes.
+
+### Ranking
+
+Comparar respostas produzidas para uma tarefa equivalente e estabelecer uma preferência fundamentada nos critérios da atividade.
+
+## 4. Processo de avaliação
+
+```text
+Solicitação
+     ↓
+Critérios / rubrica
+     ↓
+Resposta do modelo
+     ↓
+Verificação
+     ↓
+Evidências
+     ↓
+Pontuação / ranking
+     ↓
+Justificativa
+     ↓
+Revisão
+```
+
+A decisão deve ser sustentada por características observáveis do output. Preferências pessoais de estilo não devem substituir critérios objetivos quando estes estiverem definidos.
+
+## 5. Modelo de registro para o portfólio
+
+| Campo | Pergunta orientadora |
 |---|---|
-| Contexto | O que estava sendo avaliado |
-| Objetivo | Resultado esperado |
-| Instrução | Requisito ou guideline aplicável |
-| Critério | Regra usada para decidir |
-| Evidência | Trecho ou característica observável |
-| Decisão | Classificação ou julgamento |
-| Justificativa | Motivo da decisão |
-| Aprendizado | O que foi desenvolvido |
+| Contexto | O que estava sendo avaliado? |
+| Solicitação | Qual era a instrução? |
+| Critérios | Quais requisitos determinavam qualidade? |
+| Evidência | O que foi observado na resposta? |
+| Decisão | Qual nota, rótulo ou ranking foi atribuído? |
+| Justificativa | Por que essa decisão foi tomada? |
+| Incerteza | O que não pôde ser confirmado? |
+| Revisão | A decisão foi conferida? |
+| Competência | Qual habilidade foi demonstrada? |
 
-## 5. QA aplicado
+## 6. Relação com AI Response Evaluation
 
-A lógica de trabalho pode ser representada como:
+As práticas descritas nesta pasta complementam as avaliações individuais em `evaluations/`. O princípio central é transformar uma resposta de IA em um objeto avaliável por meio de requisitos, critérios, evidências e decisões documentadas.
 
-**requisito → verificação → evidência → desvio → decisão → revisão**
+Uma boa avaliação deve evitar confundir:
 
-Essa estrutura aproxima a prática de princípios de QA e auditoria, especialmente controle de critérios, rastreabilidade e documentação de não conformidades.
+- erro factual com estilo;
+- ausência de informação com informação falsa;
+- descumprimento de instrução com preferência pessoal;
+- simplificação didática com alucinação sem evidência.
 
-## 6. Cuidados com afirmações profissionais
+## 7. Relação com QA e Auditoria
 
-Este diretório é parte de um projeto educacional. A existência de uma conta, estudo ou exploração de uma plataforma não comprova, por si só, contratação, remuneração ou experiência profissional. Os registros devem descrever exatamente o que foi realizado.
+O fluxo apresenta forte relação metodológica com QA:
 
-## 7. Confidencialidade
+**requisito → teste/verificação → evidência → identificação do desvio → decisão → registro**
 
-Não devem ser publicados dados de clientes, informações pessoais, tarefas privadas, credenciais, materiais internos ou conteúdo protegido. Screenshots devem ser revisados antes da publicação.
+Em auditoria, a mesma lógica ajuda a preservar rastreabilidade e fundamentação, embora uma atividade de avaliação de resposta não seja equivalente a uma auditoria formal.
 
-## 8. Fontes confiáveis
+## 8. Limitações e cautelas
+
+A plataforma e seus projetos podem mudar. Por isso, informações sobre oportunidades, requisitos, disponibilidade, remuneração ou processos seletivos devem ser consultadas diretamente nas fontes oficiais no momento da utilização.
+
+Este repositório não deve publicar tarefas privadas, dados de clientes, credenciais, informações pessoais ou materiais internos não autorizados.
+
+## 9. Fontes confiáveis
 
 - [Outlier — site oficial](https://outlier.ai/)
-- [Microsoft Learn — Azure AI](https://learn.microsoft.com/azure/ai-services/)
+- [Outlier — Meet the Experts](https://outlier.ai/meet-our-experts)
+- [Outlier — What Experts Do](https://outlier.ai/blog/so-what-do-outlier-experts-actually-do)
+- [Outlier — AI / Machine Learning Experts](https://outlier.ai/experts/ml)
 - [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+- [Hugging Face — Evaluate](https://huggingface.co/docs/evaluate/index)
 
-O material oficial da Hugging Face fornece referência educacional sobre LLMs, datasets, avaliação e treinamento, sendo útil como complemento conceitual às práticas documentadas aqui. citeturn0search3turn0search2
+## 10. Competências relacionadas ao portfólio
+
+- AI Trainer;
+- AI Response Evaluator;
+- Prompt Engineering;
+- construção e aplicação de rubricas;
+- ranking de respostas;
+- análise crítica;
+- Data Annotation;
+- QA e Auditoria;
+- documentação baseada em evidências.
 
 ---
 
