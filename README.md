@@ -120,7 +120,7 @@ ai-response-evaluation/
 │   └── exemplo-001.md
 │   → Detecção, verificação e classificação de informações incorretas ou não sustentadas
 │
-├── PLATFORM-PRACTICE/
+├── platform-practice/
 │   ├── README.md
 │   ├── dataannotation/
 │   │   └── README.md
@@ -147,7 +147,7 @@ ai-response-evaluation/
 * [Data Annotation](./data-annotation/)
 * [Bias & Fairness](./bias-fairness/)
 * [Hallucination Detection](./hallucination-detection/)
-* [Platform Practice](./PLATFORM-PRACTICE/)
+* [Platform Practice](./platform-practice/)
 * [Assets / Screenshots](./assets/screenshots/)
 
 ### Navegação dos conceitos
@@ -419,14 +419,14 @@ A análise deverá identificar o problema, registrar as evidências observadas e
 
 # 12. Platform Practice
 
-A pasta [`PLATFORM-PRACTICE/`](./PLATFORM-PRACTICE/) registra ambientes e plataformas utilizados para prática, estudo e experimentação relacionada à Inteligência Artificial.
+A pasta [`platform-practice/`](./platform-practice/) registra ambientes e plataformas utilizados para prática, estudo e experimentação relacionada à Inteligência Artificial.
 
 As áreas atualmente organizadas incluem:
 
-* [`dataannotation/`](./PLATFORM-PRACTICE/dataannotation/) — registro de práticas relacionadas à anotação e avaliação de dados;
-* [`outlier/`](./PLATFORM-PRACTICE/outlier/) — registro de práticas realizadas no ambiente Outlier;
-* [`hugging-face/`](./PLATFORM-PRACTICE/hugging-face/) — registro de práticas relacionadas ao ecossistema Hugging Face;
-* [`lmsys-chatbot-arena/`](./PLATFORM-PRACTICE/lmsys-chatbot-arena/) — registro de práticas relacionadas à comparação de modelos e avaliação de respostas.
+* [`dataannotation/`](./platform-practice/dataannotation/) — registro de práticas relacionadas à anotação e avaliação de dados;
+* [`outlier/`](./platform-practice/outlier/) — registro de práticas realizadas no ambiente Outlier;
+* [`hugging-face/`](./platform-practice/hugging-face/) — registro de práticas relacionadas ao ecossistema Hugging Face;
+* [`lmsys-chatbot-arena/`](./platform-practice/lmsys-chatbot-arena/) — registro de práticas relacionadas à comparação de modelos e avaliação de respostas.
 
 Esta seção possui finalidade documental e educacional, registrando plataformas utilizadas durante o desenvolvimento das competências do projeto.
 
