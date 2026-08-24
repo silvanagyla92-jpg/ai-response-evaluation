@@ -2,80 +2,117 @@
 
 ## 1. Objetivo
 
-Esta pasta registra estudos e práticas relacionados ao ecossistema **Hugging Face**, incluindo modelos, datasets, tokenizadores, bibliotecas e materiais educacionais.
+Esta pasta registra estudos e práticas relacionados ao ecossistema **Hugging Face**, com foco em modelos, datasets, tokenização, treinamento, inferência e avaliação.
 
-O ecossistema é especialmente relevante para este projeto porque conecta conceitos de LLMs e processamento de linguagem natural a artefatos concretos de modelos, dados e ferramentas de avaliação.
+A plataforma é especialmente relevante para o projeto porque conecta conceitos de Inteligência Artificial a ferramentas concretas utilizadas no ciclo de vida de modelos e dados.
 
-## 2. Principais componentes
+## 2. O ecossistema Hugging Face
 
-### Modelos
+O ecossistema reúne diferentes componentes que podem ser estudados separadamente e também utilizados em conjunto:
 
-O Hub disponibiliza modelos que podem ser pesquisados, avaliados e utilizados em diferentes tarefas. A escolha de um modelo deve considerar tarefa, dados, limitações, licença e desempenho observado.
+- **Hub:** espaço para modelos, datasets e outros recursos;
+- **Transformers:** biblioteca para trabalhar com modelos baseados em Transformer e diferentes tarefas;
+- **Datasets:** ferramentas para carregar, processar e trabalhar com conjuntos de dados;
+- **Tokenizers:** ferramentas para transformar texto em unidades processáveis por modelos;
+- **Evaluate:** biblioteca para avaliação de modelos e datasets;
+- **Spaces:** ambientes para demonstrações e aplicações hospedadas no ecossistema.
 
-### Datasets
+## 3. Modelos e inferência
 
-Datasets são conjuntos estruturados de dados utilizados em treinamento, validação, teste ou avaliação. A documentação oficial da biblioteca Datasets aborda carregamento, processamento e compartilhamento de conjuntos de dados.
+Um modelo pré-treinado pode ser utilizado para inferência em uma tarefa compatível. A escolha não deve considerar apenas o nome ou popularidade do modelo: é necessário observar tarefa, dados, desempenho, limitações, licença e requisitos de uso.
 
-### Tokenizers
+Na avaliação de respostas, o output do modelo deve ser analisado no contexto da solicitação e dos critérios da tarefa.
 
-Tokenizadores convertem texto em unidades que podem ser processadas por modelos de linguagem. O modo como o texto é tokenizado influencia representação, comprimento de entrada e uso do contexto.
+## 4. Datasets e curadoria
 
-### Transformers
+Datasets podem ser utilizados em treinamento, validação, teste e avaliação. A qualidade dos dados influencia a confiabilidade das conclusões obtidas durante o desenvolvimento e a avaliação de sistemas.
 
-A biblioteca Transformers fornece ferramentas para trabalhar com modelos de Transformer e diferentes tarefas de linguagem e outras modalidades. O curso oficial apresenta arquiteturas, inferência, fine-tuning e avaliação. citeturn0search3
+Aspectos relevantes de curadoria incluem:
 
-## 3. Relação com avaliação de respostas
+- consistência;
+- duplicação;
+- ruído;
+- representatividade;
+- adequação ao objetivo;
+- qualidade das anotações;
+- separação apropriada entre conjuntos de dados;
+- documentação das características e limitações.
 
-A Hugging Face também é útil para compreender a cadeia:
+Esses pontos são diretamente relacionados à competência de **Data Annotator** e à avaliação da qualidade de dados.
+
+## 5. Tokenização
+
+Modelos de linguagem não recebem texto exatamente como uma pessoa o lê. O texto é transformado em unidades de processamento por um tokenizador.
+
+A tokenização pode afetar o tamanho da entrada, o uso do contexto e a forma como o modelo processa determinada informação. Por isso, tokenizador e modelo devem ser tratados como componentes relacionados no fluxo técnico.
+
+## 6. Transformers
+
+A biblioteca Transformers fornece APIs para modelos e tarefas de diferentes modalidades. A documentação oficial inclui recursos para treinamento, avaliação, inferência e fine-tuning.
+
+O `Trainer`, por exemplo, oferece uma estrutura para treinar e avaliar modelos utilizando datasets de treinamento e avaliação. citeturn0search1
+
+## 7. Avaliação de modelos
+
+A avaliação deve ser definida de acordo com a tarefa. A biblioteca Hugging Face Evaluate oferece classes e métodos para avaliar diferentes tarefas e métricas, incluindo classificação, geração de texto, resumo, tradução e outras. citeturn0search3
+
+O projeto deve evitar interpretar uma única métrica como medida absoluta de qualidade. Métricas devem ser analisadas em conjunto com o objetivo da tarefa, os dados utilizados e as limitações do método de avaliação.
+
+## 8. Fine-tuning
+
+Fine-tuning é o processo de adaptar um modelo pré-treinado a uma tarefa ou conjunto de dados específico. A documentação da Hugging Face mostra que o processo envolve preparação dos dados, configuração do treinamento, avaliação e, quando apropriado, salvamento do melhor modelo ou dos resultados. citeturn0search7turn0search14
+
+Neste portfólio, o conceito é estudado como parte da compreensão do ciclo de desenvolvimento de modelos, não como afirmação de que cada atividade técnica foi executada pela autora.
+
+## 9. Relação com AI Response Evaluation
+
+A cadeia pode ser representada como:
 
 ```text
-Dados
-  ↓
+Dataset
+   ↓
 Preparação / tokenização
-  ↓
+   ↓
 Modelo
-  ↓
+   ↓
 Inferência ou treinamento
-  ↓
+   ↓
 Avaliação
-  ↓
+   ↓
 Análise dos resultados
 ```
 
-Avaliar um sistema exige considerar a tarefa e o conjunto de dados. Uma métrica isolada não substitui uma análise contextual da qualidade.
+A avaliação humana de respostas complementa métricas automáticas quando a tarefa exige julgamento sobre aspectos como instrução, qualidade, segurança ou utilidade.
 
-## 4. Curadoria e qualidade de dados
+## 10. Relação com as competências do projeto
 
-A qualidade de um dataset é parte importante de qualquer processo de desenvolvimento de IA. Questões de duplicação, inconsistência, representatividade, ruído e adequação à tarefa podem afetar treinamento e avaliação.
+### AI Trainer
 
-Para este projeto, o estudo de datasets é diretamente relacionado à competência de **Data Annotator**, pois ajuda a compreender como dados rotulados e estruturados podem ser usados em processos de IA.
+Compreensão do ciclo de treinamento, preparação de dados, avaliação e possíveis formas de melhoria de modelos.
 
-## 5. LLMs e aprendizado
+### AI Response Evaluator
 
-O curso oficial da Hugging Face aborda LLMs, Transformers, datasets, tokenizadores, fine-tuning e curadoria de datasets. Ele também recomenda conhecimento prévio de Python e fundamentos de aprendizado profundo para melhor aproveitamento. citeturn0search3turn0search2
+Análise de outputs, definição de critérios, comparação de respostas e interpretação dos resultados de avaliação.
 
-## 6. Competências relacionadas
+### Data Annotator
 
-- LLMs;
-- NLP;
-- Transformers;
-- datasets;
-- tokenização;
-- inferência;
-- fine-tuning;
-- avaliação de modelos;
-- curadoria de dados;
-- análise crítica de outputs.
+Compreensão de datasets, rotulagem, consistência e qualidade dos dados utilizados em processos de IA.
 
-## 7. Fontes confiáveis
+### QA e Auditoria
+
+Rastreabilidade de critérios, registro de evidências, revisão e análise de desvios.
+
+## 11. Fontes confiáveis
 
 - [Hugging Face — Learn](https://huggingface.co/learn)
 - [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
-- [Hugging Face — Datasets Documentation](https://huggingface.co/docs/datasets/index)
-- [Hugging Face — Transformers Documentation](https://huggingface.co/docs/transformers/index)
-- [Hugging Face — Tokenizers Documentation](https://huggingface.co/docs/tokenizers/index)
+- [Hugging Face — Datasets](https://huggingface.co/docs/datasets/index)
+- [Hugging Face — Transformers](https://huggingface.co/docs/transformers/index)
+- [Hugging Face — Tokenizers](https://huggingface.co/docs/tokenizers/index)
+- [Hugging Face — Evaluate](https://huggingface.co/docs/evaluate/index)
+- [Hugging Face — Training / Fine-tuning](https://huggingface.co/docs/transformers/main/training)
 
-As ferramentas e versões evoluem. Para atividades técnicas, a documentação oficial correspondente à versão utilizada deve ser considerada a referência principal.
+A documentação oficial deve ser priorizada para informações técnicas, especialmente quando APIs, versões ou parâmetros possam ter sido alterados.
 
 ---
 
