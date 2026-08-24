@@ -2,46 +2,96 @@
 
 ## 1. Objetivo
 
-A pasta **platform-practice** registra ambientes e plataformas utilizados para prática, estudo e observação de tarefas relacionadas à avaliação, treinamento e anotação de dados de Inteligência Artificial.
+A pasta **platform-practice** reúne registros de estudo, exploração e prática em ambientes relacionados à avaliação de respostas, treinamento de sistemas de IA, anotação de dados e comparação de modelos.
 
-O objetivo não é afirmar experiência profissional em todas as plataformas. O diretório funciona como espaço organizado para documentar estudos, exercícios, interfaces, processos e aprendizados quando houver evidência correspondente.
+O objetivo é transformar o uso de plataformas em **evidência documentada de aprendizagem**, sem confundir estudo independente com experiência profissional. Cada atividade deve registrar apenas aquilo que foi efetivamente realizado e que pode ser sustentado por evidências.
 
-## 2. Plataformas registradas
+## 2. Por que praticar em diferentes plataformas
 
-- **DataAnnotation:** atividades relacionadas a anotação, avaliação e classificação de dados ou respostas.
-- **Outlier:** ambiente associado a projetos de trabalho e avaliação de dados para sistemas de IA.
-- **Hugging Face:** ecossistema de modelos, datasets, bibliotecas e materiais educacionais para IA e processamento de linguagem natural.
-- **LMSYS Chatbot Arena:** ambiente conhecido por comparação de respostas de modelos de linguagem por meio de avaliações humanas.
+Ambientes distintos podem apresentar tarefas, interfaces, guidelines e formas de avaliação diferentes. Compará-los ajuda a desenvolver competências transferíveis, como:
 
-## 3. Como documentar práticas
+- seguir instruções e critérios;
+- identificar erros factuais e inconsistências;
+- comparar respostas de modelos;
+- classificar e rotular dados;
+- justificar decisões com evidências;
+- revisar o próprio trabalho;
+- reconhecer limitações de uma avaliação;
+- manter consistência entre itens semelhantes.
 
-Cada registro deve informar, quando disponível:
+A prática deve ser entendida como complemento às avaliações estruturadas existentes em `evaluations/` e aos fundamentos documentados em `conceitos-explicados/`.
 
-1. Plataforma utilizada.
-2. Objetivo da atividade.
-3. Tipo de tarefa.
-4. Critérios ou instruções observadas.
-5. Evidência visual ou textual.
-6. Aprendizado obtido.
-7. Limitações ou observações.
+## 3. Plataformas registradas
 
-## 4. Relação com o projeto
+### DataAnnotation
 
-As plataformas complementam as demais áreas do repositório. A prática em ambientes diferentes ajuda a observar como tarefas de avaliação e anotação podem variar em interface, guideline, formato de resposta e critérios de qualidade.
+Ambiente associado a tarefas de anotação, avaliação e treinamento de dados para sistemas de IA. Neste projeto, o foco documental deve permanecer em competências observáveis, como classificação, aplicação de critérios e avaliação de respostas.
 
-O conhecimento conceitual continua sendo mantido em `conceitos-explicados/`, enquanto os casos avaliativos ficam em `evaluations/`.
+### Outlier
 
-## 5. Fontes oficiais e educacionais
+Plataforma voltada a projetos relacionados ao desenvolvimento e treinamento de sistemas de IA. Os registros deste repositório devem distinguir claramente informações públicas sobre a plataforma de qualquer atividade efetivamente realizada pela autora.
 
-- [Hugging Face](https://huggingface.co/)
-- [Hugging Face Learn](https://huggingface.co/learn)
+### Hugging Face
+
+Ecossistema que disponibiliza modelos, datasets, bibliotecas e materiais educacionais. O curso oficial aborda Transformers, LLMs, Datasets, Tokenizers, fine-tuning, avaliação e curadoria de dados. citeturn0search3turn0search2
+
+### LMSYS Chatbot Arena
+
+Ambiente de comparação de modelos de linguagem por meio de batalhas lado a lado e avaliações humanas. O projeto FastChat, mantido pela LMSYS, documenta a infraestrutura e os recursos de avaliação associados ao Arena. citeturn0search1turn0search4
+
+## 4. Processo recomendado de documentação
+
+```text
+Objetivo da atividade
+        ↓
+Instrução / guideline
+        ↓
+Análise do item
+        ↓
+Aplicação dos critérios
+        ↓
+Decisão ou anotação
+        ↓
+Revisão
+        ↓
+Evidência e justificativa
+        ↓
+Registro final
+```
+
+Sempre que possível, um registro deve informar: plataforma, objetivo, tipo de tarefa, instruções relevantes, critérios utilizados, decisão, evidência, dificuldades, limitações e aprendizado obtido.
+
+## 5. Relação com avaliação de respostas
+
+A prática em plataformas complementa a metodologia do projeto. Uma avaliação de qualidade deve separar a **instrução recebida**, a **resposta observada**, os **critérios aplicados** e a **decisão final**.
+
+Em comparações A/B, a preferência deve ser fundamentada na qualidade relativa das respostas e não simplesmente em tamanho, estilo ou preferência pessoal. Materiais da LMSYS mostram explicitamente abordagens de avaliação pareada e preocupação com critérios de qualidade e imparcialidade. citeturn0search6turn0search0
+
+## 6. Relação com QA e Auditoria
+
+O fluxo praticado é compatível com princípios transferíveis de QA e auditoria:
+
+**requisito → verificação → evidência → identificação de desvio → decisão → registro**
+
+Isso favorece consistência, rastreabilidade e revisão posterior das decisões.
+
+## 7. Confidencialidade e publicação
+
+Não devem ser publicados dados pessoais, credenciais, tarefas privadas, informações de clientes, materiais internos ou conteúdo protegido que não possa ser redistribuído. Screenshots devem ser revisados antes da publicação e, quando necessário, anonimizados.
+
+## 8. Fontes confiáveis
+
+- [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+- [Hugging Face — Datasets](https://huggingface.co/docs/datasets/index)
+- [Hugging Face — Transformers](https://huggingface.co/docs/transformers/index)
+- [LMSYS FastChat](https://github.com/lm-sys/FastChat)
+- [LMSYS Chatbot Arena / documentação](https://github.com/lm-sys/FastChat/blob/main/docs/arena.md)
 - [DataAnnotation](https://www.dataannotation.tech/)
 - [Outlier](https://outlier.ai/)
-- [LMSYS Chatbot Arena](https://chat.lmsys.org/)
 
-As páginas das plataformas podem mudar com o tempo. Descrições de tarefas devem ser verificadas diretamente no ambiente utilizado.
+As características e políticas das plataformas podem mudar. Informações operacionais devem ser conferidas diretamente nas páginas oficiais no momento da atividade.
 
-## 6. Estrutura
+## 9. Estrutura
 
 ```text
 platform-practice/
