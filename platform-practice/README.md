@@ -2,96 +2,164 @@
 
 ## 1. Objetivo
 
-A pasta **platform-practice** reúne registros de estudo, exploração e prática em ambientes relacionados à avaliação de respostas, treinamento de sistemas de IA, anotação de dados e comparação de modelos.
+A pasta **platform-practice** reúne estudos, exploração documentada e práticas relacionadas a ambientes usados no ecossistema de treinamento, avaliação e desenvolvimento de sistemas de Inteligência Artificial.
 
-O objetivo é transformar o uso de plataformas em **evidência documentada de aprendizagem**, sem confundir estudo independente com experiência profissional. Cada atividade deve registrar apenas aquilo que foi efetivamente realizado e que pode ser sustentado por evidências.
+O objetivo não é apenas registrar nomes de plataformas, mas explicar **quais competências podem ser desenvolvidas em cada ambiente, quais tipos de tarefas são relevantes para AI Response Evaluation e como transformar uma atividade em evidência verificável**.
 
-## 2. Por que praticar em diferentes plataformas
+Os registros deste diretório devem distinguir claramente três situações:
 
-Ambientes distintos podem apresentar tarefas, interfaces, guidelines e formas de avaliação diferentes. Compará-los ajuda a desenvolver competências transferíveis, como:
+- **estudo:** leitura de documentação, cursos e materiais públicos;
+- **prática:** exercício realizado pela autora e documentado no projeto;
+- **experiência profissional:** atividade efetivamente realizada em contexto profissional, que somente deve ser declarada quando houver evidência correspondente.
 
-- seguir instruções e critérios;
-- identificar erros factuais e inconsistências;
-- comparar respostas de modelos;
-- classificar e rotular dados;
-- justificar decisões com evidências;
-- revisar o próprio trabalho;
-- reconhecer limitações de uma avaliação;
-- manter consistência entre itens semelhantes.
+Essa distinção aumenta a precisão do portfólio e evita atribuir experiência profissional com base apenas no conhecimento de uma plataforma.
 
-A prática deve ser entendida como complemento às avaliações estruturadas existentes em `evaluations/` e aos fundamentos documentados em `conceitos-explicados/`.
+## 2. Competências desenvolvidas
 
-## 3. Plataformas registradas
+A prática estruturada em diferentes ambientes pode desenvolver competências transferíveis para funções de **AI Trainer, AI Response Evaluator e Data Annotator**, entre elas:
 
-### DataAnnotation
+- interpretação de instruções e guidelines;
+- classificação e anotação de dados;
+- avaliação de factualidade e relevância;
+- comparação de respostas;
+- identificação de inconsistências e erros;
+- criação e aplicação de critérios de qualidade;
+- elaboração de justificativas baseadas em evidências;
+- revisão e controle de qualidade;
+- consistência entre avaliações semelhantes;
+- identificação de limitações e incertezas;
+- documentação rastreável das decisões.
 
-Ambiente associado a tarefas de anotação, avaliação e treinamento de dados para sistemas de IA. Neste projeto, o foco documental deve permanecer em competências observáveis, como classificação, aplicação de critérios e avaliação de respostas.
+## 3. Relação com o projeto AI Response Evaluation
 
-### Outlier
+As plataformas funcionam como ambientes complementares à metodologia documentada em `evaluations/`, `response-evaluation/`, `conceitos-explicados/` e `rlhf/`.
 
-Plataforma voltada a projetos relacionados ao desenvolvimento e treinamento de sistemas de IA. Os registros deste repositório devem distinguir claramente informações públicas sobre a plataforma de qualquer atividade efetivamente realizada pela autora.
-
-### Hugging Face
-
-Ecossistema que disponibiliza modelos, datasets, bibliotecas e materiais educacionais. O curso oficial aborda Transformers, LLMs, Datasets, Tokenizers, fine-tuning, avaliação e curadoria de dados. citeturn0search3turn0search2
-
-### LMSYS Chatbot Arena
-
-Ambiente de comparação de modelos de linguagem por meio de batalhas lado a lado e avaliações humanas. O projeto FastChat, mantido pela LMSYS, documenta a infraestrutura e os recursos de avaliação associados ao Arena. citeturn0search1turn0search4
-
-## 4. Processo recomendado de documentação
+A lógica central é:
 
 ```text
-Objetivo da atividade
-        ↓
 Instrução / guideline
         ↓
-Análise do item
+Compreensão da tarefa
+        ↓
+Análise do output
         ↓
 Aplicação dos critérios
         ↓
-Decisão ou anotação
+Registro de evidências
         ↓
-Revisão
+Decisão / anotação
         ↓
-Evidência e justificativa
+Revisão de qualidade
         ↓
-Registro final
+Documentação final
 ```
 
-Sempre que possível, um registro deve informar: plataforma, objetivo, tipo de tarefa, instruções relevantes, critérios utilizados, decisão, evidência, dificuldades, limitações e aprendizado obtido.
+Uma avaliação confiável deve separar o que foi **observado** do que foi **inferido**. Quando uma conclusão não puder ser confirmada, ela deve ser registrada como limitação ou hipótese, e não como fato.
 
-## 5. Relação com avaliação de respostas
+## 4. Ambientes documentados
 
-A prática em plataformas complementa a metodologia do projeto. Uma avaliação de qualidade deve separar a **instrução recebida**, a **resposta observada**, os **critérios aplicados** e a **decisão final**.
+### 4.1 DataAnnotation
 
-Em comparações A/B, a preferência deve ser fundamentada na qualidade relativa das respostas e não simplesmente em tamanho, estilo ou preferência pessoal. Materiais da LMSYS mostram explicitamente abordagens de avaliação pareada e preocupação com critérios de qualidade e imparcialidade. citeturn0search6turn0search0
+A DataAnnotation é um ambiente voltado a trabalhos relacionados à melhoria de sistemas de IA. Para este projeto, a relevância está principalmente nas competências de avaliação, classificação, revisão e aplicação consistente de critérios.
 
-## 6. Relação com QA e Auditoria
+A documentação da pasta deve concentrar-se em habilidades observáveis e em materiais públicos, sem publicar tarefas privadas, instruções internas ou dados confidenciais.
 
-O fluxo praticado é compatível com princípios transferíveis de QA e auditoria:
+### 4.2 Outlier
 
-**requisito → verificação → evidência → identificação de desvio → decisão → registro**
+A Outlier apresenta atividades relacionadas ao treinamento e à melhoria de modelos de IA, incluindo tarefas como criação de prompts, elaboração de critérios de avaliação e classificação de respostas, conforme informações públicas da própria plataforma. citeturn0search2turn0search0
 
-Isso favorece consistência, rastreabilidade e revisão posterior das decisões.
+Para o portfólio, essas informações servem como referência sobre tipos de tarefas existentes. Elas não devem ser apresentadas automaticamente como experiência profissional da autora.
 
-## 7. Confidencialidade e publicação
+### 4.3 Hugging Face
 
-Não devem ser publicados dados pessoais, credenciais, tarefas privadas, informações de clientes, materiais internos ou conteúdo protegido que não possa ser redistribuído. Screenshots devem ser revisados antes da publicação e, quando necessário, anonimizados.
+A Hugging Face oferece um ecossistema amplo de modelos, datasets, bibliotecas e recursos educacionais. A documentação oficial de Transformers apresenta recursos para treinamento e avaliação, enquanto a biblioteca Evaluate fornece ferramentas para avaliar modelos, datasets e métricas de diferentes tarefas. citeturn0search1turn0search3turn0search8
 
-## 8. Fontes confiáveis
+Isso torna a plataforma particularmente relevante para compreender a relação entre **dados → processamento → modelo → inferência → avaliação**.
 
+### 4.4 LMSYS Chatbot Arena
+
+O LMSYS Chatbot Arena é relevante para o estudo de comparação de modelos por preferência humana. No contexto deste projeto, a prática A/B ajuda a desenvolver a capacidade de comparar respostas produzidas para uma mesma solicitação e justificar a preferência com base em critérios explícitos.
+
+A comparação deve evitar decisões puramente subjetivas: o avaliador precisa identificar a diferença observável que sustenta a escolha.
+
+## 5. Como documentar uma prática
+
+Cada registro de atividade deve procurar responder:
+
+1. Qual era o objetivo?
+2. Qual instrução ou guideline foi utilizada?
+3. Qual era a tarefa?
+4. Quais critérios foram aplicados?
+5. Qual resposta, dado ou item foi analisado?
+6. Qual decisão foi tomada?
+7. Qual evidência sustenta a decisão?
+8. Houve ambiguidade ou limitação?
+9. O item foi revisado?
+10. Qual competência foi desenvolvida?
+
+Um registro consistente permite que outra pessoa compreenda **como a decisão foi produzida**, e não apenas qual foi o resultado.
+
+## 6. QA e Auditoria aplicados à prática
+
+A metodologia possui relação direta com princípios de QA e auditoria:
+
+**requisito → verificação → evidência → desvio → decisão → registro → revisão**
+
+O objetivo é reduzir decisões arbitrárias e aumentar a rastreabilidade. Em avaliações repetitivas, também é importante verificar se o mesmo critério está sendo aplicado de forma consistente em itens equivalentes.
+
+## 7. Avaliação A/B e preferência humana
+
+Em uma comparação A/B, duas respostas são analisadas para uma mesma solicitação. O avaliador deve primeiro verificar cada resposta individualmente e depois comparar os resultados.
+
+```text
+Mesma instrução
+      ↓
+Resposta A      Resposta B
+      ↓              ↓
+Avaliação individual
+      ↓              ↓
+Comparação dos pontos relevantes
+              ↓
+     Preferência fundamentada
+```
+
+A preferência deve ser explicável. Uma resposta não deve ser escolhida apenas porque é mais longa, mais formal ou utiliza palavras mais sofisticadas.
+
+## 8. Qualidade e confiabilidade dos dados
+
+A qualidade da avaliação depende também da qualidade dos dados e das instruções utilizadas. Ambiguidade de guideline, critérios contraditórios, exemplos insuficientes ou decisões inconsistentes podem comprometer a utilidade dos registros.
+
+Por isso, quando houver dúvida, o registro deve documentar a incerteza e indicar qual informação adicional seria necessária para uma decisão mais segura.
+
+## 9. Confidencialidade e publicação
+
+Não devem ser publicados:
+
+- credenciais ou informações de acesso;
+- dados pessoais de terceiros;
+- informações de clientes;
+- tarefas privadas;
+- guidelines internos não públicos;
+- conteúdo protegido que não possa ser redistribuído;
+- capturas de tela com informações sensíveis.
+
+Screenshots devem ser revisados e, quando necessário, anonimizados antes de serem adicionados ao repositório.
+
+## 10. Fontes confiáveis
+
+- [DataAnnotation — site oficial](https://www.dataannotation.tech/)
+- [Outlier — site oficial](https://outlier.ai/)
+- [Outlier — atividades de AI Training](https://outlier.ai/meet-our-experts)
+- [Hugging Face — Learn](https://huggingface.co/learn)
 - [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
-- [Hugging Face — Datasets](https://huggingface.co/docs/datasets/index)
 - [Hugging Face — Transformers](https://huggingface.co/docs/transformers/index)
-- [LMSYS FastChat](https://github.com/lm-sys/FastChat)
-- [LMSYS Chatbot Arena / documentação](https://github.com/lm-sys/FastChat/blob/main/docs/arena.md)
-- [DataAnnotation](https://www.dataannotation.tech/)
-- [Outlier](https://outlier.ai/)
+- [Hugging Face — Training / Fine-tuning](https://huggingface.co/docs/transformers/main/training)
+- [Hugging Face — Evaluate](https://huggingface.co/docs/evaluate/index)
+- [LMSYS / FastChat — GitHub](https://github.com/lm-sys/FastChat)
 
-As características e políticas das plataformas podem mudar. Informações operacionais devem ser conferidas diretamente nas páginas oficiais no momento da atividade.
+As plataformas e suas políticas podem mudar. Informações sobre disponibilidade, requisitos, remuneração ou processos de seleção devem ser verificadas diretamente nas fontes oficiais no momento da consulta.
 
-## 9. Estrutura
+## 11. Estrutura
 
 ```text
 platform-practice/
