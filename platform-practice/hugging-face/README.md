@@ -2,65 +2,80 @@
 
 ## 1. Objetivo
 
-Esta pasta registra práticas e estudos relacionados ao ecossistema **Hugging Face**, incluindo modelos, datasets, tokenizadores, bibliotecas e materiais educacionais.
+Esta pasta registra estudos e práticas relacionados ao ecossistema **Hugging Face**, incluindo modelos, datasets, tokenizadores, bibliotecas e materiais educacionais.
 
-O curso oficial da Hugging Face aborda LLMs, processamento de linguagem natural, Transformers, datasets, tokenizadores, ajuste fino e curadoria de conjuntos de dados. [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+O ecossistema é especialmente relevante para este projeto porque conecta conceitos de LLMs e processamento de linguagem natural a artefatos concretos de modelos, dados e ferramentas de avaliação.
 
-## 2. Relevância para o projeto
-
-O ecossistema é útil para compreender como modelos e dados são disponibilizados, testados e utilizados em tarefas de IA. Também serve como referência para estudar diferenças entre modelo, dataset, tokenização, inferência e ajuste fino.
-
-## 3. Conceitos praticados
+## 2. Principais componentes
 
 ### Modelos
 
-Modelos pré-treinados podem ser utilizados em diferentes tarefas e, em determinados cenários, adaptados por ajuste fino.
+O Hub disponibiliza modelos que podem ser pesquisados, avaliados e utilizados em diferentes tarefas. A escolha de um modelo deve considerar tarefa, dados, limitações, licença e desempenho observado.
 
 ### Datasets
 
-Conjuntos de dados podem ser utilizados para treinamento, validação, teste ou avaliação. A qualidade do dataset influencia a qualidade da análise e do modelo.
+Datasets são conjuntos estruturados de dados utilizados em treinamento, validação, teste ou avaliação. A documentação oficial da biblioteca Datasets aborda carregamento, processamento e compartilhamento de conjuntos de dados.
 
-### Tokenização
+### Tokenizers
 
-Tokenização transforma texto em unidades que o modelo consegue processar. A forma como o texto é dividido influencia o processamento e o contexto disponível.
+Tokenizadores convertem texto em unidades que podem ser processadas por modelos de linguagem. O modo como o texto é tokenizado influencia representação, comprimento de entrada e uso do contexto.
 
-### Avaliação
+### Transformers
 
-Resultados devem ser analisados com métricas e critérios adequados à tarefa. Uma única métrica raramente representa toda a qualidade de um sistema.
+A biblioteca Transformers fornece ferramentas para trabalhar com modelos de Transformer e diferentes tarefas de linguagem e outras modalidades. O curso oficial apresenta arquiteturas, inferência, fine-tuning e avaliação. citeturn0search3
 
-## 4. Fluxo de estudo
+## 3. Relação com avaliação de respostas
+
+A Hugging Face também é útil para compreender a cadeia:
 
 ```text
-Dataset
-   ↓
+Dados
+  ↓
 Preparação / tokenização
-   ↓
+  ↓
 Modelo
-   ↓
-Inferência ou ajuste
-   ↓
+  ↓
+Inferência ou treinamento
+  ↓
 Avaliação
-   ↓
+  ↓
 Análise dos resultados
 ```
 
-## 5. Competências relacionadas
+Avaliar um sistema exige considerar a tarefa e o conjunto de dados. Uma métrica isolada não substitui uma análise contextual da qualidade.
+
+## 4. Curadoria e qualidade de dados
+
+A qualidade de um dataset é parte importante de qualquer processo de desenvolvimento de IA. Questões de duplicação, inconsistência, representatividade, ruído e adequação à tarefa podem afetar treinamento e avaliação.
+
+Para este projeto, o estudo de datasets é diretamente relacionado à competência de **Data Annotator**, pois ajuda a compreender como dados rotulados e estruturados podem ser usados em processos de IA.
+
+## 5. LLMs e aprendizado
+
+O curso oficial da Hugging Face aborda LLMs, Transformers, datasets, tokenizadores, fine-tuning e curadoria de datasets. Ele também recomenda conhecimento prévio de Python e fundamentos de aprendizado profundo para melhor aproveitamento. citeturn0search3turn0search2
+
+## 6. Competências relacionadas
 
 - LLMs;
 - NLP;
+- Transformers;
 - datasets;
 - tokenização;
+- inferência;
+- fine-tuning;
 - avaliação de modelos;
-- ajuste fino;
 - curadoria de dados;
 - análise crítica de outputs.
 
-## 6. Fontes
+## 7. Fontes confiáveis
 
 - [Hugging Face — Learn](https://huggingface.co/learn)
 - [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
-- [Hugging Face — Datasets](https://huggingface.co/docs/datasets/index)
-- [Hugging Face — Transformers](https://huggingface.co/docs/transformers/index)
+- [Hugging Face — Datasets Documentation](https://huggingface.co/docs/datasets/index)
+- [Hugging Face — Transformers Documentation](https://huggingface.co/docs/transformers/index)
+- [Hugging Face — Tokenizers Documentation](https://huggingface.co/docs/tokenizers/index)
+
+As ferramentas e versões evoluem. Para atividades técnicas, a documentação oficial correspondente à versão utilizada deve ser considerada a referência principal.
 
 ---
 
