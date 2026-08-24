@@ -2,33 +2,39 @@
 
 ## 1. Objetivo
 
-Esta pasta documenta estudos e práticas relacionados ao **LMSYS Chatbot Arena**, ambiente de comparação de modelos de linguagem por meio de avaliações humanas.
+Esta pasta documenta estudos e práticas relacionados ao **LMSYS Chatbot Arena**, com foco em comparação de modelos de linguagem, avaliação humana, preferência pareada e análise crítica de respostas.
 
-A prática é relevante para o projeto porque a comparação lado a lado permite exercitar **preferência humana, avaliação comparativa, análise de instruções e justificativa baseada em evidências**.
+O ambiente é especialmente relevante para o projeto porque uma avaliação lado a lado exige que o avaliador compare respostas produzidas para uma tarefa equivalente e justifique a decisão com base em características observáveis.
 
-## 2. Como funciona a comparação
+## 2. O que é o Chatbot Arena
 
-A lógica básica de uma avaliação pareada pode ser representada assim:
+O projeto FastChat, mantido pela organização LMSYS, documenta o Chatbot Arena como um ambiente de benchmark em que modelos são comparados por meio de batalhas anônimas e randomizadas. citeturn0search1turn0search7
+
+Para este portfólio, o principal aprendizado não é reproduzir toda a infraestrutura da Arena, mas compreender a lógica de **avaliação comparativa por preferência humana**.
+
+## 3. Estrutura de uma comparação A/B
 
 ```text
 Mesma solicitação
        ↓
-Resposta A  ↔  Resposta B
-       ↓           ↓
+Resposta A       Resposta B
+       ↓              ↓
 Avaliação individual
-       ↓           ↓
-Comparação dos critérios
+       ↓              ↓
+Aplicação dos critérios
+       ↓              ↓
+Comparação das evidências
        ↓
 Preferência / empate
        ↓
-Justificativa baseada em evidências
+Justificativa
 ```
 
-A documentação do FastChat descreve o Chatbot Arena como uma plataforma de benchmark com batalhas anônimas e randomizadas entre modelos. citeturn0search1turn0search7
+O avaliador deve analisar as respostas individualmente antes de decidir qual é superior. Isso reduz o risco de escolher uma resposta apenas por impressão inicial.
 
-## 3. Critérios que podem ser analisados
+## 4. Critérios de avaliação
 
-Dependendo da tarefa, a avaliação pode considerar:
+Dependendo da tarefa, podem ser analisados:
 
 - aderência à instrução;
 - factualidade;
@@ -37,46 +43,71 @@ Dependendo da tarefa, a avaliação pode considerar:
 - completude;
 - segurança;
 - qualidade geral;
-- profundidade adequada ao pedido;
-- presença de erros ou informações não sustentadas.
+- consistência;
+- ausência de informações fabricadas.
 
-O critério deve ser definido antes da decisão sempre que a atividade possuir uma rubrica específica.
+Os critérios precisam ser definidos pelo contexto da avaliação. Uma característica considerada importante em uma tarefa pode ser irrelevante em outra.
 
-## 4. Imparcialidade na comparação
+## 5. Imparcialidade
 
-Uma avaliação comparativa deve evitar vieses relacionados ao nome do modelo, ordem de apresentação, comprimento da resposta ou preferência estilística. Os materiais de avaliação do FastChat incluem instruções explícitas para comparação pareada, imparcialidade e prevenção de posição ou comprimento como fatores indevidos. citeturn0search6
+Uma comparação confiável deve reduzir fatores que não representam qualidade real. Entre eles estão a ordem das respostas, o comprimento, o estilo pessoal do avaliador e o conhecimento prévio sobre o modelo.
 
-Quando duas respostas forem próximas, a justificativa deve apontar a diferença concreta que sustenta a preferência. Se não houver diferença relevante, o empate pode ser a decisão mais adequada.
+A documentação do FastChat inclui materiais específicos para avaliação pareada e discussão de fatores que podem afetar julgamentos. citeturn0search6
 
-## 5. Relação com RLHF e preferência humana
+Uma boa justificativa deve responder: **qual diferença observável entre A e B sustenta a preferência?**
 
-Avaliações humanas de preferência podem produzir sinais úteis para desenvolvimento e alinhamento de modelos. Entretanto, uma comparação A/B realizada neste portfólio **não representa, isoladamente, um pipeline completo de RLHF**.
+Se as duas respostas forem equivalentes diante dos critérios, o empate é uma decisão válida.
 
-O repositório FastChat também disponibiliza dados de julgamentos humanos e ferramentas para estudar concordância entre avaliadores. citeturn0search0turn0search8
+## 6. Preferência humana e RLHF
 
-## 6. Boas práticas para os exercícios
+Preferências humanas podem fornecer sinais utilizados em processos de treinamento e alinhamento de modelos. O repositório FastChat também disponibiliza ferramentas e dados relacionados a julgamentos de modelos. citeturn0search0turn0search8
 
-1. Ler a instrução antes de observar as respostas.
-2. Avaliar cada resposta individualmente.
-3. Verificar os requisitos explícitos.
-4. Separar qualidade técnica de preferência pessoal.
-5. Não premiar automaticamente respostas mais longas.
-6. Procurar erros factuais ou violações de segurança.
-7. Registrar evidências suficientes para sustentar a decisão.
-8. Explicar por que uma resposta é superior ou por que existe empate.
+Entretanto, uma avaliação A/B feita neste projeto **não deve ser descrita como RLHF completo**. Ela representa uma prática de avaliação comparativa e preferência humana que pode ajudar a compreender uma etapa desse ecossistema.
 
-## 7. Relação com AI Response Evaluator
+## 7. LLM-as-a-Judge e avaliação humana
 
-A atividade desenvolve competências diretamente relacionadas à avaliação de respostas: interpretação de critérios, comparação sistemática, identificação de diferenças relevantes, tomada de decisão e documentação de justificativas.
+A comparação humana pode ser complementada por métodos automáticos ou por modelos avaliadores. Esses métodos precisam ser interpretados com cautela, pois um avaliador automático também pode apresentar vieses ou falhas.
 
-## 8. Fontes confiáveis
+Neste portfólio, quando a avaliação é realizada pela autora, a decisão deve ser identificada explicitamente como **avaliação humana**.
+
+## 8. Modelo de registro
+
+| Campo | Descrição |
+|---|---|
+| Solicitação | Tarefa apresentada aos modelos |
+| Resposta A | Output analisado |
+| Resposta B | Output analisado |
+| Critérios | Dimensões utilizadas |
+| Evidência A | Ponto relevante da resposta A |
+| Evidência B | Ponto relevante da resposta B |
+| Preferência | A, B ou empate |
+| Justificativa | Razão baseada nos critérios |
+| Limitações | Incertezas ou fatores não confirmados |
+
+## 9. Relação com AI Response Evaluation
+
+A metodologia do Chatbot Arena complementa as avaliações individuais do diretório `evaluations/`.
+
+Enquanto uma avaliação individual pergunta **“a resposta atende aos critérios?”**, uma comparação A/B acrescenta a pergunta **“qual das duas respostas atende melhor aos critérios?”**.
+
+Essa distinção é importante para não transformar preferência relativa em afirmação absoluta de qualidade.
+
+## 10. Relação com QA e Auditoria
+
+A comparação A/B possui uma lógica compatível com QA:
+
+**requisito → inspeção → evidência → comparação → decisão → registro**
+
+Em auditoria, a documentação da evidência também é importante para permitir revisão posterior. Entretanto, avaliação de respostas e auditoria formal permanecem atividades distintas.
+
+## 11. Fontes confiáveis
 
 - [LMSYS / FastChat — repositório oficial](https://github.com/lm-sys/FastChat)
-- [FastChat — documentação do Chatbot Arena](https://github.com/lm-sys/FastChat/blob/main/docs/arena.md)
+- [FastChat — Chatbot Arena](https://github.com/lm-sys/FastChat/blob/main/docs/arena.md)
 - [FastChat — LLM Judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
 - [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
 
-As características da plataforma e seus números de participação podem mudar. Informações quantitativas devem ser verificadas na fonte oficial e na versão atual da documentação.
+Informações sobre ranking, número de modelos, participação ou funcionamento operacional podem mudar. Para dados atuais, deve-se consultar a documentação oficial vigente.
 
 ---
 
