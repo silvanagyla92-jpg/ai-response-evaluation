@@ -2,37 +2,65 @@
 
 ## 1. Objetivo
 
-Esta pasta organiza registros de estudo e práticas relacionadas à plataforma **Outlier**, com foco em tarefas de avaliação, treinamento e qualidade de dados para sistemas de Inteligência Artificial quando houver evidência correspondente.
+Esta pasta organiza estudos e práticas relacionadas à plataforma **Outlier**, com foco documental em atividades ligadas à avaliação, treinamento e qualidade de dados para sistemas de Inteligência Artificial.
 
-## 2. Tipos de competência relacionados
+O conteúdo deve distinguir informações públicas da plataforma de atividades realmente executadas. Uma descrição de uma tarefa possível não deve ser apresentada como experiência realizada sem evidência.
 
-A prática pode envolver atividades como análise de instruções, avaliação de outputs, classificação, comparação de respostas e aplicação de critérios de qualidade. O conteúdo efetivamente realizado deve ser registrado individualmente, evitando generalizações sobre tarefas que não foram executadas.
+## 2. Contexto de treinamento de IA
 
-## 3. Metodologia de registro
+Plataformas desse tipo podem reunir tarefas humanas destinadas a produzir ou avaliar dados utilizados no desenvolvimento de sistemas de IA. Dependendo do projeto, a atividade pode envolver análise de instruções, avaliação de respostas, classificação, comparação ou revisão.
+
+A natureza exata das tarefas pode variar por projeto, perfil e período; por isso, os registros deste repositório devem ser específicos e verificáveis.
+
+## 3. Competências relacionadas
+
+- análise de instruções;
+- avaliação de outputs;
+- comparação de respostas;
+- classificação e anotação;
+- identificação de erros;
+- aplicação de critérios;
+- justificativa baseada em evidências;
+- revisão de qualidade.
+
+## 4. Metodologia de registro
 
 Cada atividade pode ser documentada com:
 
-- contexto;
-- objetivo;
-- instrução recebida;
-- critério utilizado;
-- decisão tomada;
-- evidência;
-- dificuldade encontrada;
-- aprendizado obtido.
+| Campo | Conteúdo |
+|---|---|
+| Contexto | O que estava sendo avaliado |
+| Objetivo | Resultado esperado |
+| Instrução | Requisito ou guideline aplicável |
+| Critério | Regra usada para decidir |
+| Evidência | Trecho ou característica observável |
+| Decisão | Classificação ou julgamento |
+| Justificativa | Motivo da decisão |
+| Aprendizado | O que foi desenvolvido |
 
-## 4. QA aplicado
+## 5. QA aplicado
 
-A lógica de trabalho segue uma sequência semelhante à de QA: compreender o requisito, verificar a saída, identificar desvios, registrar evidências e tomar uma decisão de acordo com os critérios.
+A lógica de trabalho pode ser representada como:
 
-## 5. Confidencialidade
+**requisito → verificação → evidência → desvio → decisão → revisão**
 
-Não devem ser publicados dados de clientes, tarefas privadas, informações pessoais, conteúdo protegido ou materiais internos da plataforma. Capturas de tela devem ser revisadas antes da publicação.
+Essa estrutura aproxima a prática de princípios de QA e auditoria, especialmente controle de critérios, rastreabilidade e documentação de não conformidades.
 
-## 6. Fonte
+## 6. Cuidados com afirmações profissionais
+
+Este diretório é parte de um projeto educacional. A existência de uma conta, estudo ou exploração de uma plataforma não comprova, por si só, contratação, remuneração ou experiência profissional. Os registros devem descrever exatamente o que foi realizado.
+
+## 7. Confidencialidade
+
+Não devem ser publicados dados de clientes, informações pessoais, tarefas privadas, credenciais, materiais internos ou conteúdo protegido. Screenshots devem ser revisados antes da publicação.
+
+## 8. Fontes confiáveis
 
 - [Outlier — site oficial](https://outlier.ai/)
-- [Microsoft Learn — AI](https://learn.microsoft.com/azure/ai-services/)
+- [Microsoft Learn — Azure AI](https://learn.microsoft.com/azure/ai-services/)
+- [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
+
+O material oficial da Hugging Face fornece referência educacional sobre LLMs, datasets, avaliação e treinamento, sendo útil como complemento conceitual às práticas documentadas aqui. citeturn0search3turn0search2
 
 ---
 
